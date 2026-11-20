@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "id": "hartsmart-products/layer-line-engineering-pla-prusaslicer",
+  "manufacturer": "HartSmart Products",
+  "name": "Layer Line Engineering PLA",
+  "settings": {
+    "bed_temperature": "60",
+    "bridge_fan_speed": "80",
+    "compatible_printers": "",
+    "compatible_printers_condition": "nozzle_diameter[0]==0.6",
+    "cooling": "1",
+    "disable_fan_first_layers": "2",
+    "extrusion_multiplier": "0.94",
+    "fan_always_on": "1",
+    "fan_below_layer_time": "60",
+    "filament_colour": "#FF3232",
+    "filament_cost": "34.99",
+    "filament_density": "1.22",
+    "filament_diameter": "1.75",
+    "filament_max_volumetric_speed": "15",
+    "filament_notes": "Layer Line Engineering PLA",
+    "filament_settings_id": "",
+    "filament_soluble": "0",
+    "filament_spool_weight": "200",
+    "filament_type": "PLA",
+    "filament_vendor": "HartSmart Products",
+    "first_layer_bed_temperature": "60",
+    "first_layer_temperature": "210",
+    "full_fan_speed_layers": "6",
+    "idle_temperature": "140",
+    "max_fan_speed": "80",
+    "min_fan_speed": "80",
+    "min_print_speed": "15",
+    "name": "Layer Line Engineering PLA @HSP1 0.6 Takoto",
+    "slowdown_below_layer_time": "10",
+    "start_filament_gcode": "; Filament gcode\n{local pressure_advance = 0.024}\n{if printer_notes=~/.*DUPLICATOR_MODE.*/}\nM572 D0:1 S{pressure_advance}\n{else}\nM572 D{current_extruder} S{pressure_advance}\n{endif}",
+    "temperature": "215"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "HartSmartProducts/1.3.0.ini",
+    "name": "PrusaSlicer-settings-non-prusa-fff",
+    "section": "filament:Layer Line Engineering PLA @HSP1 0.6 Takoto"
+  },
+  "type": "PLA",
+  "variants": [
+    {
+      "catalogID": 111760,
+      "name": "Layer Line Engineering PLA @HSP1 0.4 Takoto",
+      "printers": [
+        "hartsmart-products/hsp1-i-0-4mm-takoto-duplicator",
+        "hartsmart-products/hsp1-i-0-4mm-takoto-mirror",
+        "hartsmart-products/hsp1-i-2x0-4mm-takoto"
+      ],
+      "settings": {
+        "bridge_fan_speed": "70",
+        "compatible_printers_condition": "nozzle_diameter[0]==0.4",
+        "max_fan_speed": "70",
+        "min_fan_speed": "70",
+        "name": "Layer Line Engineering PLA @HSP1 0.4 Takoto",
+        "start_filament_gcode": "; Filament gcode\n{local pressure_advance = 0.03}\n{if printer_notes=~/.*DUPLICATOR_MODE.*/}\nM572 D0:1 S{pressure_advance}\n{else}\nM572 D{current_extruder} S{pressure_advance}\n{endif}"
+      }
+    },
+    {
+      "catalogID": 111761,
+      "name": "Layer Line Engineering PLA @HSP1 0.6 Takoto",
+      "printers": [
+        "hartsmart-products/hsp1-i-0-6mm-takoto-duplicator",
+        "hartsmart-products/hsp1-i-0-6mm-takoto-mirror",
+        "hartsmart-products/hsp1-i-2x0-6mm-takoto"
+      ],
+      "settings": {}
+    },
+    {
+      "catalogID": 111762,
+      "name": "Layer Line Engineering PLA @HSP1 0.8 Takoto",
+      "printers": [
+        "hartsmart-products/hsp1-i-0-8mm-takoto-duplicator",
+        "hartsmart-products/hsp1-i-0-8mm-takoto-mirror",
+        "hartsmart-products/hsp1-i-2x0-8mm-takoto"
+      ],
+      "settings": {
+        "bridge_fan_speed": "40",
+        "compatible_printers_condition": "nozzle_diameter[0]==0.8",
+        "disable_fan_first_layers": "1",
+        "max_fan_speed": "40",
+        "min_fan_speed": "15",
+        "name": "Layer Line Engineering PLA @HSP1 0.8 Takoto",
+        "start_filament_gcode": "; Filament gcode\n{local pressure_advance = 0.0}\n{if printer_notes=~/.*DUPLICATOR_MODE.*/}\nM572 D0:1 S{pressure_advance}\n{else}\nM572 D{current_extruder} S{pressure_advance}\n{endif}"
+      }
+    },
+    {
+      "catalogID": 111763,
+      "name": "Layer Line Engineering PLA @HSP1 1.0 Takoto",
+      "printers": [
+        "hartsmart-products/hsp1-i-1-0mm-takoto-duplicator",
+        "hartsmart-products/hsp1-i-1-0mm-takoto-mirror",
+        "hartsmart-products/hsp1-i-2x1-0mm-takoto"
+      ],
+      "settings": {
+        "compatible_printers_condition": "nozzle_diameter[0]==1.0",
+        "filament_max_volumetric_speed": "25",
+        "first_layer_temperature": "225",
+        "name": "Layer Line Engineering PLA @HSP1 1.0 Takoto",
+        "start_filament_gcode": "; Filament gcode\n{local pressure_advance = 0.012}\n{if printer_notes=~/.*DUPLICATOR_MODE.*/}\nM572 D0:1 S{pressure_advance}\n{else}\nM572 D{current_extruder} S{pressure_advance}\n{endif}",
+        "temperature": "230"
+      }
+    }
+  ]
+}

@@ -1,0 +1,549 @@
+{
+  "format": 1,
+  "id": "dremel/3d20-0-4",
+  "manufacturer": "Dremel",
+  "model": "3D20",
+  "name": "Dremel 3D20 0.4 nozzle",
+  "nozzle": 0.4,
+  "processes": [
+    {
+      "catalogID": 21014,
+      "default": false,
+      "name": ".10mm Detail @Dremel 3D20 0.4",
+      "settings": {
+        "bottom_shell_layers": "6",
+        "bottom_shell_thickness": "1",
+        "bottom_surface_pattern": "monotonic",
+        "bridge_flow": "1",
+        "bridge_no_support": "0",
+        "bridge_speed": "50",
+        "brim_object_gap": "0.1",
+        "brim_width": "5",
+        "compatible_printers": [
+          "Dremel 3D20 0.4 nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "default_acceleration": "5000",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "0",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0",
+        "enable_arc_fitting": "0",
+        "enable_prime_tower": "1",
+        "enable_support": "1",
+        "filename_format": "{input_filename_base}_{filament_type[0]}_{print_time}.gcode",
+        "from": "system",
+        "gap_infill_speed": "45",
+        "infill_combination": "1",
+        "infill_direction": "45",
+        "infill_wall_overlap": "18%",
+        "initial_layer_acceleration": "2000",
+        "initial_layer_infill_speed": "20",
+        "initial_layer_line_width": "0.4",
+        "initial_layer_print_height": "0.1",
+        "initial_layer_speed": "20",
+        "inner_wall_acceleration": "5000",
+        "inner_wall_line_width": "0.4",
+        "inner_wall_speed": "50",
+        "interface_shells": "0",
+        "internal_solid_infill_line_width": "0.4",
+        "internal_solid_infill_speed": "45",
+        "ironing_flow": "10%",
+        "ironing_spacing": "0.15",
+        "ironing_speed": "30",
+        "ironing_type": "top",
+        "layer_height": "0.1",
+        "line_width": "0.4",
+        "max_travel_detour_distance": "0",
+        "minimum_sparse_infill_area": "15",
+        "name": ".10mm Detail @Dremel 3D20 0.4",
+        "only_one_wall_top": "1",
+        "outer_wall_acceleration": "2500",
+        "outer_wall_line_width": "0.4",
+        "outer_wall_speed": "30",
+        "overhang_1_4_speed": "0",
+        "overhang_2_4_speed": "50",
+        "overhang_3_4_speed": "30",
+        "overhang_4_4_speed": "10",
+        "prime_tower_width": "60",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "raft_first_layer_density": "10%",
+        "raft_first_layer_expansion": "1.5",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction": "1",
+        "resolution": "0.012",
+        "seam_position": "aligned",
+        "skirt_distance": "2",
+        "skirt_height": "1",
+        "skirt_loops": "3",
+        "slow_down_layers": "2",
+        "sparse_infill_density": "30%",
+        "sparse_infill_line_width": "0.4",
+        "sparse_infill_pattern": "crosshatch",
+        "sparse_infill_speed": "45",
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "default",
+        "support_base_pattern_spacing": "3.5",
+        "support_bottom_z_distance": "0.4",
+        "support_expansion": "1.5",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "2",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_pattern": "auto",
+        "support_interface_spacing": "0.5",
+        "support_interface_speed": "50",
+        "support_interface_top_layers": "2",
+        "support_line_width": "0.4",
+        "support_object_xy_distance": "1",
+        "support_on_build_plate_only": "0",
+        "support_speed": "45",
+        "support_style": "default",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.4",
+        "support_type": "normal(auto)",
+        "top_shell_layers": "6",
+        "top_shell_thickness": "1",
+        "top_surface_acceleration": "1000",
+        "top_surface_line_width": "0.4",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_speed": "45",
+        "travel_acceleration": "5000",
+        "travel_speed": "90",
+        "tree_support_branch_angle": "45",
+        "tree_support_wall_count": "0",
+        "type": "process",
+        "wall_distribution_count": "2",
+        "wall_generator": "arachne",
+        "wall_infill_order": "inner wall/outer wall/infill",
+        "wall_loops": "3",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0"
+      }
+    },
+    {
+      "catalogID": 21017,
+      "default": true,
+      "name": ".20mm Standard @Dremel 3D20 0.4",
+      "settings": {
+        "bottom_shell_layers": "4",
+        "bottom_shell_thickness": "0",
+        "bottom_surface_pattern": "monotonic",
+        "bridge_flow": "0.95",
+        "bridge_no_support": "0",
+        "bridge_speed": "25",
+        "brim_object_gap": "0.1",
+        "brim_width": "5",
+        "compatible_printers": [
+          "Dremel 3D20 0.4 nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "default_acceleration": "5000",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "0",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0",
+        "enable_arc_fitting": "0",
+        "enable_prime_tower": "1",
+        "enable_support": "1",
+        "filename_format": "{input_filename_base}_{filament_type[0]}_{print_time}.gcode",
+        "from": "system",
+        "gap_infill_speed": "50",
+        "infill_combination": "1",
+        "infill_direction": "45",
+        "infill_wall_overlap": "25%",
+        "initial_layer_acceleration": "2000",
+        "initial_layer_infill_speed": "35%",
+        "initial_layer_line_width": "0.42",
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": "50",
+        "inner_wall_acceleration": "5000",
+        "inner_wall_line_width": "0.45",
+        "inner_wall_speed": "60",
+        "interface_shells": "0",
+        "internal_solid_infill_line_width": "0.4",
+        "internal_solid_infill_speed": "60",
+        "ironing_flow": "15%",
+        "ironing_spacing": "0.1",
+        "ironing_speed": "15",
+        "ironing_type": "no ironing",
+        "layer_height": "0.2",
+        "line_width": "0.45",
+        "max_travel_detour_distance": "0",
+        "minimum_sparse_infill_area": "10",
+        "name": ".20mm Standard @Dremel 3D20 0.4",
+        "only_one_wall_top": "1",
+        "outer_wall_acceleration": "2500",
+        "outer_wall_line_width": "0.45",
+        "outer_wall_speed": "60",
+        "overhang_1_4_speed": "0",
+        "overhang_2_4_speed": "20",
+        "overhang_3_4_speed": "15",
+        "overhang_4_4_speed": "10",
+        "prime_tower_width": "60",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "raft_first_layer_density": "10%",
+        "raft_first_layer_expansion": "1.5",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction": "1",
+        "resolution": "0.012",
+        "seam_position": "aligned",
+        "skirt_distance": "2",
+        "skirt_height": "1",
+        "skirt_loops": "3",
+        "slow_down_layers": "2",
+        "sparse_infill_density": "18%",
+        "sparse_infill_line_width": "0.45",
+        "sparse_infill_pattern": "crosshatch",
+        "sparse_infill_speed": "60",
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "default",
+        "support_base_pattern_spacing": "3.5",
+        "support_bottom_z_distance": "0.4",
+        "support_expansion": "1.5",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "1",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_pattern": "auto",
+        "support_interface_spacing": "0.2",
+        "support_interface_speed": "100%",
+        "support_interface_top_layers": "3",
+        "support_line_width": "0.38",
+        "support_object_xy_distance": "60%",
+        "support_on_build_plate_only": "0",
+        "support_speed": "50",
+        "support_style": "default",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.3",
+        "support_type": "normal(auto)",
+        "top_shell_layers": "4",
+        "top_shell_thickness": "0.8",
+        "top_surface_acceleration": "1000",
+        "top_surface_line_width": "0.4",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_speed": "50",
+        "travel_acceleration": "5000",
+        "travel_speed": "100",
+        "tree_support_branch_angle": "45",
+        "tree_support_wall_count": "0",
+        "type": "process",
+        "wall_distribution_count": "2",
+        "wall_generator": "arachne",
+        "wall_infill_order": "inner wall/outer wall/infill",
+        "wall_loops": "3",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0"
+      }
+    },
+    {
+      "catalogID": 21020,
+      "default": false,
+      "name": ".30mm Draft @Dremel 3D20 0.4",
+      "settings": {
+        "bottom_shell_layers": "6",
+        "bottom_shell_thickness": "1",
+        "bottom_surface_pattern": "monotonic",
+        "bridge_flow": "1",
+        "bridge_no_support": "0",
+        "bridge_speed": "50",
+        "brim_object_gap": "0.1",
+        "brim_width": "5",
+        "compatible_printers": [
+          "Dremel 3D20 0.4 nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "default_acceleration": "5000",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "0",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0",
+        "enable_arc_fitting": "0",
+        "enable_prime_tower": "1",
+        "enable_support": "1",
+        "filename_format": "{input_filename_base}_{filament_type[0]}_{print_time}.gcode",
+        "from": "system",
+        "gap_infill_speed": "50",
+        "infill_combination": "1",
+        "infill_direction": "45",
+        "infill_wall_overlap": "18%",
+        "initial_layer_acceleration": "2000",
+        "initial_layer_infill_speed": "50",
+        "initial_layer_line_width": "0.4",
+        "initial_layer_print_height": "0.3",
+        "initial_layer_speed": "20",
+        "inner_wall_acceleration": "5000",
+        "inner_wall_line_width": "0.4",
+        "inner_wall_speed": "60",
+        "interface_shells": "0",
+        "internal_solid_infill_line_width": "0.4",
+        "internal_solid_infill_speed": "60",
+        "ironing_flow": "10%",
+        "ironing_spacing": "0.15",
+        "ironing_speed": "30",
+        "ironing_type": "top",
+        "layer_height": "0.3",
+        "line_width": "0.4",
+        "max_travel_detour_distance": "0",
+        "minimum_sparse_infill_area": "15",
+        "name": ".30mm Draft @Dremel 3D20 0.4",
+        "only_one_wall_top": "1",
+        "outer_wall_acceleration": "2500",
+        "outer_wall_line_width": "0.4",
+        "outer_wall_speed": "60",
+        "overhang_1_4_speed": "0",
+        "overhang_2_4_speed": "50",
+        "overhang_3_4_speed": "30",
+        "overhang_4_4_speed": "10",
+        "prime_tower_width": "60",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "raft_first_layer_density": "10%",
+        "raft_first_layer_expansion": "1.5",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction": "1",
+        "resolution": "0.012",
+        "seam_position": "aligned",
+        "skirt_distance": "2",
+        "skirt_height": "1",
+        "skirt_loops": "3",
+        "slow_down_layers": "2",
+        "sparse_infill_density": "18%",
+        "sparse_infill_line_width": "0.4",
+        "sparse_infill_pattern": "crosshatch",
+        "sparse_infill_speed": "60",
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "default",
+        "support_base_pattern_spacing": "3.5",
+        "support_bottom_z_distance": "0.4",
+        "support_expansion": "1.5",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "2",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_pattern": "auto",
+        "support_interface_spacing": "0.5",
+        "support_interface_speed": "50",
+        "support_interface_top_layers": "2",
+        "support_line_width": "0.4",
+        "support_object_xy_distance": "1",
+        "support_on_build_plate_only": "0",
+        "support_speed": "50",
+        "support_style": "default",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.3",
+        "support_type": "normal(auto)",
+        "top_shell_layers": "3",
+        "top_shell_thickness": "1",
+        "top_surface_acceleration": "1000",
+        "top_surface_line_width": "0.4",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_speed": "50",
+        "travel_acceleration": "5000",
+        "travel_speed": "100",
+        "tree_support_branch_angle": "45",
+        "tree_support_wall_count": "0",
+        "type": "process",
+        "wall_distribution_count": "2",
+        "wall_generator": "arachne",
+        "wall_infill_order": "inner wall/outer wall/infill",
+        "wall_loops": "3",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0"
+      }
+    }
+  ],
+  "settings": {
+    "auxiliary_fan": "0",
+    "bed_exclude_area": [
+      "0x0"
+    ],
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0\n",
+    "change_filament_gcode": "",
+    "default_filament_profile": [
+      "Generic PLA @Dremel 3D20 all"
+    ],
+    "default_print_profile": ".20mm Standard @Dremel 3D20 0.4",
+    "deretraction_speed": [
+      "40"
+    ],
+    "emit_machine_limits_to_gcode": "1",
+    "extruder_clearance_height_to_lid": "101",
+    "extruder_clearance_height_to_rod": "45",
+    "extruder_clearance_radius": "45",
+    "extruder_colour": [
+      "#FCE94F"
+    ],
+    "extruder_offset": [
+      "0x0"
+    ],
+    "from": "system",
+    "gcode_flavor": "marlin",
+    "layer_change_gcode": "",
+    "machine_end_gcode": "M104 S0 T0\nG1 Z140 F3300\nG28 X0 Y0\nM132 X Y Z A\nG91\nM18",
+    "machine_max_acceleration_e": [
+      "6200",
+      "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+      "6200",
+      "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+      "5000",
+      "5000"
+    ],
+    "machine_max_acceleration_travel": [
+      "9000",
+      "9000"
+    ],
+    "machine_max_acceleration_x": [
+      "6200",
+      "20000"
+    ],
+    "machine_max_acceleration_y": [
+      "6200",
+      "20000"
+    ],
+    "machine_max_acceleration_z": [
+      "500",
+      "500"
+    ],
+    "machine_max_jerk_e": [
+      "2.5",
+      "2.5"
+    ],
+    "machine_max_jerk_x": [
+      "12",
+      "12"
+    ],
+    "machine_max_jerk_y": [
+      "12",
+      "12"
+    ],
+    "machine_max_jerk_z": [
+      "2",
+      "2"
+    ],
+    "machine_max_speed_e": [
+      "3000",
+      "100"
+    ],
+    "machine_max_speed_x": [
+      "1000",
+      "1000"
+    ],
+    "machine_max_speed_y": [
+      "1000",
+      "1000"
+    ],
+    "machine_max_speed_z": [
+      "30",
+      "30"
+    ],
+    "machine_min_extruding_rate": [
+      "0",
+      "0"
+    ],
+    "machine_min_travel_rate": [
+      "0",
+      "0"
+    ],
+    "machine_pause_gcode": "M25 ;pause print",
+    "machine_start_gcode": "G90\nG28\nM132 X Y Z A\nG1 Z100 F3300\nG1 X-110.5 Y-74 F6000\nM6 T0\nM907 X100 Y100 Z60 A100\nG1 Z0.6 F3300\nG4 P2000\nM108 T0",
+    "max_layer_height": [
+      "0.3"
+    ],
+    "min_layer_height": [
+      "0.08"
+    ],
+    "name": "Dremel 3D20 0.4 nozzle",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "nozzle_type": "undefine",
+    "printable_area": [
+      "0x0",
+      "230x0",
+      "230x150",
+      "0x150"
+    ],
+    "printable_height": "140",
+    "printer_model": "Dremel 3D20",
+    "printer_settings_id": "Dremel",
+    "printer_structure": "hbot",
+    "printer_technology": "FFF",
+    "printer_variant": "0.4",
+    "retract_before_wipe": [
+      "70%"
+    ],
+    "retract_length_toolchange": [
+      "1"
+    ],
+    "retract_lift_above": [
+      "0"
+    ],
+    "retract_lift_below": [
+      "0"
+    ],
+    "retract_lift_enforce": [
+      "Top Only"
+    ],
+    "retract_restart_extra": [
+      "0"
+    ],
+    "retract_restart_extra_toolchange": [
+      "0"
+    ],
+    "retract_when_changing_layer": [
+      "1"
+    ],
+    "retraction_length": [
+      "0.5"
+    ],
+    "retraction_minimum_travel": [
+      "2"
+    ],
+    "retraction_speed": [
+      "40"
+    ],
+    "scan_first_layer": "0",
+    "single_extruder_multi_material": "1",
+    "support_air_filtration": "0",
+    "support_chamber_temp_control": "0",
+    "thumbnails": [
+      "96x96",
+      "300x300"
+    ],
+    "thumbnails_format": "PNG",
+    "type": "machine",
+    "wipe": [
+      "1"
+    ],
+    "wipe_distance": [
+      "1"
+    ],
+    "z_hop": [
+      "0.2"
+    ],
+    "z_hop_types": [
+      "Normal Lift"
+    ]
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Dremel/machine/Dremel 3D20 0.4 nozzle.json",
+    "name": "OrcaSlicer"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "id": "blocks/pc",
+  "manufacturer": "Blocks",
+  "name": "Blocks PC",
+  "settings": {
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "3"
+    ],
+    "compatible_printers": [
+      "BLOCKS RD50 V2 0.4 nozzle",
+      "BLOCKS RD50 V2 0.6 nozzle",
+      "BLOCKS RD50 V2 0.8 nozzle"
+    ],
+    "cool_plate_temp": [
+      "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "0"
+    ],
+    "eng_plate_temp": [
+      "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "100"
+    ],
+    "fan_cooling_layer_time": [
+      "30"
+    ],
+    "fan_max_speed": [
+      "50"
+    ],
+    "fan_min_speed": [
+      "10"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.04"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "0.94"
+    ],
+    "filament_id": "OFlGY0MN",
+    "filament_max_volumetric_speed": [
+      "10"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; Filament gcode\n"
+    ],
+    "filament_type": [
+      "PC"
+    ],
+    "filament_vendor": [
+      "Blocks"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "100"
+    ],
+    "name": "Blocks PC @Blocks_RD50_V2",
+    "nozzle_temperature": [
+      "270"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "270"
+    ],
+    "nozzle_temperature_range_high": [
+      "280"
+    ],
+    "nozzle_temperature_range_low": [
+      "250"
+    ],
+    "overhang_fan_speed": [
+      "60"
+    ],
+    "overhang_fan_threshold": [
+      "25%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "2"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "temperature_vitrification": [
+      "140"
+    ],
+    "textured_plate_temp": [
+      "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "100"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Blocks/filament/Blocks PC @Blocks_RD50_V2.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PC",
+  "variants": [
+    {
+      "catalogID": 102208,
+      "name": "Blocks PC @Blocks_RD50_V2",
+      "printers": [
+        "blocks/rd50-v2-0-4",
+        "blocks/rd50-v2-0-6",
+        "blocks/rd50-v2-0-8"
+      ],
+      "settings": {
+        "renamed_from": "Blocks Generic PC;Generic PC @Blocks"
+      }
+    },
+    {
+      "catalogID": 102209,
+      "name": "Blocks PC @Blocks_RF50",
+      "printers": [
+        "blocks/rf50-0-4",
+        "blocks/rf50-0-6",
+        "blocks/rf50-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "BLOCKS RF50 0.4 nozzle",
+          "BLOCKS RF50 0.6 nozzle",
+          "BLOCKS RF50 0.8 nozzle"
+        ],
+        "name": "Blocks PC @Blocks_RF50"
+      }
+    }
+  ]
+}

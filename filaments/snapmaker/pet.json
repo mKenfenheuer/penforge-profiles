@@ -1,0 +1,343 @@
+{
+  "format": 1,
+  "id": "snapmaker/pet",
+  "manufacturer": "Snapmaker",
+  "name": "Snapmaker PET",
+  "settings": {
+    "bed_type": [
+      "Hot Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "2"
+    ],
+    "compatible_printers": [
+      "Snapmaker A250 Dual (0.8 nozzle)"
+    ],
+    "cool_plate_temp": [
+      "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "0"
+    ],
+    "default_filament_colour": [
+      ""
+    ],
+    "enable_pressure_advance": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "0"
+    ],
+    "fan_cooling_layer_time": [
+      "7"
+    ],
+    "fan_max_speed": [
+      "50"
+    ],
+    "fan_min_speed": [
+      "26"
+    ],
+    "filament_cooling_final_speed": [
+      "60"
+    ],
+    "filament_cooling_initial_speed": [
+      "35"
+    ],
+    "filament_cooling_moves": [
+      "2"
+    ],
+    "filament_cost": [
+      "8"
+    ],
+    "filament_density": [
+      "1.29"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      ""
+    ],
+    "filament_flow_ratio": [
+      "1"
+    ],
+    "filament_id": "OFQYaiGg",
+    "filament_is_support": [
+      "0"
+    ],
+    "filament_loading_speed": [
+      "35"
+    ],
+    "filament_loading_speed_start": [
+      "35"
+    ],
+    "filament_max_volumetric_speed": [
+      "6.8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "0"
+    ],
+    "filament_multitool_ramming": [
+      "0"
+    ],
+    "filament_multitool_ramming_volume": [
+      "0"
+    ],
+    "filament_notes": [
+      "JiaNong PET 1.63x1.75mm"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      ""
+    ],
+    "filament_toolchange_delay": [
+      "0"
+    ],
+    "filament_type": [
+      "PET"
+    ],
+    "filament_unloading_speed": [
+      "35"
+    ],
+    "filament_unloading_speed_start": [
+      "35"
+    ],
+    "filament_vendor": [
+      "Snapmaker"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "65"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "60"
+    ],
+    "name": "Snapmaker PET @Dual",
+    "nozzle_temperature": [
+      "278"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "275"
+    ],
+    "nozzle_temperature_range_high": [
+      "280"
+    ],
+    "nozzle_temperature_range_low": [
+      "250"
+    ],
+    "overhang_fan_speed": [
+      "40"
+    ],
+    "overhang_fan_threshold": [
+      "25%"
+    ],
+    "pressure_advance": [
+      "0.022"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "required_nozzle_HRC": [
+      "3"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "2"
+    ],
+    "slow_down_min_speed": [
+      "35"
+    ],
+    "temperature_vitrification": [
+      "230"
+    ],
+    "textured_plate_temp": [
+      "0"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "0"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Snapmaker/filament/Snapmaker PET @Dual.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PET",
+  "variants": [
+    {
+      "catalogID": 106107,
+      "name": "Snapmaker PET",
+      "printers": [
+        "snapmaker/a250-0-4",
+        "snapmaker/a250-0-6",
+        "snapmaker/a250-0-8",
+        "snapmaker/a250-bkit-0-4",
+        "snapmaker/a250-bkit-0-6",
+        "snapmaker/a250-bkit-0-8",
+        "snapmaker/a250-qskit-0-4",
+        "snapmaker/a250-qskit-0-6",
+        "snapmaker/a250-qskit-0-8",
+        "snapmaker/a250-qsplusb-kit-0-4",
+        "snapmaker/a250-qsplusb-kit-0-6",
+        "snapmaker/a250-qsplusb-kit-0-8",
+        "snapmaker/a350-0-4",
+        "snapmaker/a350-0-6",
+        "snapmaker/a350-0-8",
+        "snapmaker/a350-bkit-0-4",
+        "snapmaker/a350-bkit-0-6",
+        "snapmaker/a350-bkit-0-8",
+        "snapmaker/a350-qskit-0-4",
+        "snapmaker/a350-qskit-0-6",
+        "snapmaker/a350-qskit-0-8",
+        "snapmaker/a350-qsplusb-kit-0-4",
+        "snapmaker/a350-qsplusb-kit-0-6",
+        "snapmaker/a350-qsplusb-kit-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Snapmaker A250 (0.4 nozzle)",
+          "Snapmaker A250 (0.6 nozzle)",
+          "Snapmaker A250 (0.8 nozzle)",
+          "Snapmaker A250 BKit (0.4 nozzle)",
+          "Snapmaker A250 BKit (0.6 nozzle)",
+          "Snapmaker A250 BKit (0.8 nozzle)",
+          "Snapmaker A250 QS+B Kit (0.4 nozzle)",
+          "Snapmaker A250 QS+B Kit (0.6 nozzle)",
+          "Snapmaker A250 QS+B Kit (0.8 nozzle)",
+          "Snapmaker A250 QSKit (0.4 nozzle)",
+          "Snapmaker A250 QSKit (0.6 nozzle)",
+          "Snapmaker A250 QSKit (0.8 nozzle)",
+          "Snapmaker A350 (0.4 nozzle)",
+          "Snapmaker A350 (0.6 nozzle)",
+          "Snapmaker A350 (0.8 nozzle)",
+          "Snapmaker A350 BKit (0.4 nozzle)",
+          "Snapmaker A350 BKit (0.6 nozzle)",
+          "Snapmaker A350 BKit (0.8 nozzle)",
+          "Snapmaker A350 QS+B Kit (0.4 nozzle)",
+          "Snapmaker A350 QS+B Kit (0.6 nozzle)",
+          "Snapmaker A350 QS+B Kit (0.8 nozzle)",
+          "Snapmaker A350 QSKit (0.4 nozzle)",
+          "Snapmaker A350 QSKit (0.6 nozzle)",
+          "Snapmaker A350 QSKit (0.8 nozzle)"
+        ],
+        "fan_max_speed": [
+          "40"
+        ],
+        "fan_min_speed": [
+          "0"
+        ],
+        "filament_cooling_final_speed": [
+          "3.4"
+        ],
+        "filament_cooling_initial_speed": [
+          "2.2"
+        ],
+        "filament_cooling_moves": [
+          "0"
+        ],
+        "filament_loading_speed": [
+          "25"
+        ],
+        "filament_loading_speed_start": [
+          "3"
+        ],
+        "filament_max_volumetric_speed": [
+          "6"
+        ],
+        "filament_unloading_speed": [
+          "25"
+        ],
+        "filament_unloading_speed_start": [
+          "3"
+        ],
+        "name": "Snapmaker PET",
+        "overhang_fan_speed": [
+          "60"
+        ],
+        "slow_down_min_speed": [
+          "50"
+        ]
+      }
+    },
+    {
+      "catalogID": 106108,
+      "name": "Snapmaker PET @Dual",
+      "printers": [
+        "snapmaker/a250-dual-0-8"
+      ],
+      "settings": {}
+    },
+    {
+      "catalogID": 106109,
+      "name": "Snapmaker PET @U1",
+      "printers": [
+        "snapmaker/u1-0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Snapmaker U1 (0.4 nozzle)"
+        ],
+        "fan_max_speed": [
+          "50",
+          "50"
+        ],
+        "fan_min_speed": [
+          "26",
+          "26"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard",
+          "Direct Drive High Flow"
+        ],
+        "name": "Snapmaker PET @U1"
+      }
+    }
+  ]
+}

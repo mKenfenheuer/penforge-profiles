@@ -1,0 +1,36 @@
+{
+  "sources": [
+    {
+      "name": "OrcaSlicer",
+      "repository": "https://github.com/OrcaSlicer/OrcaSlicer",
+      "tag": "v2.5.1",
+      "commit": "eef7710cb102fdb51a9bcdbd9efd61047f44774a",
+      "path": "resources/profiles",
+      "license": "AGPL-3.0",
+      "checkout": "OrcaSlicer",
+      "sparse": ["/resources/profiles/**/*.json", "/resources/profiles/*.json", "/LICENSE*", "/README.md"]
+    },
+    {
+      "name": "PrusaSlicer-settings-prusa-fff",
+      "repository": "https://github.com/prusa3d/PrusaSlicer-settings-prusa-fff",
+      "tag": null,
+      "branch": "main",
+      "commit": "0f0548d5fa09add2c105136c4d421205767d98ee",
+      "path": ".",
+      "license": "AGPL-3.0",
+      "checkout": "PrusaSlicer-settings-prusa-fff",
+      "sparse": ["/*/*.ini", "/*/index.idx"]
+    },
+    {
+      "name": "PrusaSlicer-settings-non-prusa-fff",
+      "repository": "https://github.com/prusa3d/PrusaSlicer-settings-non-prusa-fff",
+      "tag": null,
+      "branch": "main",
+      "commit": "a01e756eceadc4d7b47e56f7296f00e4dd6b85bf",
+      "path": ".",
+      "license": "AGPL-3.0",
+      "checkout": "PrusaSlicer-settings-non-prusa-fff",
+      "sparse": ["/*/*.ini", "/*/index.idx"]
+    }
+  ]
+}

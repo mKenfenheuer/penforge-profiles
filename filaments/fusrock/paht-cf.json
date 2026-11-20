@@ -1,0 +1,1253 @@
+{
+  "format": 1,
+  "id": "fusrock/paht-cf",
+  "manufacturer": "FusRock",
+  "name": "FusRock PAHT-CF",
+  "settings": {
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [
+      "Flashforge Guider 3 Ultra 0.4 Nozzle",
+      "Flashforge Guider 3 Ultra 0.8 Nozzle",
+      "Flashforge Guider 2s 0.4 nozzle"
+    ],
+    "cool_plate_temp": [
+      "85"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "85"
+    ],
+    "enable_pressure_advance": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "85"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "85"
+    ],
+    "fan_cooling_layer_time": [
+      "30"
+    ],
+    "fan_max_speed": [
+      "30"
+    ],
+    "fan_min_speed": [
+      "10"
+    ],
+    "filament_cost": [
+      "300"
+    ],
+    "filament_density": [
+      "1.27"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode\n"
+    ],
+    "filament_flow_ratio": [
+      "0.98"
+    ],
+    "filament_id": "OFKW5hEW",
+    "filament_max_volumetric_speed": [
+      "18"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "5"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      "FusRock PAHT-CF"
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode"
+    ],
+    "filament_type": [
+      "PAHT-CF"
+    ],
+    "filament_vendor": [
+      "FusRock"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "75"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "80"
+    ],
+    "name": "FusRock PAHT-CF",
+    "nozzle_temperature": [
+      "295"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "300"
+    ],
+    "nozzle_temperature_range_high": [
+      "305"
+    ],
+    "nozzle_temperature_range_low": [
+      "290"
+    ],
+    "overhang_fan_speed": [
+      "30"
+    ],
+    "overhang_fan_threshold": [
+      "25%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "renamed_from": "FusRock Generic PAHT-CF",
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "8"
+    ],
+    "slow_down_min_speed": [
+      "20"
+    ],
+    "temperature_vitrification": [
+      "90"
+    ],
+    "textured_plate_temp": [
+      "85"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "85"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Flashforge/filament/FusRock/FusRock PAHT-CF.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PAHT-CF",
+  "variants": [
+    {
+      "catalogID": 103811,
+      "name": "FusRock PAHT-CF",
+      "printers": [
+        "flashforge/guider-2s-0-4",
+        "flashforge/guider-3-ultra-0-4",
+        "flashforge/guider-3-ultra-0-8"
+      ],
+      "settings": {
+        "activate_air_filtration": [
+          "0"
+        ],
+        "activate_chamber_temp_control": [
+          "0"
+        ],
+        "additional_cooling_fan_speed": [
+          "0"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "chamber_temperature": [
+          "0"
+        ],
+        "compatible_printers_condition": "",
+        "compatible_prints": [],
+        "compatible_prints_condition": "",
+        "complete_print_exhaust_fan_speed": [
+          "80"
+        ],
+        "default_filament_colour": [
+          ""
+        ],
+        "during_print_exhaust_fan_speed": [
+          "60"
+        ],
+        "enable_overhang_bridge_fan": [
+          "1"
+        ],
+        "filament_cooling_final_speed": [
+          "3.4"
+        ],
+        "filament_cooling_initial_speed": [
+          "2.2"
+        ],
+        "filament_cooling_moves": [
+          "4"
+        ],
+        "filament_is_support": [
+          "0"
+        ],
+        "filament_loading_speed": [
+          "28"
+        ],
+        "filament_loading_speed_start": [
+          "3"
+        ],
+        "filament_multitool_ramming": [
+          "0"
+        ],
+        "filament_multitool_ramming_flow": [
+          "10"
+        ],
+        "filament_multitool_ramming_volume": [
+          "10"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+        ],
+        "filament_retract_lift_above": [
+          "nil"
+        ],
+        "filament_retract_lift_below": [
+          "nil"
+        ],
+        "filament_retract_lift_enforce": [
+          "nil"
+        ],
+        "filament_shrink": [
+          "100%"
+        ],
+        "filament_toolchange_delay": [
+          "0"
+        ],
+        "filament_unloading_speed": [
+          "35"
+        ],
+        "filament_unloading_speed_start": [
+          "40"
+        ],
+        "pressure_advance": [
+          "0.03"
+        ],
+        "required_nozzle_HRC": [
+          "0"
+        ],
+        "supertack_plate_temp": [
+          "60"
+        ],
+        "supertack_plate_temp_initial_layer": [
+          "60"
+        ],
+        "support_material_interface_fan_speed": [
+          "30"
+        ]
+      }
+    },
+    {
+      "catalogID": 103812,
+      "name": "FusRock PAHT-CF @FF C5",
+      "printers": [
+        "flashforge/creator-5-0-4",
+        "flashforge/creator-5-0-6",
+        "flashforge/creator-5-0-8"
+      ],
+      "settings": {
+        "activate_air_filtration": [
+          "0"
+        ],
+        "chamber_temperatures": [
+          "0"
+        ],
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Flashforge Creator 5 0.4 nozzle",
+          "Flashforge Creator 5 0.6 nozzle",
+          "Flashforge Creator 5 0.8 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "cool_plate_temp": [
+          "0"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "eng_plate_temp": [
+          "80"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "80"
+        ],
+        "fan_cooling_layer_time": [
+          "5"
+        ],
+        "fan_max_speed": [
+          "40"
+        ],
+        "filament_cost": [
+          "20"
+        ],
+        "filament_density": [
+          "1.04"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flow_ratio": [
+          "0.96"
+        ],
+        "filament_is_support": [
+          "0"
+        ],
+        "filament_long_retractions_when_cut": [
+          "nil"
+        ],
+        "filament_max_volumetric_speed": [
+          "7"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "15"
+        ],
+        "filament_multitool_ramming": [
+          "1"
+        ],
+        "filament_multitool_ramming_flow": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ],
+        "filament_multitool_ramming_volume": [
+          "5"
+        ],
+        "filament_retraction_distances_when_cut": [
+          "nil"
+        ],
+        "filament_scarf_gap": [
+          "0%"
+        ],
+        "filament_scarf_height": [
+          "10%"
+        ],
+        "filament_scarf_length": [
+          "10"
+        ],
+        "filament_scarf_seam_type": [
+          "none"
+        ],
+        "filament_settings_id": [
+          "FusRock PAHT-CF @FF C5"
+        ],
+        "filament_shrink": [
+          "100%"
+        ],
+        "hot_plate_temp": [
+          "80"
+        ],
+        "name": "FusRock PAHT-CF @FF C5",
+        "nozzle_temperature": [
+          "310"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "310"
+        ],
+        "nozzle_temperature_range_high": [
+          "320"
+        ],
+        "nozzle_temperature_range_low": [
+          "300"
+        ],
+        "overhang_fan_threshold": [
+          "95%"
+        ],
+        "reduce_fan_stop_start_freq": [
+          "0"
+        ],
+        "renamed_from": "Flashforge PAHT-CF @FF C5;Flashforge PAHT-CF FF C5",
+        "required_nozzle_HRC": [
+          "40"
+        ],
+        "slow_down_layer_time": [
+          "2"
+        ],
+        "slow_down_min_speed": [
+          "10"
+        ],
+        "supertack_plate_temp": [
+          "0"
+        ],
+        "supertack_plate_temp_initial_layer": [
+          "0"
+        ],
+        "temperature_vitrification": [
+          "108"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "80"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "80"
+        ]
+      }
+    },
+    {
+      "catalogID": 103813,
+      "name": "FusRock PAHT-CF @FF C5P",
+      "printers": [
+        "flashforge/creator-5-pro-0-4",
+        "flashforge/creator-5-pro-0-6",
+        "flashforge/creator-5-pro-0-8"
+      ],
+      "settings": {
+        "activate_air_filtration": [
+          "0"
+        ],
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "chamber_temperatures": [
+          "0"
+        ],
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Flashforge Creator 5 Pro 0.4 nozzle",
+          "Flashforge Creator 5 Pro 0.6 nozzle",
+          "Flashforge Creator 5 Pro 0.8 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "cool_plate_temp": [
+          "0"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "eng_plate_temp": [
+          "80"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "80"
+        ],
+        "fan_cooling_layer_time": [
+          "5"
+        ],
+        "fan_max_speed": [
+          "40"
+        ],
+        "filament_cost": [
+          "20"
+        ],
+        "filament_density": [
+          "1.04"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flow_ratio": [
+          "0.96"
+        ],
+        "filament_is_support": [
+          "0"
+        ],
+        "filament_long_retractions_when_cut": [
+          "nil"
+        ],
+        "filament_max_volumetric_speed": [
+          "7"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "15"
+        ],
+        "filament_multitool_ramming": [
+          "1"
+        ],
+        "filament_multitool_ramming_flow": [
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ],
+        "filament_multitool_ramming_volume": [
+          "5"
+        ],
+        "filament_retraction_distances_when_cut": [
+          "nil"
+        ],
+        "filament_scarf_gap": [
+          "0%"
+        ],
+        "filament_scarf_height": [
+          "10%"
+        ],
+        "filament_scarf_length": [
+          "10"
+        ],
+        "filament_scarf_seam_type": [
+          "none"
+        ],
+        "filament_settings_id": [
+          "FusRock PAHT-CF @FF C5P"
+        ],
+        "filament_shrink": [
+          "100%"
+        ],
+        "hot_plate_temp": [
+          "80"
+        ],
+        "name": "FusRock PAHT-CF @FF C5P",
+        "nozzle_temperature": [
+          "310"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "310"
+        ],
+        "nozzle_temperature_range_high": [
+          "320"
+        ],
+        "nozzle_temperature_range_low": [
+          "300"
+        ],
+        "overhang_fan_threshold": [
+          "95%"
+        ],
+        "reduce_fan_stop_start_freq": [
+          "0"
+        ],
+        "renamed_from": "Flashforge PAHT-CF @FF C5P;Flashforge PAHT-CF FF C5P",
+        "required_nozzle_HRC": [
+          "40"
+        ],
+        "slow_down_layer_time": [
+          "2"
+        ],
+        "slow_down_min_speed": [
+          "10"
+        ],
+        "supertack_plate_temp": [
+          "0"
+        ],
+        "supertack_plate_temp_initial_layer": [
+          "0"
+        ],
+        "temperature_vitrification": [
+          "108"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "80"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "80"
+        ]
+      }
+    },
+    {
+      "name": "FusRock PAHT-CF @FF G4",
+      "printers": [
+        "flashforge/guider4-0-4"
+      ],
+      "settings": {
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "additional_cooling_fan_speed": [
+          "0"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 0.4 nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "compatible_prints": [],
+        "compatible_prints_condition": "",
+        "complete_print_exhaust_fan_speed": [
+          "50"
+        ],
+        "cool_plate_temp": [
+          "0"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "default_filament_colour": [
+          ""
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "enable_overhang_bridge_fan": [
+          "1"
+        ],
+        "eng_plate_temp": [
+          "100"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "100"
+        ],
+        "fan_cooling_layer_time": [
+          "5"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "fan_min_speed": [
+          "30"
+        ],
+        "filament_cooling_final_speed": [
+          "3.4"
+        ],
+        "filament_cooling_initial_speed": [
+          "2.2"
+        ],
+        "filament_cooling_moves": [
+          "4"
+        ],
+        "filament_cost": [
+          "20"
+        ],
+        "filament_density": [
+          "1.06"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n"
+        ],
+        "filament_flow_ratio": [
+          "0.95"
+        ],
+        "filament_is_support": [
+          "0"
+        ],
+        "filament_loading_speed": [
+          "28"
+        ],
+        "filament_loading_speed_start": [
+          "3"
+        ],
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "15"
+        ],
+        "filament_multitool_ramming": [
+          "0"
+        ],
+        "filament_multitool_ramming_flow": [
+          "10"
+        ],
+        "filament_multitool_ramming_volume": [
+          "10"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+        ],
+        "filament_retract_lift_above": [
+          "nil"
+        ],
+        "filament_retract_lift_below": [
+          "nil"
+        ],
+        "filament_retract_lift_enforce": [
+          "nil"
+        ],
+        "filament_settings_id": [
+          "FusRock PAHT-CF @FF G4"
+        ],
+        "filament_shrink": [
+          "100%"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n;right_extruder_material:PA-CF\n"
+        ],
+        "filament_toolchange_delay": [
+          "0"
+        ],
+        "filament_unloading_speed": [
+          "90"
+        ],
+        "filament_unloading_speed_start": [
+          "100"
+        ],
+        "hot_plate_temp": [
+          "100"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "100"
+        ],
+        "name": "FusRock PAHT-CF @FF G4",
+        "nozzle_temperature": [
+          "290"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "290"
+        ],
+        "nozzle_temperature_range_high": [
+          "300"
+        ],
+        "nozzle_temperature_range_low": [
+          "260"
+        ],
+        "overhang_fan_speed": [
+          "60"
+        ],
+        "overhang_fan_threshold": [
+          "50%"
+        ],
+        "pressure_advance": [
+          "0.02"
+        ],
+        "renamed_from": "Flashforge PAHT-CF @FF G4;Flashforge PAHT-CF FF G4",
+        "required_nozzle_HRC": [
+          "0"
+        ],
+        "slow_down_layer_time": [
+          "2"
+        ],
+        "support_material_interface_fan_speed": [
+          "60"
+        ],
+        "temperature_vitrification": [
+          "180"
+        ],
+        "textured_plate_temp": [
+          "100"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "100"
+        ]
+      }
+    },
+    {
+      "name": "FusRock PAHT-CF @FF G4 0.6 nozzle",
+      "printers": [
+        "flashforge/guider4-0-6"
+      ],
+      "settings": {
+        "additional_cooling_fan_speed": [
+          "0"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "close_fan_the_first_x_layers": [
+          "2"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 0.6 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "cool_plate_temp": [
+          "0"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "eng_plate_temp": [
+          "80"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "80"
+        ],
+        "fan_cooling_layer_time": [
+          "15"
+        ],
+        "fan_max_speed": [
+          "40"
+        ],
+        "fan_min_speed": [
+          "15"
+        ],
+        "filament_density": [
+          "1.15"
+        ],
+        "filament_flow_ratio": [
+          "0.96"
+        ],
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "15"
+        ],
+        "filament_settings_id": [
+          "FusRock PAHT-CF @FF G4 0.6 nozzle"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n;right_extruder_material:PA"
+        ],
+        "filament_unloading_speed": [
+          "35"
+        ],
+        "filament_unloading_speed_start": [
+          "40"
+        ],
+        "hot_plate_temp": [
+          "80"
+        ],
+        "name": "FusRock PAHT-CF @FF G4 0.6 nozzle",
+        "nozzle_temperature_initial_layer": [
+          "295"
+        ],
+        "overhang_fan_speed": [
+          "50"
+        ],
+        "pressure_advance": [
+          "0.04"
+        ],
+        "renamed_from": "FusRock Generic PAHT-CF @G3U 0.6 Nozzle;FusRock Generic PAHT-CF G3U 0.6 Nozzle",
+        "supertack_plate_temp": [
+          "60"
+        ],
+        "supertack_plate_temp_initial_layer": [
+          "60"
+        ],
+        "support_material_interface_fan_speed": [
+          "50"
+        ],
+        "textured_cool_plate_temp": [
+          "80"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "80"
+        ],
+        "textured_plate_temp": [
+          "80"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "80"
+        ]
+      }
+    },
+    {
+      "name": "FusRock PAHT-CF @FF G4P",
+      "printers": [
+        "flashforge/guider4-pro-0-4"
+      ],
+      "settings": {
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "additional_cooling_fan_speed": [
+          "0"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 Pro 0.4 nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "compatible_prints": [],
+        "compatible_prints_condition": "",
+        "complete_print_exhaust_fan_speed": [
+          "50"
+        ],
+        "cool_plate_temp": [
+          "0"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "default_filament_colour": [
+          ""
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "enable_overhang_bridge_fan": [
+          "1"
+        ],
+        "eng_plate_temp": [
+          "100"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "100"
+        ],
+        "fan_cooling_layer_time": [
+          "5"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "fan_min_speed": [
+          "30"
+        ],
+        "filament_cooling_final_speed": [
+          "3.4"
+        ],
+        "filament_cooling_initial_speed": [
+          "2.2"
+        ],
+        "filament_cooling_moves": [
+          "4"
+        ],
+        "filament_cost": [
+          "20"
+        ],
+        "filament_density": [
+          "1.06"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n"
+        ],
+        "filament_flow_ratio": [
+          "0.95"
+        ],
+        "filament_is_support": [
+          "0"
+        ],
+        "filament_loading_speed": [
+          "28"
+        ],
+        "filament_loading_speed_start": [
+          "3"
+        ],
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "15"
+        ],
+        "filament_multitool_ramming": [
+          "0"
+        ],
+        "filament_multitool_ramming_flow": [
+          "10"
+        ],
+        "filament_multitool_ramming_volume": [
+          "10"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+        ],
+        "filament_retract_lift_above": [
+          "nil"
+        ],
+        "filament_retract_lift_below": [
+          "nil"
+        ],
+        "filament_retract_lift_enforce": [
+          "nil"
+        ],
+        "filament_settings_id": [
+          "FusRock PAHT-CF @FF G4P"
+        ],
+        "filament_shrink": [
+          "100%"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n;right_extruder_material:PA-CF\n"
+        ],
+        "filament_toolchange_delay": [
+          "0"
+        ],
+        "filament_unloading_speed": [
+          "90"
+        ],
+        "filament_unloading_speed_start": [
+          "100"
+        ],
+        "hot_plate_temp": [
+          "100"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "100"
+        ],
+        "name": "FusRock PAHT-CF @FF G4P",
+        "nozzle_temperature": [
+          "290"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "290"
+        ],
+        "nozzle_temperature_range_high": [
+          "300"
+        ],
+        "nozzle_temperature_range_low": [
+          "260"
+        ],
+        "overhang_fan_speed": [
+          "60"
+        ],
+        "overhang_fan_threshold": [
+          "50%"
+        ],
+        "pressure_advance": [
+          "0.02"
+        ],
+        "renamed_from": "Flashforge PAHT-CF @FF G4P;Flashforge PAHT-CF FF G4P",
+        "required_nozzle_HRC": [
+          "0"
+        ],
+        "slow_down_layer_time": [
+          "2"
+        ],
+        "support_material_interface_fan_speed": [
+          "60"
+        ],
+        "temperature_vitrification": [
+          "180"
+        ],
+        "textured_plate_temp": [
+          "100"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "100"
+        ]
+      }
+    },
+    {
+      "name": "FusRock PAHT-CF @FF G4P 0.6 nozzle",
+      "printers": [
+        "flashforge/guider4-pro-0-6"
+      ],
+      "settings": {
+        "additional_cooling_fan_speed": [
+          "0"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "close_fan_the_first_x_layers": [
+          "2"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 Pro 0.6 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "cool_plate_temp": [
+          "0"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "eng_plate_temp": [
+          "80"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "80"
+        ],
+        "fan_cooling_layer_time": [
+          "15"
+        ],
+        "fan_max_speed": [
+          "40"
+        ],
+        "fan_min_speed": [
+          "15"
+        ],
+        "filament_density": [
+          "1.15"
+        ],
+        "filament_flow_ratio": [
+          "0.96"
+        ],
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "15"
+        ],
+        "filament_settings_id": [
+          "FusRock PAHT-CF @FF G4P 0.6 nozzle"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n;right_extruder_material:PA"
+        ],
+        "filament_unloading_speed": [
+          "35"
+        ],
+        "filament_unloading_speed_start": [
+          "40"
+        ],
+        "hot_plate_temp": [
+          "80"
+        ],
+        "name": "FusRock PAHT-CF @FF G4P 0.6 nozzle",
+        "nozzle_temperature_initial_layer": [
+          "295"
+        ],
+        "overhang_fan_speed": [
+          "50"
+        ],
+        "pressure_advance": [
+          "0.04"
+        ],
+        "renamed_from": "FusRock Generic PAHT-CF @G3U 0.6 Nozzle;FusRock Generic PAHT-CF G3U 0.6 Nozzle",
+        "supertack_plate_temp": [
+          "60"
+        ],
+        "supertack_plate_temp_initial_layer": [
+          "60"
+        ],
+        "support_material_interface_fan_speed": [
+          "50"
+        ],
+        "textured_cool_plate_temp": [
+          "80"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "80"
+        ],
+        "textured_plate_temp": [
+          "80"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "80"
+        ]
+      }
+    },
+    {
+      "catalogID": 103814,
+      "name": "FusRock PAHT-CF @G3U 0.6 Nozzle",
+      "printers": [
+        "flashforge/guider-3-ultra-0-6"
+      ],
+      "settings": {
+        "additional_cooling_fan_speed": [
+          "0"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider 3 Ultra 0.6 Nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "15"
+        ],
+        "fan_max_speed": [
+          "40"
+        ],
+        "fan_min_speed": [
+          "15"
+        ],
+        "filament_density": [
+          "1.15"
+        ],
+        "filament_settings_id": [
+          "FusRock PAHT-CF @G3U 0.6 Nozzle"
+        ],
+        "filament_unloading_speed": [
+          "35"
+        ],
+        "filament_unloading_speed_start": [
+          "40"
+        ],
+        "name": "FusRock PAHT-CF @G3U 0.6 Nozzle",
+        "nozzle_temperature_initial_layer": [
+          "295"
+        ],
+        "pressure_advance": [
+          "0.04"
+        ],
+        "renamed_from": "FusRock Generic PAHT-CF @G3U 0.6 Nozzle;FusRock Generic PAHT-CF G3U 0.6 Nozzle",
+        "slow_down_min_speed": [
+          "12"
+        ],
+        "supertack_plate_temp": [
+          "60"
+        ],
+        "supertack_plate_temp_initial_layer": [
+          "60"
+        ],
+        "support_material_interface_fan_speed": [
+          "30"
+        ]
+      }
+    }
+  ]
+}

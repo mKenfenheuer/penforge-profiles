@@ -1,0 +1,412 @@
+{
+  "format": 1,
+  "id": "overture/silk-pla",
+  "manufacturer": "Overture",
+  "name": "Overture Silk PLA",
+  "settings": {
+    "activate_air_filtration": [
+      "0"
+    ],
+    "additional_cooling_fan_speed": [
+      "70"
+    ],
+    "chamber_temperatures": [
+      "0"
+    ],
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [],
+    "complete_print_exhaust_fan_speed": [
+      "70"
+    ],
+    "cool_plate_temp": [
+      "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "35"
+    ],
+    "during_print_exhaust_fan_speed": [
+      "70"
+    ],
+    "eng_plate_temp": [
+      "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "0"
+    ],
+    "fan_cooling_layer_time": [
+      "100"
+    ],
+    "fan_max_speed": [
+      "100"
+    ],
+    "fan_min_speed": [
+      "100"
+    ],
+    "filament_cost": [
+      "25.99"
+    ],
+    "filament_density": [
+      "1.19"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode\n"
+    ],
+    "filament_flow_ratio": [
+      "0.95"
+    ],
+    "filament_id": "OFGkyftV",
+    "filament_is_support": [
+      "0"
+    ],
+    "filament_long_retractions_when_cut": [
+      "nil"
+    ],
+    "filament_max_volumetric_speed": [
+      "16"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_multitool_ramming": [
+      "1"
+    ],
+    "filament_multitool_ramming_flow": [
+      "20"
+    ],
+    "filament_multitool_ramming_volume": [
+      "5"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_distances_when_cut": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_scarf_gap": [
+      "15%"
+    ],
+    "filament_scarf_height": [
+      "10%"
+    ],
+    "filament_scarf_length": [
+      "10"
+    ],
+    "filament_scarf_seam_type": [
+      "none"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_shrink": [
+      "100%"
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; Filament gcode\n"
+    ],
+    "filament_type": [
+      "PLA"
+    ],
+    "filament_vendor": [
+      "Overture"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "55"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "55"
+    ],
+    "name": "Overture Silk PLA @System",
+    "nozzle_temperature": [
+      "220"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "220"
+    ],
+    "nozzle_temperature_range_high": [
+      "220"
+    ],
+    "nozzle_temperature_range_low": [
+      "200"
+    ],
+    "overhang_fan_speed": [
+      "100"
+    ],
+    "overhang_fan_threshold": [
+      "50%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "required_nozzle_HRC": [
+      "3"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "4"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "supertack_plate_temp": [
+      "45"
+    ],
+    "supertack_plate_temp_initial_layer": [
+      "45"
+    ],
+    "temperature_vitrification": [
+      "58"
+    ],
+    "textured_plate_temp": [
+      "55"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "55"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/OrcaFilamentLibrary/filament/Overture/Overture Silk PLA @System.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PLA",
+  "variants": [
+    {
+      "catalogID": 107066,
+      "name": "Overture Silk PLA @BBL A1",
+      "printers": [
+        "bambu-lab/a1-0-4",
+        "bambu-lab/a1-0-6",
+        "bambu-lab/a1-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Bambu Lab A1 0.4 nozzle",
+          "Bambu Lab A1 0.6 nozzle",
+          "Bambu Lab A1 0.8 nozzle"
+        ],
+        "name": "Overture Silk PLA @BBL A1",
+        "slow_down_layer_time": [
+          "2"
+        ]
+      }
+    },
+    {
+      "catalogID": 107067,
+      "name": "Overture Silk PLA @BBL A1 0.2 nozzle",
+      "printers": [
+        "bambu-lab/a1-0-2"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Bambu Lab A1 0.2 nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "1.6"
+        ],
+        "name": "Overture Silk PLA @BBL A1 0.2 nozzle",
+        "slow_down_layer_time": [
+          "2"
+        ]
+      }
+    },
+    {
+      "catalogID": 107068,
+      "name": "Overture Silk PLA @BBL A1M",
+      "printers": [
+        "bambu-lab/a1-mini-0-4",
+        "bambu-lab/a1-mini-0-6",
+        "bambu-lab/a1-mini-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Bambu Lab A1 mini 0.4 nozzle",
+          "Bambu Lab A1 mini 0.6 nozzle",
+          "Bambu Lab A1 mini 0.8 nozzle"
+        ],
+        "name": "Overture Silk PLA @BBL A1M",
+        "slow_down_layer_time": [
+          "2"
+        ]
+      }
+    },
+    {
+      "catalogID": 107069,
+      "name": "Overture Silk PLA @BBL A1M 0.2 nozzle",
+      "printers": [
+        "bambu-lab/a1-mini-0-2"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Bambu Lab A1 mini 0.2 nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "1.6"
+        ],
+        "name": "Overture Silk PLA @BBL A1M 0.2 nozzle",
+        "slow_down_layer_time": [
+          "2"
+        ]
+      }
+    },
+    {
+      "catalogID": 107070,
+      "name": "Overture Silk PLA @BBL P1P",
+      "printers": [
+        "bambu-lab/p1p-0-4",
+        "bambu-lab/p1p-0-6",
+        "bambu-lab/p1p-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Bambu Lab P1P 0.4 nozzle",
+          "Bambu Lab P1P 0.6 nozzle",
+          "Bambu Lab P1P 0.8 nozzle"
+        ],
+        "name": "Overture Silk PLA @BBL P1P"
+      }
+    },
+    {
+      "catalogID": 107071,
+      "name": "Overture Silk PLA @BBL P1P 0.2 nozzle",
+      "printers": [
+        "bambu-lab/p1p-0-2"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Bambu Lab P1P 0.2 nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "1.6"
+        ],
+        "name": "Overture Silk PLA @BBL P1P 0.2 nozzle"
+      }
+    },
+    {
+      "catalogID": 107072,
+      "name": "Overture Silk PLA @BBL X1",
+      "printers": [
+        "bambu-lab/x1-0-4",
+        "bambu-lab/x1-0-6",
+        "bambu-lab/x1-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Bambu Lab X1 0.4 nozzle",
+          "Bambu Lab X1 0.6 nozzle",
+          "Bambu Lab X1 0.8 nozzle"
+        ],
+        "name": "Overture Silk PLA @BBL X1"
+      }
+    },
+    {
+      "catalogID": 107073,
+      "name": "Overture Silk PLA @BBL X1 0.2 nozzle",
+      "printers": [
+        "bambu-lab/x1-0-2"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Bambu Lab X1 0.2 nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "1.6"
+        ],
+        "name": "Overture Silk PLA @BBL X1 0.2 nozzle"
+      }
+    },
+    {
+      "catalogID": 107074,
+      "name": "Overture Silk PLA @BBL X1C",
+      "printers": [
+        "bambu-lab/p1s-0-4",
+        "bambu-lab/p1s-0-6",
+        "bambu-lab/p1s-0-8",
+        "bambu-lab/x1-carbon-0-4",
+        "bambu-lab/x1-carbon-0-6",
+        "bambu-lab/x1-carbon-0-8",
+        "bambu-lab/x1e-0-4",
+        "bambu-lab/x1e-0-6",
+        "bambu-lab/x1e-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Bambu Lab X1 Carbon 0.4 nozzle",
+          "Bambu Lab X1 Carbon 0.6 nozzle",
+          "Bambu Lab X1 Carbon 0.8 nozzle",
+          "Bambu Lab P1S 0.4 nozzle",
+          "Bambu Lab P1S 0.6 nozzle",
+          "Bambu Lab P1S 0.8 nozzle",
+          "Bambu Lab X1E 0.4 nozzle",
+          "Bambu Lab X1E 0.6 nozzle",
+          "Bambu Lab X1E 0.8 nozzle"
+        ],
+        "name": "Overture Silk PLA @BBL X1C"
+      }
+    },
+    {
+      "catalogID": 107075,
+      "name": "Overture Silk PLA @BBL X1C 0.2 nozzle",
+      "printers": [
+        "bambu-lab/p1s-0-2",
+        "bambu-lab/x1-carbon-0-2",
+        "bambu-lab/x1e-0-2"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Bambu Lab X1 Carbon 0.2 nozzle",
+          "Bambu Lab P1S 0.2 nozzle",
+          "Bambu Lab X1E 0.2 nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "1.6"
+        ],
+        "name": "Overture Silk PLA @BBL X1C 0.2 nozzle"
+      }
+    }
+  ]
+}

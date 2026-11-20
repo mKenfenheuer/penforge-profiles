@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "id": "felix-printers/flex-hardened-steel",
+  "manufacturer": "FELIX Printers",
+  "name": "FELIX FLEX Hardened Steel",
+  "settings": {
+    "additional_cooling_fan_speed": [
+      "70"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "chamber_temperature": [
+      "28.0"
+    ],
+    "close_fan_the_first_x_layers": [
+      "3"
+    ],
+    "compatible_printers": [
+      "FELIX Pro 3 0.25mm nozzle",
+      "FELIX Pro L 3.0 0.25mm nozzle",
+      "FELIX Pro XL 3.0 0.25mm nozzle",
+      "FELIX Tec 4 0.25mm nozzle"
+    ],
+    "cool_plate_temp": [
+      "40.0"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "40.0"
+    ],
+    "eng_plate_temp": [
+      "40.0"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "40.0"
+    ],
+    "fan_cooling_layer_time": [
+      "100"
+    ],
+    "fan_max_speed": [
+      "60.0"
+    ],
+    "fan_min_speed": [
+      "60.0"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.38"
+    ],
+    "filament_deretraction_speed": [
+      "20"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; Filament-specific end gcode"
+    ],
+    "filament_flow_ratio": [
+      "1.0"
+    ],
+    "filament_id": "OFSOY4F3",
+    "filament_max_volumetric_speed": [
+      "12.0"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_length": [
+      "2.2"
+    ],
+    "filament_retract_restart_extra": [
+      "0.05"
+    ],
+    "filament_retract_speed": [
+      "50.0"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "2.5"
+    ],
+    "filament_retraction_minimum_travel": [
+      "2"
+    ],
+    "filament_retraction_speed": [
+      "50.0"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "M900 K0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+    ],
+    "filament_type": [
+      "FLEX"
+    ],
+    "filament_vendor": [
+      "FELIX Printers"
+    ],
+    "filament_wipe": "0",
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "40.0"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "40.0"
+    ],
+    "idle_temperature": [
+      "120"
+    ],
+    "name": "FELIX FLEX Hardened Steel @ 0.25mm",
+    "nozzle_temperature": [
+      "225.0"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "225.0"
+    ],
+    "overhang_fan_speed": [
+      "80"
+    ],
+    "overhang_fan_threshold": [
+      "95%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "8"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "temperature_vitrification": [
+      "100"
+    ],
+    "textured_plate_temp": [
+      "40.0"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "40.0"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/FELIX Printers/filament/FELIXPlastic/FELIX FLEX Hardened Steel @ 0.25mm.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "FLEX",
+  "variants": [
+    {
+      "catalogID": 103330,
+      "name": "FELIX FLEX Hardened Steel @ 0.25mm",
+      "printers": [
+        "felix-printers/pro-3-0-25mm",
+        "felix-printers/pro-l-3-0-0-25mm",
+        "felix-printers/pro-xl-3-0-0-25mm",
+        "felix-printers/tec-4-0-25mm"
+      ],
+      "settings": {}
+    },
+    {
+      "catalogID": 103331,
+      "name": "FELIX FLEX Hardened Steel @ 0.35mm",
+      "printers": [
+        "felix-printers/pro-3-0-35mm",
+        "felix-printers/pro-l-3-0-0-35mm",
+        "felix-printers/pro-xl-3-0-0-35mm",
+        "felix-printers/tec-4-0-35mm"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "FELIX Pro 3 0.35mm nozzle",
+          "FELIX Pro L 3.0 0.35mm nozzle",
+          "FELIX Pro XL 3.0 0.35mm nozzle",
+          "FELIX Tec 4 0.35mm nozzle"
+        ],
+        "name": "FELIX FLEX Hardened Steel @ 0.35mm"
+      }
+    },
+    {
+      "catalogID": 103332,
+      "name": "FELIX FLEX Hardened Steel @ 0.50mm",
+      "printers": [
+        "felix-printers/pro-3-0-50mm",
+        "felix-printers/pro-l-3-0-0-50mm",
+        "felix-printers/pro-xl-3-0-0-50mm",
+        "felix-printers/tec-4-0-50mm"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "FELIX Pro 3 0.50mm nozzle",
+          "FELIX Pro L 3.0 0.50mm nozzle",
+          "FELIX Pro XL 3.0 0.50mm nozzle",
+          "FELIX Tec 4 0.50mm nozzle"
+        ],
+        "name": "FELIX FLEX Hardened Steel @ 0.50mm"
+      }
+    },
+    {
+      "catalogID": 103333,
+      "name": "FELIX FLEX Hardened Steel @ 0.70mm",
+      "printers": [
+        "felix-printers/pro-3-0-70mm",
+        "felix-printers/pro-l-3-0-0-70mm",
+        "felix-printers/pro-xl-3-0-0-70mm",
+        "felix-printers/tec-4-0-70mm"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "FELIX Pro 3 0.70mm nozzle",
+          "FELIX Pro L 3.0 0.70mm nozzle",
+          "FELIX Pro XL 3.0 0.70mm nozzle",
+          "FELIX Tec 4 0.70mm nozzle"
+        ],
+        "name": "FELIX FLEX Hardened Steel @ 0.70mm"
+      }
+    }
+  ]
+}

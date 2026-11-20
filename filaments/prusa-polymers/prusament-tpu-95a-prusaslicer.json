@@ -1,0 +1,414 @@
+{
+  "format": 1,
+  "id": "prusa-polymers/prusament-tpu-95a-prusaslicer",
+  "manufacturer": "Prusa Polymers",
+  "name": "Prusament TPU 95A",
+  "settings": {
+    "bed_temperature": "65",
+    "bridge_fan_speed": "50",
+    "compatible_printers": "",
+    "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+    "cooling": "0",
+    "disable_fan_first_layers": "4",
+    "end_filament_gcode": "; Filament-specific end gcode",
+    "extrusion_multiplier": "1.1",
+    "fan_always_on": "1",
+    "fan_below_layer_time": "100",
+    "filament_colour": "#F9F3E5",
+    "filament_cooling_final_speed": "3.4",
+    "filament_cooling_initial_speed": "2.2",
+    "filament_cooling_moves": "4",
+    "filament_cost": "77.98",
+    "filament_density": "1.23",
+    "filament_deretract_speed": "20",
+    "filament_diameter": "1.75",
+    "filament_load_time": "0",
+    "filament_loading_speed": "28",
+    "filament_loading_speed_start": "3",
+    "filament_max_volumetric_speed": "4",
+    "filament_minimal_purge_on_wipe_tower": "15",
+    "filament_notes": "MBL160",
+    "filament_ramming_parameters": "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6",
+    "filament_retract_before_travel": "2",
+    "filament_retract_layer_change": "0",
+    "filament_retract_length": "nil",
+    "filament_retract_lift": "0",
+    "filament_retract_speed": "60",
+    "filament_settings_id": "",
+    "filament_soluble": "0",
+    "filament_spool_weight": "278",
+    "filament_toolchange_delay": "0",
+    "filament_travel_max_lift": "0.6",
+    "filament_travel_ramping_lift": "0",
+    "filament_type": "FLEX",
+    "filament_unload_time": "0",
+    "filament_unloading_speed": "90",
+    "filament_unloading_speed_start": "100",
+    "filament_vendor": "Prusa Polymers",
+    "filament_wipe": "nil",
+    "first_layer_bed_temperature": "65",
+    "first_layer_temperature": "230",
+    "full_fan_speed_layer": "6",
+    "idle_temperature": "70",
+    "max_fan_speed": "50",
+    "min_fan_speed": "50",
+    "min_print_speed": "15",
+    "name": "Prusament TPU 95A @MK4S 0.6",
+    "slowdown_below_layer_time": "15",
+    "start_filament_gcode": "M900 K0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp",
+    "temperature": "230"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "PrusaResearch/2.5.16.ini",
+    "name": "PrusaSlicer-settings-prusa-fff",
+    "section": "filament:Prusament TPU 95A @MK4S 0.6"
+  },
+  "type": "FLEX",
+  "variants": [
+    {
+      "catalogID": 110599,
+      "name": "Prusament TPU 95A @COREONE",
+      "printers": [
+        "prusa-research/signature-oak-0-25",
+        "prusa-research/signature-oak-0-3",
+        "prusa-research/signature-oak-0-4",
+        "prusa-research/signature-oak-0-5",
+        "prusa-research/signature-oak-hf0-4",
+        "prusa-research/signature-oak-hf0-5"
+      ],
+      "settings": {
+        "bridge_fan_speed": "65",
+        "chamber_minimal_temperature": "0",
+        "chamber_temperature": "30",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "extrusion_multiplier": "1.09",
+        "filament_deretract_speed": "nil",
+        "filament_load_time": "10.9",
+        "filament_max_volumetric_speed": "2.5",
+        "filament_retract_before_travel": "nil",
+        "filament_retract_layer_change": "nil",
+        "filament_retract_speed": "nil",
+        "filament_unload_time": "8.9",
+        "first_layer_temperature": "225",
+        "idle_temperature": "150",
+        "max_fan_speed": "65",
+        "min_fan_speed": "65",
+        "name": "Prusament TPU 95A @COREONE",
+        "temperature": "225"
+      }
+    },
+    {
+      "catalogID": 110600,
+      "name": "Prusament TPU 95A @COREONE 0.6",
+      "printers": [
+        "prusa-research/signature-oak-0-6",
+        "prusa-research/signature-oak-hf0-6"
+      ],
+      "settings": {
+        "bridge_fan_speed": "65",
+        "chamber_minimal_temperature": "0",
+        "chamber_temperature": "30",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "filament_load_time": "10.9",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "150",
+        "max_fan_speed": "65",
+        "min_fan_speed": "65",
+        "name": "Prusament TPU 95A @COREONE 0.6"
+      }
+    },
+    {
+      "catalogID": 110601,
+      "name": "Prusament TPU 95A @COREONE 0.8",
+      "printers": [
+        "prusa-research/signature-oak-0-8",
+        "prusa-research/signature-oak-hf0-8"
+      ],
+      "settings": {
+        "bridge_fan_speed": "65",
+        "chamber_minimal_temperature": "0",
+        "chamber_temperature": "30",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.8 and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "filament_load_time": "10.9",
+        "filament_max_volumetric_speed": "8",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "150",
+        "max_fan_speed": "65",
+        "min_fan_speed": "65",
+        "name": "Prusament TPU 95A @COREONE 0.8"
+      }
+    },
+    {
+      "catalogID": 110602,
+      "name": "Prusament TPU 95A @MK4",
+      "printers": [
+        "prusa-research/mk3-9-0-3",
+        "prusa-research/mk3-9-0-4",
+        "prusa-research/mk3-9-0-5",
+        "prusa-research/mk3-9-hf0-4",
+        "prusa-research/mk3-9-hf0-5"
+      ],
+      "settings": {
+        "bridge_fan_speed": "55",
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]>=0.3 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and ! single_extruder_multi_material",
+        "filament_deretract_speed": "nil",
+        "filament_max_volumetric_speed": "2.5",
+        "filament_retract_before_travel": "nil",
+        "filament_retract_layer_change": "nil",
+        "filament_retract_speed": "nil",
+        "max_fan_speed": "55",
+        "min_fan_speed": "55",
+        "name": "Prusament TPU 95A @MK4"
+      }
+    },
+    {
+      "catalogID": 110603,
+      "name": "Prusament TPU 95A @MK4 0.6",
+      "printers": [
+        "prusa-research/mk3-9-0-6",
+        "prusa-research/mk3-9-hf0-6"
+      ],
+      "settings": {
+        "bridge_fan_speed": "55",
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "max_fan_speed": "55",
+        "min_fan_speed": "55",
+        "name": "Prusament TPU 95A @MK4 0.6"
+      }
+    },
+    {
+      "catalogID": 110604,
+      "name": "Prusament TPU 95A @MK4 0.8",
+      "printers": [
+        "prusa-research/mk3-9-0-8",
+        "prusa-research/mk3-9-hf0-8"
+      ],
+      "settings": {
+        "bridge_fan_speed": "55",
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.8 and ! single_extruder_multi_material",
+        "filament_max_volumetric_speed": "9",
+        "max_fan_speed": "55",
+        "min_fan_speed": "55",
+        "name": "Prusament TPU 95A @MK4 0.8"
+      }
+    },
+    {
+      "catalogID": 110605,
+      "name": "Prusament TPU 95A @MK4S",
+      "printers": [
+        "prusa-research/mk3-9s-0-3",
+        "prusa-research/mk3-9s-0-4",
+        "prusa-research/mk3-9s-0-5",
+        "prusa-research/mk3-9s-hf0-4",
+        "prusa-research/mk3-9s-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]>=0.3 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and ! single_extruder_multi_material",
+        "filament_deretract_speed": "nil",
+        "filament_max_volumetric_speed": "2.5",
+        "filament_retract_before_travel": "nil",
+        "filament_retract_layer_change": "nil",
+        "filament_retract_speed": "nil",
+        "name": "Prusament TPU 95A @MK4S"
+      }
+    },
+    {
+      "catalogID": 110606,
+      "name": "Prusament TPU 95A @MK4S 0.6",
+      "printers": [
+        "prusa-research/mk3-9s-0-6",
+        "prusa-research/mk3-9s-hf0-6"
+      ],
+      "settings": {}
+    },
+    {
+      "catalogID": 110607,
+      "name": "Prusament TPU 95A @MK4S 0.8",
+      "printers": [
+        "prusa-research/mk3-9s-0-8",
+        "prusa-research/mk3-9s-hf0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.8 and ! single_extruder_multi_material",
+        "filament_max_volumetric_speed": "9",
+        "name": "Prusament TPU 95A @MK4S 0.8"
+      }
+    },
+    {
+      "catalogID": 110608,
+      "name": "Prusament TPU 95A @XL",
+      "printers": [
+        "prusa-research/xl-2t-0-3",
+        "prusa-research/xl-2t-0-4",
+        "prusa-research/xl-2t-0-5",
+        "prusa-research/xl-2t-input-shaper-0-3",
+        "prusa-research/xl-2t-input-shaper-0-4",
+        "prusa-research/xl-2t-input-shaper-0-5",
+        "prusa-research/xl-2t-input-shaper-hf0-4",
+        "prusa-research/xl-2t-input-shaper-hf0-5"
+      ],
+      "settings": {
+        "bridge_fan_speed": "55",
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]>=0.3 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8",
+        "filament_deretract_speed": "nil",
+        "filament_max_volumetric_speed": "2",
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "2",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_before_travel": "nil",
+        "filament_retract_layer_change": "nil",
+        "filament_retract_length_toolchange": "6",
+        "filament_retract_speed": "nil",
+        "filament_travel_slope": "1",
+        "first_layer_temperature": "225",
+        "max_fan_speed": "55",
+        "min_fan_speed": "55",
+        "name": "Prusament TPU 95A @XL",
+        "temperature": "225"
+      }
+    },
+    {
+      "catalogID": 110609,
+      "name": "Prusament TPU 95A @XL 0.6",
+      "printers": [
+        "prusa-research/xl-2t-0-6",
+        "prusa-research/xl-2t-input-shaper-0-6",
+        "prusa-research/xl-2t-input-shaper-hf0-6"
+      ],
+      "settings": {
+        "bridge_fan_speed": "55",
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.6",
+        "filament_max_volumetric_speed": "3.5",
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "3.5",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_layer_change": "nil",
+        "filament_retract_length_toolchange": "6",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "first_layer_temperature": "225",
+        "max_fan_speed": "55",
+        "min_fan_speed": "55",
+        "name": "Prusament TPU 95A @XL 0.6",
+        "temperature": "225"
+      }
+    },
+    {
+      "catalogID": 110610,
+      "name": "Prusament TPU 95A @XL 0.8",
+      "printers": [
+        "prusa-research/xl-2t-0-8",
+        "prusa-research/xl-2t-input-shaper-0-8",
+        "prusa-research/xl-2t-input-shaper-hf0-8"
+      ],
+      "settings": {
+        "bridge_fan_speed": "55",
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.8",
+        "filament_max_volumetric_speed": "8",
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "8",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_layer_change": "nil",
+        "filament_retract_length_toolchange": "6",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "first_layer_temperature": "225",
+        "max_fan_speed": "55",
+        "min_fan_speed": "55",
+        "name": "Prusament TPU 95A @XL 0.8",
+        "temperature": "225"
+      }
+    },
+    {
+      "catalogID": 110611,
+      "name": "Prusament TPU 95A @XL+",
+      "printers": [
+        "prusa-research/xlplus-2t-0-3",
+        "prusa-research/xlplus-2t-0-4",
+        "prusa-research/xlplus-2t-0-5",
+        "prusa-research/xlplus-2t-hf0-4",
+        "prusa-research/xlplus-2t-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]>=0.3 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8",
+        "extrusion_multiplier": "1.08",
+        "filament_deretract_speed": "nil",
+        "filament_max_volumetric_speed": "2",
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "2",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_before_travel": "nil",
+        "filament_retract_layer_change": "nil",
+        "filament_retract_length_toolchange": "6",
+        "filament_retract_speed": "nil",
+        "filament_travel_slope": "1",
+        "first_layer_temperature": "225",
+        "name": "Prusament TPU 95A @XL+",
+        "start_filament_gcode": "M572 S0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp",
+        "temperature": "225"
+      }
+    },
+    {
+      "catalogID": 110612,
+      "name": "Prusament TPU 95A @XL+ 0.6",
+      "printers": [
+        "prusa-research/xlplus-2t-0-6",
+        "prusa-research/xlplus-2t-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.6",
+        "extrusion_multiplier": "1.08",
+        "filament_max_volumetric_speed": "3.5",
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "3.5",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_layer_change": "nil",
+        "filament_retract_length_toolchange": "6",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "first_layer_temperature": "225",
+        "name": "Prusament TPU 95A @XL+ 0.6",
+        "start_filament_gcode": "M572 S0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp",
+        "temperature": "225"
+      }
+    },
+    {
+      "catalogID": 110613,
+      "name": "Prusament TPU 95A @XL+ 0.8",
+      "printers": [
+        "prusa-research/xlplus-2t-0-8",
+        "prusa-research/xlplus-2t-hf0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.8",
+        "extrusion_multiplier": "1.08",
+        "filament_max_volumetric_speed": "8",
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "8",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_layer_change": "nil",
+        "filament_retract_length_toolchange": "6",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "first_layer_temperature": "225",
+        "name": "Prusament TPU 95A @XL+ 0.8",
+        "start_filament_gcode": "M572 S0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp",
+        "temperature": "225"
+      }
+    }
+  ]
+}

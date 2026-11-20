@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "id": "sovol/sv08-0-6",
+  "manufacturer": "Sovol",
+  "model": "SV08",
+  "name": "Sovol SV08 0.6 nozzle",
+  "nozzle": 0.6,
+  "processes": [
+    {
+      "catalogID": 22752,
+      "default": true,
+      "name": "0.30mm Standard @Sovol SV08 0.6 nozzle",
+      "settings": {
+        "bottom_shell_layers": "3",
+        "bottom_shell_thickness": "0",
+        "bottom_surface_pattern": "monotonic",
+        "bridge_acceleration": "100%",
+        "bridge_flow": "1",
+        "bridge_no_support": "0",
+        "bridge_speed": "50",
+        "brim_object_gap": "0",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "compatible_printers": [
+          "Sovol SV08 0.6 nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "default_acceleration": "20000",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "1",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0.1",
+        "enable_arc_fitting": "0",
+        "enable_prime_tower": "1",
+        "enable_support": "0",
+        "exclude_object": "1",
+        "filename_format": "{input_filename_base}_{filament_type[0]}_{layer_height}_{print_time}.gcode",
+        "from": "system",
+        "gap_infill_speed": "150",
+        "gcode_label_objects": "1",
+        "infill_combination": "0",
+        "infill_direction": "45",
+        "infill_wall_overlap": "15%",
+        "initial_layer_acceleration": "3000",
+        "initial_layer_infill_speed": "60",
+        "initial_layer_line_width": "0.6",
+        "initial_layer_print_height": "0.3",
+        "initial_layer_speed": "30",
+        "inner_wall_acceleration": "12000",
+        "inner_wall_line_width": "0.6",
+        "inner_wall_speed": "180",
+        "interface_shells": "0",
+        "internal_bridge_speed": "50",
+        "internal_solid_infill_line_width": "0.6",
+        "internal_solid_infill_speed": "180",
+        "ironing_flow": "15%",
+        "ironing_spacing": "0.25",
+        "ironing_speed": "15",
+        "ironing_type": "no ironing",
+        "layer_height": "0.30",
+        "line_width": "0.6",
+        "max_travel_detour_distance": "0",
+        "minimum_sparse_infill_area": "0",
+        "name": "0.30mm Standard @Sovol SV08 0.6 nozzle",
+        "outer_wall_acceleration": "8000",
+        "outer_wall_line_width": "0.6",
+        "outer_wall_speed": "150",
+        "overhang_1_4_speed": "0",
+        "overhang_2_4_speed": "50",
+        "overhang_3_4_speed": "30",
+        "overhang_4_4_speed": "10",
+        "prime_tower_width": "60",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction": "1",
+        "resolution": "0.012",
+        "seam_gap": "5%",
+        "seam_position": "aligned",
+        "skirt_distance": "0",
+        "skirt_height": "1",
+        "skirt_loops": "1",
+        "slow_down_layers": "3",
+        "sparse_infill_density": "10%",
+        "sparse_infill_line_width": "0.6",
+        "sparse_infill_pattern": "crosshatch",
+        "sparse_infill_speed": "180",
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "rectilinear",
+        "support_base_pattern_spacing": "2.5",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "-1",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_pattern": "auto",
+        "support_interface_spacing": "0.5",
+        "support_interface_speed": "100%",
+        "support_interface_top_layers": "2",
+        "support_line_width": "0.6",
+        "support_object_xy_distance": "0.35",
+        "support_on_build_plate_only": "0",
+        "support_speed": "80",
+        "support_style": "snug",
+        "support_threshold_angle": "20",
+        "support_top_z_distance": "0.2",
+        "support_type": "normal(auto)",
+        "top_shell_layers": "3",
+        "top_shell_thickness": "0.8",
+        "top_surface_acceleration": "12000",
+        "top_surface_line_width": "0.6",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_speed": "150",
+        "travel_acceleration": "20000",
+        "travel_speed": "600",
+        "tree_support_branch_angle": "40",
+        "tree_support_wall_count": "0",
+        "type": "process",
+        "wall_generator": "classic",
+        "wall_infill_order": "inner wall/outer wall/infill",
+        "wall_loops": "2",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0"
+      }
+    }
+  ],
+  "settings": {
+    "before_layer_change_gcode": "TIMELAPSE_TAKE_FRAME\nG92 E0",
+    "change_filament_gcode": "",
+    "default_filament_profile": [
+      "Generic PLA @Sovol SV08"
+    ],
+    "default_print_profile": "0.30mm Standard @Sovol SV08 0.6 nozzle",
+    "deretraction_speed": [
+      "30"
+    ],
+    "extruder_clearance_height_to_lid": "140",
+    "extruder_clearance_height_to_rod": "36",
+    "extruder_clearance_radius": "65",
+    "extruder_colour": [
+      "#FCE94F"
+    ],
+    "extruder_offset": [
+      "0x0"
+    ],
+    "from": "system",
+    "gcode_flavor": "klipper",
+    "machine_end_gcode": "END_PRINT\n",
+    "machine_max_acceleration_e": [
+      "5000",
+      "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+      "20000",
+      "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+      "5000",
+      "5000"
+    ],
+    "machine_max_acceleration_travel": [
+      "40000",
+      "40000"
+    ],
+    "machine_max_acceleration_x": [
+      "40000",
+      "40000"
+    ],
+    "machine_max_acceleration_y": [
+      "40000",
+      "40000"
+    ],
+    "machine_max_acceleration_z": [
+      "500",
+      "500"
+    ],
+    "machine_max_jerk_e": [
+      "5",
+      "5"
+    ],
+    "machine_max_jerk_x": [
+      "20",
+      "20"
+    ],
+    "machine_max_jerk_y": [
+      "20",
+      "20"
+    ],
+    "machine_max_jerk_z": [
+      "0.5",
+      "0.5"
+    ],
+    "machine_max_speed_e": [
+      "50",
+      "50"
+    ],
+    "machine_max_speed_x": [
+      "700",
+      "700"
+    ],
+    "machine_max_speed_y": [
+      "700",
+      "700"
+    ],
+    "machine_max_speed_z": [
+      "20",
+      "20"
+    ],
+    "machine_min_extruding_rate": [
+      "0"
+    ],
+    "machine_min_travel_rate": [
+      "0"
+    ],
+    "machine_pause_gcode": "PAUSE",
+    "machine_start_gcode": "G28\nG90\nG1 X0 F9000\nG1 Y20\nG1 Z0.600 F600\nG1 Y0 F9000\nSTART_PRINT\nG90\nG1 X0 F9000\nG1 Y20\nG1 Z0.600 F600\nG1 Y0 F9000\nM400\nG91\nM83\nM140 S[bed_temperature_initial_layer_single] ;set bed temp\nM104 S[nozzle_temperature_initial_layer] ;set extruder temp\nM190 S[bed_temperature_initial_layer_single] ;wait for bed temp\nM109 S[nozzle_temperature_initial_layer];wait for extruder temp\nG1 E25 F300\nG4 P1000\nG1 E-0.200 Z5 F600\nG1 X88.000 F9000\nG1 Z-5.000 F600\nG1 X87.000 E20.88 F1800\nG1 X87.000 E13.92 F1800\nG1 Y1 E0.16 F1800\nG1 X-87.000 E13.92 F1800\nG1 X-87.000 E20.88 F1800\nG1 Y1 E0.24 F1800\nG1 X87.000 E20.88 F1800\nG1 X87.000 E13.92 F1800\nG1 E-0.200 Z1 F600\nM400\n",
+    "max_layer_height": [
+      "0.42"
+    ],
+    "min_layer_height": [
+      "0.12"
+    ],
+    "name": "Sovol SV08 0.6 nozzle",
+    "nozzle_diameter": [
+      "0.6"
+    ],
+    "printable_area": [
+      "0x0",
+      "350x0",
+      "350x350",
+      "0x350"
+    ],
+    "printable_height": "345",
+    "printer_model": "Sovol SV08",
+    "printer_settings_id": "",
+    "printer_technology": "FFF",
+    "printer_variant": "0.6",
+    "retract_before_wipe": [
+      "0%"
+    ],
+    "retract_length_toolchange": [
+      "2"
+    ],
+    "retract_lift_below": [
+      "343"
+    ],
+    "retract_restart_extra": [
+      "0"
+    ],
+    "retract_restart_extra_toolchange": [
+      "0"
+    ],
+    "retract_when_changing_layer": [
+      "1"
+    ],
+    "retraction_length": [
+      "0.5"
+    ],
+    "retraction_minimum_travel": [
+      "1"
+    ],
+    "retraction_speed": [
+      "30"
+    ],
+    "single_extruder_multi_material": "1",
+    "thumbnails": [
+      "300x300",
+      "400x300",
+      "32x32"
+    ],
+    "thumbnails_format": "PNG",
+    "type": "machine",
+    "wipe": [
+      "1"
+    ],
+    "wipe_distance": [
+      "2"
+    ],
+    "z_hop": [
+      "0.4"
+    ],
+    "z_hop_types": "Normal Lift"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Sovol/machine/Sovol SV08 0.6 nozzle.json",
+    "name": "OrcaSlicer"
+  }
+}

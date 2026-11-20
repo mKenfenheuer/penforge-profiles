@@ -1,0 +1,114 @@
+{
+  "format": 1,
+  "id": "generic/fillamentum-abs-prusaslicer",
+  "manufacturer": "Generic",
+  "name": "Fillamentum ABS",
+  "settings": {
+    "bed_temperature": "100",
+    "bridge_fan_speed": "100",
+    "compatible_printers": "",
+    "compatible_printers_condition": "printer_notes=~/.*PRINTER_VENDOR_TRILAB.*/ and printer_notes=~/.*PRINTER_MODEL_AQI.*/ and nozzle_diameter[0]==0.6",
+    "cooling": "1",
+    "disable_fan_first_layers": "3",
+    "extrusion_multiplier": "1",
+    "fan_always_on": "1",
+    "fan_below_layer_time": "20",
+    "filament_colour": "#EC626F",
+    "filament_cost": "0",
+    "filament_density": "1.04",
+    "filament_diameter": "1.75",
+    "filament_max_volumetric_speed": "15",
+    "filament_minimal_purge_on_wipe_tower": "15",
+    "filament_notes": "BN",
+    "filament_ramming_parameters": "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6",
+    "filament_retract_before_travel": "3",
+    "filament_retract_before_wipe": "70%",
+    "filament_retract_layer_change": "1",
+    "filament_retract_length": "4.1",
+    "filament_retract_lift": "0.2",
+    "filament_retract_speed": "25",
+    "filament_settings_id": "",
+    "filament_soluble": "0",
+    "filament_spool_weight": "250",
+    "filament_toolchange_delay": "0",
+    "filament_type": "ABS",
+    "filament_vendor": "Generic",
+    "filament_wipe": "1",
+    "first_layer_bed_temperature": "100",
+    "first_layer_temperature": "255",
+    "max_fan_speed": "100",
+    "min_fan_speed": "80",
+    "min_print_speed": "10",
+    "name": "Fillamentum ABS @AQI 0.6 nozzle",
+    "renamed_from": "AzteQ Industrial - ABS - ExtraFill (Fillamentum) @0.6 nozzle",
+    "slowdown_below_layer_time": "5",
+    "temperature": "255"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "TriLAB/2.1.0.ini",
+    "name": "PrusaSlicer-settings-non-prusa-fff",
+    "section": "filament:Fillamentum ABS @AQI 0.6 nozzle"
+  },
+  "type": "ABS",
+  "variants": [
+    {
+      "catalogID": 111909,
+      "name": "Fillamentum ABS @AQI 0.6 nozzle",
+      "printers": [
+        "trilab/azteq-industrial-0-6"
+      ],
+      "settings": {
+        "filament_deretract_speed": "nil",
+        "filament_load_time": "0",
+        "filament_loading_speed": "28",
+        "filament_loading_speed_start": "3",
+        "filament_retract_lift_above": "nil",
+        "filament_retract_lift_below": "nil",
+        "filament_retract_restart_extra": "nil",
+        "full_fan_speed_layer": "0",
+        "start_filament_gcode": "; FILAMENT_START_GCODE\nM191 S75 ; Wait for chamber temperature"
+      }
+    },
+    {
+      "catalogID": 111910,
+      "name": "Fillamentum ABS @AQI 0.8 nozzle",
+      "printers": [
+        "trilab/azteq-industrial-0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_notes=~/.*PRINTER_VENDOR_TRILAB.*/ and printer_notes=~/.*PRINTER_MODEL_AQI.*/ and nozzle_diameter[0]==0.8",
+        "extrusion_multiplier": "0.95",
+        "filament_deretract_speed": "nil",
+        "filament_load_time": "0",
+        "filament_loading_speed": "28",
+        "filament_loading_speed_start": "3",
+        "filament_notes": "ZL",
+        "filament_retract_lift_above": "nil",
+        "filament_retract_lift_below": "nil",
+        "filament_retract_restart_extra": "nil",
+        "full_fan_speed_layer": "0",
+        "name": "Fillamentum ABS @AQI 0.8 nozzle",
+        "renamed_from": "AzteQ Industrial - ABS - ExtraFill (Fillamentum) @0.8 nozzle",
+        "start_filament_gcode": "; FILAMENT_START_GCODE\nM191 S75 ; Wait for chamber temperature"
+      }
+    },
+    {
+      "catalogID": 111912,
+      "name": "Fillamentum ABS @DQ2 0.6 nozzle",
+      "printers": [
+        "trilab/deltiq-2-0-6",
+        "trilab/deltiq-2-plus-0-6"
+      ],
+      "settings": {
+        "bridge_fan_speed": "25",
+        "compatible_printers_condition": "printer_notes=~/.*PRINTER_VENDOR_TRILAB.*/ and printer_notes=~/.*PRINTER_MODEL_DQ.*/ and !(printer_notes=~/.*FLEXPRINT.*/) and nozzle_diameter[0]==0.6",
+        "max_fan_speed": "15",
+        "min_fan_speed": "5",
+        "name": "Fillamentum ABS @DQ2 0.6 nozzle",
+        "renamed_from": "DeltiQ - ABS - ExtraFill (Fillamentum) @0.6 nozzle",
+        "slowdown_below_layer_time": "15"
+      }
+    }
+  ]
+}

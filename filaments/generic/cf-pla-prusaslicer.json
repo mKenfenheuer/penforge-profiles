@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "id": "generic/cf-pla-prusaslicer",
+  "manufacturer": "Generic",
+  "name": "Generic CF PLA",
+  "settings": {
+    "compatible_printers_condition": "printer_notes=~/.*PRINTER_VENDOR_GCREATE.*/",
+    "cooling": "0",
+    "extrusion_multiplier": "1",
+    "filament_diameter": "1.75",
+    "filament_notes": "",
+    "filament_settings_id": "",
+    "filament_type": "Carbon Fiber",
+    "filament_vendor": "Generic",
+    "min_print_speed": "15",
+    "name": "Generic CF PLA @GCREATE",
+    "slowdown_below_layer_time": "10"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "gCreate/2.1.0.ini",
+    "name": "PrusaSlicer-settings-non-prusa-fff",
+    "section": "filament:Generic CF PLA @GCREATE"
+  },
+  "type": "Carbon Fiber",
+  "variants": [
+    {
+      "catalogID": 112018,
+      "name": "Generic CF PLA @GCREATE",
+      "printers": [
+        "gcreate/gmax-1-5xt-plus-0-3mm",
+        "gcreate/gmax-1-5xt-plus-0-4mm",
+        "gcreate/gmax-1-5xt-plus-0-5mm",
+        "gcreate/gmax-1-5xt-plus-0-8mm",
+        "gcreate/gmax-1-5xt-plus-1-0mm",
+        "gcreate/gmax-2-0-3mm",
+        "gcreate/gmax-2-0-4mm",
+        "gcreate/gmax-2-0-5mm",
+        "gcreate/gmax-2-0-8mm",
+        "gcreate/gmax-2-1-0mm",
+        "gcreate/gmax-2-dual-2in1-0-5-0-5mm",
+        "gcreate/gmax-2-dual-chimera-0-5-0-5mm",
+        "gcreate/gmax-2-pro-0-3mm",
+        "gcreate/gmax-2-pro-0-4mm",
+        "gcreate/gmax-2-pro-0-5mm",
+        "gcreate/gmax-2-pro-0-8mm",
+        "gcreate/gmax-2-pro-1-0mm"
+      ],
+      "settings": {}
+    }
+  ]
+}

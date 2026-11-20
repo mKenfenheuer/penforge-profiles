@@ -1,0 +1,232 @@
+{
+  "format": 1,
+  "id": "polymaker/fiberon-asa-cf08",
+  "manufacturer": "Polymaker",
+  "name": "Fiberon ASA-CF08",
+  "settings": {
+    "additional_cooling_fan_speed": [
+      "0",
+      "0"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [
+      "Snapmaker U1 (0.4 nozzle)"
+    ],
+    "cool_plate_temp": [
+      "100"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "100"
+    ],
+    "default_filament_colour": [
+      ""
+    ],
+    "enable_pressure_advance": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "100"
+    ],
+    "fan_cooling_layer_time": [
+      "31"
+    ],
+    "fan_max_speed": [
+      "30",
+      "30"
+    ],
+    "fan_min_speed": [
+      "10",
+      "10"
+    ],
+    "filament_cooling_final_speed": [
+      "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+      "2.2"
+    ],
+    "filament_cooling_moves": [
+      "0"
+    ],
+    "filament_cost": [
+      "30"
+    ],
+    "filament_density": [
+      "1.09"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      ""
+    ],
+    "filament_extruder_variant": [
+      "Direct Drive Standard",
+      "Direct Drive High Flow"
+    ],
+    "filament_flow_ratio": [
+      "0.88"
+    ],
+    "filament_id": "OF0omtEb",
+    "filament_is_support": [
+      "0"
+    ],
+    "filament_loading_speed": [
+      "25"
+    ],
+    "filament_loading_speed_start": [
+      "3"
+    ],
+    "filament_max_volumetric_speed": [
+      "8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15",
+      "15"
+    ],
+    "filament_multitool_ramming": [
+      "0"
+    ],
+    "filament_multitool_ramming_volume": [
+      "0"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "0.6"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      ""
+    ],
+    "filament_toolchange_delay": [
+      "0"
+    ],
+    "filament_type": [
+      "ASA"
+    ],
+    "filament_unloading_speed": [
+      "25"
+    ],
+    "filament_unloading_speed_start": [
+      "3"
+    ],
+    "filament_vendor": [
+      "Polymaker"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "0.7"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "100"
+    ],
+    "name": "Fiberon ASA-CF08 @Snapmaker U1",
+    "nozzle_temperature": [
+      "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "260"
+    ],
+    "nozzle_temperature_range_high": [
+      "280"
+    ],
+    "nozzle_temperature_range_low": [
+      "260"
+    ],
+    "overhang_fan_speed": [
+      "80"
+    ],
+    "overhang_fan_threshold": [
+      "25%"
+    ],
+    "pressure_advance": [
+      "0.05",
+      "0.05"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "required_nozzle_HRC": [
+      "3"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "8"
+    ],
+    "slow_down_min_speed": [
+      "30"
+    ],
+    "temperature_vitrification": [
+      "110.8"
+    ],
+    "textured_plate_temp": [
+      "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "100"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Snapmaker/filament/Polymaker/Fiberon ASA-CF08 @Snapmaker U1.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "ASA",
+  "variants": [
+    {
+      "catalogID": 105946,
+      "name": "Fiberon ASA-CF08 @Snapmaker U1",
+      "printers": [
+        "snapmaker/u1-0-4"
+      ],
+      "settings": {}
+    }
+  ]
+}

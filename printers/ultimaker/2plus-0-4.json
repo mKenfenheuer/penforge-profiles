@@ -1,0 +1,430 @@
+{
+  "format": 1,
+  "id": "ultimaker/2plus-0-4",
+  "manufacturer": "UltiMaker",
+  "model": "2+",
+  "name": "UltiMaker 2+ 0.4 nozzle",
+  "nozzle": 0.4,
+  "processes": [
+    {
+      "catalogID": 22828,
+      "default": false,
+      "name": "0.10mm Fine @UltiMaker 2+",
+      "settings": {
+        "bottom_shell_layers": "5",
+        "bottom_shell_thickness": "0.75",
+        "compatible_printers": [
+          "UltiMaker 2+ 0.4 nozzle"
+        ],
+        "from": "system",
+        "fuzzy_skin_point_distance": "0.8",
+        "fuzzy_skin_thickness": "0.3",
+        "gap_infill_speed": [
+          "40"
+        ],
+        "infill_anchor": "2.5",
+        "infill_anchor_max": "12",
+        "infill_combination": "1",
+        "infill_combination_max_layer_height": "80%",
+        "initial_layer_infill_speed": [
+          "45"
+        ],
+        "initial_layer_line_width": "0.4",
+        "initial_layer_speed": [
+          "20"
+        ],
+        "inner_wall_acceleration": [
+          "800"
+        ],
+        "inner_wall_line_width": "0.4",
+        "inner_wall_speed": [
+          "30"
+        ],
+        "internal_solid_infill_line_width": "0.4",
+        "internal_solid_infill_speed": [
+          "45"
+        ],
+        "is_infill_first": "1",
+        "layer_height": "0.10",
+        "line_width": "0.4",
+        "name": "0.10mm Fine @UltiMaker 2+",
+        "outer_wall_line_width": "0.4",
+        "outer_wall_speed": [
+          "20"
+        ],
+        "overhang_1_4_speed": [
+          "25"
+        ],
+        "overhang_2_4_speed": [
+          "20"
+        ],
+        "overhang_3_4_speed": [
+          "15"
+        ],
+        "overhang_4_4_speed": [
+          "15"
+        ],
+        "print_extruder_variant": [
+          "Bowden Standard"
+        ],
+        "renamed_from": "0.12mm Fine @UltiMaker 2",
+        "small_perimeter_speed": [
+          "20"
+        ],
+        "sparse_infill_density": "18%",
+        "sparse_infill_line_width": "0.4",
+        "sparse_infill_speed": [
+          "45"
+        ],
+        "support_interface_speed": [
+          "50"
+        ],
+        "support_line_width": "0.35",
+        "support_speed": [
+          "50"
+        ],
+        "top_shell_layers": "5",
+        "top_shell_thickness": "0.75",
+        "top_surface_line_width": "0.4",
+        "top_surface_speed": [
+          "20"
+        ],
+        "travel_acceleration": [
+          "800"
+        ],
+        "type": "process"
+      }
+    },
+    {
+      "catalogID": 22833,
+      "default": true,
+      "name": "0.15mm Standard @UltiMaker 2+",
+      "settings": {
+        "bottom_shell_layers": "5",
+        "bottom_shell_thickness": "0.75",
+        "compatible_printers": [
+          "UltiMaker 2+ 0.4 nozzle"
+        ],
+        "from": "system",
+        "fuzzy_skin_point_distance": "0.8",
+        "fuzzy_skin_thickness": "0.3",
+        "gap_infill_speed": [
+          "40"
+        ],
+        "infill_anchor": "2.5",
+        "infill_anchor_max": "12",
+        "infill_combination": "1",
+        "infill_combination_max_layer_height": "80%",
+        "initial_layer_line_width": "0.4",
+        "initial_layer_speed": [
+          "20"
+        ],
+        "inner_wall_acceleration": [
+          "800"
+        ],
+        "inner_wall_line_width": "0.4",
+        "inner_wall_speed": [
+          "55"
+        ],
+        "internal_solid_infill_line_width": "0.4",
+        "internal_solid_infill_speed": [
+          "60"
+        ],
+        "is_infill_first": "1",
+        "layer_height": "0.15",
+        "line_width": "0.4",
+        "name": "0.15mm Standard @UltiMaker 2+",
+        "outer_wall_line_width": "0.4",
+        "outer_wall_speed": [
+          "40"
+        ],
+        "overhang_1_4_speed": [
+          "25"
+        ],
+        "overhang_2_4_speed": [
+          "20"
+        ],
+        "overhang_3_4_speed": [
+          "15"
+        ],
+        "overhang_4_4_speed": [
+          "15"
+        ],
+        "print_extruder_variant": [
+          "Bowden Standard"
+        ],
+        "renamed_from": "0.18mm Standard @UltiMaker 2",
+        "small_perimeter_speed": [
+          "25"
+        ],
+        "sparse_infill_density": "18%",
+        "sparse_infill_line_width": "0.4",
+        "sparse_infill_speed": [
+          "80"
+        ],
+        "support_interface_speed": [
+          "55"
+        ],
+        "support_line_width": "0.35",
+        "support_speed": [
+          "55"
+        ],
+        "top_shell_layers": "5",
+        "top_shell_thickness": "0.75",
+        "top_surface_line_width": "0.4",
+        "top_surface_speed": [
+          "40"
+        ],
+        "travel_acceleration": [
+          "800"
+        ],
+        "type": "process"
+      }
+    },
+    {
+      "catalogID": 22838,
+      "default": false,
+      "name": "0.20mm Draft @UltiMaker 2+",
+      "settings": {
+        "bottom_shell_layers": "5",
+        "bottom_shell_thickness": "0.75",
+        "compatible_printers": [
+          "UltiMaker 2+ 0.4 nozzle"
+        ],
+        "from": "system",
+        "fuzzy_skin_point_distance": "0.8",
+        "fuzzy_skin_thickness": "0.3",
+        "gap_infill_speed": [
+          "40"
+        ],
+        "infill_anchor": "2.5",
+        "infill_anchor_max": "12",
+        "infill_combination": "1",
+        "infill_combination_max_layer_height": "80%",
+        "initial_layer_line_width": "0.4",
+        "initial_layer_speed": [
+          "20"
+        ],
+        "inner_wall_acceleration": [
+          "800"
+        ],
+        "inner_wall_line_width": "0.4",
+        "inner_wall_speed": [
+          "55"
+        ],
+        "internal_solid_infill_line_width": "0.4",
+        "internal_solid_infill_speed": [
+          "60"
+        ],
+        "is_infill_first": "1",
+        "layer_height": "0.2",
+        "line_width": "0.4",
+        "name": "0.20mm Draft @UltiMaker 2+",
+        "outer_wall_line_width": "0.4",
+        "outer_wall_speed": [
+          "40"
+        ],
+        "overhang_1_4_speed": [
+          "25"
+        ],
+        "overhang_2_4_speed": [
+          "20"
+        ],
+        "overhang_3_4_speed": [
+          "15"
+        ],
+        "overhang_4_4_speed": [
+          "15"
+        ],
+        "print_extruder_variant": [
+          "Bowden Standard"
+        ],
+        "renamed_from": "0.25mm Draft @UltiMaker 2;0.25mm Darft @UltiMaker 2",
+        "small_perimeter_speed": [
+          "25"
+        ],
+        "sparse_infill_density": "18%",
+        "sparse_infill_line_width": "0.4",
+        "sparse_infill_speed": [
+          "80"
+        ],
+        "support_interface_speed": [
+          "55"
+        ],
+        "support_line_width": "0.35",
+        "support_speed": [
+          "55"
+        ],
+        "top_shell_layers": "5",
+        "top_shell_thickness": "0.75",
+        "top_surface_line_width": "0.4",
+        "top_surface_speed": [
+          "40"
+        ],
+        "travel_acceleration": [
+          "800"
+        ],
+        "type": "process"
+      }
+    }
+  ],
+  "settings": {
+    "auxiliary_fan": "0",
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0\n",
+    "change_filament_gcode": "",
+    "default_filament_profile": [
+      "Generic PLA @UltiMaker 2+ 0.4 nozzle"
+    ],
+    "default_print_profile": "0.15mm Standard @UltiMaker 2+",
+    "deretraction_speed": [
+      "40"
+    ],
+    "extruder_clearance_height_to_lid": "140",
+    "extruder_clearance_height_to_rod": "36",
+    "extruder_clearance_radius": "65",
+    "extruder_colour": [
+      "#FCE94F"
+    ],
+    "extruder_offset": [
+      "0x0"
+    ],
+    "from": "system",
+    "gcode_flavor": "marlin",
+    "machine_end_gcode": "; # # # # # # START Footer\nG91; relative coordinates\n;G1 E-1 F1200; retract the filament\nG1 Z+15  X-10 Y-10 E-7  F6000; move Z a bit\n; G1 X-10 Y-10 F6000; move XY a bit\nG1 E-5.5 F300; retract the filament\nG28 X0 Y0; move X/Y to min endstops, so the head is out of the way\nM104 S0; extruder heater off\nM140 S0; heated bed heater off (if you have it)\nM84; disable motors\n; # # # # # # END Footer\n",
+    "machine_max_acceleration_e": [
+      "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+      "1500",
+      "1500"
+    ],
+    "machine_max_acceleration_retracting": [
+      "1500",
+      "1500"
+    ],
+    "machine_max_acceleration_travel": [
+      "3000",
+      "3000"
+    ],
+    "machine_max_acceleration_x": [
+      "3000",
+      "3000"
+    ],
+    "machine_max_acceleration_y": [
+      "3000",
+      "3000"
+    ],
+    "machine_max_acceleration_z": [
+      "500",
+      "500"
+    ],
+    "machine_max_jerk_e": [
+      "2.5",
+      "2.5"
+    ],
+    "machine_max_jerk_x": [
+      "20",
+      "20"
+    ],
+    "machine_max_jerk_y": [
+      "20",
+      "20"
+    ],
+    "machine_max_jerk_z": [
+      "0.4",
+      "0.4"
+    ],
+    "machine_max_junction_deviation": [
+      "0.013",
+      "0"
+    ],
+    "machine_max_speed_e": [
+      "100",
+      "100"
+    ],
+    "machine_max_speed_x": [
+      "300",
+      "300"
+    ],
+    "machine_max_speed_y": [
+      "300",
+      "300"
+    ],
+    "machine_max_speed_z": [
+      "40",
+      "40"
+    ],
+    "machine_min_extruding_rate": [
+      "0"
+    ],
+    "machine_min_travel_rate": [
+      "0"
+    ],
+    "machine_pause_gcode": "M0",
+    "machine_start_gcode": "; # # # # # # START Header\nG21; metric values\nG90; absolute positioning\nM82 ; set extruder to absolute mode\nM107; start with the fan off\n\nM140 S[bed_temperature_initial_layer_single]; start bed heating\n\nG28 X0 Y0 Z0; move X/Y/Z to endstops\nG1 X1 Y6 F15000; move X/Y to start position\nG1 Z35 F9000; move Z to start position\n\n; Wait for bed and nozzle temperatures\nM190 S{hot_plate_temp_initial_layer[0] - 5}; wait for bed temperature - 5\nM140 S[bed_temperature_initial_layer_single]; continue bed heating\nM109 S[nozzle_temperature_initial_layer]; wait for nozzle temperature\n\n; Purge and prime\nM83; set extruder to relative mode\nG92 E0; reset extrusion distance\nG0 X0 Y1 F10000\nG1 F150 E20 ; compress the bowden tube\nG1 E-8 F1200\nG0 X30 Y1 F5000\nG0 F1200 Z{initial_layer_print_height/2}; Cut the connection to priming blob\nG0 X100 F10000; disconnect with the prime blob\nG0 X50; Avoid the metal clip holding the Ultimaker glass plate\nG0 Z0.2 F720\nG1 E8 F1200\nG1 X80 E3 F1000; intro line 1\nG1 X110 E4 F1000 ; intro line 2\nG1 X140 F600; drag filament to decompress bowden tube\nG1 X100 F3200; wipe backwards a bit\nG1 X150 F3200; back to where there is no plastic: avoid dragging\nG92 E0; reset extruder reference\nM82; set extruder to absolute mode\n\n; # # # # # # END Header",
+    "max_layer_height": [
+      "0.3"
+    ],
+    "min_layer_height": [
+      "0.08"
+    ],
+    "name": "UltiMaker 2+ 0.4 nozzle",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "nozzle_type": "undefine",
+    "printable_area": [
+      "0x0",
+      "223x0",
+      "223x223",
+      "0x223"
+    ],
+    "printable_height": "205",
+    "printer_model": "UltiMaker 2+",
+    "printer_settings_id": "",
+    "printer_technology": "FFF",
+    "printer_variant": "0.4",
+    "retract_before_wipe": [
+      "0%"
+    ],
+    "retract_length_toolchange": [
+      "25"
+    ],
+    "retract_restart_extra": [
+      "0"
+    ],
+    "retract_restart_extra_toolchange": [
+      "0"
+    ],
+    "retract_when_changing_layer": [
+      "1"
+    ],
+    "retraction_length": [
+      "6"
+    ],
+    "retraction_minimum_travel": [
+      "2"
+    ],
+    "retraction_speed": [
+      "50"
+    ],
+    "scan_first_layer": "0",
+    "single_extruder_multi_material": "1",
+    "thumbnails": "",
+    "type": "machine",
+    "wipe": [
+      "1"
+    ],
+    "wipe_distance": [
+      "0.2"
+    ],
+    "z_hop": [
+      "0"
+    ]
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/UltiMaker/machine/UltiMaker 2+ 0.4 nozzle.json",
+    "name": "OrcaSlicer"
+  }
+}

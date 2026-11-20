@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "id": "generic/peek-prusaslicer",
+  "manufacturer": "Generic",
+  "name": "Generic PEEK",
+  "settings": {
+    "bed_temperature": "150",
+    "bridge_fan_speed": "0",
+    "compatible_printers": "Proton XE-750",
+    "cooling": "0",
+    "disable_fan_first_layers": "3",
+    "extrusion_multiplier": "1",
+    "fan_always_on": "0",
+    "fan_below_layer_time": "10",
+    "filament_colour": "#29B2B2",
+    "filament_cost": "500",
+    "filament_density": "1.3",
+    "filament_diameter": "1.75",
+    "filament_soluble": "0",
+    "filament_type": "PEEK",
+    "filament_vendor": "Generic",
+    "first_layer_bed_temperature": "150",
+    "first_layer_temperature": "440",
+    "full_fan_speed_layer": "0",
+    "min_print_speed": "10",
+    "name": "Generic PEEK @PROTON_XE750",
+    "renamed_from": "PEEK @PROTON_XE750",
+    "slowdown_below_layer_time": "5",
+    "temperature": "440"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "INAT/1.1.1.ini",
+    "name": "PrusaSlicer-settings-non-prusa-fff",
+    "section": "filament:Generic PEEK @PROTON_XE750"
+  },
+  "type": "PEEK",
+  "variants": [
+    {
+      "name": "Generic PEEK @PROTON_X",
+      "printers": [
+        "inat/proton-x-rail",
+        "inat/proton-x-rod"
+      ],
+      "settings": {
+        "compatible_printers": "\"Proton X Rail\";\"Proton X Rod\"",
+        "name": "Generic PEEK @PROTON_X",
+        "renamed_from": "PEEK @PROTON_X"
+      }
+    },
+    {
+      "catalogID": 111787,
+      "name": "Generic PEEK @PROTON_XE750",
+      "printers": [
+        "inat/proton-xe-750"
+      ],
+      "settings": {
+        "end_filament_gcode": "; Filament end gcode BEGIN\nG0 X-5 Y250 F10000\nM104 S{temperature[current_extruder] - 50}\n; Filament end gcode END\n",
+        "start_filament_gcode": "; Filament start gcode BEGIN\nM104 S[temperature[current_extruder]]\nG4 S20\n; Filament start gcode END\n"
+      }
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "format": 1,
+  "id": "meltingplot/chx-350-0-4",
+  "manufacturer": "Meltingplot",
+  "model": "CHX 350",
+  "name": "Meltingplot CHX 350 0.4 nozzle",
+  "nozzle": 0.4,
+  "processes": [
+    {
+      "catalogID": 21756,
+      "default": true,
+      "name": "0.18mm Fine 0.4 nozzle @Meltingplot CHX 350",
+      "settings": {
+        "bottom_shell_layers": "3",
+        "bottom_shell_thickness": "2",
+        "bottom_surface_pattern": "monotonic",
+        "bridge_flow": "1",
+        "bridge_no_support": "0",
+        "bridge_speed": "50",
+        "brim_object_gap": "0",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "compatible_printers": [
+          "Meltingplot CHX 350 0.4 nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "default_acceleration": "6000",
+        "default_jerk": "12",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "0",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0",
+        "enable_arc_fitting": "0",
+        "enable_prime_tower": "1",
+        "enable_support": "1",
+        "extrusion_rate_smoothing_external_perimeter_only": "1",
+        "filename_format": "{input_filename_base}_L{layer_height}mm_N{nozzle_diameter[0]}_{filament_type[initial_tool]}_{printer_model}_{print_time}.gcode",
+        "from": "system",
+        "gap_infill_speed": "250",
+        "infill_combination": "0",
+        "infill_direction": "45",
+        "infill_jerk": "12",
+        "infill_wall_overlap": "15%",
+        "initial_layer_acceleration": "500",
+        "initial_layer_infill_speed": "30",
+        "initial_layer_jerk": "5",
+        "initial_layer_line_width": "120%",
+        "initial_layer_print_height": "0.4",
+        "initial_layer_speed": "20",
+        "inner_wall_acceleration": "6000",
+        "inner_wall_line_width": "110%",
+        "inner_wall_speed": "300",
+        "interface_shells": "0",
+        "internal_solid_infill_line_width": "115%",
+        "internal_solid_infill_speed": "250",
+        "ironing_flow": "10%",
+        "ironing_spacing": "0.15",
+        "ironing_speed": "30",
+        "ironing_type": "no ironing",
+        "layer_height": "0.18",
+        "line_width": "120%",
+        "max_travel_detour_distance": "0",
+        "min_skirt_length": "4",
+        "minimum_sparse_infill_area": "15",
+        "name": "0.18mm Fine 0.4 nozzle @Meltingplot CHX 350",
+        "outer_wall_acceleration": "3000",
+        "outer_wall_jerk": "6",
+        "outer_wall_line_width": "115%",
+        "outer_wall_speed": "220",
+        "overhang_1_4_speed": "0",
+        "overhang_2_4_speed": "50",
+        "overhang_3_4_speed": "30",
+        "overhang_4_4_speed": "10",
+        "precise_outer_wall": "0",
+        "prime_tower_width": "60",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction": "0",
+        "resolution": "0.012",
+        "seam_gap": "0",
+        "seam_position": "aligned",
+        "skirt_distance": "2",
+        "skirt_height": "3",
+        "skirt_loops": "0",
+        "skirt_speed": "20",
+        "skirt_type": "perobject",
+        "slow_down_layers": "3",
+        "slowdown_for_curled_perimeters": "0",
+        "sparse_infill_density": "15%",
+        "sparse_infill_line_width": "110%",
+        "sparse_infill_pattern": "crosshatch",
+        "sparse_infill_speed": "270",
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "default",
+        "support_base_pattern_spacing": "2.5",
+        "support_bottom_z_distance": "0.2",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "2",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_spacing": "0.5",
+        "support_interface_speed": "80",
+        "support_interface_top_layers": "2",
+        "support_line_width": "110%",
+        "support_object_xy_distance": "0.35",
+        "support_on_build_plate_only": "0",
+        "support_speed": "150",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.3",
+        "support_type": "tree(auto)",
+        "top_shell_layers": "5",
+        "top_shell_thickness": "2",
+        "top_surface_acceleration": "2000",
+        "top_surface_jerk": "6",
+        "top_surface_line_width": "110%",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_speed": "200",
+        "travel_acceleration": "6000",
+        "travel_speed": "1000",
+        "tree_support_branch_angle": "30",
+        "tree_support_wall_count": "0",
+        "type": "process",
+        "wall_generator": "classic",
+        "wall_infill_order": "inner wall/outer wall/infill",
+        "wall_loops": "3",
+        "wall_sequence": "inner-outer-inner wall",
+        "wipe_before_external_loop": "1",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0"
+      }
+    }
+  ],
+  "settings": {
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n",
+    "change_filament_gcode": "",
+    "default_filament_profile": [
+      "Meltingplot PLA @0.4 nozzle"
+    ],
+    "default_print_profile": "0.18mm Fine 0.4 nozzle @Meltingplot CHX 350",
+    "deretraction_speed": [
+      "40"
+    ],
+    "disable_m73": "1",
+    "emit_machine_limits_to_gcode": "0",
+    "extruder_clearance_height_to_lid": "150",
+    "extruder_clearance_height_to_rod": "20",
+    "extruder_clearance_radius": "65",
+    "extruder_colour": [
+      "#FCE94F"
+    ],
+    "extruder_offset": [
+      "0x0"
+    ],
+    "fan_kickstart": "0.5",
+    "fan_speedup_time": "1",
+    "from": "system",
+    "gcode_flavor": "reprapfirmware",
+    "host_type": "duet",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]",
+    "machine_end_gcode": "G90\nG1 Z{min(max_layer_z + 5, printable_height)} F600\nM98 P\"0:/sys/meltingplot/print_end\"",
+    "machine_max_acceleration_e": [
+      "3000"
+    ],
+    "machine_max_acceleration_extruding": [
+      "6000"
+    ],
+    "machine_max_acceleration_retracting": [
+      "3000"
+    ],
+    "machine_max_acceleration_travel": [
+      "6000"
+    ],
+    "machine_max_acceleration_x": [
+      "6000"
+    ],
+    "machine_max_acceleration_y": [
+      "6000"
+    ],
+    "machine_max_acceleration_z": [
+      "400"
+    ],
+    "machine_max_jerk_e": [
+      "33.33"
+    ],
+    "machine_max_jerk_x": [
+      "12"
+    ],
+    "machine_max_jerk_y": [
+      "12"
+    ],
+    "machine_max_jerk_z": [
+      "1.2"
+    ],
+    "machine_max_speed_e": [
+      "60"
+    ],
+    "machine_max_speed_x": [
+      "833.33"
+    ],
+    "machine_max_speed_y": [
+      "1000"
+    ],
+    "machine_max_speed_z": [
+      "30"
+    ],
+    "machine_min_extruding_rate": [
+      "0"
+    ],
+    "machine_min_travel_rate": [
+      "0"
+    ],
+    "machine_pause_gcode": "M226",
+    "machine_start_gcode": "M140 P0 S{first_layer_bed_temperature[0]} ; set bed temp\nG10 P0 S{first_layer_temperature[0]}\nM568 P0 R{first_layer_temperature[0] + standby_temperature_delta} S{first_layer_temperature[0]} A2\n\nM83 ; use relative distances for extrusion\nG90 ; use absolute coordinates\n\nM98 P\"0:/sys/meltingplot/print_start\"",
+    "max_layer_height": [
+      "0.24"
+    ],
+    "max_resonance_avoidance_speed": "105",
+    "min_layer_height": [
+      "0.16"
+    ],
+    "min_resonance_avoidance_speed": "40",
+    "name": "Meltingplot CHX 350 0.4 nozzle",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "nozzle_type": [
+      "stainless_steel"
+    ],
+    "printable_area": [
+      "0x0",
+      "880x0",
+      "880x422",
+      "0x422"
+    ],
+    "printable_height": "943",
+    "printer_model": "Meltingplot CHX 350",
+    "printer_settings_id": "",
+    "printer_technology": "FFF",
+    "printer_variant": "0.4",
+    "purge_in_prime_tower": "0",
+    "resonance_avoidance": "0",
+    "retract_before_wipe": [
+      "0%"
+    ],
+    "retract_length_toolchange": [
+      "0"
+    ],
+    "retract_restart_extra": [
+      "0"
+    ],
+    "retract_restart_extra_toolchange": [
+      "0"
+    ],
+    "retract_when_changing_layer": [
+      "1"
+    ],
+    "retraction_length": [
+      "0"
+    ],
+    "retraction_minimum_travel": [
+      "2"
+    ],
+    "retraction_speed": [
+      "60"
+    ],
+    "single_extruder_multi_material": "0",
+    "time_cost": "5",
+    "travel_slope": [
+      "1"
+    ],
+    "type": "machine",
+    "use_firmware_retraction": "1",
+    "wipe": [
+      "0"
+    ],
+    "z_hop": [
+      "0"
+    ],
+    "z_hop_types": [
+      "Normal Lift"
+    ]
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Meltingplot/machine/Meltingplot CHX 350 0.4 nozzle.json",
+    "name": "OrcaSlicer"
+  }
+}

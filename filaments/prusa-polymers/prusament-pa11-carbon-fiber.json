@@ -1,0 +1,720 @@
+{
+  "format": 1,
+  "id": "prusa-polymers/prusament-pa11-carbon-fiber",
+  "manufacturer": "Prusa Polymers",
+  "name": "Prusament PA11 Carbon Fiber",
+  "settings": {
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": "4",
+    "compatible_printers": [
+      "Prusa MK4S 0.25 nozzle",
+      "Prusa MK4S 0.3 nozzle",
+      "Prusa MK4S 0.4 nozzle",
+      "Prusa MK4S 0.5 nozzle"
+    ],
+    "cool_plate_temp": [
+      "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "0"
+    ],
+    "eng_plate_temp": [
+      "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "100"
+    ],
+    "fan_cooling_layer_time": "20",
+    "fan_max_speed": "12",
+    "fan_min_speed": "12",
+    "filament_cost": [
+      "124.99"
+    ],
+    "filament_density": [
+      "1.11"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; Filament-specific end gcode"
+    ],
+    "filament_flow_ratio": [
+      "1"
+    ],
+    "filament_id": "OF4MZtnE",
+    "filament_max_volumetric_speed": [
+      "6.5"
+    ],
+    "filament_minimal_purge_on_wipe_tower": "35",
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.04{elsif nozzle_diameter[filament_extruder_id]==0.25}0.1{elsif nozzle_diameter[filament_extruder_id]==0.3}0.06{elsif nozzle_diameter[filament_extruder_id]==0.35}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.03{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.012{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+    ],
+    "filament_type": [
+      "PA11-CF"
+    ],
+    "filament_vendor": [
+      "Prusa Polymers"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "115"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "90"
+    ],
+    "idle_temperature": "0",
+    "name": "Prusament PA11 Carbon Fiber @MK4S",
+    "nozzle_temperature": [
+      "285"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "275"
+    ],
+    "nozzle_temperature_range_high": [
+      "300"
+    ],
+    "nozzle_temperature_range_low": [
+      "270"
+    ],
+    "overhang_fan_speed": "20",
+    "overhang_fan_threshold": [
+      "95%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "0"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": "10",
+    "slow_down_min_speed": "15",
+    "temperature_vitrification": [
+      "108"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Prusa/filament/Prusament PA11 Carbon Fiber @MK4S.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PA11-CF",
+  "variants": [
+    {
+      "catalogID": 104294,
+      "name": "Prusament PA11 Carbon Fiber @CORE One",
+      "printers": [
+        "prusa-research/core-one-0-25",
+        "prusa-research/core-one-0-3",
+        "prusa-research/core-one-0-4",
+        "prusa-research/core-one-0-5",
+        "prusa-research/core-one-hf-0-4",
+        "prusa-research/core-one-hf-0-5",
+        "prusa-research/core-one-mmu3-0-25",
+        "prusa-research/core-one-mmu3-0-3",
+        "prusa-research/core-one-mmu3-0-4",
+        "prusa-research/core-one-mmu3-0-6"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "40"
+        ],
+        "close_fan_the_first_x_layers": [
+          "4"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One 0.25 nozzle",
+          "Prusa CORE One 0.3 nozzle",
+          "Prusa CORE One 0.4 nozzle",
+          "Prusa CORE One 0.5 nozzle",
+          "Prusa CORE One HF 0.4 nozzle",
+          "Prusa CORE One HF 0.5 nozzle",
+          "Prusa CORE One MMU3 0.4 nozzle",
+          "Prusa CORE One MMU3 0.25 nozzle",
+          "Prusa CORE One MMU3 0.3 nozzle",
+          "Prusa CORE One MMU3 0.6 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "15"
+        ],
+        "fan_max_speed": [
+          "20"
+        ],
+        "fan_min_speed": [
+          "15"
+        ],
+        "filament_flow_ratio": [
+          "1.05"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.07{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{elsif nozzle_diameter[filament_extruder_id]==0.35}0.08{elsif nozzle_diameter[filament_extruder_id]==0.6}0.04{elsif nozzle_diameter[filament_extruder_id]==0.5}0.05{elsif nozzle_diameter[filament_extruder_id]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.035{elsif nozzle_diameter[filament_extruder_id]==0.6}0.025{elsif nozzle_diameter[filament_extruder_id]==0.8}0.016{elsif nozzle_diameter[filament_extruder_id]==0.25}0.14{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S45 ; set heatbreak target temp"
+        ],
+        "filament_z_hop": [
+          "0.2"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet"
+        ],
+        "name": "Prusament PA11 Carbon Fiber @CORE One",
+        "overhang_fan_speed": [
+          "20"
+        ],
+        "renamed_from": "Prusament PA-CF CORE One;Prusament PA-CF @CORE One MMU3;Prusament PA-CF CORE One MMU3;Prusament PA-CF @CORE One",
+        "slow_down_layer_time": [
+          "20"
+        ],
+        "slow_down_min_speed": [
+          "15"
+        ]
+      }
+    },
+    {
+      "catalogID": 104295,
+      "name": "Prusament PA11 Carbon Fiber @CORE One 0.6",
+      "printers": [
+        "prusa-research/core-one-0-6",
+        "prusa-research/core-one-hf-0-6"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "40"
+        ],
+        "close_fan_the_first_x_layers": [
+          "4"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One 0.6 nozzle",
+          "Prusa CORE One HF 0.6 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "18"
+        ],
+        "fan_max_speed": [
+          "20"
+        ],
+        "fan_min_speed": [
+          "15"
+        ],
+        "filament_flow_ratio": [
+          "1.05"
+        ],
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.07{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{elsif nozzle_diameter[filament_extruder_id]==0.35}0.08{elsif nozzle_diameter[filament_extruder_id]==0.6}0.04{elsif nozzle_diameter[filament_extruder_id]==0.5}0.05{elsif nozzle_diameter[filament_extruder_id]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.035{elsif nozzle_diameter[filament_extruder_id]==0.6}0.025{elsif nozzle_diameter[filament_extruder_id]==0.8}0.016{elsif nozzle_diameter[filament_extruder_id]==0.25}0.14{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S45 ; set heatbreak target temp"
+        ],
+        "filament_z_hop": [
+          "0.2"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet"
+        ],
+        "name": "Prusament PA11 Carbon Fiber @CORE One 0.6",
+        "overhang_fan_speed": [
+          "20"
+        ],
+        "renamed_from": "Prusament PA-CF CORE One 0.6;Prusament PA-CF @CORE One 0.6",
+        "slow_down_layer_time": [
+          "20"
+        ],
+        "slow_down_min_speed": [
+          "15"
+        ]
+      }
+    },
+    {
+      "catalogID": 104296,
+      "name": "Prusament PA11 Carbon Fiber @CORE One 0.8",
+      "printers": [
+        "prusa-research/core-one-0-8",
+        "prusa-research/core-one-hf-0-8"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "40"
+        ],
+        "close_fan_the_first_x_layers": [
+          "4"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One 0.8 nozzle",
+          "Prusa CORE One HF 0.8 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "20"
+        ],
+        "fan_max_speed": [
+          "20"
+        ],
+        "fan_min_speed": [
+          "15"
+        ],
+        "filament_flow_ratio": [
+          "1.05"
+        ],
+        "filament_max_volumetric_speed": [
+          "10"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.07{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{elsif nozzle_diameter[filament_extruder_id]==0.35}0.08{elsif nozzle_diameter[filament_extruder_id]==0.6}0.04{elsif nozzle_diameter[filament_extruder_id]==0.5}0.05{elsif nozzle_diameter[filament_extruder_id]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.035{elsif nozzle_diameter[filament_extruder_id]==0.6}0.025{elsif nozzle_diameter[filament_extruder_id]==0.8}0.016{elsif nozzle_diameter[filament_extruder_id]==0.25}0.14{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S45 ; set heatbreak target temp"
+        ],
+        "filament_z_hop": [
+          "0.2"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet"
+        ],
+        "name": "Prusament PA11 Carbon Fiber @CORE One 0.8",
+        "overhang_fan_speed": [
+          "20"
+        ],
+        "renamed_from": "Prusament PA-CF CORE One 0.8;Prusament PA-CF @CORE One 0.8",
+        "slow_down_layer_time": [
+          "20"
+        ],
+        "slow_down_min_speed": [
+          "15"
+        ]
+      }
+    },
+    {
+      "catalogID": 104297,
+      "name": "Prusament PA11 Carbon Fiber @MK3S",
+      "printers": [
+        "prusa-research/mk3s-0-25",
+        "prusa-research/mk3s-0-4",
+        "prusa-research/mk3s-0-6",
+        "prusa-research/mk3s-0-8"
+      ],
+      "settings": {
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Prusa MK3S 0.25 nozzle",
+          "Prusa MK3S 0.4 nozzle",
+          "Prusa MK3S 0.6 nozzle",
+          "Prusa MK3S 0.8 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "4"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "fan_min_speed": [
+          "0"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "15"
+        ],
+        "filament_spool_weight": [
+          "197"
+        ],
+        "filament_start_gcode": [
+          "; Filament gcode\nM900 K{if printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.6}0.12{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.8}0.06{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/}0.2{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.6}0.02{else}0.04{endif} ; Filament gcode LA 1.5\n{if printer_notes=~/.*PRINTER_MODEL_MINI.*/};{elsif printer_notes=~/.*PRINTER_HAS_BOWDEN.*/}M900 K200{elsif nozzle_diameter[0]==0.6}M900 K12{elsif nozzle_diameter[0]==0.8};{else}M900 K20{endif} ; Filament gcode LA 1.0"
+        ],
+        "name": "Prusament PA11 Carbon Fiber @MK3S",
+        "overhang_fan_speed": [
+          "30"
+        ],
+        "slow_down_layer_time": [
+          "2"
+        ],
+        "slow_down_min_speed": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104298,
+      "name": "Prusament PA11 Carbon Fiber @MK4",
+      "printers": [
+        "prusa-research/mk4-0-25",
+        "prusa-research/mk4-0-4",
+        "prusa-research/mk4-0-6",
+        "prusa-research/mk4-0-8"
+      ],
+      "settings": {
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Prusa MK4 0.25 nozzle",
+          "Prusa MK4 0.4 nozzle",
+          "Prusa MK4 0.6 nozzle",
+          "Prusa MK4 0.8 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "4"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "fan_min_speed": [
+          "0"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "15"
+        ],
+        "filament_spool_weight": [
+          "197"
+        ],
+        "filament_start_gcode": [
+          "; Filament gcode\nM900 K{if nozzle_diameter[0]==0.4}0.03{elsif nozzle_diameter[0]==0.25}0.1{elsif nozzle_diameter[0]==0.3}0.06{elsif nozzle_diameter[0]==0.35}0.05{elsif nozzle_diameter[0]==0.5}0.03{elsif nozzle_diameter[0]==0.6}0.02{elsif nozzle_diameter[0]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*PRINTER_MODEL_MK4IS.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.02{elsif nozzle_diameter[0]==0.5}0.018{elsif nozzle_diameter[0]==0.6}0.012{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.25}0.09{elsif nozzle_diameter[0]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+        ],
+        "name": "Prusament PA11 Carbon Fiber @MK4",
+        "overhang_fan_speed": [
+          "30"
+        ],
+        "slow_down_layer_time": [
+          "2"
+        ],
+        "slow_down_min_speed": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104299,
+      "name": "Prusament PA11 Carbon Fiber @MK4S",
+      "printers": [
+        "prusa-research/mk4s-0-25",
+        "prusa-research/mk4s-0-3",
+        "prusa-research/mk4s-0-4",
+        "prusa-research/mk4s-0-5"
+      ],
+      "settings": {
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "197"
+        ]
+      }
+    },
+    {
+      "catalogID": 104300,
+      "name": "Prusament PA11 Carbon Fiber @MK4S 0.6",
+      "printers": [
+        "prusa-research/mk4s-0-6"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S 0.6 nozzle"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "197"
+        ],
+        "name": "Prusament PA11 Carbon Fiber @MK4S 0.6",
+        "slow_down_layer_time": "15"
+      }
+    },
+    {
+      "catalogID": 104301,
+      "name": "Prusament PA11 Carbon Fiber @MK4S 0.8",
+      "printers": [
+        "prusa-research/mk4s-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S 0.8 nozzle"
+        ],
+        "fan_max_speed": "15",
+        "fan_min_speed": "15",
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "197"
+        ],
+        "name": "Prusament PA11 Carbon Fiber @MK4S 0.8",
+        "slow_down_layer_time": "18"
+      }
+    },
+    {
+      "catalogID": 104302,
+      "name": "Prusament PA11 Carbon Fiber @MK4S HF0.4",
+      "printers": [
+        "prusa-research/mk4s-hf0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S HF0.4 nozzle"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "197"
+        ],
+        "filament_start_gcode": [
+          "M572 S{if nozzle_diameter[0]==0.4}0.02{elsif nozzle_diameter[0]==0.5}0.018{elsif nozzle_diameter[0]==0.6}0.015{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.25}0.09{elsif nozzle_diameter[0]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+        ],
+        "name": "Prusament PA11 Carbon Fiber @MK4S HF0.4",
+        "slow_down_layer_time": "15"
+      }
+    },
+    {
+      "catalogID": 104303,
+      "name": "Prusament PA11 Carbon Fiber @MK4S HF0.5",
+      "printers": [
+        "prusa-research/mk4s-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S HF0.5 nozzle"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "197"
+        ],
+        "name": "Prusament PA11 Carbon Fiber @MK4S HF0.5"
+      }
+    },
+    {
+      "catalogID": 104304,
+      "name": "Prusament PA11 Carbon Fiber @MK4S HF0.6",
+      "printers": [
+        "prusa-research/mk4s-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S HF0.6 nozzle"
+        ],
+        "fan_max_speed": "15",
+        "fan_min_speed": "15",
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "197"
+        ],
+        "name": "Prusament PA11 Carbon Fiber @MK4S HF0.6"
+      }
+    },
+    {
+      "catalogID": 104305,
+      "name": "Prusament PA11 Carbon Fiber @MK4S HF0.8",
+      "printers": [
+        "prusa-research/mk4s-hf0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S HF0.8 nozzle"
+        ],
+        "fan_max_speed": "15",
+        "fan_min_speed": "15",
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "197"
+        ],
+        "name": "Prusament PA11 Carbon Fiber @MK4S HF0.8",
+        "slow_down_layer_time": "20"
+      }
+    },
+    {
+      "catalogID": 104306,
+      "name": "Prusament PA11 Carbon Fiber @XL",
+      "printers": [
+        "prusa-research/xl-0-25",
+        "prusa-research/xl-0-3",
+        "prusa-research/xl-0-4",
+        "prusa-research/xl-0-5",
+        "prusa-research/xl-0-6",
+        "prusa-research/xl-0-8",
+        "prusa-research/xl-5t-0-25",
+        "prusa-research/xl-5t-0-3",
+        "prusa-research/xl-5t-0-4",
+        "prusa-research/xl-5t-0-5",
+        "prusa-research/xl-5t-0-6",
+        "prusa-research/xl-5t-0-8"
+      ],
+      "settings": {
+        "close_fan_the_first_x_layers": [
+          "4"
+        ],
+        "compatible_printers": [
+          "Prusa XL 0.25 nozzle",
+          "Prusa XL 0.3 nozzle",
+          "Prusa XL 0.4 nozzle",
+          "Prusa XL 0.5 nozzle",
+          "Prusa XL 0.6 nozzle",
+          "Prusa XL 0.8 nozzle",
+          "Prusa XL 5T 0.25 nozzle",
+          "Prusa XL 5T 0.3 nozzle",
+          "Prusa XL 5T 0.4 nozzle",
+          "Prusa XL 5T 0.5 nozzle",
+          "Prusa XL 5T 0.6 nozzle",
+          "Prusa XL 5T 0.8 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "4"
+        ],
+        "fan_max_speed": [
+          "20"
+        ],
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cooling_final_speed": [
+          "50"
+        ],
+        "filament_cooling_initial_speed": [
+          "10"
+        ],
+        "filament_cooling_moves": [
+          "5"
+        ],
+        "filament_cost": [
+          "20"
+        ],
+        "filament_density": [
+          "1.04"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n"
+        ],
+        "filament_flow_ratio": [
+          "1.05"
+        ],
+        "filament_loading_speed": [
+          "14"
+        ],
+        "filament_loading_speed_start": [
+          "19"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "15"
+        ],
+        "filament_multitool_ramming": [
+          "1"
+        ],
+        "filament_multitool_ramming_flow": [
+          "40"
+        ],
+        "filament_multitool_ramming_volume": [
+          "5"
+        ],
+        "filament_retract_lift_below": [
+          "1.5"
+        ],
+        "filament_stamping_distance": [
+          "45"
+        ],
+        "filament_stamping_loading_speed": [
+          "29"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\nM900 K{if nozzle_diameter[0]==0.4}0.07{elsif nozzle_diameter[0]==0.3}0.09{elsif nozzle_diameter[0]==0.35}0.08{elsif nozzle_diameter[0]==0.6}0.04{elsif nozzle_diameter[0]==0.5}0.05{elsif nozzle_diameter[0]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*PRINTER_MODEL_XLIS.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.05{elsif nozzle_diameter[0]==0.5}0.035{elsif nozzle_diameter[0]==0.6}0.025{elsif nozzle_diameter[0]==0.8}0.016{elsif nozzle_diameter[0]==0.25}0.14{elsif nozzle_diameter[0]==0.3}0.09{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S45 ; set heatbreak target temp"
+        ],
+        "filament_unloading_speed": [
+          "20"
+        ],
+        "filament_unloading_speed_start": [
+          "100"
+        ],
+        "hot_plate_temp": [
+          "105"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "100"
+        ],
+        "name": "Prusament PA11 Carbon Fiber @XL",
+        "overhang_fan_speed": [
+          "30"
+        ],
+        "renamed_from": "Prusament PA-CF XL;Prusament PA-CF @XL 5T;Prusament PA-CF XL 5T;Prusament PA-CF @XL",
+        "slow_down_layer_time": [
+          "20"
+        ],
+        "slow_down_min_speed": [
+          "15"
+        ]
+      }
+    }
+  ]
+}

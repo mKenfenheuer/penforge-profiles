@@ -1,0 +1,288 @@
+{
+  "format": 1,
+  "id": "colorfabb/tpu-95a-prusaslicer",
+  "manufacturer": "colorFabb",
+  "name": "ColorFabb TPU 95A",
+  "settings": {
+    "bed_temperature": "60",
+    "bridge_fan_speed": "70",
+    "compatible_printers": "",
+    "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]>=0.3 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8",
+    "cooling": "0",
+    "disable_fan_first_layers": "5",
+    "end_filament_gcode": "; Filament-specific end gcode",
+    "extrusion_multiplier": "1.05",
+    "fan_always_on": "1",
+    "fan_below_layer_time": "100",
+    "filament_colour": "#008000",
+    "filament_cooling_final_speed": "3.4",
+    "filament_cooling_initial_speed": "2.2",
+    "filament_cooling_moves": "4",
+    "filament_cost": "44.49",
+    "filament_density": "1.2",
+    "filament_deretract_speed": "20",
+    "filament_diameter": "1.75",
+    "filament_load_time": "0",
+    "filament_loading_speed": "28",
+    "filament_loading_speed_start": "3",
+    "filament_max_volumetric_speed": "3",
+    "filament_minimal_purge_on_wipe_tower": "35",
+    "filament_notes": "",
+    "filament_ramming_parameters": "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6",
+    "filament_retract_before_travel": "2",
+    "filament_retract_length": "2",
+    "filament_retract_lift": "0",
+    "filament_retract_speed": "60",
+    "filament_settings_id": "",
+    "filament_soluble": "0",
+    "filament_spool_weight": "242",
+    "filament_toolchange_delay": "0",
+    "filament_travel_max_lift": "1.5",
+    "filament_type": "FLEX",
+    "filament_unload_time": "0",
+    "filament_unloading_speed": "90",
+    "filament_unloading_speed_start": "100",
+    "filament_vendor": "ColorFabb",
+    "filament_wipe": "0",
+    "first_layer_bed_temperature": "60",
+    "first_layer_temperature": "240",
+    "full_fan_speed_layer": "5",
+    "idle_temperature": "70",
+    "max_fan_speed": "40",
+    "min_fan_speed": "40",
+    "min_print_speed": "15",
+    "name": "ColorFabb TPU 95A @XL+",
+    "slowdown_below_layer_time": "15",
+    "start_filament_gcode": "M572 S0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp",
+    "temperature": "240"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "PrusaResearch/2.5.16.ini",
+    "name": "PrusaSlicer-settings-prusa-fff",
+    "section": "filament:ColorFabb TPU 95A @XL+"
+  },
+  "type": "FLEX",
+  "variants": [
+    {
+      "catalogID": 107847,
+      "name": "ColorFabb TPU 95A @COREONE",
+      "printers": [
+        "prusa-research/signature-oak-0-25",
+        "prusa-research/signature-oak-0-3",
+        "prusa-research/signature-oak-0-4",
+        "prusa-research/signature-oak-0-5",
+        "prusa-research/signature-oak-hf0-4",
+        "prusa-research/signature-oak-hf0-5"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "0",
+        "chamber_temperature": "30",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "filament_load_time": "10.9",
+        "filament_max_volumetric_speed": "3.5",
+        "filament_minimal_purge_on_wipe_tower": "15",
+        "filament_retract_layer_change": "0",
+        "filament_travel_max_lift": "0.6",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "150",
+        "max_fan_speed": "45",
+        "min_fan_speed": "45",
+        "name": "ColorFabb TPU 95A @COREONE",
+        "start_filament_gcode": "M900 K0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+      }
+    },
+    {
+      "catalogID": 107848,
+      "name": "ColorFabb TPU 95A @COREONE 0.6",
+      "printers": [
+        "prusa-research/signature-oak-0-6",
+        "prusa-research/signature-oak-hf0-6"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "0",
+        "chamber_temperature": "30",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "filament_load_time": "10.9",
+        "filament_max_volumetric_speed": "4.5",
+        "filament_minimal_purge_on_wipe_tower": "15",
+        "filament_retract_layer_change": "0",
+        "filament_travel_max_lift": "0.6",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "150",
+        "max_fan_speed": "45",
+        "min_fan_speed": "45",
+        "name": "ColorFabb TPU 95A @COREONE 0.6",
+        "start_filament_gcode": "M900 K0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+      }
+    },
+    {
+      "catalogID": 107849,
+      "name": "ColorFabb TPU 95A @MK4",
+      "printers": [
+        "prusa-research/mk3-9-0-3",
+        "prusa-research/mk3-9-0-4",
+        "prusa-research/mk3-9-0-5",
+        "prusa-research/mk3-9-hf0-4",
+        "prusa-research/mk3-9-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]>=0.3 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and ! single_extruder_multi_material",
+        "filament_max_volumetric_speed": "3.5",
+        "filament_minimal_purge_on_wipe_tower": "15",
+        "filament_retract_layer_change": "0",
+        "filament_travel_max_lift": "0.6",
+        "max_fan_speed": "50",
+        "min_fan_speed": "50",
+        "name": "ColorFabb TPU 95A @MK4",
+        "start_filament_gcode": "M900 K0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+      }
+    },
+    {
+      "catalogID": 107850,
+      "name": "ColorFabb TPU 95A @MK4 0.6",
+      "printers": [
+        "prusa-research/mk3-9-0-6",
+        "prusa-research/mk3-9-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "filament_max_volumetric_speed": "4.5",
+        "filament_minimal_purge_on_wipe_tower": "15",
+        "filament_retract_layer_change": "0",
+        "filament_travel_max_lift": "0.6",
+        "max_fan_speed": "50",
+        "min_fan_speed": "50",
+        "name": "ColorFabb TPU 95A @MK4 0.6",
+        "start_filament_gcode": "M900 K0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+      }
+    },
+    {
+      "catalogID": 107851,
+      "name": "ColorFabb TPU 95A @MK4S",
+      "printers": [
+        "prusa-research/mk3-9s-0-3",
+        "prusa-research/mk3-9s-0-4",
+        "prusa-research/mk3-9s-0-5",
+        "prusa-research/mk3-9s-hf0-4",
+        "prusa-research/mk3-9s-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]>=0.3 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and ! single_extruder_multi_material",
+        "filament_max_volumetric_speed": "3.5",
+        "filament_minimal_purge_on_wipe_tower": "15",
+        "filament_retract_layer_change": "0",
+        "filament_travel_max_lift": "0.6",
+        "name": "ColorFabb TPU 95A @MK4S",
+        "start_filament_gcode": "M900 K0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+      }
+    },
+    {
+      "catalogID": 107852,
+      "name": "ColorFabb TPU 95A @MK4S 0.6",
+      "printers": [
+        "prusa-research/mk3-9s-0-6",
+        "prusa-research/mk3-9s-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "filament_max_volumetric_speed": "4.5",
+        "filament_minimal_purge_on_wipe_tower": "15",
+        "filament_retract_layer_change": "0",
+        "filament_travel_max_lift": "0.6",
+        "name": "ColorFabb TPU 95A @MK4S 0.6",
+        "start_filament_gcode": "M900 K0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+      }
+    },
+    {
+      "catalogID": 107853,
+      "name": "ColorFabb TPU 95A @XL",
+      "printers": [
+        "prusa-research/xl-2t-0-3",
+        "prusa-research/xl-2t-0-4",
+        "prusa-research/xl-2t-0-5",
+        "prusa-research/xl-2t-input-shaper-0-3",
+        "prusa-research/xl-2t-input-shaper-0-4",
+        "prusa-research/xl-2t-input-shaper-0-5",
+        "prusa-research/xl-2t-input-shaper-hf0-4",
+        "prusa-research/xl-2t-input-shaper-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]>=0.3 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "3",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_length_toolchange": "2",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "max_fan_speed": "50",
+        "min_fan_speed": "50",
+        "name": "ColorFabb TPU 95A @XL",
+        "start_filament_gcode": "M900 K0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+      }
+    },
+    {
+      "catalogID": 107854,
+      "name": "ColorFabb TPU 95A @XL 0.6",
+      "printers": [
+        "prusa-research/xl-2t-0-6",
+        "prusa-research/xl-2t-input-shaper-0-6",
+        "prusa-research/xl-2t-input-shaper-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.6",
+        "filament_max_volumetric_speed": "4",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "4",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_length_toolchange": "2",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "max_fan_speed": "50",
+        "min_fan_speed": "50",
+        "name": "ColorFabb TPU 95A @XL 0.6",
+        "start_filament_gcode": "M900 K0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+      }
+    },
+    {
+      "catalogID": 107855,
+      "name": "ColorFabb TPU 95A @XL+",
+      "printers": [
+        "prusa-research/xlplus-2t-0-3",
+        "prusa-research/xlplus-2t-0-4",
+        "prusa-research/xlplus-2t-0-5",
+        "prusa-research/xlplus-2t-hf0-4",
+        "prusa-research/xlplus-2t-hf0-5"
+      ],
+      "settings": {
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "3",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_length_toolchange": "2",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1"
+      }
+    },
+    {
+      "catalogID": 107856,
+      "name": "ColorFabb TPU 95A @XL+ 0.6",
+      "printers": [
+        "prusa-research/xlplus-2t-0-6",
+        "prusa-research/xlplus-2t-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.6",
+        "filament_max_volumetric_speed": "4",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "4",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_length_toolchange": "2",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "name": "ColorFabb TPU 95A @XL+ 0.6"
+      }
+    }
+  ]
+}

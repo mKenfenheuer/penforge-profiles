@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "id": "essentium/support-s10-prusaslicer",
+  "manufacturer": "Essentium",
+  "name": "Essentium Support S10",
+  "settings": {
+    "bed_temperature": "60",
+    "bridge_fan_speed": "10",
+    "compatible_printers": "",
+    "compatible_printers_condition": "nozzle_diameter[0]==0.6",
+    "compatible_prints_condition": "notes=~/.*SOLUBLE_SUPPORT.*/",
+    "cooling": "1",
+    "disable_fan_first_layers": "4",
+    "extrusion_multiplier": "0.90",
+    "fan_always_on": "1",
+    "fan_below_layer_time": "30",
+    "filament_colour": "#FF3232",
+    "filament_cost": "100.00",
+    "filament_density": "1.14",
+    "filament_diameter": "1.75",
+    "filament_max_volumetric_speed": "10",
+    "filament_notes": "Essentium Support S10",
+    "filament_settings_id": "",
+    "filament_soluble": "1",
+    "filament_spool_weight": "325",
+    "filament_type": "PVA",
+    "filament_vendor": "Essentium",
+    "first_layer_bed_temperature": "60",
+    "first_layer_temperature": "210",
+    "idle_temperature": "120",
+    "max_fan_speed": "10",
+    "min_fan_speed": "5",
+    "min_print_speed": "15",
+    "name": "Essentium Support S10 @HSP1 0.6 Takoto",
+    "slowdown_below_layer_time": "10",
+    "start_filament_gcode": "; Filament gcode\n{local pressure_advance = 0.04}\n{if printer_notes=~/.*DUPLICATOR_MODE.*/}\nM572 D0:1 S{pressure_advance}\n{else}\nM572 D{current_extruder} S{pressure_advance}\n{endif}",
+    "temperature": "215"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "HartSmartProducts/1.3.0.ini",
+    "name": "PrusaSlicer-settings-non-prusa-fff",
+    "section": "filament:Essentium Support S10 @HSP1 0.6 Takoto"
+  },
+  "type": "PVA",
+  "variants": [
+    {
+      "catalogID": 111750,
+      "name": "Essentium Support S10 @HSP1 0.6 Takoto",
+      "printers": [
+        "hartsmart-products/hsp1-i-0-6mm-takoto-duplicator",
+        "hartsmart-products/hsp1-i-0-6mm-takoto-mirror",
+        "hartsmart-products/hsp1-i-2x0-6mm-takoto"
+      ],
+      "settings": {}
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "id": "volumic/pva",
+  "manufacturer": "Volumic",
+  "name": "Volumic PVA",
+  "settings": {
+    "bed_type": [
+      "Hot Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [
+      "EXO42 (0.4 nozzle)",
+      "EXO65 (0.6 nozzle)",
+      "SH65 (0.4 nozzle)",
+      "VS30MK3 (0.4 nozzle)",
+      "VS30SC2 (0.4 nozzle)",
+      "VS30SC (0.4 nozzle)",
+      "VS30ULTRA (0.4 nozzle)",
+      "VS30MK2 (0.4 nozzle)",
+      "VS20MK2 (0.4 nozzle)",
+      "EXO42 Stage 2 (0.4 nozzle)",
+      "EXO65 Stage 2 (0.6 nozzle)",
+      "SH65 Stage 2 (0.4 nozzle)",
+      "VS30SC2 Stage 2 (0.4 nozzle)",
+      "VS30MK3 Stage 2 (0.4 nozzle)"
+    ],
+    "cool_plate_temp": [
+      "60"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "60"
+    ],
+    "eng_plate_temp": [
+      "60"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "60"
+    ],
+    "fan_cooling_layer_time": [
+      "100"
+    ],
+    "fan_max_speed": [
+      "70"
+    ],
+    "fan_min_speed": [
+      "40"
+    ],
+    "filament_cost": [
+      "37.50"
+    ],
+    "filament_density": [
+      "1.24"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_flow_ratio": [
+      "1.00"
+    ],
+    "filament_id": "OFGdP6Na",
+    "filament_is_support": [
+      "1"
+    ],
+    "filament_max_volumetric_speed": [
+      "20"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_soluble": [
+      "1"
+    ],
+    "filament_type": [
+      "PVA"
+    ],
+    "filament_vendor": [
+      "Volumic"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "60"
+    ],
+    "name": "Volumic PVA",
+    "nozzle_temperature": [
+      "210"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "220"
+    ],
+    "overhang_fan_speed": [
+      "80"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "4"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "textured_plate_temp": [
+      "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "60"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Volumic/filament/Volumic PVA.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PVA",
+  "variants": [
+    {
+      "catalogID": 106331,
+      "name": "Volumic PVA",
+      "printers": [
+        "volumic/exo42-0-4",
+        "volumic/exo42-stage-2-0-4",
+        "volumic/exo65-0-6",
+        "volumic/exo65-stage-2-0-6",
+        "volumic/sh65-0-4",
+        "volumic/sh65-stage-2-0-4",
+        "volumic/vs20mk2-0-4",
+        "volumic/vs30mk2-0-4",
+        "volumic/vs30mk3-0-4",
+        "volumic/vs30mk3-stage-2-0-4",
+        "volumic/vs30sc-0-4",
+        "volumic/vs30sc2-0-4",
+        "volumic/vs30sc2-stage-2-0-4",
+        "volumic/vs30ultra-0-4"
+      ],
+      "settings": {}
+    }
+  ]
+}

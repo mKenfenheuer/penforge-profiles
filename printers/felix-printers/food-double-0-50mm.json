@@ -1,0 +1,567 @@
+{
+  "format": 1,
+  "id": "felix-printers/food-double-0-50mm",
+  "manufacturer": "FELIX Printers",
+  "model": "Food Double",
+  "name": "FELIX Food Double 0.50mm nozzle",
+  "nozzle": 0.5,
+  "processes": [
+    {
+      "catalogID": 21342,
+      "default": false,
+      "name": "FELIX Food Coarse @ 0.50mm",
+      "settings": {
+        "bottom_shell_layers": "2",
+        "bottom_shell_thickness": "0",
+        "bottom_surface_pattern": "monotonic",
+        "bridge_flow": "1",
+        "bridge_no_support": "0",
+        "bridge_speed": "50",
+        "brim_object_gap": "0.1",
+        "brim_width": "5",
+        "compatible_printers": [
+          "FELIX Food Single 0.50mm nozzle",
+          "FELIX Food Double 0.50mm nozzle",
+          "FELIX Food Switch 0.50mm nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "default_acceleration": "0",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "0",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0",
+        "enable_arc_fitting": "0",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "filename_format": "{input_filename_base}_{layer_height}mm_{filament_type[initial_tool]}_{printer_model}_{print_time}.gcode",
+        "from": "system",
+        "gap_infill_speed": "30",
+        "infill_combination": "0",
+        "infill_direction": "45",
+        "infill_wall_overlap": "15%",
+        "initial_layer_acceleration": "500",
+        "initial_layer_infill_speed": [
+          "60.0"
+        ],
+        "initial_layer_line_width": "0.6",
+        "initial_layer_print_height": "0.4",
+        "initial_layer_speed": [
+          "60.0"
+        ],
+        "inner_wall_acceleration": "1000",
+        "inner_wall_line_width": "0.6",
+        "inner_wall_speed": [
+          "60.0"
+        ],
+        "interface_shells": "0",
+        "internal_solid_infill_line_width": "0.6",
+        "internal_solid_infill_speed": [
+          "60.0"
+        ],
+        "ironing_flow": "10%",
+        "ironing_spacing": "0.15",
+        "ironing_speed": "30",
+        "ironing_type": "no ironing",
+        "is_infill_first": "1",
+        "layer_height": "0.4",
+        "line_width": "0.6",
+        "max_travel_detour_distance": "0",
+        "min_skirt_length": "4",
+        "minimum_sparse_infill_area": "15",
+        "name": "FELIX Food Coarse @ 0.50mm",
+        "outer_wall_acceleration": "700",
+        "outer_wall_line_width": "0.6",
+        "outer_wall_speed": [
+          "60.0"
+        ],
+        "overhang_1_4_speed": "0",
+        "overhang_2_4_speed": "50",
+        "overhang_3_4_speed": "30",
+        "overhang_4_4_speed": "10",
+        "prime_tower_width": "30",
+        "prime_volume": "10",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction": "1",
+        "resolution": "0.012",
+        "seam_position": "aligned",
+        "skirt_distance": "2",
+        "skirt_height": "3",
+        "skirt_loops": "0",
+        "slowdown_for_curled_perimeters": "1",
+        "sparse_infill_density": "20%",
+        "sparse_infill_line_width": "0.6",
+        "sparse_infill_pattern": "rectilinear",
+        "sparse_infill_speed": [
+          "60.0"
+        ],
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "default",
+        "support_base_pattern_spacing": "2.5",
+        "support_bottom_z_distance": "0.4",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "2",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_spacing": "0.5",
+        "support_interface_speed": "80",
+        "support_interface_top_layers": "2",
+        "support_line_width": "0.6",
+        "support_object_xy_distance": "0.35",
+        "support_on_build_plate_only": "0",
+        "support_speed": [
+          "60.0"
+        ],
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.4",
+        "support_type": "tree(auto)",
+        "top_shell_layers": "2",
+        "top_shell_thickness": "0",
+        "top_surface_acceleration": "1000",
+        "top_surface_line_width": "0.6",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_speed": [
+          "60.0"
+        ],
+        "travel_acceleration": "1000",
+        "travel_speed": "120",
+        "tree_support_branch_angle": "30",
+        "tree_support_wall_count": "0",
+        "type": "process",
+        "wall_loops": "2",
+        "wall_sequence": "inner wall/outer wall",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0"
+      }
+    },
+    {
+      "catalogID": 21347,
+      "default": false,
+      "name": "FELIX Food Fine @ 0.50mm",
+      "settings": {
+        "bottom_shell_layers": "4",
+        "bottom_shell_thickness": "0",
+        "bottom_surface_pattern": "monotonic",
+        "bridge_flow": "1",
+        "bridge_no_support": "0",
+        "bridge_speed": "50",
+        "brim_object_gap": "0.1",
+        "brim_width": "5",
+        "compatible_printers": [
+          "FELIX Food Single 0.50mm nozzle",
+          "FELIX Food Double 0.50mm nozzle",
+          "FELIX Food Switch 0.50mm nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "default_acceleration": "0",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "0",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0",
+        "enable_arc_fitting": "0",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "filename_format": "{input_filename_base}_{layer_height}mm_{filament_type[initial_tool]}_{printer_model}_{print_time}.gcode",
+        "from": "system",
+        "gap_infill_speed": "30",
+        "infill_combination": "0",
+        "infill_direction": "45",
+        "infill_wall_overlap": "15%",
+        "initial_layer_acceleration": "500",
+        "initial_layer_infill_speed": [
+          "60.0"
+        ],
+        "initial_layer_line_width": "0.6",
+        "initial_layer_print_height": "0.25",
+        "initial_layer_speed": [
+          "60.0"
+        ],
+        "inner_wall_acceleration": "1000",
+        "inner_wall_line_width": "0.6",
+        "inner_wall_speed": [
+          "60.0"
+        ],
+        "interface_shells": "0",
+        "internal_solid_infill_line_width": "0.6",
+        "internal_solid_infill_speed": [
+          "60.0"
+        ],
+        "ironing_flow": "10%",
+        "ironing_spacing": "0.15",
+        "ironing_speed": "30",
+        "ironing_type": "no ironing",
+        "is_infill_first": "1",
+        "layer_height": "0.25",
+        "line_width": "0.6",
+        "max_travel_detour_distance": "0",
+        "min_skirt_length": "4",
+        "minimum_sparse_infill_area": "15",
+        "name": "FELIX Food Fine @ 0.50mm",
+        "outer_wall_acceleration": "700",
+        "outer_wall_line_width": "0.6",
+        "outer_wall_speed": [
+          "60.0"
+        ],
+        "overhang_1_4_speed": "0",
+        "overhang_2_4_speed": "50",
+        "overhang_3_4_speed": "30",
+        "overhang_4_4_speed": "10",
+        "prime_tower_width": "30",
+        "prime_volume": "10",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction": "1",
+        "resolution": "0.012",
+        "seam_position": "aligned",
+        "skirt_distance": "2",
+        "skirt_height": "3",
+        "skirt_loops": "0",
+        "slowdown_for_curled_perimeters": "1",
+        "sparse_infill_density": "20%",
+        "sparse_infill_line_width": "0.6",
+        "sparse_infill_pattern": "rectilinear",
+        "sparse_infill_speed": [
+          "60.0"
+        ],
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "default",
+        "support_base_pattern_spacing": "2.5",
+        "support_bottom_z_distance": "0.25",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "2",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_spacing": "0.5",
+        "support_interface_speed": "80",
+        "support_interface_top_layers": "2",
+        "support_line_width": "0.6",
+        "support_object_xy_distance": "0.35",
+        "support_on_build_plate_only": "0",
+        "support_speed": [
+          "60.0"
+        ],
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.25",
+        "support_type": "tree(auto)",
+        "top_shell_layers": "4",
+        "top_shell_thickness": "0",
+        "top_surface_acceleration": "1000",
+        "top_surface_line_width": "0.6",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_speed": [
+          "60.0"
+        ],
+        "travel_acceleration": "1000",
+        "travel_speed": "120",
+        "tree_support_branch_angle": "30",
+        "tree_support_wall_count": "0",
+        "type": "process",
+        "wall_loops": "2",
+        "wall_sequence": "inner wall/outer wall",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0"
+      }
+    },
+    {
+      "catalogID": 21352,
+      "default": true,
+      "name": "FELIX Food Normal @ 0.50mm",
+      "settings": {
+        "bottom_shell_layers": "3",
+        "bottom_shell_thickness": "0",
+        "bottom_surface_pattern": "monotonic",
+        "bridge_flow": "1",
+        "bridge_no_support": "0",
+        "bridge_speed": "50",
+        "brim_object_gap": "0.1",
+        "brim_width": "5",
+        "compatible_printers": [
+          "FELIX Food Single 0.50mm nozzle",
+          "FELIX Food Double 0.50mm nozzle",
+          "FELIX Food Switch 0.50mm nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "default_acceleration": "0",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "0",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0",
+        "enable_arc_fitting": "0",
+        "enable_prime_tower": "0",
+        "enable_support": "0",
+        "filename_format": "{input_filename_base}_{layer_height}mm_{filament_type[initial_tool]}_{printer_model}_{print_time}.gcode",
+        "from": "system",
+        "gap_infill_speed": "30",
+        "infill_combination": "0",
+        "infill_direction": "45",
+        "infill_wall_overlap": "15%",
+        "initial_layer_acceleration": "500",
+        "initial_layer_infill_speed": [
+          "60.0"
+        ],
+        "initial_layer_line_width": "0.6",
+        "initial_layer_print_height": "0.32",
+        "initial_layer_speed": [
+          "60.0"
+        ],
+        "inner_wall_acceleration": "1000",
+        "inner_wall_line_width": "0.6",
+        "inner_wall_speed": [
+          "60.0"
+        ],
+        "interface_shells": "0",
+        "internal_solid_infill_line_width": "0.6",
+        "internal_solid_infill_speed": [
+          "60.0"
+        ],
+        "ironing_flow": "10%",
+        "ironing_spacing": "0.15",
+        "ironing_speed": "30",
+        "ironing_type": "no ironing",
+        "is_infill_first": "1",
+        "layer_height": "0.32",
+        "line_width": "0.6",
+        "max_travel_detour_distance": "0",
+        "min_skirt_length": "4",
+        "minimum_sparse_infill_area": "15",
+        "name": "FELIX Food Normal @ 0.50mm",
+        "outer_wall_acceleration": "700",
+        "outer_wall_line_width": "0.6",
+        "outer_wall_speed": [
+          "60.0"
+        ],
+        "overhang_1_4_speed": "0",
+        "overhang_2_4_speed": "50",
+        "overhang_3_4_speed": "30",
+        "overhang_4_4_speed": "10",
+        "prime_tower_width": "30",
+        "prime_volume": "10",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction": "1",
+        "resolution": "0.012",
+        "seam_position": "aligned",
+        "skirt_distance": "2",
+        "skirt_height": "3",
+        "skirt_loops": "0",
+        "slowdown_for_curled_perimeters": "1",
+        "sparse_infill_density": "20%",
+        "sparse_infill_line_width": "0.6",
+        "sparse_infill_pattern": "rectilinear",
+        "sparse_infill_speed": [
+          "60.0"
+        ],
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "default",
+        "support_base_pattern_spacing": "2.5",
+        "support_bottom_z_distance": "0.32",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "2",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_spacing": "0.5",
+        "support_interface_speed": "80",
+        "support_interface_top_layers": "2",
+        "support_line_width": "0.6",
+        "support_object_xy_distance": "0.35",
+        "support_on_build_plate_only": "0",
+        "support_speed": [
+          "60.0"
+        ],
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.32",
+        "support_type": "tree(auto)",
+        "top_shell_layers": "3",
+        "top_shell_thickness": "0",
+        "top_surface_acceleration": "1000",
+        "top_surface_line_width": "0.6",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_speed": [
+          "60.0"
+        ],
+        "travel_acceleration": "1000",
+        "travel_speed": "120",
+        "tree_support_branch_angle": "30",
+        "tree_support_wall_count": "0",
+        "type": "process",
+        "wall_loops": "2",
+        "wall_sequence": "inner wall/outer wall",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0"
+      }
+    }
+  ],
+  "settings": {
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0\n",
+    "change_filament_gcode": "",
+    "default_filament_profile": [
+      "Food Medium Plastic Syringe @0.50mm"
+    ],
+    "default_print_profile": "FELIX Food Normal @ 0.50mm",
+    "deretraction_speed": [
+      "30"
+    ],
+    "extruder_clearance_height_to_lid": "140",
+    "extruder_clearance_height_to_rod": "36",
+    "extruder_clearance_radius": "65",
+    "extruder_colour": [
+      "#018001"
+    ],
+    "extruder_offset": [
+      "0x0",
+      "0x0"
+    ],
+    "extruder_type": [
+      "Direct Drive",
+      "Direct Drive"
+    ],
+    "from": "system",
+    "gcode_flavor": "repetier",
+    "layer_change_gcode": "G92 E0",
+    "machine_end_gcode": "; FELIX Food Twin - OrcaSlicer End G-code - V1.00\nG92 E0\nG1 E-{retraction_length[0]} F{retraction_speed[0]*60}\nG92 E0\nG91\nG1 Z10 F1200\nG90\nG28 X\nG28 Y\nM107\nM84\n",
+    "machine_max_acceleration_e": [
+      "5000",
+      "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+      "2000",
+      "2000"
+    ],
+    "machine_max_acceleration_retracting": [
+      "5000",
+      "5000"
+    ],
+    "machine_max_acceleration_travel": [
+      "3000",
+      "3000"
+    ],
+    "machine_max_acceleration_x": [
+      "2000",
+      "2000"
+    ],
+    "machine_max_acceleration_y": [
+      "2000",
+      "2000"
+    ],
+    "machine_max_acceleration_z": [
+      "300",
+      "200"
+    ],
+    "machine_max_jerk_e": [
+      "2.5",
+      "2.5"
+    ],
+    "machine_max_jerk_x": [
+      "9",
+      "9"
+    ],
+    "machine_max_jerk_y": [
+      "9",
+      "9"
+    ],
+    "machine_max_jerk_z": [
+      "0.2",
+      "0.4"
+    ],
+    "machine_max_speed_e": [
+      "20",
+      "20"
+    ],
+    "machine_max_speed_x": [
+      "150",
+      "150"
+    ],
+    "machine_max_speed_y": [
+      "150",
+      "150"
+    ],
+    "machine_max_speed_z": [
+      "10",
+      "10"
+    ],
+    "machine_min_extruding_rate": [
+      "0",
+      "0"
+    ],
+    "machine_min_travel_rate": [
+      "0",
+      "0"
+    ],
+    "machine_pause_gcode": "M400 U1\n",
+    "machine_start_gcode": "; FELIX Food Twin - OrcaSlicer Start G-code - V1.00\nM280 S1 ; Use 'S0' to turn Ditto off, use 'S1' to turn Ditto on\n{if bed_temperature_initial_layer_single>0}M190 S[bed_temperature_initial_layer_single]\n{endif}{if nozzle_temperature[0]>0}M104 S{nozzle_temperature[0]} T0\nM104 S{nozzle_temperature[0]} T1\n{endif}G28\nG90\nM82\nM107\n; =============== Prime routine ==================\nG1 X10 Y10 Z10 F6000\nM400\nG92 E0\nG1 E{2*retraction_length[0]+retract_restart_extra[0]+0.5} F15\nG92 E0\nG1 X{20+nozzle_diameter[0]*2} Y10 Z{nozzle_diameter[0]*0.5} F{travel_speed*60}\nG1 X{40+nozzle_diameter[0]*2} Y10 E{nozzle_diameter[0]*initial_layer_print_height*20/((filament_diameter[0]/2)*(filament_diameter[0]/2)*3.14159)} F{initial_layer_speed*60}\nG92 E0\n",
+    "max_layer_height": [
+      "0.4",
+      "0.4"
+    ],
+    "min_layer_height": [
+      "0.25",
+      "0.25"
+    ],
+    "name": "FELIX Food Double 0.50mm nozzle",
+    "nozzle_diameter": [
+      "0.5",
+      "0.5"
+    ],
+    "printable_area": [
+      "0x0",
+      "250x0",
+      "250x195",
+      "0x195"
+    ],
+    "printable_height": "150",
+    "printer_model": "FELIX Food Double",
+    "printer_settings_id": "",
+    "printer_technology": "FFF",
+    "printer_variant": "0.5",
+    "retract_before_wipe": [
+      "70%"
+    ],
+    "retract_length_toolchange": [
+      "2"
+    ],
+    "retract_restart_extra": [
+      "0"
+    ],
+    "retract_restart_extra_toolchange": [
+      "0"
+    ],
+    "retract_when_changing_layer": [
+      "1"
+    ],
+    "retraction_length": [
+      "0.8"
+    ],
+    "retraction_minimum_travel": [
+      "1"
+    ],
+    "retraction_speed": [
+      "30"
+    ],
+    "single_extruder_multi_material": "0",
+    "type": "machine",
+    "use_relative_e_distances": "1",
+    "wipe": [
+      "1"
+    ],
+    "z_hop": [
+      "0.4"
+    ]
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/FELIX Printers/machine/FELIX Food Double 0.50mm nozzle.json",
+    "name": "OrcaSlicer"
+  }
+}

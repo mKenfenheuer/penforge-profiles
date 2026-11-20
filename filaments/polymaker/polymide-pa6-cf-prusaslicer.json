@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "id": "polymaker/polymide-pa6-cf-prusaslicer",
+  "manufacturer": "Polymaker",
+  "name": "Polymaker PolyMide PA6-CF",
+  "settings": {
+    "bed_temperature": "50",
+    "bridge_fan_speed": "15",
+    "compatible_printers": "",
+    "cooling": "1",
+    "disable_fan_first_layers": "3",
+    "extrusion_multiplier": "0.93",
+    "fan_always_on": "1",
+    "fan_below_layer_time": "20",
+    "filament_colour": "#3A08AC",
+    "filament_cost": "74.99",
+    "filament_density": "1.17",
+    "filament_diameter": "1.75",
+    "filament_soluble": "0",
+    "filament_type": "NYLON",
+    "filament_vendor": "Polymaker",
+    "first_layer_bed_temperature": "50",
+    "first_layer_temperature": "285",
+    "min_print_speed": "15",
+    "name": "Polymaker PolyMide PA6-CF @HSP1",
+    "slowdown_below_layer_time": "10",
+    "temperature": "290"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "HartSmartProducts/1.3.0.ini",
+    "name": "PrusaSlicer-settings-non-prusa-fff",
+    "section": "filament:Polymaker PolyMide PA6-CF @HSP1"
+  },
+  "type": "NYLON",
+  "variants": [
+    {
+      "catalogID": 111767,
+      "name": "Polymaker PolyMide PA6-CF @HSP1",
+      "printers": [
+        "hartsmart-products/hsp1-i-0-4mm-takoto-duplicator",
+        "hartsmart-products/hsp1-i-0-4mm-takoto-mirror",
+        "hartsmart-products/hsp1-i-0-6mm-takoto-duplicator",
+        "hartsmart-products/hsp1-i-0-6mm-takoto-mirror",
+        "hartsmart-products/hsp1-i-0-8mm-takoto-duplicator",
+        "hartsmart-products/hsp1-i-0-8mm-takoto-mirror",
+        "hartsmart-products/hsp1-i-1-0mm-takoto-duplicator",
+        "hartsmart-products/hsp1-i-1-0mm-takoto-mirror",
+        "hartsmart-products/hsp1-i-2x0-4mm-takoto",
+        "hartsmart-products/hsp1-i-2x0-6mm-takoto",
+        "hartsmart-products/hsp1-i-2x0-8mm-takoto",
+        "hartsmart-products/hsp1-i-2x1-0mm-takoto"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_notes=~/.*PRINTER_VENDOR_HSP.*/",
+        "enable_dynamic_fan_speeds": "1",
+        "filament_abrasive": "1",
+        "filament_max_volumetric_speed": "12",
+        "filament_notes": "Polymaker PolyMide PA6-CF",
+        "filament_settings_id": "",
+        "filament_spool_weight": "140",
+        "full_fan_speed_layers": "7",
+        "idle_temperature": "170",
+        "max_fan_speed": "15",
+        "min_fan_speed": "10",
+        "overhang_fan_speed_0": "30",
+        "overhang_fan_speed_1": "25",
+        "overhang_fan_speed_2": "15",
+        "overhang_fan_speed_3": "10",
+        "start_filament_gcode": "; Filament gcode\n{if nozzle_diameter[initial_extruder] == 0.6}{local pressure_advance = 0.016}\n{elsif nozzle_diameter[initial_extruder] == 0.4}{local pressure_advance = 0.0}\n{elsif nozzle_diameter[initial_extruder] == 0.8}{local pressure_advance = 0.0}\n{elsif nozzle_diameter[initial_extruder] == 1.0}{local pressure_advance = 0.0}\n{endif}\n{if printer_notes=~/.*DUPLICATOR_MODE.*/}\nM572 D0:1 S{pressure_advance}\n{else}\nM572 D{current_extruder} S{pressure_advance}\n{endif}"
+      }
+    },
+    {
+      "name": "Polymaker PolyMide PA6-CF @PROTON_X",
+      "printers": [
+        "inat/proton-x-rail",
+        "inat/proton-x-rod"
+      ],
+      "settings": {
+        "bed_temperature": "40",
+        "bridge_fan_speed": "100",
+        "compatible_printers": "\"Proton X Rail\";\"Proton X Rod\"",
+        "cooling": "0",
+        "extrusion_multiplier": "1",
+        "fan_always_on": "0",
+        "fan_below_layer_time": "10",
+        "filament_colour": "#29B2B2",
+        "filament_cost": "95",
+        "filament_type": "Nylon",
+        "first_layer_bed_temperature": "40",
+        "first_layer_temperature": "300",
+        "full_fan_speed_layer": "0",
+        "min_print_speed": "10",
+        "name": "Polymaker PolyMide PA6-CF @PROTON_X",
+        "slowdown_below_layer_time": "5",
+        "temperature": "300"
+      }
+    },
+    {
+      "catalogID": 111793,
+      "name": "Polymaker PolyMide PA6-CF @PROTON_XE750",
+      "printers": [
+        "inat/proton-xe-750"
+      ],
+      "settings": {
+        "bed_temperature": "40",
+        "bridge_fan_speed": "100",
+        "compatible_printers": "Proton XE-750",
+        "cooling": "0",
+        "end_filament_gcode": "; Filament end gcode BEGIN\nG0 X-5 Y250 F10000\nM104 S{temperature[current_extruder] - 50}\n; Filament end gcode END\n",
+        "extrusion_multiplier": "1",
+        "fan_always_on": "0",
+        "fan_below_layer_time": "10",
+        "filament_colour": "#29B2B2",
+        "filament_cost": "95",
+        "filament_type": "Nylon",
+        "first_layer_bed_temperature": "40",
+        "first_layer_temperature": "300",
+        "full_fan_speed_layer": "0",
+        "min_print_speed": "10",
+        "name": "Polymaker PolyMide PA6-CF @PROTON_XE750",
+        "slowdown_below_layer_time": "5",
+        "start_filament_gcode": "; Filament start gcode BEGIN\nM104 S[temperature[current_extruder]]\nG4 S20\n; Filament start gcode END\n",
+        "temperature": "300"
+      }
+    }
+  ]
+}

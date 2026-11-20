@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "id": "e2d/pla-silk-prusaslicer",
+  "manufacturer": "E2D",
+  "name": "E2D PLA-Silk",
+  "settings": {
+    "bed_temperature": "60",
+    "compatible_printers": "",
+    "compatible_printers_condition": "printer_notes=~/.*PRINTER_VENDOR_E2D.*/",
+    "cooling": "1",
+    "fan_always_on": "1",
+    "filament_cost": "520",
+    "filament_density": "1.24",
+    "filament_diameter": "1.75",
+    "filament_notes": "https://e2d.tw/product-category/3dp/pauo",
+    "filament_settings_id": "",
+    "filament_type": "PLA",
+    "filament_vendor": "E2D",
+    "first_layer_bed_temperature": "60",
+    "first_layer_temperature": "230",
+    "min_print_speed": "90",
+    "name": "E2D PLA-Silk @E2D",
+    "temperature": "225"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "E2D/1.1.0.ini",
+    "name": "PrusaSlicer-settings-non-prusa-fff",
+    "section": "filament:E2D PLA-Silk @E2D"
+  },
+  "type": "PLA",
+  "variants": [
+    {
+      "catalogID": 111740,
+      "name": "E2D PLA-Silk @E2D",
+      "printers": [
+        "e2d/i310-0-3",
+        "e2d/i310-0-4",
+        "e2d/i311-0-3",
+        "e2d/i311-0-4"
+      ],
+      "settings": {}
+    }
+  ]
+}

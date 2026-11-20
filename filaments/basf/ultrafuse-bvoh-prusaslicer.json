@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "id": "basf/ultrafuse-bvoh-prusaslicer",
+  "manufacturer": "BASF",
+  "name": "BASF Ultrafuse BVOH",
+  "settings": {
+    "bed_temperature": "60",
+    "bridge_fan_speed": "10",
+    "compatible_printers": "",
+    "compatible_printers_condition": "printer_notes=~/.*PRINTER_VENDOR_HSP.*/",
+    "compatible_prints_condition": "notes=~/.*SOLUBLE_SUPPORT.*/",
+    "cooling": "1",
+    "disable_fan_first_layers": "4",
+    "extrusion_multiplier": "0.91",
+    "fan_always_on": "1",
+    "fan_below_layer_time": "30",
+    "filament_colour": "#FF3232",
+    "filament_cost": "143.00",
+    "filament_density": "1.14",
+    "filament_diameter": "1.75",
+    "filament_max_volumetric_speed": "10",
+    "filament_notes": "BASF Ultrafuse BVOH",
+    "filament_settings_id": "",
+    "filament_soluble": "1",
+    "filament_spool_weight": "215",
+    "filament_type": "BVOH",
+    "filament_vendor": "BASF",
+    "first_layer_bed_temperature": "60",
+    "first_layer_temperature": "210",
+    "idle_temperature": "120",
+    "max_fan_speed": "10",
+    "min_fan_speed": "5",
+    "min_print_speed": "15",
+    "name": "BASF Ultrafuse BVOH @HSP1",
+    "slowdown_below_layer_time": "10",
+    "start_filament_gcode": "; Filament gcode\n{if nozzle_diameter[initial_extruder] == 0.6}{local pressure_advance = 0.0}\n{elsif nozzle_diameter[initial_extruder] == 0.4}{local pressure_advance = 0.0}\n{elsif nozzle_diameter[initial_extruder] == 0.8}{local pressure_advance = 0.0}\n{elsif nozzle_diameter[initial_extruder] == 1.0}{local pressure_advance = 0.0}\n{endif}\n{if printer_notes=~/.*DUPLICATOR_MODE.*/}\nM572 D0:1 S{pressure_advance}\n{else}\nM572 D{current_extruder} S{pressure_advance}\n{endif}",
+    "temperature": "215"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "HartSmartProducts/1.3.0.ini",
+    "name": "PrusaSlicer-settings-non-prusa-fff",
+    "section": "filament:BASF Ultrafuse BVOH @HSP1"
+  },
+  "type": "BVOH",
+  "variants": [
+    {
+      "catalogID": 111748,
+      "name": "BASF Ultrafuse BVOH @HSP1",
+      "printers": [
+        "hartsmart-products/hsp1-i-0-4mm-takoto-duplicator",
+        "hartsmart-products/hsp1-i-0-4mm-takoto-mirror",
+        "hartsmart-products/hsp1-i-0-6mm-takoto-duplicator",
+        "hartsmart-products/hsp1-i-0-6mm-takoto-mirror",
+        "hartsmart-products/hsp1-i-0-8mm-takoto-duplicator",
+        "hartsmart-products/hsp1-i-0-8mm-takoto-mirror",
+        "hartsmart-products/hsp1-i-1-0mm-takoto-duplicator",
+        "hartsmart-products/hsp1-i-1-0mm-takoto-mirror",
+        "hartsmart-products/hsp1-i-2x0-4mm-takoto",
+        "hartsmart-products/hsp1-i-2x0-6mm-takoto",
+        "hartsmart-products/hsp1-i-2x0-8mm-takoto",
+        "hartsmart-products/hsp1-i-2x1-0mm-takoto"
+      ],
+      "settings": {}
+    }
+  ]
+}

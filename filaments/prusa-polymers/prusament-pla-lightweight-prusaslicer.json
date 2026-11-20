@@ -1,0 +1,487 @@
+{
+  "format": 1,
+  "id": "prusa-polymers/prusament-pla-lightweight-prusaslicer",
+  "manufacturer": "Prusa Polymers",
+  "name": "Prusament PLA Lightweight",
+  "settings": {
+    "bed_temperature": "60",
+    "bridge_fan_speed": "100",
+    "compatible_printers": "",
+    "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.6 and nozzle_high_flow[0]",
+    "cooling": "0",
+    "cooling_perimeter_transition_distance": "10",
+    "cooling_slowdown_logic": "consistent_surface",
+    "disable_fan_first_layers": "1",
+    "end_filament_gcode": "; Filament-specific end gcode",
+    "extrusion_multiplier": "0.45",
+    "fan_always_on": "1",
+    "fan_below_layer_time": "24",
+    "filament_colour": "#FF8000",
+    "filament_cooling_final_speed": "3.5",
+    "filament_cooling_initial_speed": "10",
+    "filament_cooling_moves": "2",
+    "filament_cost": "56.99",
+    "filament_density": "1.18",
+    "filament_diameter": "1.75",
+    "filament_infill_max_crossing_speed": "0",
+    "filament_infill_max_speed": "0",
+    "filament_load_time": "10.5",
+    "filament_loading_speed": "10",
+    "filament_loading_speed_start": "50",
+    "filament_max_volumetric_speed": "4",
+    "filament_minimal_purge_on_wipe_tower": "15",
+    "filament_notes": "",
+    "filament_purge_multiplier": "81.25%",
+    "filament_ramming_parameters": "250 100 40.1613 40.3548 40.4516 40.3548 40.2581| 0.05 40.1483 0.45 40.3419 0.95 40.3419 1.45 40.3419 1.95 40.3419 2.45 40.3419 2.95 40.3419 3.45 40.3419 3.95 40.3419 4.45 40.3419 4.95 40.3419",
+    "filament_retract_lift": "0",
+    "filament_settings_id": "",
+    "filament_soluble": "0",
+    "filament_spool_weight": "193",
+    "filament_stamping_distance": "45",
+    "filament_stamping_loading_speed": "29",
+    "filament_toolchange_delay": "0",
+    "filament_travel_max_lift": "0.6",
+    "filament_travel_ramping_lift": "0",
+    "filament_travel_slope": "1",
+    "filament_type": "PLA",
+    "filament_unload_time": "8.5",
+    "filament_unloading_speed": "40",
+    "filament_unloading_speed_start": "30",
+    "filament_vendor": "Prusa Polymers",
+    "first_layer_bed_temperature": "60",
+    "first_layer_temperature": "225",
+    "full_fan_speed_layer": "3",
+    "idle_temperature": "70",
+    "max_fan_speed": "100",
+    "min_fan_speed": "30",
+    "min_print_speed": "20",
+    "name": "Prusament PLA Lightweight @XL+ HF0.6",
+    "slowdown_below_layer_time": "11",
+    "start_filament_gcode": "M572 S0 ; Pressure advance\n\nM142 S36 ; set heatbreak target temp",
+    "temperature": "225"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "PrusaResearch/2.5.16.ini",
+    "name": "PrusaSlicer-settings-prusa-fff",
+    "section": "filament:Prusament PLA Lightweight @XL+ HF0.6"
+  },
+  "type": "PLA",
+  "variants": [
+    {
+      "catalogID": 110538,
+      "name": "Prusament PLA Lightweight @COREONE",
+      "printers": [
+        "prusa-research/signature-oak-0-4"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "0",
+        "chamber_temperature": "20",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.4 and ! single_extruder_multi_material and ! nozzle_high_flow[0]",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "enable_dynamic_fan_speeds": "1",
+        "fan_below_layer_time": "40",
+        "filament_load_time": "10.9",
+        "filament_unload_time": "8.9",
+        "first_layer_temperature": "230",
+        "idle_temperature": "170",
+        "name": "Prusament PLA Lightweight @COREONE",
+        "overhang_fan_speed_0": "100",
+        "overhang_fan_speed_1": "100",
+        "overhang_fan_speed_2": "0",
+        "overhang_fan_speed_3": "0",
+        "slowdown_below_layer_time": "8",
+        "temperature": "230"
+      }
+    },
+    {
+      "catalogID": 110539,
+      "name": "Prusament PLA Lightweight @COREONE 0.6",
+      "printers": [
+        "prusa-research/signature-oak-0-6"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "0",
+        "chamber_temperature": "20",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material and ! nozzle_high_flow[0]",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "enable_dynamic_fan_speeds": "1",
+        "fan_below_layer_time": "40",
+        "filament_cooling_final_speed": "1.5",
+        "filament_load_time": "10.9",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "170",
+        "name": "Prusament PLA Lightweight @COREONE 0.6",
+        "overhang_fan_speed_0": "100",
+        "overhang_fan_speed_1": "100",
+        "overhang_fan_speed_2": "0",
+        "overhang_fan_speed_3": "0",
+        "slowdown_below_layer_time": "15"
+      }
+    },
+    {
+      "name": "Prusament PLA Lightweight @COREONE HF0.4",
+      "printers": [
+        "prusa-research/signature-oak-hf0-4"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "0",
+        "chamber_temperature": "20",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.4 and ! single_extruder_multi_material and nozzle_high_flow[0]",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "enable_dynamic_fan_speeds": "1",
+        "fan_below_layer_time": "40",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_load_time": "10.9",
+        "filament_ramming_parameters": "250 100 39.871 39.871| 0.05 39.9547 0.45 39.9547 0.95 39.9547 1.45 39.9547 1.95 39.9547 2.45 39.9547 2.95 39.9547 3.45 39.9547 3.95 39.9547 4.45 39.9547 4.95 39.9547",
+        "filament_unload_time": "8.9",
+        "first_layer_temperature": "230",
+        "idle_temperature": "170",
+        "name": "Prusament PLA Lightweight @COREONE HF0.4",
+        "overhang_fan_speed_0": "100",
+        "overhang_fan_speed_1": "100",
+        "slowdown_below_layer_time": "8",
+        "temperature": "230"
+      }
+    },
+    {
+      "name": "Prusament PLA Lightweight @COREONE HF0.6",
+      "printers": [
+        "prusa-research/signature-oak-hf0-6"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "0",
+        "chamber_temperature": "20",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material and nozzle_high_flow[0]",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "enable_dynamic_fan_speeds": "1",
+        "fan_below_layer_time": "40",
+        "filament_cooling_final_speed": "1.5",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_load_time": "10.9",
+        "filament_ramming_parameters": "250 100 39.871 39.871| 0.05 39.9547 0.45 39.9547 0.95 39.9547 1.45 39.9547 1.95 39.9547 2.45 39.9547 2.95 39.9547 3.45 39.9547 3.95 39.9547 4.45 39.9547 4.95 39.9547",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "170",
+        "min_print_speed": "15",
+        "name": "Prusament PLA Lightweight @COREONE HF0.6",
+        "overhang_fan_speed_0": "100",
+        "overhang_fan_speed_1": "100",
+        "slowdown_below_layer_time": "15"
+      }
+    },
+    {
+      "name": "Prusament PLA Lightweight @HF0.4",
+      "printers": [
+        "prusa-research/mk3-9-hf0-4"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK3.9)/ and nozzle_diameter[0]==0.4 and ! single_extruder_multi_material and nozzle_high_flow[0]",
+        "fan_below_layer_time": "100",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_ramming_parameters": "250 100 39.871 39.871| 0.05 39.9547 0.45 39.9547 0.95 39.9547 1.45 39.9547 1.95 39.9547 2.45 39.9547 2.95 39.9547 3.45 39.9547 3.95 39.9547 4.45 39.9547 4.95 39.9547",
+        "first_layer_temperature": "230",
+        "min_fan_speed": "45",
+        "min_print_speed": "15",
+        "name": "Prusament PLA Lightweight @HF0.4",
+        "slowdown_below_layer_time": "8",
+        "temperature": "230"
+      }
+    },
+    {
+      "name": "Prusament PLA Lightweight @HF0.6",
+      "printers": [
+        "prusa-research/mk3-9-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK3.9)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material and nozzle_high_flow[0]",
+        "fan_below_layer_time": "100",
+        "filament_cooling_final_speed": "1.5",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_ramming_parameters": "250 100 39.871 39.871| 0.05 39.9547 0.45 39.9547 0.95 39.9547 1.45 39.9547 1.95 39.9547 2.45 39.9547 2.95 39.9547 3.45 39.9547 3.95 39.9547 4.45 39.9547 4.95 39.9547",
+        "min_fan_speed": "45",
+        "min_print_speed": "15",
+        "name": "Prusament PLA Lightweight @HF0.6",
+        "slowdown_below_layer_time": "14"
+      }
+    },
+    {
+      "catalogID": 110540,
+      "name": "Prusament PLA Lightweight @MK4S",
+      "printers": [
+        "prusa-research/mk3-9s-0-4"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK3.9S)/ and nozzle_diameter[0]==0.4 and ! single_extruder_multi_material and ! nozzle_high_flow[0]",
+        "enable_dynamic_fan_speeds": "1",
+        "fan_below_layer_time": "17",
+        "first_layer_temperature": "230",
+        "name": "Prusament PLA Lightweight @MK4S",
+        "overhang_fan_speed_0": "100",
+        "overhang_fan_speed_1": "100",
+        "overhang_fan_speed_2": "0",
+        "overhang_fan_speed_3": "0",
+        "slowdown_below_layer_time": "6",
+        "temperature": "230"
+      }
+    },
+    {
+      "catalogID": 110541,
+      "name": "Prusament PLA Lightweight @MK4S 0.6",
+      "printers": [
+        "prusa-research/mk3-9s-0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK3.9S)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material and ! nozzle_high_flow[0]",
+        "enable_dynamic_fan_speeds": "1",
+        "fan_below_layer_time": "22",
+        "filament_cooling_final_speed": "1.5",
+        "name": "Prusament PLA Lightweight @MK4S 0.6",
+        "overhang_fan_speed_0": "100",
+        "overhang_fan_speed_1": "100",
+        "overhang_fan_speed_2": "0",
+        "overhang_fan_speed_3": "0",
+        "slowdown_below_layer_time": "10"
+      }
+    },
+    {
+      "name": "Prusament PLA Lightweight @MK4S HF0.4",
+      "printers": [
+        "prusa-research/mk3-9s-hf0-4"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK3.9S)/ and nozzle_diameter[0]==0.4 and ! single_extruder_multi_material and nozzle_high_flow[0]",
+        "enable_dynamic_fan_speeds": "1",
+        "fan_below_layer_time": "17",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_ramming_parameters": "250 100 39.871 39.871| 0.05 39.9547 0.45 39.9547 0.95 39.9547 1.45 39.9547 1.95 39.9547 2.45 39.9547 2.95 39.9547 3.45 39.9547 3.95 39.9547 4.45 39.9547 4.95 39.9547",
+        "first_layer_temperature": "230",
+        "name": "Prusament PLA Lightweight @MK4S HF0.4",
+        "overhang_fan_speed_0": "100",
+        "overhang_fan_speed_1": "100",
+        "slowdown_below_layer_time": "6",
+        "temperature": "230"
+      }
+    },
+    {
+      "name": "Prusament PLA Lightweight @MK4S HF0.6",
+      "printers": [
+        "prusa-research/mk3-9s-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK3.9S)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material and nozzle_high_flow[0]",
+        "enable_dynamic_fan_speeds": "1",
+        "fan_below_layer_time": "22",
+        "filament_cooling_final_speed": "1.5",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_ramming_parameters": "250 100 39.871 39.871| 0.05 39.9547 0.45 39.9547 0.95 39.9547 1.45 39.9547 1.95 39.9547 2.45 39.9547 2.95 39.9547 3.45 39.9547 3.95 39.9547 4.45 39.9547 4.95 39.9547",
+        "min_print_speed": "15",
+        "name": "Prusament PLA Lightweight @MK4S HF0.6",
+        "overhang_fan_speed_0": "100",
+        "overhang_fan_speed_1": "100",
+        "slowdown_below_layer_time": "10"
+      }
+    },
+    {
+      "catalogID": 110542,
+      "name": "Prusament PLA Lightweight @PG",
+      "printers": [
+        "prusa-research/mk3-9-0-4"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK3.9)/ and nozzle_diameter[0]==0.4 and ! single_extruder_multi_material and ! nozzle_high_flow[0]",
+        "fan_below_layer_time": "100",
+        "first_layer_temperature": "230",
+        "min_fan_speed": "45",
+        "min_print_speed": "15",
+        "name": "Prusament PLA Lightweight @PG",
+        "slowdown_below_layer_time": "8",
+        "temperature": "230"
+      }
+    },
+    {
+      "catalogID": 110543,
+      "name": "Prusament PLA Lightweight @PG 0.6",
+      "printers": [
+        "prusa-research/mk3-9-0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK3.9)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material and ! nozzle_high_flow[0]",
+        "fan_below_layer_time": "100",
+        "filament_cooling_final_speed": "1.5",
+        "min_fan_speed": "45",
+        "min_print_speed": "15",
+        "name": "Prusament PLA Lightweight @PG 0.6",
+        "slowdown_below_layer_time": "14"
+      }
+    },
+    {
+      "catalogID": 110544,
+      "name": "Prusament PLA Lightweight @XL",
+      "printers": [
+        "prusa-research/xl-2t-0-4",
+        "prusa-research/xl-2t-input-shaper-0-4"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.4 and ! nozzle_high_flow[0]",
+        "fan_below_layer_time": "100",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "10",
+        "filament_retract_length_toolchange": "20",
+        "first_layer_temperature": "230",
+        "min_fan_speed": "45",
+        "min_print_speed": "15",
+        "name": "Prusament PLA Lightweight @XL",
+        "slowdown_below_layer_time": "10",
+        "temperature": "230"
+      }
+    },
+    {
+      "catalogID": 110545,
+      "name": "Prusament PLA Lightweight @XL 0.6",
+      "printers": [
+        "prusa-research/xl-2t-0-6",
+        "prusa-research/xl-2t-input-shaper-0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.6 and printer_notes!~/.*HF_NOZZLE.*/",
+        "fan_below_layer_time": "100",
+        "filament_cooling_final_speed": "1.5",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "10",
+        "filament_retract_length_toolchange": "20",
+        "min_fan_speed": "45",
+        "min_print_speed": "15",
+        "name": "Prusament PLA Lightweight @XL 0.6",
+        "slowdown_below_layer_time": "14"
+      }
+    },
+    {
+      "name": "Prusament PLA Lightweight @XL HF0.4",
+      "printers": [
+        "prusa-research/xl-2t-input-shaper-hf0-4"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and nozzle_diameter[0]!=0.5 and printer_notes=~/.*HF_NOZZLE.*/",
+        "fan_below_layer_time": "100",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "10",
+        "filament_retract_length_toolchange": "20",
+        "first_layer_temperature": "230",
+        "min_fan_speed": "50",
+        "min_print_speed": "15",
+        "name": "Prusament PLA Lightweight @XL HF0.4",
+        "slowdown_below_layer_time": "10",
+        "temperature": "230"
+      }
+    },
+    {
+      "name": "Prusament PLA Lightweight @XL HF0.6",
+      "printers": [
+        "prusa-research/xl-2t-input-shaper-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.6 and printer_notes=~/.*HF_NOZZLE.*/",
+        "fan_below_layer_time": "100",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "10",
+        "filament_retract_length_toolchange": "20",
+        "min_fan_speed": "50",
+        "min_print_speed": "15",
+        "name": "Prusament PLA Lightweight @XL HF0.6",
+        "slowdown_below_layer_time": "14"
+      }
+    },
+    {
+      "catalogID": 110546,
+      "name": "Prusament PLA Lightweight @XL+",
+      "printers": [
+        "prusa-research/xlplus-2t-0-4"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.4 and ! nozzle_high_flow[0]",
+        "enable_dynamic_fan_speeds": "1",
+        "fan_below_layer_time": "20",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "10",
+        "filament_retract_length_toolchange": "20",
+        "first_layer_temperature": "230",
+        "name": "Prusament PLA Lightweight @XL+",
+        "overhang_fan_speed_0": "100",
+        "overhang_fan_speed_1": "100",
+        "overhang_fan_speed_2": "0",
+        "overhang_fan_speed_3": "0",
+        "slowdown_below_layer_time": "10",
+        "temperature": "230"
+      }
+    },
+    {
+      "catalogID": 110547,
+      "name": "Prusament PLA Lightweight @XL+ 0.6",
+      "printers": [
+        "prusa-research/xlplus-2t-0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.6 and ! nozzle_high_flow[0]",
+        "enable_dynamic_fan_speeds": "1",
+        "fan_below_layer_time": "20",
+        "filament_cooling_final_speed": "1.5",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "10",
+        "filament_retract_length_toolchange": "20",
+        "name": "Prusament PLA Lightweight @XL+ 0.6",
+        "overhang_fan_speed_0": "100",
+        "overhang_fan_speed_1": "100",
+        "overhang_fan_speed_2": "0",
+        "overhang_fan_speed_3": "0"
+      }
+    },
+    {
+      "name": "Prusament PLA Lightweight @XL+ HF0.4",
+      "printers": [
+        "prusa-research/xlplus-2t-hf0-4"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and nozzle_diameter[0]!=0.5 and nozzle_high_flow[0]",
+        "enable_dynamic_fan_speeds": "1",
+        "fan_below_layer_time": "20",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "10",
+        "filament_retract_length_toolchange": "20",
+        "first_layer_temperature": "230",
+        "name": "Prusament PLA Lightweight @XL+ HF0.4",
+        "overhang_fan_speed_0": "100",
+        "overhang_fan_speed_1": "100",
+        "overhang_fan_speed_2": "0",
+        "overhang_fan_speed_3": "0",
+        "slowdown_below_layer_time": "8",
+        "temperature": "230"
+      }
+    },
+    {
+      "name": "Prusament PLA Lightweight @XL+ HF0.6",
+      "printers": [
+        "prusa-research/xlplus-2t-hf0-6"
+      ],
+      "settings": {
+        "enable_dynamic_fan_speeds": "1",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "10",
+        "filament_retract_length_toolchange": "20",
+        "overhang_fan_speed_0": "100",
+        "overhang_fan_speed_1": "100",
+        "overhang_fan_speed_2": "0",
+        "overhang_fan_speed_3": "0"
+      }
+    }
+  ]
+}

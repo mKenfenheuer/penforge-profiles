@@ -1,0 +1,527 @@
+{
+  "format": 1,
+  "id": "forward-am/ultrafuse-pp-prusaslicer",
+  "manufacturer": "Forward AM",
+  "name": "Ultrafuse PP",
+  "settings": {
+    "bed_temperature": "70",
+    "bridge_fan_speed": "100",
+    "compatible_printers": "",
+    "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and ! single_extruder_multi_material",
+    "cooling": "1",
+    "disable_fan_first_layers": "1",
+    "end_filament_gcode": "; Filament-specific end gcode",
+    "extrusion_multiplier": "1",
+    "fan_always_on": "0",
+    "fan_below_layer_time": "60",
+    "filament_colour": "#F0F0F0",
+    "filament_cooling_final_speed": "3.4",
+    "filament_cooling_initial_speed": "2.2",
+    "filament_cooling_moves": "4",
+    "filament_cost": "",
+    "filament_density": "0.91",
+    "filament_deretract_speed": "20",
+    "filament_diameter": "1.75",
+    "filament_load_time": "10.9",
+    "filament_loading_speed": "28",
+    "filament_loading_speed_start": "3",
+    "filament_max_volumetric_speed": "2.5",
+    "filament_minimal_purge_on_wipe_tower": "15",
+    "filament_notes": "Material Description\nUltrafuse PP is high-performance thermoplastic with low density, high elasticity and high resistance to fatigue. The mechanical properties make it an ideal material for 3D-printing applications which have to endure high stress or strain. The filament has high chemical resistance and a high isolation value. PP is one of the most used materials in the world, due to its versatility and ability to engineer lightweight tough parts.\n\nPrinting Recommendations:\nApply PP tape or Magigoo PP adhesive to the buildplate for optimal adhesion.",
+    "filament_ramming_parameters": "120 100 5.70968 6.03226 7 8.25806 9 9.19355 9.3871 9.77419 10.129 10.3226 10.4516 10.5161| 0.05 5.69677 0.45 6.15484 0.95 8.76774 1.45 9.20323 1.95 9.95806 2.45 10.3871 2.95 10.5677 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6",
+    "filament_retract_before_travel": "2",
+    "filament_retract_layer_change": "0",
+    "filament_retract_speed": "60",
+    "filament_settings_id": "",
+    "filament_soluble": "0",
+    "filament_toolchange_delay": "0",
+    "filament_type": "PP",
+    "filament_unload_time": "8.9",
+    "filament_unloading_speed": "90",
+    "filament_unloading_speed_start": "100",
+    "filament_vendor": "Forward AM",
+    "filament_wipe": "nil",
+    "first_layer_bed_temperature": "80",
+    "first_layer_temperature": "240",
+    "full_fan_speed_layer": "3",
+    "max_fan_speed": "100",
+    "min_fan_speed": "100",
+    "min_print_speed": "10",
+    "name": "Ultrafuse PP @COREONE",
+    "slowdown_below_layer_time": "20",
+    "start_filament_gcode": "M900 K0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp",
+    "temperature": "240"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "PrusaResearch/2.5.16.ini",
+    "name": "PrusaSlicer-settings-prusa-fff",
+    "section": "filament:Ultrafuse PP @COREONE"
+  },
+  "type": "PP",
+  "variants": [
+    {
+      "catalogID": 111221,
+      "name": "Ultrafuse PP",
+      "printers": [
+        "prusa-research/i3-mk2-5",
+        "prusa-research/i3-mk2-5-0-25",
+        "prusa-research/i3-mk2-5-0-6",
+        "prusa-research/i3-mk2-5-0-8",
+        "prusa-research/i3-mk2-5-mmu2-single",
+        "prusa-research/i3-mk2-5-mmu2-single-0-25",
+        "prusa-research/i3-mk2-5-mmu2-single-0-6",
+        "prusa-research/i3-mk2-5-mmu2-single-0-8",
+        "prusa-research/i3-mk2-5s",
+        "prusa-research/i3-mk2-5s-0-25",
+        "prusa-research/i3-mk2-5s-0-6",
+        "prusa-research/i3-mk2-5s-0-8",
+        "prusa-research/i3-mk2-5s-mmu2s-single",
+        "prusa-research/i3-mk2-5s-mmu2s-single-0-25",
+        "prusa-research/i3-mk2-5s-mmu2s-single-0-6",
+        "prusa-research/i3-mk2-5s-mmu2s-single-0-8",
+        "prusa-research/i3-mk2s",
+        "prusa-research/i3-mk2s-0-25",
+        "prusa-research/i3-mk2s-0-6",
+        "prusa-research/i3-mk3",
+        "prusa-research/i3-mk3-0-25",
+        "prusa-research/i3-mk3-0-6",
+        "prusa-research/i3-mk3-0-8",
+        "prusa-research/i3-mk3-mmu2-single",
+        "prusa-research/i3-mk3-mmu2-single-0-25",
+        "prusa-research/i3-mk3-mmu2-single-0-6",
+        "prusa-research/i3-mk3-mmu2-single-0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_notes!~/.*MINI.*/ and printer_model!=\"MK2SMM\" and printer_notes!~/.*PG.*/ and ! single_extruder_multi_material",
+        "filament_deretract_speed": "25",
+        "filament_load_time": "0",
+        "filament_retract_speed": "25",
+        "filament_unload_time": "0",
+        "name": "Ultrafuse PP",
+        "start_filament_gcode": "{if printer_notes!~/.*(MK3.5|MINIIS).*/}\nM900 K{if printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.6}0.12{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.8}0.06{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/}0.2{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.6}0.02{else}0.04{endif} ; Filament gcode LA 1.5\n{if printer_notes=~/.*PRINTER_MODEL_MINI.*/};{elsif printer_notes=~/.*PRINTER_HAS_BOWDEN.*/}M900 K200{elsif nozzle_diameter[0]==0.6}M900 K12{elsif nozzle_diameter[0]==0.8};{else}M900 K20{endif} ; Filament gcode LA 1.0\n{endif}\n\n{if printer_notes=~/.*MINIIS.*/}\nM572 S{if nozzle_diameter[0]==0.6}0.1{elsif nozzle_diameter[0]==0.8}0.07{elsif nozzle_diameter[0]==0.4}0.19{elsif nozzle_diameter[0]==0.25}0.55{else}0{endif}\n{endif}\n\n{if printer_notes=~/.*MK3.5.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.02{elsif nozzle_diameter[0]==0.5}0.018{elsif nozzle_diameter[0]==0.6}0.012{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.25}0.09{elsif nozzle_diameter[0]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}"
+      }
+    },
+    {
+      "catalogID": 111222,
+      "name": "Ultrafuse PP @COREONE",
+      "printers": [
+        "prusa-research/signature-oak-0-25",
+        "prusa-research/signature-oak-0-3",
+        "prusa-research/signature-oak-0-4",
+        "prusa-research/signature-oak-0-5",
+        "prusa-research/signature-oak-hf0-4",
+        "prusa-research/signature-oak-hf0-5"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "0",
+        "chamber_temperature": "0",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_shrinkage_compensation_xy": "0%",
+        "filament_shrinkage_compensation_z": "0%",
+        "filament_travel_max_lift": "0.6",
+        "idle_temperature": "150"
+      }
+    },
+    {
+      "catalogID": 111223,
+      "name": "Ultrafuse PP @COREONE 0.6",
+      "printers": [
+        "prusa-research/signature-oak-0-6",
+        "prusa-research/signature-oak-hf0-6"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "0",
+        "chamber_temperature": "0",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_max_volumetric_speed": "4",
+        "filament_shrinkage_compensation_xy": "0%",
+        "filament_shrinkage_compensation_z": "0%",
+        "filament_travel_max_lift": "0.6",
+        "idle_temperature": "150",
+        "name": "Ultrafuse PP @COREONE 0.6"
+      }
+    },
+    {
+      "catalogID": 111224,
+      "name": "Ultrafuse PP @COREONE 0.8",
+      "printers": [
+        "prusa-research/signature-oak-0-8",
+        "prusa-research/signature-oak-hf0-8"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "0",
+        "chamber_temperature": "0",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.8 and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_max_volumetric_speed": "6",
+        "filament_shrinkage_compensation_xy": "0%",
+        "filament_shrinkage_compensation_z": "0%",
+        "filament_travel_max_lift": "0.6",
+        "idle_temperature": "150",
+        "name": "Ultrafuse PP @COREONE 0.8"
+      }
+    },
+    {
+      "catalogID": 111225,
+      "name": "Ultrafuse PP @MK4S",
+      "printers": [
+        "prusa-research/mk3-9s-0-3",
+        "prusa-research/mk3-9s-0-4",
+        "prusa-research/mk3-9s-0-5",
+        "prusa-research/mk3-9s-hf0-4",
+        "prusa-research/mk3-9s-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]>=0.3 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_load_time": "0",
+        "filament_travel_max_lift": "0.6",
+        "filament_unload_time": "0",
+        "idle_temperature": "70",
+        "name": "Ultrafuse PP @MK4S"
+      }
+    },
+    {
+      "catalogID": 111226,
+      "name": "Ultrafuse PP @MK4S 0.6",
+      "printers": [
+        "prusa-research/mk3-9s-0-6",
+        "prusa-research/mk3-9s-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_load_time": "0",
+        "filament_max_volumetric_speed": "4",
+        "filament_travel_max_lift": "0.6",
+        "filament_unload_time": "0",
+        "idle_temperature": "70",
+        "name": "Ultrafuse PP @MK4S 0.6"
+      }
+    },
+    {
+      "catalogID": 111227,
+      "name": "Ultrafuse PP @MK4S 0.8",
+      "printers": [
+        "prusa-research/mk3-9s-0-8",
+        "prusa-research/mk3-9s-hf0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.8 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_load_time": "0",
+        "filament_max_volumetric_speed": "6",
+        "filament_travel_max_lift": "0.6",
+        "filament_unload_time": "0",
+        "idle_temperature": "70",
+        "name": "Ultrafuse PP @MK4S 0.8"
+      }
+    },
+    {
+      "catalogID": 111228,
+      "name": "Ultrafuse PP @PG",
+      "printers": [
+        "prusa-research/mk3-9-0-3",
+        "prusa-research/mk3-9-0-4",
+        "prusa-research/mk3-9-0-5",
+        "prusa-research/mk3-9-hf0-4",
+        "prusa-research/mk3-9-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]>=0.3 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_load_time": "0",
+        "filament_travel_max_lift": "0.6",
+        "filament_unload_time": "0",
+        "idle_temperature": "70",
+        "name": "Ultrafuse PP @PG"
+      }
+    },
+    {
+      "catalogID": 111229,
+      "name": "Ultrafuse PP @PG 0.6",
+      "printers": [
+        "prusa-research/mk3-9-0-6",
+        "prusa-research/mk3-9-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_load_time": "0",
+        "filament_max_volumetric_speed": "4",
+        "filament_travel_max_lift": "0.6",
+        "filament_unload_time": "0",
+        "idle_temperature": "70",
+        "name": "Ultrafuse PP @PG 0.6"
+      }
+    },
+    {
+      "catalogID": 111230,
+      "name": "Ultrafuse PP @PG 0.8",
+      "printers": [
+        "prusa-research/mk3-9-0-8",
+        "prusa-research/mk3-9-hf0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.8 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_load_time": "0",
+        "filament_max_volumetric_speed": "6",
+        "filament_travel_max_lift": "0.6",
+        "filament_unload_time": "0",
+        "idle_temperature": "70",
+        "name": "Ultrafuse PP @PG 0.8"
+      }
+    },
+    {
+      "catalogID": 111231,
+      "name": "Ultrafuse PP @XL",
+      "printers": [
+        "prusa-research/xl-2t-0-3",
+        "prusa-research/xl-2t-0-4",
+        "prusa-research/xl-2t-0-5",
+        "prusa-research/xl-2t-input-shaper-0-3",
+        "prusa-research/xl-2t-input-shaper-0-4",
+        "prusa-research/xl-2t-input-shaper-0-5",
+        "prusa-research/xl-2t-input-shaper-hf0-4",
+        "prusa-research/xl-2t-input-shaper-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]>=0.3 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_cooling_final_speed": "2.5",
+        "filament_cooling_initial_speed": "5",
+        "filament_cooling_moves": "3",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.5",
+        "filament_loading_speed": "10",
+        "filament_loading_speed_start": "50",
+        "filament_max_volumetric_speed": "3.5",
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "3.5",
+        "filament_multitool_ramming_volume": "40",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194 42.4194 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "filament_unload_time": "8.5",
+        "filament_unloading_speed": "60",
+        "filament_unloading_speed_start": "60",
+        "idle_temperature": "70",
+        "name": "Ultrafuse PP @XL"
+      }
+    },
+    {
+      "catalogID": 111232,
+      "name": "Ultrafuse PP @XL 0.6",
+      "printers": [
+        "prusa-research/xl-2t-0-6",
+        "prusa-research/xl-2t-input-shaper-0-6",
+        "prusa-research/xl-2t-input-shaper-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.6",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_cooling_final_speed": "2.5",
+        "filament_cooling_initial_speed": "5",
+        "filament_cooling_moves": "3",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.5",
+        "filament_loading_speed": "10",
+        "filament_loading_speed_start": "50",
+        "filament_max_volumetric_speed": "4.5",
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "4.5",
+        "filament_multitool_ramming_volume": "40",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194 42.4194 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "filament_unload_time": "8.5",
+        "filament_unloading_speed": "60",
+        "filament_unloading_speed_start": "60",
+        "idle_temperature": "70",
+        "name": "Ultrafuse PP @XL 0.6"
+      }
+    },
+    {
+      "catalogID": 111233,
+      "name": "Ultrafuse PP @XL 0.8",
+      "printers": [
+        "prusa-research/xl-2t-0-8",
+        "prusa-research/xl-2t-input-shaper-0-8",
+        "prusa-research/xl-2t-input-shaper-hf0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.8",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_cooling_final_speed": "2.5",
+        "filament_cooling_initial_speed": "5",
+        "filament_cooling_moves": "3",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.5",
+        "filament_loading_speed": "10",
+        "filament_loading_speed_start": "50",
+        "filament_max_volumetric_speed": "8",
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "8",
+        "filament_multitool_ramming_volume": "40",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194 42.4194 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "filament_unload_time": "8.5",
+        "filament_unloading_speed": "60",
+        "filament_unloading_speed_start": "60",
+        "idle_temperature": "70",
+        "name": "Ultrafuse PP @XL 0.8"
+      }
+    },
+    {
+      "catalogID": 111234,
+      "name": "Ultrafuse PP @XL+",
+      "printers": [
+        "prusa-research/xlplus-2t-0-3",
+        "prusa-research/xlplus-2t-0-4",
+        "prusa-research/xlplus-2t-0-5",
+        "prusa-research/xlplus-2t-hf0-4",
+        "prusa-research/xlplus-2t-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]>=0.3 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_cooling_final_speed": "2.5",
+        "filament_cooling_initial_speed": "5",
+        "filament_cooling_moves": "3",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.5",
+        "filament_loading_speed": "10",
+        "filament_loading_speed_start": "50",
+        "filament_max_volumetric_speed": "3.5",
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "3.5",
+        "filament_multitool_ramming_volume": "40",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194 42.4194 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "filament_unload_time": "8.5",
+        "filament_unloading_speed": "60",
+        "filament_unloading_speed_start": "60",
+        "idle_temperature": "70",
+        "name": "Ultrafuse PP @XL+",
+        "start_filament_gcode": "M572 S0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+      }
+    },
+    {
+      "catalogID": 111235,
+      "name": "Ultrafuse PP @XL+ 0.6",
+      "printers": [
+        "prusa-research/xlplus-2t-0-6",
+        "prusa-research/xlplus-2t-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.6",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_cooling_final_speed": "2.5",
+        "filament_cooling_initial_speed": "5",
+        "filament_cooling_moves": "3",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.5",
+        "filament_loading_speed": "10",
+        "filament_loading_speed_start": "50",
+        "filament_max_volumetric_speed": "4.5",
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "4.5",
+        "filament_multitool_ramming_volume": "40",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194 42.4194 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "filament_unload_time": "8.5",
+        "filament_unloading_speed": "60",
+        "filament_unloading_speed_start": "60",
+        "idle_temperature": "70",
+        "name": "Ultrafuse PP @XL+ 0.6",
+        "start_filament_gcode": "M572 S0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+      }
+    },
+    {
+      "catalogID": 111236,
+      "name": "Ultrafuse PP @XL+ 0.8",
+      "printers": [
+        "prusa-research/xlplus-2t-0-8",
+        "prusa-research/xlplus-2t-hf0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.8",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_cooling_final_speed": "2.5",
+        "filament_cooling_initial_speed": "5",
+        "filament_cooling_moves": "3",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.5",
+        "filament_loading_speed": "10",
+        "filament_loading_speed_start": "50",
+        "filament_max_volumetric_speed": "8",
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "8",
+        "filament_multitool_ramming_volume": "40",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194 42.4194 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "filament_unload_time": "8.5",
+        "filament_unloading_speed": "60",
+        "filament_unloading_speed_start": "60",
+        "idle_temperature": "70",
+        "name": "Ultrafuse PP @XL+ 0.8",
+        "start_filament_gcode": "M572 S0 ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+      }
+    }
+  ]
+}

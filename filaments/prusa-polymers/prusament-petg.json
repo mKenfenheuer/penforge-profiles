@@ -1,0 +1,1502 @@
+{
+  "format": 1,
+  "id": "prusa-polymers/prusament-petg",
+  "manufacturer": "Prusa Polymers",
+  "name": "Prusament PETG",
+  "settings": {
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "3"
+    ],
+    "compatible_printers": [
+      "Prusa XL 0.25 nozzle",
+      "Prusa XL 0.3 nozzle",
+      "Prusa XL 0.4 nozzle",
+      "Prusa XL 0.5 nozzle",
+      "Prusa XL 0.6 nozzle",
+      "Prusa XL 0.8 nozzle",
+      "Prusa XL 5T 0.25 nozzle",
+      "Prusa XL 5T 0.3 nozzle",
+      "Prusa XL 5T 0.4 nozzle",
+      "Prusa XL 5T 0.5 nozzle",
+      "Prusa XL 5T 0.6 nozzle",
+      "Prusa XL 5T 0.8 nozzle"
+    ],
+    "cool_plate_temp": [
+      "60"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "60"
+    ],
+    "eng_plate_temp": [
+      "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "0"
+    ],
+    "fan_cooling_layer_time": [
+      "20"
+    ],
+    "fan_max_speed": [
+      "50"
+    ],
+    "fan_min_speed": [
+      "30"
+    ],
+    "filament_cost": [
+      "30"
+    ],
+    "filament_density": [
+      "1.27"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "1"
+    ],
+    "filament_id": "OFkR8E2c",
+    "filament_max_volumetric_speed": [
+      "9.5"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": "20%",
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\nM900 K{if nozzle_diameter[0]==0.4}0.07{elsif nozzle_diameter[0]==0.25}0.12{elsif nozzle_diameter[0]==0.3}0.09{elsif nozzle_diameter[0]==0.35}0.08{elsif nozzle_diameter[0]==0.6}0.04{elsif nozzle_diameter[0]==0.5}0.05{elsif nozzle_diameter[0]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*PRINTER_MODEL_XLIS.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.053{elsif nozzle_diameter[0]==0.5}0.042{elsif nozzle_diameter[0]==0.6}0.032{elsif nozzle_diameter[0]==0.8}0.018{elsif nozzle_diameter[0]==0.25}0.18{elsif nozzle_diameter[0]==0.3}0.1{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "filament_vendor": [
+      "Prusa Polymers"
+    ],
+    "filament_wipe": "1",
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": "5",
+    "hot_plate_temp": "80",
+    "hot_plate_temp_initial_layer": "80",
+    "idle_temperature": "0",
+    "name": "Prusament PETG @XL",
+    "nozzle_temperature": "250",
+    "nozzle_temperature_initial_layer": [
+      "240"
+    ],
+    "nozzle_temperature_range_high": [
+      "260"
+    ],
+    "nozzle_temperature_range_low": [
+      "220"
+    ],
+    "overhang_fan_speed": [
+      "50"
+    ],
+    "overhang_fan_threshold": [
+      "95%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "9"
+    ],
+    "slow_down_min_speed": "15",
+    "temperature_vitrification": [
+      "80"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Prusa/filament/Prusament PETG @XL.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PETG",
+  "variants": [
+    {
+      "catalogID": 104338,
+      "name": "Prusament PETG @CORE One",
+      "printers": [
+        "prusa-research/core-one-0-25",
+        "prusa-research/core-one-0-3",
+        "prusa-research/core-one-0-4",
+        "prusa-research/core-one-0-5",
+        "prusa-research/core-one-mmu3-0-25",
+        "prusa-research/core-one-mmu3-0-3",
+        "prusa-research/core-one-mmu3-0-4",
+        "prusa-research/core-one-mmu3-0-6"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "35"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One 0.25 nozzle",
+          "Prusa CORE One 0.3 nozzle",
+          "Prusa CORE One 0.4 nozzle",
+          "Prusa CORE One 0.5 nozzle",
+          "Prusa CORE One MMU3 0.4 nozzle",
+          "Prusa CORE One MMU3 0.25 nozzle",
+          "Prusa CORE One MMU3 0.3 nozzle",
+          "Prusa CORE One MMU3 0.6 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "25"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "12"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_retract_before_wipe": [
+          "20"
+        ],
+        "filament_retraction_length": [
+          "0.8"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.07{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{elsif nozzle_diameter[filament_extruder_id]==0.35}0.08{elsif nozzle_diameter[filament_extruder_id]==0.6}0.04{elsif nozzle_diameter[filament_extruder_id]==0.5}0.05{elsif nozzle_diameter[filament_extruder_id]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.053{elsif nozzle_diameter[filament_extruder_id]==0.5}0.042{elsif nozzle_diameter[filament_extruder_id]==0.6}0.032{elsif nozzle_diameter[filament_extruder_id]==0.8}0.018{elsif nozzle_diameter[filament_extruder_id]==0.25}0.18{elsif nozzle_diameter[filament_extruder_id]==0.3}0.1{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_wipe": [
+          "1"
+        ],
+        "filament_z_hop": [
+          "1.5"
+        ],
+        "filament_z_hop_types": [
+          "Slope Lift"
+        ],
+        "full_fan_speed_layer": [
+          "5"
+        ],
+        "hot_plate_temp": [
+          "85"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "85"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet"
+        ],
+        "name": "Prusament PETG @CORE One",
+        "nozzle_temperature": [
+          "250"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "250"
+        ],
+        "overhang_fan_speed": [
+          "60"
+        ],
+        "renamed_from": "Prusament PETG CORE One;Prusament PETG @CORE One MMU3;Prusament PETG CORE One MMU3",
+        "slow_down_min_speed": [
+          "15"
+        ]
+      }
+    },
+    {
+      "catalogID": 104339,
+      "name": "Prusament PETG @CORE One 0.6",
+      "printers": [
+        "prusa-research/core-one-0-6"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "35"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One 0.6 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "30"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "17"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_retract_before_wipe": [
+          "20"
+        ],
+        "filament_retraction_length": [
+          "0.8"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.07{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{elsif nozzle_diameter[filament_extruder_id]==0.35}0.08{elsif nozzle_diameter[filament_extruder_id]==0.6}0.04{elsif nozzle_diameter[filament_extruder_id]==0.5}0.05{elsif nozzle_diameter[filament_extruder_id]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.053{elsif nozzle_diameter[filament_extruder_id]==0.5}0.042{elsif nozzle_diameter[filament_extruder_id]==0.6}0.032{elsif nozzle_diameter[filament_extruder_id]==0.8}0.018{elsif nozzle_diameter[filament_extruder_id]==0.25}0.18{elsif nozzle_diameter[filament_extruder_id]==0.3}0.1{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_wipe": [
+          "1"
+        ],
+        "filament_z_hop": [
+          "1.5"
+        ],
+        "filament_z_hop_types": [
+          "Slope Lift"
+        ],
+        "full_fan_speed_layer": [
+          "5"
+        ],
+        "hot_plate_temp": [
+          "85"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "85"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet"
+        ],
+        "name": "Prusament PETG @CORE One 0.6",
+        "nozzle_temperature": [
+          "245"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "250"
+        ],
+        "overhang_fan_speed": [
+          "60"
+        ],
+        "renamed_from": "Prusament PETG CORE One;Prusament PETG @CORE One MMU3;Prusament PETG CORE One MMU3",
+        "slow_down_layer_time": [
+          "15"
+        ],
+        "slow_down_min_speed": [
+          "15"
+        ]
+      }
+    },
+    {
+      "catalogID": 104340,
+      "name": "Prusament PETG @CORE One 0.8",
+      "printers": [
+        "prusa-research/core-one-0-8"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "35"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One 0.8 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "35"
+        ],
+        "fan_max_speed": [
+          "65"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "22"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_retract_before_wipe": [
+          "50"
+        ],
+        "filament_retraction_length": [
+          "0.8"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.07{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{elsif nozzle_diameter[filament_extruder_id]==0.35}0.08{elsif nozzle_diameter[filament_extruder_id]==0.6}0.04{elsif nozzle_diameter[filament_extruder_id]==0.5}0.05{elsif nozzle_diameter[filament_extruder_id]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.053{elsif nozzle_diameter[filament_extruder_id]==0.5}0.042{elsif nozzle_diameter[filament_extruder_id]==0.6}0.032{elsif nozzle_diameter[filament_extruder_id]==0.8}0.018{elsif nozzle_diameter[filament_extruder_id]==0.25}0.18{elsif nozzle_diameter[filament_extruder_id]==0.3}0.1{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_wipe": [
+          "1"
+        ],
+        "filament_z_hop": [
+          "0.6"
+        ],
+        "filament_z_hop_types": [
+          "Slope Lift"
+        ],
+        "full_fan_speed_layer": [
+          "5"
+        ],
+        "hot_plate_temp": [
+          "85"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "85"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet"
+        ],
+        "name": "Prusament PETG @CORE One 0.8",
+        "nozzle_temperature": [
+          "250"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "250"
+        ],
+        "overhang_fan_speed": [
+          "65"
+        ],
+        "renamed_from": "Prusament PETG CORE One;Prusament PETG @CORE One MMU3;Prusament PETG CORE One MMU3",
+        "slow_down_layer_time": [
+          "20"
+        ],
+        "slow_down_min_speed": [
+          "15"
+        ]
+      }
+    },
+    {
+      "catalogID": 104341,
+      "name": "Prusament PETG @CORE One HF 0.4",
+      "printers": [
+        "prusa-research/core-one-hf-0-4"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "35"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One HF 0.4 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "25"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "24"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_retract_before_wipe": [
+          "20"
+        ],
+        "filament_retraction_length": [
+          "0.8"
+        ],
+        "filament_start_gcode": [
+          "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.044{elsif nozzle_diameter[filament_extruder_id]==0.6}0.035{elsif nozzle_diameter[filament_extruder_id]==0.8}0.022{elsif nozzle_diameter[filament_extruder_id]==0.25}0.18{elsif nozzle_diameter[filament_extruder_id]==0.3}0.1{else}0{endif} ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_wipe": [
+          "1"
+        ],
+        "filament_z_hop": [
+          "1.5"
+        ],
+        "filament_z_hop_types": [
+          "Slope Lift"
+        ],
+        "full_fan_speed_layer": [
+          "5"
+        ],
+        "hot_plate_temp": [
+          "85"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "85"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet_hf"
+        ],
+        "name": "Prusament PETG @CORE One HF 0.4",
+        "nozzle_temperature": [
+          "250"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "250"
+        ],
+        "overhang_fan_speed": [
+          "60"
+        ],
+        "renamed_from": "Prusament PETG CORE One;Prusament PETG @CORE One MMU3;Prusament PETG CORE One MMU3",
+        "slow_down_min_speed": [
+          "15"
+        ]
+      }
+    },
+    {
+      "catalogID": 104342,
+      "name": "Prusament PETG @CORE One HF 0.5",
+      "printers": [
+        "prusa-research/core-one-hf-0-5"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "35"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One HF 0.5 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "25"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "27"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_retract_before_wipe": [
+          "20"
+        ],
+        "filament_retraction_length": [
+          "0.8"
+        ],
+        "filament_start_gcode": [
+          "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.044{elsif nozzle_diameter[filament_extruder_id]==0.6}0.035{elsif nozzle_diameter[filament_extruder_id]==0.8}0.022{elsif nozzle_diameter[filament_extruder_id]==0.25}0.18{elsif nozzle_diameter[filament_extruder_id]==0.3}0.1{else}0{endif} ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_wipe": [
+          "1"
+        ],
+        "filament_z_hop": [
+          "1.5"
+        ],
+        "filament_z_hop_types": [
+          "Slope Lift"
+        ],
+        "full_fan_speed_layer": [
+          "5"
+        ],
+        "hot_plate_temp": [
+          "85"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "85"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet_hf"
+        ],
+        "name": "Prusament PETG @CORE One HF 0.5",
+        "nozzle_temperature": [
+          "250"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "250"
+        ],
+        "overhang_fan_speed": [
+          "60"
+        ],
+        "renamed_from": "Prusament PETG CORE One;Prusament PETG @CORE One MMU3;Prusament PETG CORE One MMU3",
+        "slow_down_layer_time": [
+          "10"
+        ],
+        "slow_down_min_speed": [
+          "15"
+        ]
+      }
+    },
+    {
+      "catalogID": 104343,
+      "name": "Prusament PETG @CORE One HF 0.6",
+      "printers": [
+        "prusa-research/core-one-hf-0-6"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "35"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One HF 0.6 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "30"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "31"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_retract_before_wipe": [
+          "20"
+        ],
+        "filament_retraction_length": [
+          "0.8"
+        ],
+        "filament_start_gcode": [
+          "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.044{elsif nozzle_diameter[filament_extruder_id]==0.6}0.035{elsif nozzle_diameter[filament_extruder_id]==0.8}0.022{elsif nozzle_diameter[filament_extruder_id]==0.25}0.18{elsif nozzle_diameter[filament_extruder_id]==0.3}0.1{else}0{endif} ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_wipe": [
+          "1"
+        ],
+        "filament_z_hop": [
+          "1.5"
+        ],
+        "filament_z_hop_types": [
+          "Slope Lift"
+        ],
+        "full_fan_speed_layer": [
+          "5"
+        ],
+        "hot_plate_temp": [
+          "85"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "85"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet_hf"
+        ],
+        "name": "Prusament PETG @CORE One HF 0.6",
+        "nozzle_temperature": [
+          "250"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "250"
+        ],
+        "overhang_fan_speed": [
+          "60"
+        ],
+        "renamed_from": "Prusament PETG CORE One;Prusament PETG @CORE One MMU3;Prusament PETG CORE One MMU3",
+        "slow_down_layer_time": [
+          "15"
+        ],
+        "slow_down_min_speed": [
+          "15"
+        ]
+      }
+    },
+    {
+      "catalogID": 104344,
+      "name": "Prusament PETG @CORE One HF 0.8",
+      "printers": [
+        "prusa-research/core-one-hf-0-8"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "35"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One HF 0.8 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "35"
+        ],
+        "fan_max_speed": [
+          "65"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "37"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_retract_before_wipe": [
+          "50"
+        ],
+        "filament_retraction_length": [
+          "0.8"
+        ],
+        "filament_start_gcode": [
+          "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.044{elsif nozzle_diameter[filament_extruder_id]==0.6}0.035{elsif nozzle_diameter[filament_extruder_id]==0.8}0.022{elsif nozzle_diameter[filament_extruder_id]==0.25}0.18{elsif nozzle_diameter[filament_extruder_id]==0.3}0.1{else}0{endif} ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_wipe": [
+          "1"
+        ],
+        "filament_z_hop": [
+          "0.6"
+        ],
+        "filament_z_hop_types": [
+          "Slope Lift"
+        ],
+        "full_fan_speed_layer": [
+          "5"
+        ],
+        "hot_plate_temp": [
+          "85"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "85"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet"
+        ],
+        "name": "Prusament PETG @CORE One HF 0.8",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "260"
+        ],
+        "overhang_fan_speed": [
+          "65"
+        ],
+        "renamed_from": "Prusament PETG CORE One;Prusament PETG @CORE One MMU3;Prusament PETG CORE One MMU3",
+        "slow_down_layer_time": [
+          "20"
+        ],
+        "slow_down_min_speed": [
+          "15"
+        ]
+      }
+    },
+    {
+      "catalogID": 104345,
+      "name": "Prusament PETG @MK3S",
+      "printers": [
+        "prusa-research/mk3s-0-25",
+        "prusa-research/mk3s-0-4",
+        "prusa-research/mk3s-0-6",
+        "prusa-research/mk3s-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK3S 0.25 nozzle",
+          "Prusa MK3S 0.4 nozzle",
+          "Prusa MK3S 0.6 nozzle",
+          "Prusa MK3S 0.8 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "30"
+        ],
+        "fan_max_speed": [
+          "90"
+        ],
+        "fan_min_speed": [
+          "40"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_flow_ratio": [
+          "0.98"
+        ],
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_retract_before_wipe": [
+          "nil"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\nM900 K{if printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.6}0.12{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.8}0.06{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/}0.2{elsif nozzle_diameter[0]==0.8}0.02{elsif nozzle_diameter[0]==0.6}0.04{else}0.08{endif} ; Filament gcode LA 1.5\n{if printer_notes=~/.*PRINTER_MODEL_MINI.*/};{elsif printer_notes=~/.*PRINTER_HAS_BOWDEN.*/}M900 K200{elsif nozzle_diameter[0]==0.6}M900 K24{elsif nozzle_diameter[0]==0.8};{else}M900 K45{endif} ; Filament gcode LA 1.0"
+        ],
+        "filament_wipe": [
+          "nil"
+        ],
+        "full_fan_speed_layer": [
+          "0"
+        ],
+        "hot_plate_temp": [
+          "85"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "85"
+        ],
+        "name": "Prusament PETG @MK3S",
+        "nozzle_temperature": [
+          "240"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "230"
+        ],
+        "overhang_fan_speed": [
+          "90"
+        ],
+        "overhang_fan_threshold": [
+          "25%"
+        ],
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "slow_down_min_speed": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104346,
+      "name": "Prusament PETG @MK4",
+      "printers": [
+        "prusa-research/mk4-0-25",
+        "prusa-research/mk4-0-4",
+        "prusa-research/mk4-0-6",
+        "prusa-research/mk4-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4 0.25 nozzle",
+          "Prusa MK4 0.4 nozzle",
+          "Prusa MK4 0.6 nozzle",
+          "Prusa MK4 0.8 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "30"
+        ],
+        "fan_max_speed": [
+          "90"
+        ],
+        "fan_min_speed": [
+          "40"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_flow_ratio": [
+          "0.95"
+        ],
+        "filament_max_volumetric_speed": [
+          "10"
+        ],
+        "filament_ramming_parameters": [
+          "250 100 42.4 42.4 42.4 42.4 42.4 | 0.05 42.4 0.45 42.4 0.95 42.4 1.45 42.4 1.95 42.4 2.45 42.4 2.95 42.4 3.45 42.4 3.95 42.4 4.45 42.4 4.95 42.4"
+        ],
+        "filament_retract_before_wipe": [
+          "nil"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\nM900 K{if nozzle_diameter[0]==0.4}0.035{elsif nozzle_diameter[0]==0.25}0.12{elsif nozzle_diameter[0]==0.3}0.09{elsif nozzle_diameter[0]==0.35}0.08{elsif nozzle_diameter[0]==0.6}0.04{elsif nozzle_diameter[0]==0.5}0.05{elsif nozzle_diameter[0]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*PRINTER_MODEL_MK4IS.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.055{elsif nozzle_diameter[0]==0.5}0.042{elsif nozzle_diameter[0]==0.6}0.025{elsif nozzle_diameter[0]==0.8}0.018{elsif nozzle_diameter[0]==0.25}0.18{elsif nozzle_diameter[0]==0.3}0.1{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_wipe": [
+          "nil"
+        ],
+        "full_fan_speed_layer": [
+          "0"
+        ],
+        "hot_plate_temp": [
+          "80"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "80"
+        ],
+        "name": "Prusament PETG @MK4",
+        "nozzle_temperature": [
+          "255"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "255"
+        ],
+        "overhang_fan_speed": [
+          "90"
+        ],
+        "overhang_fan_threshold": [
+          "25%"
+        ],
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "slow_down_min_speed": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104347,
+      "name": "Prusament PETG @MK4 MMU3",
+      "printers": [
+        "prusa-research/mk4-mmu3-0-4",
+        "prusa-research/mk4-mmu3-0-6",
+        "prusa-research/mk4-mmu3-hf0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4 MMU3 0.4 nozzle",
+          "Prusa MK4 MMU3 0.6 nozzle",
+          "Prusa MK4 MMU3 HF0.4 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "30"
+        ],
+        "fan_max_speed": [
+          "90"
+        ],
+        "fan_min_speed": [
+          "40"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_flow_ratio": [
+          "0.95"
+        ],
+        "filament_max_volumetric_speed": [
+          "10"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_ramming_parameters": [
+          "250 100 42.4 42.4 42.4 42.4 42.4 | 0.05 42.4 0.45 42.4 0.95 42.4 1.45 42.4 1.95 42.4 2.45 42.4 2.95 42.4 3.45 42.4 3.95 42.4 4.45 42.4 4.95 42.4"
+        ],
+        "filament_retract_before_wipe": [
+          "nil"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\nM900 K{if nozzle_diameter[0]==0.4}0.035{elsif nozzle_diameter[0]==0.25}0.12{elsif nozzle_diameter[0]==0.3}0.09{elsif nozzle_diameter[0]==0.35}0.08{elsif nozzle_diameter[0]==0.6}0.04{elsif nozzle_diameter[0]==0.5}0.05{elsif nozzle_diameter[0]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*PRINTER_MODEL_MK4IS.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.055{elsif nozzle_diameter[0]==0.5}0.042{elsif nozzle_diameter[0]==0.6}0.025{elsif nozzle_diameter[0]==0.8}0.018{elsif nozzle_diameter[0]==0.25}0.18{elsif nozzle_diameter[0]==0.3}0.1{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_wipe": [
+          "nil"
+        ],
+        "full_fan_speed_layer": [
+          "0"
+        ],
+        "hot_plate_temp": [
+          "80"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "80"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet"
+        ],
+        "name": "Prusament PETG @MK4 MMU3",
+        "nozzle_temperature": [
+          "255"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "255"
+        ],
+        "overhang_fan_speed": [
+          "90"
+        ],
+        "overhang_fan_threshold": [
+          "25%"
+        ],
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "slow_down_min_speed": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104348,
+      "name": "Prusament PETG @MK4S",
+      "printers": [
+        "prusa-research/mk4s-0-25",
+        "prusa-research/mk4s-0-3",
+        "prusa-research/mk4s-0-4",
+        "prusa-research/mk4s-0-5"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S 0.25 nozzle",
+          "Prusa MK4S 0.3 nozzle",
+          "Prusa MK4S 0.4 nozzle",
+          "Prusa MK4S 0.5 nozzle"
+        ],
+        "default_filament_colour": "#FF8000",
+        "fan_max_speed": "40",
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "12"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 42.4 42.4 42.4 42.4 42.4 | 0.05 42.4 0.45 42.4 0.95 42.4 1.45 42.4 1.95 42.4 2.45 42.4 2.95 42.4 3.45 42.4 3.95 42.4 4.45 42.4 4.95 42.4"
+        ],
+        "filament_retract_before_wipe": "20",
+        "filament_retraction_length": "0.8",
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.07{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{elsif nozzle_diameter[filament_extruder_id]==0.35}0.08{elsif nozzle_diameter[filament_extruder_id]==0.6}0.04{elsif nozzle_diameter[filament_extruder_id]==0.5}0.05{elsif nozzle_diameter[filament_extruder_id]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.053{elsif nozzle_diameter[filament_extruder_id]==0.5}0.042{elsif nozzle_diameter[filament_extruder_id]==0.6}0.032{elsif nozzle_diameter[filament_extruder_id]==0.8}0.018{elsif nozzle_diameter[filament_extruder_id]==0.25}0.18{elsif nozzle_diameter[filament_extruder_id]==0.3}0.1{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_z_hop": "0.15",
+        "hot_plate_temp": "90",
+        "hot_plate_temp_initial_layer": "85",
+        "name": "Prusament PETG @MK4S",
+        "nozzle_temperature": "240",
+        "nozzle_temperature_initial_layer": "230",
+        "overhang_fan_speed": "40",
+        "slow_down_layer_time": "7"
+      }
+    },
+    {
+      "catalogID": 104349,
+      "name": "Prusament PETG @MK4S 0.6",
+      "printers": [
+        "prusa-research/mk4s-0-6"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S 0.6 nozzle"
+        ],
+        "default_filament_colour": "#FF8000",
+        "fan_cooling_layer_time": "22",
+        "fan_max_speed": "40",
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "17"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 42.4 42.4 42.4 42.4 42.4 | 0.05 42.4 0.45 42.4 0.95 42.4 1.45 42.4 1.95 42.4 2.45 42.4 2.95 42.4 3.45 42.4 3.95 42.4 4.45 42.4 4.95 42.4"
+        ],
+        "filament_retract_before_wipe": "20",
+        "filament_retraction_length": "0.8",
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.07{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{elsif nozzle_diameter[filament_extruder_id]==0.35}0.08{elsif nozzle_diameter[filament_extruder_id]==0.6}0.04{elsif nozzle_diameter[filament_extruder_id]==0.5}0.05{elsif nozzle_diameter[filament_extruder_id]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.053{elsif nozzle_diameter[filament_extruder_id]==0.5}0.042{elsif nozzle_diameter[filament_extruder_id]==0.6}0.032{elsif nozzle_diameter[filament_extruder_id]==0.8}0.018{elsif nozzle_diameter[filament_extruder_id]==0.25}0.18{elsif nozzle_diameter[filament_extruder_id]==0.3}0.1{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_z_hop": "0.15",
+        "hot_plate_temp": "90",
+        "hot_plate_temp_initial_layer": "85",
+        "name": "Prusament PETG @MK4S 0.6",
+        "nozzle_temperature": "240",
+        "nozzle_temperature_initial_layer": "230",
+        "overhang_fan_speed": "45",
+        "slow_down_layer_time": "10"
+      }
+    },
+    {
+      "catalogID": 104350,
+      "name": "Prusament PETG @MK4S 0.8",
+      "printers": [
+        "prusa-research/mk4s-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S 0.8 nozzle"
+        ],
+        "default_filament_colour": "#FF8000",
+        "fan_cooling_layer_time": "25",
+        "fan_max_speed": "45",
+        "fan_min_speed": "25",
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "22"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 42.4 42.4 42.4 42.4 42.4 | 0.05 42.4 0.45 42.4 0.95 42.4 1.45 42.4 1.95 42.4 2.45 42.4 2.95 42.4 3.45 42.4 3.95 42.4 4.45 42.4 4.95 42.4"
+        ],
+        "filament_retract_before_wipe": "50",
+        "filament_retraction_length": "0.8",
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.07{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{elsif nozzle_diameter[filament_extruder_id]==0.35}0.08{elsif nozzle_diameter[filament_extruder_id]==0.6}0.04{elsif nozzle_diameter[filament_extruder_id]==0.5}0.05{elsif nozzle_diameter[filament_extruder_id]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.053{elsif nozzle_diameter[filament_extruder_id]==0.5}0.042{elsif nozzle_diameter[filament_extruder_id]==0.6}0.032{elsif nozzle_diameter[filament_extruder_id]==0.8}0.018{elsif nozzle_diameter[filament_extruder_id]==0.25}0.18{elsif nozzle_diameter[filament_extruder_id]==0.3}0.1{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_z_hop": "0.15",
+        "hot_plate_temp": "90",
+        "hot_plate_temp_initial_layer": "85",
+        "name": "Prusament PETG @MK4S 0.8",
+        "nozzle_temperature": "245",
+        "nozzle_temperature_initial_layer": "240",
+        "overhang_fan_speed": "45",
+        "slow_down_layer_time": "18"
+      }
+    },
+    {
+      "catalogID": 104351,
+      "name": "Prusament PETG @MK4S HF0.4",
+      "printers": [
+        "prusa-research/mk4s-hf0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S HF0.4 nozzle"
+        ],
+        "default_filament_colour": "#FF8000",
+        "fan_max_speed": "40",
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "24"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 42.4 42.4 | 0.05 42.4 0.45 42.4 0.95 42.4 1.45 42.4 1.95 42.4 2.45 42.4 2.95 42.4 3.45 42.4 3.95 42.4 4.45 42.4 4.95 42.4"
+        ],
+        "filament_retract_before_wipe": "20",
+        "filament_retraction_length": "0.8",
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M572 S{if nozzle_diameter[0]==0.4}0.05{elsif nozzle_diameter[0]==0.5}0.044{elsif nozzle_diameter[0]==0.6}0.035{elsif nozzle_diameter[0]==0.8}0.022{elsif nozzle_diameter[0]==0.25}0.18{elsif nozzle_diameter[0]==0.3}0.1{else}0{endif} ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_z_hop": "0.15",
+        "hot_plate_temp": "90",
+        "hot_plate_temp_initial_layer": "85",
+        "name": "Prusament PETG @MK4S HF0.4",
+        "nozzle_temperature": "245",
+        "nozzle_temperature_initial_layer": "235",
+        "overhang_fan_speed": "40",
+        "slow_down_layer_time": "7"
+      }
+    },
+    {
+      "catalogID": 104352,
+      "name": "Prusament PETG @MK4S HF0.5",
+      "printers": [
+        "prusa-research/mk4s-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S HF0.5 nozzle"
+        ],
+        "default_filament_colour": "#FF8000",
+        "fan_max_speed": "40",
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "29"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 42.4 42.4 42.4 42.4 42.4 | 0.05 42.4 0.45 42.4 0.95 42.4 1.45 42.4 1.95 42.4 2.45 42.4 2.95 42.4 3.45 42.4 3.95 42.4 4.45 42.4 4.95 42.4"
+        ],
+        "filament_retract_before_wipe": "20",
+        "filament_retraction_length": "0.8",
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.07{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{elsif nozzle_diameter[filament_extruder_id]==0.35}0.08{elsif nozzle_diameter[filament_extruder_id]==0.6}0.04{elsif nozzle_diameter[filament_extruder_id]==0.5}0.05{elsif nozzle_diameter[filament_extruder_id]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.053{elsif nozzle_diameter[filament_extruder_id]==0.5}0.042{elsif nozzle_diameter[filament_extruder_id]==0.6}0.032{elsif nozzle_diameter[filament_extruder_id]==0.8}0.018{elsif nozzle_diameter[filament_extruder_id]==0.25}0.18{elsif nozzle_diameter[filament_extruder_id]==0.3}0.1{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_z_hop": "0.15",
+        "hot_plate_temp": "90",
+        "hot_plate_temp_initial_layer": "85",
+        "name": "Prusament PETG @MK4S HF0.5",
+        "nozzle_temperature": "240",
+        "nozzle_temperature_initial_layer": "230",
+        "overhang_fan_speed": "40",
+        "slow_down_layer_time": "7"
+      }
+    },
+    {
+      "catalogID": 104353,
+      "name": "Prusament PETG @MK4S HF0.6",
+      "printers": [
+        "prusa-research/mk4s-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S HF0.6 nozzle"
+        ],
+        "default_filament_colour": "#FF8000",
+        "fan_cooling_layer_time": "22",
+        "fan_max_speed": "40",
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "33"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 42.4 42.4 42.4 42.4 42.4 | 0.05 42.4 0.45 42.4 0.95 42.4 1.45 42.4 1.95 42.4 2.45 42.4 2.95 42.4 3.45 42.4 3.95 42.4 4.45 42.4 4.95 42.4"
+        ],
+        "filament_retract_before_wipe": "20",
+        "filament_retraction_length": "0.8",
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.07{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{elsif nozzle_diameter[filament_extruder_id]==0.35}0.08{elsif nozzle_diameter[filament_extruder_id]==0.6}0.04{elsif nozzle_diameter[filament_extruder_id]==0.5}0.05{elsif nozzle_diameter[filament_extruder_id]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.053{elsif nozzle_diameter[filament_extruder_id]==0.5}0.042{elsif nozzle_diameter[filament_extruder_id]==0.6}0.032{elsif nozzle_diameter[filament_extruder_id]==0.8}0.018{elsif nozzle_diameter[filament_extruder_id]==0.25}0.18{elsif nozzle_diameter[filament_extruder_id]==0.3}0.1{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_z_hop": "0.15",
+        "hot_plate_temp": "90",
+        "hot_plate_temp_initial_layer": "85",
+        "name": "Prusament PETG @MK4S HF0.6",
+        "nozzle_temperature": "240",
+        "nozzle_temperature_initial_layer": "230",
+        "overhang_fan_speed": "45",
+        "slow_down_layer_time": "10"
+      }
+    },
+    {
+      "catalogID": 104354,
+      "name": "Prusament PETG @MK4S HF0.8",
+      "printers": [
+        "prusa-research/mk4s-hf0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S HF0.8 nozzle"
+        ],
+        "default_filament_colour": "#FF8000",
+        "fan_cooling_layer_time": "25",
+        "fan_max_speed": "45",
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "37"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 42.4 42.4 42.4 42.4 42.4 | 0.05 42.4 0.45 42.4 0.95 42.4 1.45 42.4 1.95 42.4 2.45 42.4 2.95 42.4 3.45 42.4 3.95 42.4 4.45 42.4 4.95 42.4"
+        ],
+        "filament_retract_before_wipe": "50",
+        "filament_retraction_length": "0.8",
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.07{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{elsif nozzle_diameter[filament_extruder_id]==0.35}0.08{elsif nozzle_diameter[filament_extruder_id]==0.6}0.04{elsif nozzle_diameter[filament_extruder_id]==0.5}0.05{elsif nozzle_diameter[filament_extruder_id]==0.8}0.02{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.053{elsif nozzle_diameter[filament_extruder_id]==0.5}0.042{elsif nozzle_diameter[filament_extruder_id]==0.6}0.032{elsif nozzle_diameter[filament_extruder_id]==0.8}0.018{elsif nozzle_diameter[filament_extruder_id]==0.25}0.18{elsif nozzle_diameter[filament_extruder_id]==0.3}0.1{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_z_hop": "0.15",
+        "hot_plate_temp": "90",
+        "hot_plate_temp_initial_layer": "85",
+        "name": "Prusament PETG @MK4S HF0.8",
+        "nozzle_temperature": "240",
+        "nozzle_temperature_initial_layer": "240",
+        "overhang_fan_speed": "45",
+        "slow_down_layer_time": "18"
+      }
+    },
+    {
+      "catalogID": 104355,
+      "name": "Prusament PETG @Prusa CORE One INDX",
+      "printers": [
+        "prusa-research/core-one-indx-4t-hf-0-4",
+        "prusa-research/core-one-indx-8t-hf-0-4"
+      ],
+      "settings": {
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "chamber_minimal_temperature": [
+          "0"
+        ],
+        "chamber_temperature": [
+          "35"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One INDX 4T HF 0.4 nozzle",
+          "Prusa CORE One INDX 8T HF 0.4 nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "default_filament_colour": [
+          "#FF8000"
+        ],
+        "enable_overhang_bridge_fan": [
+          "1"
+        ],
+        "fan_cooling_layer_time": [
+          "25"
+        ],
+        "fan_max_speed": [
+          "65"
+        ],
+        "filament_cost": [
+          "29.99"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive High Flow"
+        ],
+        "filament_max_volumetric_speed": [
+          "20"
+        ],
+        "filament_notes": [
+          "\nPrusa INDX 2.5.10 tuning."
+        ],
+        "filament_retract_before_wipe": [
+          "20"
+        ],
+        "filament_retract_length_toolchange": [
+          "1.6"
+        ],
+        "filament_retraction_length": [
+          "1.6"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n"
+        ],
+        "filament_wipe": [
+          "1"
+        ],
+        "filament_z_hop": [
+          "1"
+        ],
+        "full_fan_speed_layer": [
+          "5"
+        ],
+        "hot_plate_temp": [
+          "90"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "85"
+        ],
+        "idle_temperature": [
+          "0"
+        ],
+        "include": [
+          "fdm_filament_template_indx"
+        ],
+        "name": "Prusament PETG @Prusa CORE One INDX",
+        "nozzle_temperature": [
+          "250"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "255"
+        ],
+        "overhang_fan_speed": [
+          "60"
+        ],
+        "pressure_advance": [
+          "0.058"
+        ],
+        "slow_down_min_speed": [
+          "20"
+        ],
+        "textured_plate_temp": [
+          "90"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "85"
+        ]
+      }
+    },
+    {
+      "catalogID": 104356,
+      "name": "Prusament PETG @XL",
+      "printers": [
+        "prusa-research/xl-0-25",
+        "prusa-research/xl-0-3",
+        "prusa-research/xl-0-4",
+        "prusa-research/xl-0-5",
+        "prusa-research/xl-0-6",
+        "prusa-research/xl-0-8",
+        "prusa-research/xl-5t-0-25",
+        "prusa-research/xl-5t-0-3",
+        "prusa-research/xl-5t-0-4",
+        "prusa-research/xl-5t-0-5",
+        "prusa-research/xl-5t-0-6",
+        "prusa-research/xl-5t-0-8"
+      ],
+      "settings": {
+        "filament_cooling_final_speed": "2.5",
+        "filament_cooling_initial_speed": "5",
+        "filament_cooling_moves": "3",
+        "filament_loading_speed": "10",
+        "filament_loading_speed_start": "50",
+        "filament_multitool_ramming": [
+          "1"
+        ],
+        "filament_multitool_ramming_flow": [
+          "40"
+        ],
+        "filament_multitool_ramming_volume": [
+          "10"
+        ],
+        "filament_retract_lift_below": "1.5",
+        "filament_stamping_distance": [
+          "45"
+        ],
+        "filament_stamping_loading_speed": [
+          "29"
+        ],
+        "filament_unloading_speed": "100",
+        "filament_unloading_speed_start": "100",
+        "renamed_from": "Prusament PETG XL;Prusament PETG @XL 5T;Prusament PETG XL 5T"
+      }
+    }
+  ]
+}

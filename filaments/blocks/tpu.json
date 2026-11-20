@@ -1,0 +1,234 @@
+{
+  "format": 1,
+  "id": "blocks/tpu",
+  "manufacturer": "Blocks",
+  "name": "Blocks TPU",
+  "settings": {
+    "activate_air_filtration": [
+      "1"
+    ],
+    "additional_cooling_fan_speed": [
+      "60"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [
+      "BLOCKS Pro S100 0.4 nozzle",
+      "BLOCKS Pro S100 0.6 nozzle",
+      "BLOCKS Pro S100 0.8 nozzle",
+      "BLOCKS Pro S100 1.0 nozzle",
+      "BLOCKS Pro S100 1.2 nozzle"
+    ],
+    "complete_print_exhaust_fan_speed": [
+      "100"
+    ],
+    "cool_plate_temp": [
+      "40"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "40"
+    ],
+    "during_print_exhaust_fan_speed": [
+      "80"
+    ],
+    "eng_plate_temp": [
+      "40"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "40"
+    ],
+    "fan_cooling_layer_time": [
+      "100"
+    ],
+    "fan_max_speed": [
+      "100"
+    ],
+    "fan_min_speed": [
+      "10"
+    ],
+    "filament_cost": [
+      "35"
+    ],
+    "filament_density": [
+      "1.25"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "0.95"
+    ],
+    "filament_id": "OFYnedOZ",
+    "filament_max_volumetric_speed": [
+      "4"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_shrink": [
+      "99.5%"
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\n"
+    ],
+    "filament_type": [
+      "TPU"
+    ],
+    "filament_vendor": [
+      "Blocks"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "90"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "90"
+    ],
+    "name": "Blocks TPU @Blocks_Pro_S100",
+    "nozzle_temperature": [
+      "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "250"
+    ],
+    "nozzle_temperature_range_high": [
+      "280"
+    ],
+    "nozzle_temperature_range_low": [
+      "240"
+    ],
+    "overhang_fan_speed": [
+      "100"
+    ],
+    "overhang_fan_threshold": [
+      "50%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "5"
+    ],
+    "slow_down_min_speed": [
+      "5"
+    ],
+    "temperature_vitrification": [
+      "50"
+    ],
+    "textured_plate_temp": [
+      "40"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "50"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Blocks/filament/Blocks TPU @Blocks_Pro_S100.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "TPU",
+  "variants": [
+    {
+      "catalogID": 102220,
+      "name": "Blocks TPU @Blocks_Pro_S100",
+      "printers": [
+        "blocks/pro-s100-0-4",
+        "blocks/pro-s100-0-6",
+        "blocks/pro-s100-0-8",
+        "blocks/pro-s100-1-0",
+        "blocks/pro-s100-1-2"
+      ],
+      "settings": {
+        "renamed_from": "Blocks Generic TPU;Generic TPU @Blocks"
+      }
+    },
+    {
+      "catalogID": 102221,
+      "name": "Blocks TPU @Blocks_RD50_V2",
+      "printers": [
+        "blocks/rd50-v2-0-4",
+        "blocks/rd50-v2-0-6",
+        "blocks/rd50-v2-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "BLOCKS RD50 V2 0.4 nozzle",
+          "BLOCKS RD50 V2 0.6 nozzle",
+          "BLOCKS RD50 V2 0.8 nozzle"
+        ],
+        "name": "Blocks TPU @Blocks_RD50_V2"
+      }
+    },
+    {
+      "catalogID": 102222,
+      "name": "Blocks TPU @Blocks_RF50",
+      "printers": [
+        "blocks/rf50-0-4",
+        "blocks/rf50-0-6",
+        "blocks/rf50-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "BLOCKS RF50 0.4 nozzle",
+          "BLOCKS RF50 0.6 nozzle",
+          "BLOCKS RF50 0.8 nozzle"
+        ],
+        "name": "Blocks TPU @Blocks_RF50"
+      }
+    }
+  ]
+}

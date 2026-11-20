@@ -1,0 +1,216 @@
+{
+  "format": 1,
+  "id": "other/pla",
+  "manufacturer": "Other",
+  "name": "Other PLA",
+  "settings": {
+    "additional_cooling_fan_speed": [
+      "100"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [
+      "FlyingBear S1 0.4 nozzle"
+    ],
+    "cool_plate_temp": [
+      "60"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "60"
+    ],
+    "enable_pressure_advance": [
+      "0"
+    ],
+    "eng_plate_temp": [
+      "60"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "60"
+    ],
+    "fan_cooling_layer_time": [
+      "100"
+    ],
+    "fan_max_speed": [
+      "100"
+    ],
+    "fan_min_speed": [
+      "100"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.24"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "0.94"
+    ],
+    "filament_id": "OFGJ1nxs",
+    "filament_max_volumetric_speed": [
+      "12"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\n"
+    ],
+    "filament_type": [
+      "PLA"
+    ],
+    "filament_vendor": [
+      "Other"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "60"
+    ],
+    "name": "Other PLA @S1",
+    "nozzle_temperature": [
+      "220"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "220"
+    ],
+    "nozzle_temperature_range_high": [
+      "230"
+    ],
+    "nozzle_temperature_range_low": [
+      "190"
+    ],
+    "overhang_fan_speed": [
+      "100"
+    ],
+    "overhang_fan_threshold": [
+      "50%"
+    ],
+    "pressure_advance": [
+      "0.032"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "8"
+    ],
+    "slow_down_min_speed": [
+      "20"
+    ],
+    "temperature_vitrification": [
+      "60"
+    ],
+    "textured_plate_temp": [
+      "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "60"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/FlyingBear/filament/S1/Other PLA @S1.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PLA",
+  "variants": [
+    {
+      "catalogID": 103988,
+      "name": "Other PLA",
+      "printers": [
+        "infimech/tx-0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "InfiMech TX 0.4 nozzle"
+        ],
+        "name": "Other PLA"
+      }
+    },
+    {
+      "catalogID": 103989,
+      "name": "Other PLA @HSN",
+      "printers": [
+        "infimech/tx-hsn-0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "InfiMech TX HSN 0.4 nozzle"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "65"
+        ],
+        "name": "Other PLA @HSN",
+        "pressure_advance": [
+          "0.03"
+        ]
+      }
+    },
+    {
+      "catalogID": 103944,
+      "name": "Other PLA @S1",
+      "printers": [
+        "flyingbear/s1-0-4"
+      ],
+      "settings": {}
+    }
+  ]
+}

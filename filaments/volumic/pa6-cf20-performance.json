@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "id": "volumic/pa6-cf20-performance",
+  "manufacturer": "Volumic",
+  "name": "PA6 CF20 (Performance)",
+  "settings": {
+    "bed_type": [
+      "Hot Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "3"
+    ],
+    "compatible_printers": [
+      "EXO42 Performance (0.4 nozzle)",
+      "EXO65 Performance (0.4 nozzle)",
+      "EXO65 Performance (0.6 nozzle)",
+      "EXO65 Performance (0.8 nozzle)",
+      "SH65 Performance (0.4 nozzle)",
+      "EXO42 IDRE (0.4 nozzle)",
+      "EXO42 IDRE COPY MODE (0.4 nozzle)",
+      "EXO42 IDRE MIRROR MODE (0.4 nozzle)",
+      "EXO65 IDRE (0.4 nozzle)",
+      "EXO65 IDRE COPY MODE (0.4 nozzle)",
+      "EXO65 IDRE MIRROR MODE (0.4 nozzle)",
+      "SH65 IDRE (0.4 nozzle)",
+      "SH65 IDRE COPY MODE (0.4 nozzle)",
+      "SH65 IDRE MIRROR MODE (0.4 nozzle)",
+      "VS30SC2 Performance (0.4 nozzle)"
+    ],
+    "cool_plate_temp": [
+      "65"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "65"
+    ],
+    "eng_plate_temp": [
+      "65"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "65"
+    ],
+    "fan_cooling_layer_time": [
+      "4"
+    ],
+    "fan_max_speed": [
+      "30"
+    ],
+    "fan_min_speed": [
+      "0"
+    ],
+    "filament_cost": [
+      "37.50"
+    ],
+    "filament_density": [
+      "1.14"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_flow_ratio": [
+      "0.96"
+    ],
+    "filament_id": "OFcKtw8W",
+    "filament_max_volumetric_speed": [
+      "36"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_type": [
+      "PA6-CF"
+    ],
+    "filament_vendor": [
+      "Volumic"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "45"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "45"
+    ],
+    "name": "PA6 CF20 (Performance)",
+    "nozzle_temperature": [
+      "270"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "270"
+    ],
+    "nozzle_temperature_range_high": [
+      "290"
+    ],
+    "nozzle_temperature_range_low": [
+      "240"
+    ],
+    "overhang_fan_speed": [
+      "50"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "0"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "2"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "textured_plate_temp": [
+      "65"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "65"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Volumic/filament/PA6 CF20 (Performance).json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PA6-CF",
+  "variants": [
+    {
+      "catalogID": 106309,
+      "name": "PA6 CF20 (Performance)",
+      "printers": [
+        "volumic/exo42-idre-0-4",
+        "volumic/exo42-idre-copy-mode-0-4",
+        "volumic/exo42-idre-mirror-mode-0-4",
+        "volumic/exo42-performance-0-4",
+        "volumic/exo65-idre-0-4",
+        "volumic/exo65-idre-copy-mode-0-4",
+        "volumic/exo65-idre-mirror-mode-0-4",
+        "volumic/exo65-performance-0-4",
+        "volumic/exo65-performance-0-6",
+        "volumic/exo65-performance-0-8",
+        "volumic/sh65-idre-0-4",
+        "volumic/sh65-idre-copy-mode-0-4",
+        "volumic/sh65-idre-mirror-mode-0-4",
+        "volumic/sh65-performance-0-4",
+        "volumic/vs30sc2-performance-0-4"
+      ],
+      "settings": {}
+    }
+  ]
+}

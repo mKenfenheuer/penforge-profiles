@@ -1,0 +1,361 @@
+{
+  "format": 1,
+  "id": "forward-am/ultrafuse-paht-cf15-prusaslicer",
+  "manufacturer": "Forward AM",
+  "name": "Ultrafuse PAHT-CF15",
+  "settings": {
+    "bed_temperature": "105",
+    "bridge_fan_speed": "20",
+    "compatible_printers": "",
+    "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.8",
+    "cooling": "1",
+    "disable_fan_first_layers": "1",
+    "end_filament_gcode": "; Filament-specific end gcode",
+    "extrusion_multiplier": "1",
+    "fan_always_on": "1",
+    "fan_below_layer_time": "30",
+    "filament_colour": "#404040",
+    "filament_cooling_final_speed": "2.5",
+    "filament_cooling_initial_speed": "5",
+    "filament_cooling_moves": "3",
+    "filament_cost": "0",
+    "filament_density": "1.23",
+    "filament_deretract_speed": "30",
+    "filament_diameter": "1.75",
+    "filament_load_time": "10.5",
+    "filament_loading_speed": "10",
+    "filament_loading_speed_start": "50",
+    "filament_max_volumetric_speed": "10",
+    "filament_minimal_purge_on_wipe_tower": "35",
+    "filament_notes": "Material Description\nPAHT CF15 is a high-performance 3D printing filament that opens new application fields in FFF printing. In parallel to its advanced mechanical properties, dimensional stability, and chemical resistance, it has very good processability. It works in any FFF printer with a hardened nozzle. In addition to that, it is compatible with water-soluble support material and HiPS, which allow printing complex geometries that work in challenging environments. PAHT CF15 has high heat resistance up to 130 °C and low moisture absorption.\n\nPrinting Recommendations:\nThis material contains fibers that have an abrasive effect on printer components. Use a hardened nozzle with a diameter of 0.6 or larger for optimal performance and avoid damage to the nozzle.\n\nUltrafuse PAHT-CF can be printed directly onto a clean build plate. For challenging prints, use 3dLac to improve adhesion.",
+    "filament_ramming_parameters": "250 100 42.4194 42.4194 42.4194 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+    "filament_retract_before_travel": "2",
+    "filament_retract_layer_change": "0",
+    "filament_retract_length": "1.2",
+    "filament_retract_lift": "nil",
+    "filament_retract_speed": "40",
+    "filament_settings_id": "",
+    "filament_soluble": "0",
+    "filament_spool_weight": "0",
+    "filament_toolchange_delay": "0",
+    "filament_type": "PA",
+    "filament_unload_time": "8.5",
+    "filament_unloading_speed": "60",
+    "filament_unloading_speed_start": "60",
+    "filament_vendor": "Forward AM",
+    "filament_wipe": "0",
+    "first_layer_bed_temperature": "100",
+    "first_layer_temperature": "270",
+    "full_fan_speed_layer": "3",
+    "max_fan_speed": "15",
+    "min_fan_speed": "15",
+    "min_print_speed": "15",
+    "name": "Ultrafuse PAHT-CF15 @XL+ 0.8",
+    "slowdown_below_layer_time": "15",
+    "start_filament_gcode": "{if printer_notes!~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.07{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{elsif nozzle_diameter[filament_extruder_id]==0.35}0.08{elsif nozzle_diameter[filament_extruder_id]==0.6}0.04{elsif nozzle_diameter[filament_extruder_id]==0.5}0.05{elsif nozzle_diameter[filament_extruder_id]==0.8}0.02{else}0{endif} ; Legacy LA\n{else}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.035{elsif nozzle_diameter[filament_extruder_id]==0.6}0.025{elsif nozzle_diameter[filament_extruder_id]==0.8}0.016{elsif nozzle_diameter[filament_extruder_id]==0.25}0.14{elsif nozzle_diameter[filament_extruder_id]==0.3}0.09{else}0{endif} ; Pressure advance\n{endif}\n\nM142 S45 ; set heatbreak target temp",
+    "temperature": "270"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "PrusaResearch/2.5.16.ini",
+    "name": "PrusaSlicer-settings-prusa-fff",
+    "section": "filament:Ultrafuse PAHT-CF15 @XL+ 0.8"
+  },
+  "type": "PA",
+  "variants": [
+    {
+      "catalogID": 111151,
+      "name": "Ultrafuse PAHT-CF15",
+      "printers": [
+        "prusa-research/i3-mk2-5-0-6",
+        "prusa-research/i3-mk2-5-0-8",
+        "prusa-research/i3-mk2-5-mmu2-single-0-6",
+        "prusa-research/i3-mk2-5-mmu2-single-0-8",
+        "prusa-research/i3-mk2-5s-0-6",
+        "prusa-research/i3-mk2-5s-0-8",
+        "prusa-research/i3-mk2-5s-mmu2s-single-0-6",
+        "prusa-research/i3-mk2-5s-mmu2s-single-0-8",
+        "prusa-research/i3-mk2s-0-6",
+        "prusa-research/i3-mk3-0-6",
+        "prusa-research/i3-mk3-0-8",
+        "prusa-research/i3-mk3-mmu2-single-0-6",
+        "prusa-research/i3-mk3-mmu2-single-0-8"
+      ],
+      "settings": {
+        "bed_temperature": "100",
+        "bridge_fan_speed": "100",
+        "compatible_printers_condition": "nozzle_diameter[0]>=0.6 and printer_notes!~/.*MINI.*/ and printer_model!=\"MK2SMM\" and printer_notes!~/.*PG.*/ and ! single_extruder_multi_material",
+        "filament_cooling_final_speed": "3.4",
+        "filament_cooling_initial_speed": "2.2",
+        "filament_cooling_moves": "4",
+        "filament_load_time": "0",
+        "filament_loading_speed": "28",
+        "filament_loading_speed_start": "3",
+        "filament_minimal_purge_on_wipe_tower": "15",
+        "filament_ramming_parameters": "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6",
+        "filament_unload_time": "0",
+        "filament_unloading_speed": "90",
+        "filament_unloading_speed_start": "100",
+        "max_fan_speed": "50",
+        "min_fan_speed": "0",
+        "name": "Ultrafuse PAHT-CF15",
+        "start_filament_gcode": "{if printer_notes!~/.*(MK3.5|MINIIS).*/}\nM900 K{if printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.6}0.12{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.8}0.06{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/}0.2{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.6}0.02{else}0.04{endif} ; Filament gcode LA 1.5\n{if printer_notes=~/.*PRINTER_MODEL_MINI.*/};{elsif printer_notes=~/.*PRINTER_HAS_BOWDEN.*/}M900 K200{elsif nozzle_diameter[0]==0.6}M900 K12{elsif nozzle_diameter[0]==0.8};{else}M900 K20{endif} ; Filament gcode LA 1.0\n{endif}\n\n{if printer_notes=~/.*MINIIS.*/}\nM572 S{if nozzle_diameter[0]==0.6}0.1{elsif nozzle_diameter[0]==0.8}0.07{elsif nozzle_diameter[0]==0.4}0.19{elsif nozzle_diameter[0]==0.25}0.55{else}0{endif}\n{endif}\n\n{if printer_notes=~/.*MK3.5.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.02{elsif nozzle_diameter[0]==0.5}0.018{elsif nozzle_diameter[0]==0.6}0.012{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.25}0.09{elsif nozzle_diameter[0]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}"
+      }
+    },
+    {
+      "catalogID": 111152,
+      "name": "Ultrafuse PAHT-CF15 @COREONE 0.6",
+      "printers": [
+        "prusa-research/signature-oak-0-6",
+        "prusa-research/signature-oak-hf0-6"
+      ],
+      "settings": {
+        "bed_temperature": "100",
+        "chamber_minimal_temperature": "40",
+        "chamber_temperature": "55",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.9",
+        "filament_max_volumetric_speed": "7",
+        "filament_shrinkage_compensation_xy": "0.28%",
+        "filament_shrinkage_compensation_z": "0.28%",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "130",
+        "name": "Ultrafuse PAHT-CF15 @COREONE 0.6"
+      }
+    },
+    {
+      "catalogID": 111153,
+      "name": "Ultrafuse PAHT-CF15 @COREONE 0.8",
+      "printers": [
+        "prusa-research/signature-oak-0-8",
+        "prusa-research/signature-oak-hf0-8"
+      ],
+      "settings": {
+        "bed_temperature": "100",
+        "chamber_minimal_temperature": "40",
+        "chamber_temperature": "55",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.8 and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.9",
+        "filament_shrinkage_compensation_xy": "0.28%",
+        "filament_shrinkage_compensation_z": "0.28%",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "130",
+        "name": "Ultrafuse PAHT-CF15 @COREONE 0.8"
+      }
+    },
+    {
+      "catalogID": 111154,
+      "name": "Ultrafuse PAHT-CF15 @MK4S 0.6",
+      "printers": [
+        "prusa-research/mk3-9s-0-6",
+        "prusa-research/mk3-9s-hf0-6"
+      ],
+      "settings": {
+        "bed_temperature": "100",
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "7",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "150",
+        "name": "Ultrafuse PAHT-CF15 @MK4S 0.6"
+      }
+    },
+    {
+      "catalogID": 111155,
+      "name": "Ultrafuse PAHT-CF15 @MK4S 0.8",
+      "printers": [
+        "prusa-research/mk3-9s-0-8",
+        "prusa-research/mk3-9s-hf0-8"
+      ],
+      "settings": {
+        "bed_temperature": "100",
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.8 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "150",
+        "name": "Ultrafuse PAHT-CF15 @MK4S 0.8"
+      }
+    },
+    {
+      "catalogID": 111156,
+      "name": "Ultrafuse PAHT-CF15 @PG 0.6",
+      "printers": [
+        "prusa-research/mk3-9-0-6",
+        "prusa-research/mk3-9-hf0-6"
+      ],
+      "settings": {
+        "bed_temperature": "100",
+        "bridge_fan_speed": "100",
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "7",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "150",
+        "max_fan_speed": "50",
+        "min_fan_speed": "0",
+        "name": "Ultrafuse PAHT-CF15 @PG 0.6"
+      }
+    },
+    {
+      "catalogID": 111157,
+      "name": "Ultrafuse PAHT-CF15 @PG 0.8",
+      "printers": [
+        "prusa-research/mk3-9-0-8",
+        "prusa-research/mk3-9-hf0-8"
+      ],
+      "settings": {
+        "bed_temperature": "100",
+        "bridge_fan_speed": "100",
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.8 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "150",
+        "max_fan_speed": "50",
+        "min_fan_speed": "0",
+        "name": "Ultrafuse PAHT-CF15 @PG 0.8"
+      }
+    },
+    {
+      "catalogID": 111158,
+      "name": "Ultrafuse PAHT-CF15 @XL 0.6",
+      "printers": [
+        "prusa-research/xl-2t-0-6",
+        "prusa-research/xl-2t-input-shaper-0-6",
+        "prusa-research/xl-2t-input-shaper-hf0-6"
+      ],
+      "settings": {
+        "bridge_fan_speed": "100",
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.6",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "7",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "70",
+        "max_fan_speed": "50",
+        "min_fan_speed": "0",
+        "name": "Ultrafuse PAHT-CF15 @XL 0.6"
+      }
+    },
+    {
+      "catalogID": 111159,
+      "name": "Ultrafuse PAHT-CF15 @XL 0.8",
+      "printers": [
+        "prusa-research/xl-2t-0-8",
+        "prusa-research/xl-2t-input-shaper-0-8",
+        "prusa-research/xl-2t-input-shaper-hf0-8"
+      ],
+      "settings": {
+        "bridge_fan_speed": "100",
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.8",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "70",
+        "max_fan_speed": "50",
+        "min_fan_speed": "0",
+        "name": "Ultrafuse PAHT-CF15 @XL 0.8"
+      }
+    },
+    {
+      "catalogID": 111160,
+      "name": "Ultrafuse PAHT-CF15 @XL+ 0.6",
+      "printers": [
+        "prusa-research/xlplus-2t-0-6",
+        "prusa-research/xlplus-2t-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.6",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "7",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "70",
+        "name": "Ultrafuse PAHT-CF15 @XL+ 0.6"
+      }
+    },
+    {
+      "catalogID": 111161,
+      "name": "Ultrafuse PAHT-CF15 @XL+ 0.8",
+      "printers": [
+        "prusa-research/xlplus-2t-0-8",
+        "prusa-research/xlplus-2t-hf0-8"
+      ],
+      "settings": {
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "70"
+      }
+    }
+  ]
+}

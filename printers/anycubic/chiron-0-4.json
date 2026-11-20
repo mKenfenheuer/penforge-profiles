@@ -1,0 +1,500 @@
+{
+  "format": 1,
+  "id": "anycubic/chiron-0-4",
+  "manufacturer": "Anycubic",
+  "model": "Chiron",
+  "name": "Anycubic Chiron 0.4 nozzle",
+  "nozzle": 0.4,
+  "processes": [
+    {
+      "catalogID": 20053,
+      "default": false,
+      "name": "0.15mm Optimal @Anycubic Chiron",
+      "settings": {
+        "bottom_shell_layers": "5",
+        "bottom_shell_thickness": "0.5",
+        "bottom_surface_pattern": "monotonic",
+        "bridge_flow": "1",
+        "bridge_no_support": "0",
+        "bridge_speed": "25",
+        "brim_object_gap": "0",
+        "brim_width": "0",
+        "compatible_printers": [
+          "Anycubic Chiron 0.4 nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "default_acceleration": "1000",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "1",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0.2",
+        "enable_arc_fitting": "0",
+        "enable_prime_tower": "1",
+        "enable_support": "0",
+        "filename_format": "{input_filename_base}_{filament_type[initial_tool]}_{print_time}.gcode",
+        "from": "system",
+        "gap_infill_speed": "30",
+        "infill_combination": "0",
+        "infill_direction": "45",
+        "infill_wall_overlap": "23%",
+        "initial_layer_acceleration": "800",
+        "initial_layer_infill_speed": "35%",
+        "initial_layer_line_width": "0.42",
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": "35%",
+        "inner_wall_acceleration": "0",
+        "inner_wall_line_width": "0.45",
+        "inner_wall_speed": "40",
+        "interface_shells": "0",
+        "internal_solid_infill_line_width": "0",
+        "internal_solid_infill_speed": "40",
+        "ironing_flow": "15%",
+        "ironing_spacing": "0.1",
+        "ironing_speed": "15",
+        "ironing_type": "no ironing",
+        "layer_height": "0.15",
+        "line_width": "0.45",
+        "max_travel_detour_distance": "0",
+        "minimum_sparse_infill_area": "10",
+        "name": "0.15mm Optimal @Anycubic Chiron",
+        "outer_wall_acceleration": "700",
+        "outer_wall_line_width": "0.45",
+        "outer_wall_speed": "40",
+        "overhang_1_4_speed": "0",
+        "overhang_2_4_speed": "20",
+        "overhang_3_4_speed": "15",
+        "overhang_4_4_speed": "10",
+        "prime_tower_width": "60",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction": "1",
+        "resolution": "0.012",
+        "seam_position": "aligned",
+        "skirt_distance": "2",
+        "skirt_height": "3",
+        "skirt_loops": "2",
+        "sparse_infill_density": "15%",
+        "sparse_infill_line_width": "0.45",
+        "sparse_infill_pattern": "crosshatch",
+        "sparse_infill_speed": "60",
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "rectilinear",
+        "support_base_pattern_spacing": "0.15",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "-1",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_spacing": "0.2",
+        "support_interface_speed": "100%",
+        "support_interface_top_layers": "3",
+        "support_line_width": "0.35",
+        "support_object_xy_distance": "60%",
+        "support_on_build_plate_only": "0",
+        "support_speed": "50",
+        "support_style": "grid",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.15",
+        "support_type": "normal(auto)",
+        "top_shell_layers": "7",
+        "top_shell_thickness": "0.8",
+        "top_surface_acceleration": "0",
+        "top_surface_line_width": "0.35",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_speed": "40",
+        "travel_acceleration": "0",
+        "travel_speed": "180",
+        "tree_support_branch_angle": "40",
+        "tree_support_wall_count": "0",
+        "type": "process",
+        "wall_infill_order": "inner wall/outer wall/infill",
+        "wall_loops": "2",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0"
+      }
+    },
+    {
+      "catalogID": 20077,
+      "default": true,
+      "name": "0.20mm Standard @Anycubic Chiron",
+      "settings": {
+        "bottom_shell_layers": "4",
+        "bottom_shell_thickness": "0.5",
+        "bottom_surface_pattern": "monotonic",
+        "bridge_flow": "0.95",
+        "bridge_no_support": "0",
+        "bridge_speed": "25",
+        "brim_object_gap": "0",
+        "brim_width": "0",
+        "compatible_printers": [
+          "Anycubic Chiron 0.4 nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "default_acceleration": "1000",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "1",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0.2",
+        "enable_arc_fitting": "0",
+        "enable_prime_tower": "1",
+        "enable_support": "0",
+        "filename_format": "{input_filename_base}_{filament_type[initial_tool]}_{print_time}.gcode",
+        "from": "system",
+        "gap_infill_speed": "30",
+        "infill_combination": "0",
+        "infill_direction": "45",
+        "infill_wall_overlap": "23%",
+        "initial_layer_acceleration": "800",
+        "initial_layer_infill_speed": "35%",
+        "initial_layer_line_width": "0.42",
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": "35%",
+        "inner_wall_acceleration": "0",
+        "inner_wall_line_width": "0.45",
+        "inner_wall_speed": "40",
+        "interface_shells": "0",
+        "internal_solid_infill_line_width": "0",
+        "internal_solid_infill_speed": "40",
+        "ironing_flow": "15%",
+        "ironing_spacing": "0.1",
+        "ironing_speed": "15",
+        "ironing_type": "no ironing",
+        "layer_height": "0.2",
+        "line_width": "0.45",
+        "max_travel_detour_distance": "0",
+        "minimum_sparse_infill_area": "10",
+        "name": "0.20mm Standard @Anycubic Chiron",
+        "outer_wall_acceleration": "700",
+        "outer_wall_line_width": "0.45",
+        "outer_wall_speed": "40",
+        "overhang_1_4_speed": "0",
+        "overhang_2_4_speed": "20",
+        "overhang_3_4_speed": "15",
+        "overhang_4_4_speed": "10",
+        "prime_tower_width": "60",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction": "1",
+        "resolution": "0.012",
+        "seam_position": "aligned",
+        "skirt_distance": "2",
+        "skirt_height": "3",
+        "skirt_loops": "2",
+        "sparse_infill_density": "15%",
+        "sparse_infill_line_width": "0.45",
+        "sparse_infill_pattern": "crosshatch",
+        "sparse_infill_speed": "60",
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "rectilinear",
+        "support_base_pattern_spacing": "0.2",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "-1",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_spacing": "0.2",
+        "support_interface_speed": "100%",
+        "support_interface_top_layers": "3",
+        "support_line_width": "0.35",
+        "support_object_xy_distance": "60%",
+        "support_on_build_plate_only": "0",
+        "support_speed": "50",
+        "support_style": "grid",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.2",
+        "support_type": "normal(auto)",
+        "top_shell_layers": "5",
+        "top_shell_thickness": "0.8",
+        "top_surface_acceleration": "0",
+        "top_surface_line_width": "0.35",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_speed": "40",
+        "travel_acceleration": "0",
+        "travel_speed": "180",
+        "tree_support_branch_angle": "40",
+        "tree_support_wall_count": "0",
+        "type": "process",
+        "wall_infill_order": "inner wall/outer wall/infill",
+        "wall_loops": "2",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0"
+      }
+    },
+    {
+      "catalogID": 20115,
+      "default": false,
+      "name": "0.30mm Draft @Anycubic Chiron",
+      "settings": {
+        "bottom_shell_layers": "4",
+        "bottom_shell_thickness": "0.5",
+        "bottom_surface_pattern": "monotonic",
+        "bridge_flow": "0.95",
+        "bridge_no_support": "0",
+        "bridge_speed": "25",
+        "brim_object_gap": "0",
+        "brim_width": "0",
+        "compatible_printers": [
+          "Anycubic Chiron 0.4 nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "default_acceleration": "1000",
+        "detect_overhang_wall": "1",
+        "detect_thin_wall": "1",
+        "draft_shield": "disabled",
+        "elefant_foot_compensation": "0.2",
+        "enable_arc_fitting": "0",
+        "enable_prime_tower": "1",
+        "enable_support": "0",
+        "filename_format": "{input_filename_base}_{filament_type[initial_tool]}_{print_time}.gcode",
+        "from": "system",
+        "gap_infill_speed": "30",
+        "infill_combination": "0",
+        "infill_direction": "45",
+        "infill_wall_overlap": "23%",
+        "initial_layer_acceleration": "800",
+        "initial_layer_infill_speed": "35%",
+        "initial_layer_line_width": "0.42",
+        "initial_layer_print_height": "0.2",
+        "initial_layer_speed": "35%",
+        "inner_wall_acceleration": "0",
+        "inner_wall_line_width": "0.5",
+        "inner_wall_speed": "40",
+        "interface_shells": "0",
+        "internal_solid_infill_line_width": "0",
+        "internal_solid_infill_speed": "40",
+        "ironing_flow": "15%",
+        "ironing_spacing": "0.1",
+        "ironing_speed": "15",
+        "ironing_type": "no ironing",
+        "layer_height": "0.3",
+        "line_width": "0.5",
+        "max_travel_detour_distance": "0",
+        "minimum_sparse_infill_area": "10",
+        "name": "0.30mm Draft @Anycubic Chiron",
+        "outer_wall_acceleration": "700",
+        "outer_wall_line_width": "0.6",
+        "outer_wall_speed": "35",
+        "overhang_1_4_speed": "0",
+        "overhang_2_4_speed": "20",
+        "overhang_3_4_speed": "15",
+        "overhang_4_4_speed": "10",
+        "prime_tower_width": "60",
+        "print_sequence": "by layer",
+        "print_settings_id": "",
+        "raft_layers": "0",
+        "reduce_crossing_wall": "0",
+        "reduce_infill_retraction": "1",
+        "resolution": "0.012",
+        "seam_position": "aligned",
+        "skirt_distance": "2",
+        "skirt_height": "3",
+        "skirt_loops": "2",
+        "sparse_infill_density": "15%",
+        "sparse_infill_line_width": "0.5",
+        "sparse_infill_pattern": "crosshatch",
+        "sparse_infill_speed": "85",
+        "spiral_mode": "0",
+        "standby_temperature_delta": "-5",
+        "support_base_pattern": "rectilinear",
+        "support_base_pattern_spacing": "0.2",
+        "support_filament": "0",
+        "support_interface_bottom_layers": "-1",
+        "support_interface_filament": "0",
+        "support_interface_loop_pattern": "0",
+        "support_interface_spacing": "0.3",
+        "support_interface_speed": "100%",
+        "support_interface_top_layers": "3",
+        "support_line_width": "0.38",
+        "support_object_xy_distance": "60%",
+        "support_on_build_plate_only": "0",
+        "support_speed": "45",
+        "support_style": "grid",
+        "support_threshold_angle": "30",
+        "support_top_z_distance": "0.3",
+        "support_type": "normal(auto)",
+        "top_shell_layers": "4",
+        "top_shell_thickness": "0.8",
+        "top_surface_acceleration": "0",
+        "top_surface_line_width": "0.35",
+        "top_surface_pattern": "monotonicline",
+        "top_surface_speed": "40",
+        "travel_acceleration": "0",
+        "travel_speed": "180",
+        "tree_support_branch_angle": "40",
+        "tree_support_wall_count": "0",
+        "type": "process",
+        "wall_infill_order": "inner wall/outer wall/infill",
+        "wall_loops": "2",
+        "wipe_tower_no_sparse_layers": "0",
+        "xy_contour_compensation": "0",
+        "xy_hole_compensation": "0"
+      }
+    }
+  ],
+  "settings": {
+    "auxiliary_fan": "0",
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\nG92 E0.0\n;[layer_z]\n\n",
+    "change_filament_gcode": "M600",
+    "default_filament_profile": [
+      "Generic PLA @Anycubic"
+    ],
+    "default_print_profile": "0.20mm Standard @Anycubic Chiron",
+    "deretraction_speed": [
+      "0"
+    ],
+    "extruder_clearance_height_to_lid": "140",
+    "extruder_clearance_height_to_rod": "36",
+    "extruder_clearance_radius": "65",
+    "extruder_colour": [
+      "#018001"
+    ],
+    "extruder_offset": [
+      "0x0"
+    ],
+    "from": "system",
+    "gcode_flavor": "marlin",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]",
+    "machine_end_gcode": "M104 S0;extruder heater off\nM140 S0  ;heated bed heater off (if you have it)\nG91;relative positioning\nG1 E-4 F300;retract the filament a bit before lifting the nozzle, to release some of the pressure\nG1 Z+10 F3600 ;move Z up a bit\nG90;absolute positioning\nG1 X-10 F3000; get the head off the bed\nG1 F3000 Y400;kick the bed out\nM84;steppers off",
+    "machine_max_acceleration_e": [
+      "5000",
+      "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+      "1250",
+      "1250"
+    ],
+    "machine_max_acceleration_retracting": [
+      "1250",
+      "1250"
+    ],
+    "machine_max_acceleration_travel": [
+      "1500",
+      "1250"
+    ],
+    "machine_max_acceleration_x": [
+      "1000",
+      "960"
+    ],
+    "machine_max_acceleration_y": [
+      "1000",
+      "960"
+    ],
+    "machine_max_acceleration_z": [
+      "200",
+      "200"
+    ],
+    "machine_max_jerk_e": [
+      "4.5",
+      "4.5"
+    ],
+    "machine_max_jerk_x": [
+      "8",
+      "8"
+    ],
+    "machine_max_jerk_y": [
+      "8",
+      "8"
+    ],
+    "machine_max_jerk_z": [
+      "0.4",
+      "0.4"
+    ],
+    "machine_max_junction_deviation": [
+      "0.028",
+      "0"
+    ],
+    "machine_max_speed_e": [
+      "120",
+      "120"
+    ],
+    "machine_max_speed_x": [
+      "300",
+      "100"
+    ],
+    "machine_max_speed_y": [
+      "300",
+      "100"
+    ],
+    "machine_max_speed_z": [
+      "12",
+      "12"
+    ],
+    "machine_min_extruding_rate": [
+      "0",
+      "0"
+    ],
+    "machine_min_travel_rate": [
+      "0",
+      "0"
+    ],
+    "machine_pause_gcode": "M601",
+    "machine_start_gcode": "M104 S140;start the nozzle preheat and don't wait\nG21;metric values\nG90;absolute positioning\nM82;set extruder to absolute mode\nM107       ;start with the fan off\nG28;home all\nM190 S[bed_temperature_initial_layer_single]; set wait for bed temp\nM109 S[nozzle_temperature_initial_layer] ; wait for extruder temp\nG1 Z15.0 F3600 ;move the platform down 15mm\nG92 E0;zero the extruded length\nG1 F200 E40;extrude 40mm of feed stock\nG92 E0;zero the extruded length again\nG1 F3600",
+    "max_layer_height": [
+      "0.3"
+    ],
+    "min_layer_height": [
+      "0.1"
+    ],
+    "name": "Anycubic Chiron 0.4 nozzle",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "nozzle_type": "undefine",
+    "printable_area": [
+      "0x0",
+      "400x0",
+      "400x400",
+      "0x400"
+    ],
+    "printable_height": "450",
+    "printer_model": "Anycubic Chiron",
+    "printer_settings_id": "Anycubic",
+    "printer_technology": "FFF",
+    "printer_variant": "0.4",
+    "retract_before_wipe": [
+      "0%"
+    ],
+    "retract_length_toolchange": [
+      "4"
+    ],
+    "retract_restart_extra": [
+      "0"
+    ],
+    "retract_restart_extra_toolchange": [
+      "0"
+    ],
+    "retract_when_changing_layer": [
+      "1"
+    ],
+    "retraction_length": [
+      "2"
+    ],
+    "retraction_minimum_travel": [
+      "1"
+    ],
+    "retraction_speed": [
+      "40"
+    ],
+    "scan_first_layer": "0",
+    "single_extruder_multi_material": "1",
+    "type": "machine",
+    "wipe": [
+      "1"
+    ],
+    "z_hop": [
+      "0.4"
+    ],
+    "z_hop_types": "Normal Lift"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Anycubic/machine/Anycubic Chiron 0.4 nozzle.json",
+    "name": "OrcaSlicer"
+  }
+}

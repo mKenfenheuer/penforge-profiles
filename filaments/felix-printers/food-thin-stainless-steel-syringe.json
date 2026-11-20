@@ -1,0 +1,277 @@
+{
+  "format": 1,
+  "id": "felix-printers/food-thin-stainless-steel-syringe",
+  "manufacturer": "FELIX Printers",
+  "name": "Food Thin Stainless Steel Syringe",
+  "settings": {
+    "additional_cooling_fan_speed": [
+      "0"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [
+      "FELIX Food Single 0.50mm nozzle",
+      "FELIX Food Double 0.50mm nozzle",
+      "FELIX Food Switch 0.50mm nozzle"
+    ],
+    "cool_plate_temp": [
+      "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "0"
+    ],
+    "eng_plate_temp": [
+      "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "0"
+    ],
+    "fan_cooling_layer_time": [
+      "100"
+    ],
+    "fan_max_speed": [
+      "0"
+    ],
+    "fan_min_speed": [
+      "0"
+    ],
+    "filament_cost": [
+      "0"
+    ],
+    "filament_density": [
+      "1.24"
+    ],
+    "filament_deretraction_speed": [
+      "10.0"
+    ],
+    "filament_diameter": [
+      "25.4"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "1.1"
+    ],
+    "filament_id": "OF40XIE8",
+    "filament_is_support": [
+      "1"
+    ],
+    "filament_max_volumetric_speed": [
+      "10.8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_length_toolchange": [
+      "0.4"
+    ],
+    "filament_retract_restart_extra": [
+      "0.0"
+    ],
+    "filament_retract_restart_extra_toolchange": [
+      "0.0"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "0.2"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "10.0"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "1"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\n"
+    ],
+    "filament_type": [
+      "PVB"
+    ],
+    "filament_vendor": [
+      "FELIX Printers"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "0.75"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "0"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "0"
+    ],
+    "idle_temperature": [
+      "0"
+    ],
+    "name": "Food Thin Stainless Steel Syringe @0.50mm",
+    "nozzle_temperature": [
+      "0"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "0"
+    ],
+    "nozzle_temperature_range_high": [
+      "0"
+    ],
+    "nozzle_temperature_range_low": [
+      "0"
+    ],
+    "overhang_fan_speed": [
+      "0"
+    ],
+    "overhang_fan_threshold": [
+      "50%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "0"
+    ],
+    "slow_down_layer_time": [
+      "4"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "temperature_vitrification": [
+      "0"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/FELIX Printers/filament/FELIXFood/Food Thin Stainless Steel Syringe @0.50mm.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PVB",
+  "variants": [
+    {
+      "catalogID": 103396,
+      "name": "Food Thin Stainless Steel Syringe @0.50mm",
+      "printers": [
+        "felix-printers/food-double-0-50mm",
+        "felix-printers/food-single-0-50mm",
+        "felix-printers/food-switch-0-50mm"
+      ],
+      "settings": {}
+    },
+    {
+      "catalogID": 103397,
+      "name": "Food Thin Stainless Steel Syringe @1.00mm",
+      "printers": [
+        "felix-printers/food-double-1-00mm",
+        "felix-printers/food-single-1-00mm",
+        "felix-printers/food-switch-1-00mm"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "FELIX Food Single 1.00mm nozzle",
+          "FELIX Food Double 1.00mm nozzle",
+          "FELIX Food Switch 1.00mm nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "40.5"
+        ],
+        "filament_wipe_distance": [
+          "1.5"
+        ],
+        "name": "Food Thin Stainless Steel Syringe @1.00mm"
+      }
+    },
+    {
+      "catalogID": 103398,
+      "name": "Food Thin Stainless Steel Syringe @2.00mm",
+      "printers": [
+        "felix-printers/food-double-2-00mm",
+        "felix-printers/food-single-2-00mm",
+        "felix-printers/food-switch-2-00mm"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "FELIX Food Single 2.00mm nozzle",
+          "FELIX Food Double 2.00mm nozzle",
+          "FELIX Food Switch 2.00mm nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "162.0"
+        ],
+        "filament_wipe_distance": [
+          "3.0"
+        ],
+        "name": "Food Thin Stainless Steel Syringe @2.00mm"
+      }
+    },
+    {
+      "catalogID": 103399,
+      "name": "Food Thin Stainless Steel Syringe @3.00mm",
+      "printers": [
+        "felix-printers/food-double-3-00mm",
+        "felix-printers/food-single-3-00mm",
+        "felix-printers/food-switch-3-00mm"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "FELIX Food Single 3.00mm nozzle",
+          "FELIX Food Double 3.00mm nozzle",
+          "FELIX Food Switch 3.00mm nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "324.0"
+        ],
+        "filament_wipe_distance": [
+          "4.5"
+        ],
+        "name": "Food Thin Stainless Steel Syringe @3.00mm"
+      }
+    },
+    {
+      "catalogID": 103400,
+      "name": "Food Thin Stainless Steel Syringe @4.00mm",
+      "printers": [
+        "felix-printers/food-double-4-00mm",
+        "felix-printers/food-single-4-00mm",
+        "felix-printers/food-switch-4-00mm"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "FELIX Food Single 4.00mm nozzle",
+          "FELIX Food Double 4.00mm nozzle",
+          "FELIX Food Switch 4.00mm nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "648.0"
+        ],
+        "filament_wipe_distance": [
+          "6.0"
+        ],
+        "name": "Food Thin Stainless Steel Syringe @4.00mm"
+      }
+    }
+  ]
+}

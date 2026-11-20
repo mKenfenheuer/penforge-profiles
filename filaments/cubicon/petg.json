@@ -1,0 +1,231 @@
+{
+  "format": 1,
+  "id": "cubicon/petg",
+  "manufacturer": "Cubicon",
+  "name": "Cubicon PETG",
+  "settings": {
+    "activate_air_filtration": [
+      "1"
+    ],
+    "additional_cooling_fan_speed": [
+      "0"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "3"
+    ],
+    "compatible_printers": [
+      "Cubicon xCeler-I 0.4 nozzle"
+    ],
+    "complete_print_exhaust_fan_speed": [
+      "255"
+    ],
+    "cool_plate_temp": [
+      "60"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "60"
+    ],
+    "default_filament_colour": "",
+    "enable_pressure_advance": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "0"
+    ],
+    "fan_cooling_layer_time": [
+      "30"
+    ],
+    "fan_max_speed": [
+      "90"
+    ],
+    "fan_min_speed": [
+      "80"
+    ],
+    "filament_cost": [
+      "30"
+    ],
+    "filament_density": [
+      "1.24"
+    ],
+    "filament_deretraction_speed": [
+      "25"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "0.99"
+    ],
+    "filament_id": "OFoBTKmn",
+    "filament_max_volumetric_speed": [
+      "8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "70%"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "2.0"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "40"
+    ],
+    "filament_settings_id": [
+      "Cubicon PETG @Cubicon xCeler-I 0.4 nozzle"
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; Filament gcode\n"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "filament_vendor": [
+      "Cubicon"
+    ],
+    "filament_wipe": [
+      "1"
+    ],
+    "filament_wipe_distance": [
+      "2"
+    ],
+    "filament_z_hop": [
+      "0"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "85"
+    ],
+    "name": "Cubicon PETG @Cubicon xCeler-I 0.4 nozzle",
+    "nozzle_temperature": [
+      "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "235"
+    ],
+    "nozzle_temperature_range_high": [
+      "250"
+    ],
+    "nozzle_temperature_range_low": [
+      "220"
+    ],
+    "overhang_fan_speed": [
+      "100"
+    ],
+    "overhang_fan_threshold": [
+      "95%"
+    ],
+    "pressure_advance": [
+      "0.08"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "8"
+    ],
+    "slow_down_min_speed": [
+      "30"
+    ],
+    "supertack_plate_temp": [
+      "70"
+    ],
+    "supertack_plate_temp_initial_layer": [
+      "70"
+    ],
+    "temperature_vitrification": [
+      "70"
+    ],
+    "textured_plate_temp": [
+      "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "80"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Cubicon/filament/Cubicon PETG @Cubicon xCeler-I 0.4 nozzle.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PETG",
+  "variants": [
+    {
+      "catalogID": 103037,
+      "name": "Cubicon PETG @Cubicon xCeler-I 0.4 nozzle",
+      "printers": [
+        "cubicon/xceler-i-0-4"
+      ],
+      "settings": {
+        "renamed_from": "Cubicon PETG @base"
+      }
+    },
+    {
+      "catalogID": 103038,
+      "name": "Cubicon PETG @Cubicon xCeler-Mini 0.4 nozzle",
+      "printers": [
+        "cubicon/xceler-mini-0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Cubicon xCeler-Mini 0.4 nozzle"
+        ],
+        "filament_settings_id": [
+          ""
+        ],
+        "name": "Cubicon PETG @Cubicon xCeler-Mini 0.4 nozzle"
+      }
+    },
+    {
+      "catalogID": 103039,
+      "name": "Cubicon PETG @Cubicon xCeler-Plus 0.4 nozzle",
+      "printers": [
+        "cubicon/xceler-plus-0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Cubicon xCeler-Plus 0.4 nozzle"
+        ],
+        "filament_settings_id": [
+          "Cubicon PETG @Cubicon xCeler-Plus 0.4 nozzle"
+        ],
+        "name": "Cubicon PETG @Cubicon xCeler-Plus 0.4 nozzle"
+      }
+    }
+  ]
+}

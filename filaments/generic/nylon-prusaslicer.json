@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "id": "generic/nylon-prusaslicer",
+  "manufacturer": "Generic",
+  "name": "Generic Nylon",
+  "settings": {
+    "bed_temperature": "100",
+    "cooling": "1",
+    "disable_fan_first_layers": "3",
+    "extrusion_multiplier": "1",
+    "fan_always_on": "0",
+    "fan_below_layer_time": "60",
+    "filament_colour": "#0AF1CE",
+    "filament_cost": "0",
+    "filament_density": "1.12",
+    "filament_diameter": "1.75",
+    "filament_soluble": "0",
+    "filament_type": "NYLON",
+    "first_layer_bed_temperature": "100",
+    "first_layer_temperature": "250",
+    "min_print_speed": "10",
+    "name": "Generic Nylon @Rigid3D",
+    "slowdown_below_layer_time": "10",
+    "temperature": "250"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "Rigid3D/2.1.0.ini",
+    "name": "PrusaSlicer-settings-non-prusa-fff",
+    "section": "filament:Generic Nylon @Rigid3D"
+  },
+  "type": "NYLON",
+  "variants": [
+    {
+      "name": "Generic Nylon @PROTON_X",
+      "printers": [
+        "inat/proton-x-rail",
+        "inat/proton-x-rod"
+      ],
+      "settings": {
+        "bed_temperature": "130",
+        "bridge_fan_speed": "0",
+        "compatible_printers": "\"Proton X Rail\";\"Proton X Rod\"",
+        "cooling": "0",
+        "fan_below_layer_time": "10",
+        "filament_colour": "#29B2B2",
+        "filament_cost": "70",
+        "filament_density": "1.01",
+        "filament_type": "Nylon",
+        "filament_vendor": "Generic",
+        "first_layer_bed_temperature": "130",
+        "first_layer_temperature": "235",
+        "full_fan_speed_layer": "0",
+        "name": "Generic Nylon @PROTON_X",
+        "renamed_from": "Nylon @PROTON_X",
+        "slowdown_below_layer_time": "5",
+        "temperature": "235"
+      }
+    },
+    {
+      "catalogID": 111785,
+      "name": "Generic Nylon @PROTON_XE750",
+      "printers": [
+        "inat/proton-xe-750"
+      ],
+      "settings": {
+        "bed_temperature": "130",
+        "bridge_fan_speed": "0",
+        "compatible_printers": "Proton XE-750",
+        "cooling": "0",
+        "end_filament_gcode": "; Filament end gcode BEGIN\nG0 X-5 Y250 F10000\nM104 S{temperature[current_extruder] - 50}\n; Filament end gcode END\n",
+        "fan_below_layer_time": "10",
+        "filament_colour": "#29B2B2",
+        "filament_cost": "70",
+        "filament_density": "1.01",
+        "filament_type": "Nylon",
+        "filament_vendor": "Generic",
+        "first_layer_bed_temperature": "130",
+        "first_layer_temperature": "235",
+        "full_fan_speed_layer": "0",
+        "name": "Generic Nylon @PROTON_XE750",
+        "renamed_from": "Nylon @PROTON_XE750",
+        "slowdown_below_layer_time": "5",
+        "start_filament_gcode": "; Filament start gcode BEGIN\nM104 S[temperature[current_extruder]]\nG4 S20\n; Filament start gcode END\n",
+        "temperature": "235"
+      }
+    },
+    {
+      "catalogID": 111877,
+      "name": "Generic Nylon @Rigid3D",
+      "printers": [
+        "rigid3d/mucit2",
+        "rigid3d/zero2",
+        "rigid3d/zero3"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_notes=~/.*PRINTER_VENDOR_RIGID3D.*/ and printer_notes=~/.*PRINTER_HAS_HEATEDBED.*/",
+        "end_filament_gcode": "; Filament-specific end gcode \n;END gcode for filament\n",
+        "filament_cooling_final_speed": "3.4",
+        "filament_cooling_initial_speed": "2.2",
+        "filament_cooling_moves": "4",
+        "filament_deretract_speed": "nil",
+        "filament_max_volumetric_speed": "8",
+        "filament_minimal_purge_on_wipe_tower": "15",
+        "filament_notes": "",
+        "filament_retract_before_travel": "nil",
+        "filament_retract_before_wipe": "nil",
+        "filament_retract_layer_change": "nil",
+        "filament_retract_length": "nil",
+        "filament_retract_lift": "nil",
+        "filament_retract_lift_above": "nil",
+        "filament_retract_lift_below": "nil",
+        "filament_retract_restart_extra": "nil",
+        "filament_retract_speed": "nil",
+        "filament_settings_id": "",
+        "filament_spool_weight": "0",
+        "filament_wipe": "nil",
+        "max_fan_speed": "0",
+        "min_fan_speed": "0",
+        "start_filament_gcode": "; Filament gcode\n"
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "id": "volumic/desactive",
+  "manufacturer": "Volumic",
+  "name": "Désactivé",
+  "settings": {
+    "bed_type": [
+      "Hot Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [
+      "EXO42 IDRE (0.4 nozzle)",
+      "EXO65 IDRE (0.4 nozzle)",
+      "SH65 IDRE (0.4 nozzle)"
+    ],
+    "cool_plate_temp": [
+      "50"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "50"
+    ],
+    "eng_plate_temp": [
+      "50"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "50"
+    ],
+    "fan_cooling_layer_time": [
+      "100"
+    ],
+    "fan_max_speed": [
+      "0"
+    ],
+    "fan_min_speed": [
+      "0"
+    ],
+    "filament_cost": [
+      "37.50"
+    ],
+    "filament_density": [
+      "1.24"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_flow_ratio": [
+      "0.1"
+    ],
+    "filament_id": "OFCuaCer",
+    "filament_max_volumetric_speed": [
+      "1"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_type": [
+      "PLA"
+    ],
+    "filament_vendor": [
+      "Volumic"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "0"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "50"
+    ],
+    "name": "Désactivé",
+    "nozzle_temperature": [
+      "0"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "0"
+    ],
+    "overhang_fan_speed": [
+      "100"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "4"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "textured_plate_temp": [
+      "50"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "50"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Volumic/filament/desactive.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PLA",
+  "variants": [
+    {
+      "catalogID": 106308,
+      "name": "Désactivé",
+      "printers": [
+        "volumic/exo42-idre-0-4",
+        "volumic/exo65-idre-0-4",
+        "volumic/sh65-idre-0-4"
+      ],
+      "settings": {}
+    }
+  ]
+}

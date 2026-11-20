@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "id": "pragostroj/pp",
+  "manufacturer": "Pragostroj",
+  "name": "Pragostroj PP",
+  "settings": {
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [
+      "KINARB 1HB 0.5 nozzle",
+      "KINARB 2HB 0.5 nozzle"
+    ],
+    "cool_plate_temp": [
+      "60"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "60"
+    ],
+    "enable_pressure_advance": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "60"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "60"
+    ],
+    "fan_cooling_layer_time": [
+      "20"
+    ],
+    "fan_max_speed": [
+      "100"
+    ],
+    "fan_min_speed": [
+      "100"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "0.9"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "1.1"
+    ],
+    "filament_id": "OFp4bAZ8",
+    "filament_max_volumetric_speed": [
+      "8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_ramming_parameters": [
+      "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      "Pragostroj PP @Pragostroj 0.5 nozzle"
+    ],
+    "filament_shrink": [
+      "101%"
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\n"
+    ],
+    "filament_type": [
+      "PP"
+    ],
+    "filament_vendor": [
+      "Pragostroj"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "40"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "40"
+    ],
+    "idle_temperature": [
+      "0"
+    ],
+    "name": "Pragostroj PP @Pragostroj 0.5 nozzle",
+    "nozzle_temperature": [
+      "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "240"
+    ],
+    "nozzle_temperature_range_high": [
+      "240"
+    ],
+    "nozzle_temperature_range_low": [
+      "200"
+    ],
+    "overhang_fan_speed": [
+      "100"
+    ],
+    "overhang_fan_threshold": [
+      "50%"
+    ],
+    "pressure_advance": [
+      "0.05"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "5"
+    ],
+    "slow_down_min_speed": [
+      "5"
+    ],
+    "temperature_vitrification": [
+      "100"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Pragostroj/filament/Pragostroj PP @Pragostroj 0.5 nozzle.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PP",
+  "variants": [
+    {
+      "catalogID": 104065,
+      "name": "Pragostroj PP @Pragostroj 0.5 nozzle",
+      "printers": [
+        "pragostroj/kinarb-1hb-0-5",
+        "pragostroj/kinarb-2hb-0-5"
+      ],
+      "settings": {}
+    },
+    {
+      "catalogID": 104066,
+      "name": "Pragostroj PP @Pragostroj 0.8 nozzle",
+      "printers": [
+        "pragostroj/kinarb-1hb-0-8",
+        "pragostroj/kinarb-2hb-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "KINARB 1HB 0.8 nozzle",
+          "KINARB 2HB 0.8 nozzle"
+        ],
+        "filament_settings_id": [
+          "Pragostroj PP @Pragostroj 0.8 nozzle"
+        ],
+        "name": "Pragostroj PP @Pragostroj 0.8 nozzle"
+      }
+    }
+  ]
+}

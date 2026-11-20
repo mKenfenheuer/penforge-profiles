@@ -1,0 +1,368 @@
+{
+  "format": 1,
+  "id": "elegoo/paht-cf",
+  "manufacturer": "Elegoo",
+  "name": "Elegoo PAHT-CF",
+  "settings": {
+    "activate_air_filtration": [
+      "1"
+    ],
+    "additional_cooling_fan_speed": [
+      "0"
+    ],
+    "chamber_temperatures": [
+      "0"
+    ],
+    "close_fan_the_first_x_layers": [
+      "3"
+    ],
+    "compatible_printers": [],
+    "complete_print_exhaust_fan_speed": [
+      "70"
+    ],
+    "cool_plate_temp": [
+      "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "35"
+    ],
+    "during_print_exhaust_fan_speed": [
+      "70"
+    ],
+    "enable_pressure_advance": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "0"
+    ],
+    "fan_cooling_layer_time": [
+      "5"
+    ],
+    "fan_max_speed": [
+      "30"
+    ],
+    "fan_min_speed": [
+      "10"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.25"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "0.96"
+    ],
+    "filament_id": "OF20kXr5",
+    "filament_is_support": [
+      "0"
+    ],
+    "filament_long_retractions_when_cut": [
+      "nil"
+    ],
+    "filament_max_volumetric_speed": [
+      "6"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_multitool_ramming": [
+      "1"
+    ],
+    "filament_multitool_ramming_flow": [
+      "6"
+    ],
+    "filament_multitool_ramming_volume": [
+      "5"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_distances_when_cut": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_scarf_gap": [
+      "0%"
+    ],
+    "filament_scarf_height": [
+      "10%"
+    ],
+    "filament_scarf_length": [
+      "10"
+    ],
+    "filament_scarf_seam_type": [
+      "none"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_shrink": [
+      "100%"
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\n{if  (bed_temperature[current_extruder] >55)||(bed_temperature_initial_layer[current_extruder] >55)}M106 P3 S200\n{elsif(bed_temperature[current_extruder] >50)||(bed_temperature_initial_layer[current_extruder] >50)}M106 P3 S150\n{elsif(bed_temperature[current_extruder] >45)||(bed_temperature_initial_layer[current_extruder] >45)}M106 P3 S50\n{endif}\n\n{if activate_air_filtration[current_extruder] && support_air_filtration}\nM106 P3 S{during_print_exhaust_fan_speed_num[current_extruder]} \n{endif}"
+    ],
+    "filament_type": [
+      "PA"
+    ],
+    "filament_vendor": [
+      "Elegoo"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "60"
+    ],
+    "name": "Elegoo PAHT-CF @System",
+    "nozzle_temperature": [
+      "290"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "290"
+    ],
+    "nozzle_temperature_range_high": [
+      "290"
+    ],
+    "nozzle_temperature_range_low": [
+      "260"
+    ],
+    "overhang_fan_speed": [
+      "40"
+    ],
+    "overhang_fan_threshold": [
+      "0%"
+    ],
+    "pressure_advance": [
+      "0.052"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "0"
+    ],
+    "renamed_from": "Elegoo PAHT-CF",
+    "required_nozzle_HRC": [
+      "40"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "2"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "supertack_plate_temp": [
+      "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+      "0"
+    ],
+    "temperature_vitrification": [
+      "45"
+    ],
+    "textured_plate_temp": [
+      "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "100"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/OrcaFilamentLibrary/filament/Elegoo/Elegoo PAHT-CF @System.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PA",
+  "variants": [
+    {
+      "catalogID": 103082,
+      "name": "Elegoo PAHT-CF @EC",
+      "printers": [
+        "elegoo/centauri-0-2",
+        "elegoo/centauri-0-4",
+        "elegoo/centauri-0-6",
+        "elegoo/centauri-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Elegoo Centauri 0.2 nozzle",
+          "Elegoo Centauri 0.4 nozzle",
+          "Elegoo Centauri 0.6 nozzle",
+          "Elegoo Centauri 0.8 nozzle"
+        ],
+        "enable_pressure_advance": null,
+        "filament_long_retractions_when_cut": null,
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_retraction_distances_when_cut": null,
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": null,
+        "name": "Elegoo PAHT-CF @EC",
+        "pressure_advance": [
+          "0.024"
+        ],
+        "renamed_from": null,
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null
+      }
+    },
+    {
+      "catalogID": 103083,
+      "name": "Elegoo PAHT-CF @EC2",
+      "printers": [
+        "elegoo/centauri-2-0-2",
+        "elegoo/centauri-2-0-4",
+        "elegoo/centauri-2-0-6",
+        "elegoo/centauri-2-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Elegoo Centauri 2 0.2 nozzle",
+          "Elegoo Centauri 2 0.4 nozzle",
+          "Elegoo Centauri 2 0.6 nozzle",
+          "Elegoo Centauri 2 0.8 nozzle"
+        ],
+        "filament_long_retractions_when_cut": null,
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_retraction_distances_when_cut": null,
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": null,
+        "name": "Elegoo PAHT-CF @EC2",
+        "renamed_from": null,
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null
+      }
+    },
+    {
+      "catalogID": 103084,
+      "name": "Elegoo PAHT-CF @ECC",
+      "printers": [
+        "elegoo/centauri-carbon-0-2",
+        "elegoo/centauri-carbon-0-4",
+        "elegoo/centauri-carbon-0-6",
+        "elegoo/centauri-carbon-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Elegoo Centauri Carbon 0.2 nozzle",
+          "Elegoo Centauri Carbon 0.4 nozzle",
+          "Elegoo Centauri Carbon 0.6 nozzle",
+          "Elegoo Centauri Carbon 0.8 nozzle"
+        ],
+        "enable_pressure_advance": null,
+        "filament_long_retractions_when_cut": null,
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_retraction_distances_when_cut": null,
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": null,
+        "name": "Elegoo PAHT-CF @ECC",
+        "pressure_advance": [
+          "0.024"
+        ],
+        "renamed_from": null,
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null
+      }
+    },
+    {
+      "catalogID": 103085,
+      "name": "Elegoo PAHT-CF @ECC2",
+      "printers": [
+        "elegoo/centauri-carbon-2-0-2",
+        "elegoo/centauri-carbon-2-0-4",
+        "elegoo/centauri-carbon-2-0-6",
+        "elegoo/centauri-carbon-2-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Elegoo Centauri Carbon 2 0.2 nozzle",
+          "Elegoo Centauri Carbon 2 0.4 nozzle",
+          "Elegoo Centauri Carbon 2 0.6 nozzle",
+          "Elegoo Centauri Carbon 2 0.8 nozzle"
+        ],
+        "filament_long_retractions_when_cut": null,
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_retraction_distances_when_cut": null,
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": null,
+        "name": "Elegoo PAHT-CF @ECC2",
+        "renamed_from": null,
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null
+      }
+    }
+  ]
+}

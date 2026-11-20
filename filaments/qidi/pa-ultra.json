@@ -1,0 +1,338 @@
+{
+  "format": 1,
+  "id": "qidi/pa-ultra",
+  "manufacturer": "QIDI",
+  "name": "QIDI PA-Ultra",
+  "settings": {
+    "activate_air_filtration": [
+      "1"
+    ],
+    "activate_chamber_temp_control": [
+      "0"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [
+      "Qidi Q1 Pro 0.4 nozzle"
+    ],
+    "complete_print_exhaust_fan_speed": [
+      "0"
+    ],
+    "cool_plate_temp": [
+      "60"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "60"
+    ],
+    "dont_slow_down_outer_wall": [
+      "0"
+    ],
+    "during_print_exhaust_fan_speed": [
+      "100"
+    ],
+    "enable_overhang_bridge_fan": [
+      "0"
+    ],
+    "enable_pressure_advance": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "80"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "80"
+    ],
+    "fan_cooling_layer_time": [
+      "60"
+    ],
+    "fan_max_speed": [
+      "40"
+    ],
+    "fan_min_speed": [
+      "20"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.21"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_flow_ratio": [
+      "0.96"
+    ],
+    "filament_id": "OFlN6DL1",
+    "filament_max_volumetric_speed": [
+      "4"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      "QIDI PA-Ultra @Qidi Q1 Pro 0.4 nozzle"
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_type": [
+      "UltraPA"
+    ],
+    "filament_vendor": [
+      "QIDI"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "80"
+    ],
+    "name": "QIDI PA-Ultra @Qidi Q1 Pro 0.4 nozzle",
+    "nozzle_temperature": [
+      "280"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "280"
+    ],
+    "nozzle_temperature_range_high": [
+      "350"
+    ],
+    "nozzle_temperature_range_low": [
+      "260"
+    ],
+    "overhang_fan_speed": [
+      "100"
+    ],
+    "overhang_fan_threshold": [
+      "95%"
+    ],
+    "pressure_advance": [
+      "0.03"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "required_nozzle_HRC": [
+      "3"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "15"
+    ],
+    "slow_down_min_speed": [
+      "20"
+    ],
+    "supertack_plate_temp": [
+      "60"
+    ],
+    "supertack_plate_temp_initial_layer": [
+      "60"
+    ],
+    "temperature_vitrification": [
+      "108"
+    ],
+    "textured_cool_plate_temp": [
+      "60"
+    ],
+    "textured_cool_plate_temp_initial_layer": [
+      "60"
+    ],
+    "textured_plate_temp": [
+      "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "80"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Qidi/filament/QIDI PA-Ultra @Qidi Q1 Pro 0.4 nozzle.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "UltraPA",
+  "variants": [
+    {
+      "catalogID": 105156,
+      "name": "QIDI PA-Ultra",
+      "printers": [
+        "qidi/x-cf-pro-0-4",
+        "qidi/x-max-0-4",
+        "qidi/x-max-3-0-4",
+        "qidi/x-max-3-0-6",
+        "qidi/x-max-3-0-8",
+        "qidi/x-plus-0-4",
+        "qidi/x-plus-3-0-4",
+        "qidi/x-plus-3-0-6",
+        "qidi/x-plus-3-0-8",
+        "qidi/x-smart-3-0-4",
+        "qidi/x-smart-3-0-6",
+        "qidi/x-smart-3-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Qidi X-Plus 0.4 nozzle",
+          "Qidi X-Max 0.4 nozzle",
+          "Qidi X-CF Pro 0.4 nozzle",
+          "Qidi X-Smart 3 0.4 nozzle",
+          "Qidi X-Plus 3 0.4 nozzle",
+          "Qidi X-Max 3 0.4 nozzle",
+          "Qidi X-Smart 3 0.6 nozzle",
+          "Qidi X-Plus 3 0.6 nozzle",
+          "Qidi X-Max 3 0.6 nozzle",
+          "Qidi X-Smart 3 0.8 nozzle",
+          "Qidi X-Plus 3 0.8 nozzle",
+          "Qidi X-Max 3 0.8 nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "3"
+        ],
+        "filament_settings_id": [
+          ""
+        ],
+        "name": "QIDI PA-Ultra",
+        "overhang_fan_speed": [
+          "50"
+        ]
+      }
+    },
+    {
+      "catalogID": 105157,
+      "name": "QIDI PA-Ultra @Qidi Q1 Pro 0.4 nozzle",
+      "printers": [
+        "qidi/q1-pro-0-4"
+      ],
+      "settings": {}
+    },
+    {
+      "catalogID": 105158,
+      "name": "QIDI PA-Ultra @Qidi Q1 Pro 0.6 nozzle",
+      "printers": [
+        "qidi/q1-pro-0-6"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Qidi Q1 Pro 0.6 nozzle"
+        ],
+        "filament_settings_id": [
+          "QIDI PA-Ultra @Qidi Q1 Pro 0.6 nozzle"
+        ],
+        "name": "QIDI PA-Ultra @Qidi Q1 Pro 0.6 nozzle",
+        "overhang_fan_speed": [
+          "95"
+        ]
+      }
+    },
+    {
+      "catalogID": 105159,
+      "name": "QIDI PA-Ultra @Qidi Q1 Pro 0.8 nozzle",
+      "printers": [
+        "qidi/q1-pro-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Qidi Q1 Pro 0.8 nozzle"
+        ],
+        "filament_settings_id": [
+          "QIDI PA-Ultra @Qidi Q1 Pro 0.8 nozzle"
+        ],
+        "name": "QIDI PA-Ultra @Qidi Q1 Pro 0.8 nozzle",
+        "overhang_fan_speed": [
+          "50"
+        ]
+      }
+    },
+    {
+      "catalogID": 105160,
+      "name": "QIDI PA-Ultra @Qidi X-Plus 4 0.4 nozzle",
+      "printers": [
+        "qidi/x-plus-4-0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Qidi X-Plus 4 0.4 nozzle"
+        ],
+        "filament_settings_id": [
+          "QIDI PA-Ultra @Qidi X-Plus 4 0.4 nozzle"
+        ],
+        "name": "QIDI PA-Ultra @Qidi X-Plus 4 0.4 nozzle"
+      }
+    },
+    {
+      "catalogID": 105161,
+      "name": "QIDI PA-Ultra @Qidi X-Plus 4 0.6 nozzle",
+      "printers": [
+        "qidi/x-plus-4-0-6"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Qidi X-Plus 4 0.6 nozzle"
+        ],
+        "filament_settings_id": [
+          "QIDI PA-Ultra @Qidi X-Plus 4 0.6 nozzle"
+        ],
+        "name": "QIDI PA-Ultra @Qidi X-Plus 4 0.6 nozzle"
+      }
+    },
+    {
+      "catalogID": 105162,
+      "name": "QIDI PA-Ultra @Qidi X-Plus 4 0.8 nozzle",
+      "printers": [
+        "qidi/x-plus-4-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Qidi X-Plus 4 0.8 nozzle"
+        ],
+        "filament_settings_id": [
+          "QIDI PA-Ultra @Qidi X-Plus 4 0.8 nozzle"
+        ],
+        "name": "QIDI PA-Ultra @Qidi X-Plus 4 0.8 nozzle"
+      }
+    }
+  ]
+}

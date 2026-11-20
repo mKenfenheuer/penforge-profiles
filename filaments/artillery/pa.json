@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "id": "artillery/pa",
+  "manufacturer": "Artillery",
+  "name": "Artillery PA",
+  "settings": {
+    "additional_cooling_fan_speed": [
+      "0"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "chamber_temperature": [
+      "50"
+    ],
+    "close_fan_the_first_x_layers": [
+      "3"
+    ],
+    "compatible_printers": [
+      "Artillery M1 Pro 0.4 nozzle"
+    ],
+    "complete_print_exhaust_fan_speed": [
+      "0"
+    ],
+    "cool_plate_temp": [
+      "100"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "100"
+    ],
+    "during_print_exhaust_fan_speed": [
+      "0"
+    ],
+    "enable_pressure_advance": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "0"
+    ],
+    "fan_cooling_layer_time": [
+      "100"
+    ],
+    "fan_max_speed": [
+      "90"
+    ],
+    "fan_min_speed": [
+      "60"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.24"
+    ],
+    "filament_deretraction_speed": [
+      "30"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "0.99"
+    ],
+    "filament_id": "OFMSvS8z",
+    "filament_max_volumetric_speed": [
+      "8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_lift_below": [
+      "259"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "0.8"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "30"
+    ],
+    "filament_settings_id": [
+      "Artillery PA @Artillery M1 Pro 0.4 nozzle"
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      ""
+    ],
+    "filament_type": [
+      "PA"
+    ],
+    "filament_vendor": [
+      "Artillery"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "0.6"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "100"
+    ],
+    "name": "Artillery PA @Artillery M1 Pro 0.4 nozzle",
+    "nozzle_temperature": [
+      "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "240"
+    ],
+    "nozzle_temperature_range_high": [
+      "280"
+    ],
+    "nozzle_temperature_range_low": [
+      "240"
+    ],
+    "overhang_fan_speed": [
+      "100"
+    ],
+    "overhang_fan_threshold": [
+      "0%"
+    ],
+    "pressure_advance": [
+      "0.07"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "renamed_from": "Artillery Generic PLA",
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "6"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "temperature_vitrification": [
+      "108"
+    ],
+    "textured_plate_temp": [
+      "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "100"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Artillery/filament/Artillery PA @Artillery M1 Pro 0.4 nozzle.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PA",
+  "variants": [
+    {
+      "catalogID": 100223,
+      "name": "Artillery PA @Artillery M1 Pro 0.4 nozzle",
+      "printers": [
+        "artillery/m1-pro-0-4"
+      ],
+      "settings": {}
+    }
+  ]
+}

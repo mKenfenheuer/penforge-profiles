@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "id": "infimech/tpu",
+  "manufacturer": "InfiMech",
+  "name": "InfiMech TPU",
+  "settings": {
+    "additional_cooling_fan_speed": [
+      "100"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [
+      "InfiMech TX HSN 0.4 nozzle"
+    ],
+    "cool_plate_temp": [
+      "30"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "30"
+    ],
+    "enable_pressure_advance": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "30"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "30"
+    ],
+    "fan_cooling_layer_time": [
+      "100"
+    ],
+    "fan_max_speed": [
+      "100"
+    ],
+    "fan_min_speed": [
+      "100"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.24"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "0.94"
+    ],
+    "filament_id": "OFIVWJPm",
+    "filament_max_volumetric_speed": [
+      "3"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\n"
+    ],
+    "filament_type": [
+      "TPU"
+    ],
+    "filament_vendor": [
+      "InfiMech"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "0"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "40"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "40"
+    ],
+    "name": "InfiMech TPU @HSN",
+    "nozzle_temperature": [
+      "230"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "230"
+    ],
+    "nozzle_temperature_range_high": [
+      "250"
+    ],
+    "nozzle_temperature_range_low": [
+      "200"
+    ],
+    "overhang_fan_speed": [
+      "100"
+    ],
+    "overhang_fan_threshold": [
+      "95%"
+    ],
+    "pressure_advance": [
+      "0.13"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "10"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "temperature_vitrification": [
+      "60"
+    ],
+    "textured_plate_temp": [
+      "35"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "35"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/InfiMech/filament/HSN/InfiMech TPU @HSN.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "TPU",
+  "variants": [
+    {
+      "catalogID": 103977,
+      "name": "InfiMech TPU @HSN",
+      "printers": [
+        "infimech/tx-hsn-0-4"
+      ],
+      "settings": {}
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "format": 1,
+  "id": "polymaker/fiberon-pa612-esd",
+  "manufacturer": "Polymaker",
+  "name": "Fiberon PA612-ESD",
+  "settings": {
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "3"
+    ],
+    "compatible_printers": [
+      "Snapmaker U1 (0.4 nozzle)"
+    ],
+    "cool_plate_temp": [
+      "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "0"
+    ],
+    "default_filament_colour": [
+      ""
+    ],
+    "description": " ",
+    "enable_pressure_advance": [
+      "1",
+      "1"
+    ],
+    "eng_plate_temp": [
+      "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "100"
+    ],
+    "fan_cooling_layer_time": [
+      "25"
+    ],
+    "fan_max_speed": [
+      "10",
+      "10"
+    ],
+    "fan_min_speed": [
+      "0",
+      "0"
+    ],
+    "filament_cooling_final_speed": [
+      "3.4"
+    ],
+    "filament_cooling_initial_speed": [
+      "2.2"
+    ],
+    "filament_cooling_moves": [
+      "0"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.1"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      ""
+    ],
+    "filament_extruder_variant": [
+      "Direct Drive Standard",
+      "Direct Drive High Flow"
+    ],
+    "filament_flow_ratio": [
+      "0.89"
+    ],
+    "filament_id": "OFFZ458u",
+    "filament_is_support": [
+      "0"
+    ],
+    "filament_loading_speed": [
+      "25"
+    ],
+    "filament_loading_speed_start": [
+      "3"
+    ],
+    "filament_max_volumetric_speed": [
+      "8"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15",
+      "15"
+    ],
+    "filament_multitool_ramming": [
+      "0"
+    ],
+    "filament_multitool_ramming_volume": [
+      "0"
+    ],
+    "filament_notes": [
+      "!! It needs to be dried before use.\n"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "1.0",
+      "1.0"
+    ],
+    "filament_retraction_minimum_travel": [
+      "0"
+    ],
+    "filament_retraction_speed": [
+      "36"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      ""
+    ],
+    "filament_toolchange_delay": [
+      "0"
+    ],
+    "filament_type": [
+      "PA-CF"
+    ],
+    "filament_unloading_speed": [
+      "25"
+    ],
+    "filament_unloading_speed_start": [
+      "3"
+    ],
+    "filament_vendor": [
+      "Polymaker"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "0.0",
+      "0.0"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "2"
+    ],
+    "hot_plate_temp": [
+      "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "100"
+    ],
+    "name": "Fiberon PA612-ESD @Snapmaker U1",
+    "nozzle_temperature": [
+      "270"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "270"
+    ],
+    "nozzle_temperature_range_high": [
+      "300"
+    ],
+    "nozzle_temperature_range_low": [
+      "280"
+    ],
+    "overhang_fan_speed": [
+      "40"
+    ],
+    "overhang_fan_threshold": [
+      "0%"
+    ],
+    "pressure_advance": [
+      "0.04"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "required_nozzle_HRC": [
+      "40"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "1"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "temperature_vitrification": [
+      "190"
+    ],
+    "textured_plate_temp": [
+      "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "100"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Snapmaker/filament/Polymaker/Fiberon PA612-ESD @Snapmaker U1.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PA-CF",
+  "variants": [
+    {
+      "catalogID": 105949,
+      "name": "Fiberon PA612-ESD @Snapmaker U1",
+      "printers": [
+        "snapmaker/u1-0-4"
+      ],
+      "settings": {}
+    }
+  ]
+}

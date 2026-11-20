@@ -1,0 +1,159 @@
+{
+  "format": 1,
+  "id": "re3d/rpetg",
+  "manufacturer": "re3D",
+  "name": "re3D rPETG",
+  "settings": {
+    "compatible_printers": [
+      "re3D GigabotX 2 0.8 nozzle",
+      "re3D GigabotX 2 XLT 0.8 nozzle",
+      "re3D TerabotX 2 0.8 nozzle"
+    ],
+    "cool_plate_temp": [
+      "70"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "70"
+    ],
+    "enable_overhang_bridge_fan": [
+      "1"
+    ],
+    "enable_pressure_advance": [
+      "0"
+    ],
+    "eng_plate_temp": [
+      "70"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "70"
+    ],
+    "fan_cooling_layer_time": [
+      "20"
+    ],
+    "fan_max_speed": [
+      "100"
+    ],
+    "fan_min_speed": [
+      "30"
+    ],
+    "filament_density": [
+      "1.27"
+    ],
+    "filament_diameter": [
+      "2.85"
+    ],
+    "filament_flow_ratio": [
+      "1.0"
+    ],
+    "filament_id": "OFmCOW2Y",
+    "filament_max_volumetric_speed": [
+      "60"
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "M190 S75\nM104 S220 T0\nM104 S210 T1\nM104 S200 T2\nM109 S220 T0\nM109 S210 T1\nM109 S200 T2"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "filament_vendor": [
+      "re3D"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "2"
+    ],
+    "hot_plate_temp": [
+      "70"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "70"
+    ],
+    "name": "re3D rPETG @0.8 nozzle",
+    "nozzle_temperature": [
+      "0"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "0"
+    ],
+    "nozzle_temperature_range_high": [
+      "260"
+    ],
+    "nozzle_temperature_range_low": [
+      "220"
+    ],
+    "overhang_fan_speed": [
+      "80"
+    ],
+    "overhang_fan_threshold": [
+      "95%"
+    ],
+    "pressure_advance": [
+      "0.205"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "renamed_from": "re3D Greengate rPETG @0.8 nozzle;re3D rPETG;re3D Greengate rPETG",
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "20"
+    ],
+    "slow_down_min_speed": [
+      "25"
+    ],
+    "support_material_interface_fan_speed": [
+      "100"
+    ],
+    "temperature_vitrification": [
+      "70"
+    ],
+    "textured_plate_temp": [
+      "70"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "70"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/re3D/filament/re3D rPETG @0.8 nozzle.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PETG",
+  "variants": [
+    {
+      "catalogID": 106390,
+      "name": "re3D rPETG @0.8 nozzle",
+      "printers": [
+        "re3d/gigabotx-2-0-8",
+        "re3d/gigabotx-2-xlt-0-8",
+        "re3d/terabotx-2-0-8"
+      ],
+      "settings": {}
+    },
+    {
+      "catalogID": 106391,
+      "name": "re3D rPETG @1.75 nozzle",
+      "printers": [
+        "re3d/gigabotx-2-1-75",
+        "re3d/gigabotx-2-xlt-1-75",
+        "re3d/terabotx-2-1-75"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "re3D GigabotX 2 1.75 nozzle",
+          "re3D GigabotX 2 XLT 1.75 nozzle",
+          "re3D TerabotX 2 1.75 nozzle"
+        ],
+        "name": "re3D rPETG @1.75 nozzle",
+        "renamed_from": "re3D Greengate rPETG @1.75 nozzle"
+      }
+    }
+  ]
+}

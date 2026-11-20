@@ -1,0 +1,1231 @@
+{
+  "format": 1,
+  "id": "prusa-polymers/prusament-asa",
+  "manufacturer": "Prusa Polymers",
+  "name": "Prusament ASA",
+  "settings": {
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "4"
+    ],
+    "compatible_printers": [
+      "Prusa XL 0.25 nozzle",
+      "Prusa XL 0.3 nozzle",
+      "Prusa XL 0.4 nozzle",
+      "Prusa XL 0.5 nozzle",
+      "Prusa XL 0.6 nozzle",
+      "Prusa XL 0.8 nozzle",
+      "Prusa XL 5T 0.25 nozzle",
+      "Prusa XL 5T 0.3 nozzle",
+      "Prusa XL 5T 0.4 nozzle",
+      "Prusa XL 5T 0.5 nozzle",
+      "Prusa XL 5T 0.6 nozzle",
+      "Prusa XL 5T 0.8 nozzle"
+    ],
+    "cool_plate_temp": [
+      "105"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "105"
+    ],
+    "eng_plate_temp": [
+      "105"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "105"
+    ],
+    "fan_cooling_layer_time": [
+      "35"
+    ],
+    "fan_max_speed": [
+      "10"
+    ],
+    "fan_min_speed": [
+      "10"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.04"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "1"
+    ],
+    "filament_id": "OFmFwUWM",
+    "filament_max_volumetric_speed": [
+      "12"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\nM900 K{if nozzle_diameter[0]==0.4}0.04{elsif nozzle_diameter[0]==0.25}0.1{elsif nozzle_diameter[0]==0.3}0.06{elsif nozzle_diameter[0]==0.35}0.05{elsif nozzle_diameter[0]==0.5}0.03{elsif nozzle_diameter[0]==0.6}0.02{elsif nozzle_diameter[0]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*PRINTER_MODEL_XLIS.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.02{elsif nozzle_diameter[0]==0.5}0.018{elsif nozzle_diameter[0]==0.6}0.012{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.25}0.09{elsif nozzle_diameter[0]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+    ],
+    "filament_type": [
+      "ASA"
+    ],
+    "filament_vendor": [
+      "Prusa Polymers"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": "105",
+    "hot_plate_temp_initial_layer": "100",
+    "idle_temperature": "0",
+    "name": "Prusament ASA @XL",
+    "nozzle_temperature": "260",
+    "nozzle_temperature_initial_layer": [
+      "260"
+    ],
+    "nozzle_temperature_range_high": [
+      "270"
+    ],
+    "nozzle_temperature_range_low": [
+      "240"
+    ],
+    "overhang_fan_speed": [
+      "30"
+    ],
+    "overhang_fan_threshold": [
+      "25%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "15"
+    ],
+    "slow_down_min_speed": [
+      "15"
+    ],
+    "temperature_vitrification": [
+      "110"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Prusa/filament/Prusament ASA @XL.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "ASA",
+  "variants": [
+    {
+      "catalogID": 104276,
+      "name": "Prusament ASA @CORE One",
+      "printers": [
+        "prusa-research/core-one-0-25",
+        "prusa-research/core-one-0-3",
+        "prusa-research/core-one-0-4",
+        "prusa-research/core-one-0-5",
+        "prusa-research/core-one-mmu3-0-25",
+        "prusa-research/core-one-mmu3-0-3",
+        "prusa-research/core-one-mmu3-0-4",
+        "prusa-research/core-one-mmu3-0-6"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "40"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One 0.25 nozzle",
+          "Prusa CORE One 0.3 nozzle",
+          "Prusa CORE One 0.4 nozzle",
+          "Prusa CORE One 0.5 nozzle",
+          "Prusa CORE One MMU3 0.4 nozzle",
+          "Prusa CORE One MMU3 0.25 nozzle",
+          "Prusa CORE One MMU3 0.3 nozzle",
+          "Prusa CORE One MMU3 0.6 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "20"
+        ],
+        "fan_max_speed": [
+          "25"
+        ],
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "15"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.04{elsif nozzle_diameter[filament_extruder_id]==0.25}0.1{elsif nozzle_diameter[filament_extruder_id]==0.3}0.06{elsif nozzle_diameter[filament_extruder_id]==0.35}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.03{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.012{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "110"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "110"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet"
+        ],
+        "name": "Prusament ASA @CORE One",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "overhang_fan_speed": [
+          "25"
+        ],
+        "renamed_from": "Prusament ASA CORE One;Prusament ASA @CORE One MMU3;Prusament ASA CORE One MMU3",
+        "slow_down_layer_time": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104277,
+      "name": "Prusament ASA @CORE One 0.6",
+      "printers": [
+        "prusa-research/core-one-0-6"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "40"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One 0.6 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "20"
+        ],
+        "fan_max_speed": [
+          "25"
+        ],
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "15"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.04{elsif nozzle_diameter[filament_extruder_id]==0.25}0.1{elsif nozzle_diameter[filament_extruder_id]==0.3}0.06{elsif nozzle_diameter[filament_extruder_id]==0.35}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.03{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.012{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "110"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "110"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet"
+        ],
+        "name": "Prusament ASA @CORE One 0.6",
+        "nozzle_temperature": [
+          "255"
+        ],
+        "overhang_fan_speed": [
+          "25"
+        ],
+        "renamed_from": "Prusament ASA CORE One;Prusament ASA @CORE One MMU3;Prusament ASA CORE One MMU3"
+      }
+    },
+    {
+      "catalogID": 104278,
+      "name": "Prusament ASA @CORE One 0.8",
+      "printers": [
+        "prusa-research/core-one-0-8"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "40"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One 0.8 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "20"
+        ],
+        "fan_max_speed": [
+          "30"
+        ],
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "15"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.04{elsif nozzle_diameter[filament_extruder_id]==0.25}0.1{elsif nozzle_diameter[filament_extruder_id]==0.3}0.06{elsif nozzle_diameter[filament_extruder_id]==0.35}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.03{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.012{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "110"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "110"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet"
+        ],
+        "name": "Prusament ASA @CORE One 0.8",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "renamed_from": "Prusament ASA CORE One;Prusament ASA @CORE One MMU3;Prusament ASA CORE One MMU3",
+        "slow_down_layer_time": [
+          "20"
+        ]
+      }
+    },
+    {
+      "catalogID": 104279,
+      "name": "Prusament ASA @CORE One HF 0.4",
+      "printers": [
+        "prusa-research/core-one-hf-0-4"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "40"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One HF 0.4 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "20"
+        ],
+        "fan_max_speed": [
+          "25"
+        ],
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "26"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_start_gcode": [
+          "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "110"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "110"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet_hf"
+        ],
+        "name": "Prusament ASA @CORE One HF 0.4",
+        "nozzle_temperature": [
+          "265"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "265"
+        ],
+        "overhang_fan_speed": [
+          "25"
+        ],
+        "renamed_from": "Prusament ASA CORE One;Prusament ASA @CORE One MMU3;Prusament ASA CORE One MMU3",
+        "slow_down_layer_time": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104280,
+      "name": "Prusament ASA @CORE One HF 0.5",
+      "printers": [
+        "prusa-research/core-one-hf-0-5"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "40"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One HF 0.5 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "20"
+        ],
+        "fan_max_speed": [
+          "25"
+        ],
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "27"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_start_gcode": [
+          "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "110"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "110"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet_hf"
+        ],
+        "name": "Prusament ASA @CORE One HF 0.5",
+        "nozzle_temperature": [
+          "265"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "265"
+        ],
+        "overhang_fan_speed": [
+          "25"
+        ],
+        "renamed_from": "Prusament ASA CORE One;Prusament ASA @CORE One MMU3;Prusament ASA CORE One MMU3",
+        "slow_down_layer_time": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104281,
+      "name": "Prusament ASA @CORE One HF 0.6",
+      "printers": [
+        "prusa-research/core-one-hf-0-6"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "40"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One HF 0.6 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "20"
+        ],
+        "fan_max_speed": [
+          "25"
+        ],
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "34"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_start_gcode": [
+          "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "110"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "110"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet_hf"
+        ],
+        "name": "Prusament ASA @CORE One HF 0.6",
+        "nozzle_temperature": [
+          "265"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "265"
+        ],
+        "overhang_fan_speed": [
+          "25"
+        ],
+        "renamed_from": "Prusament ASA CORE One;Prusament ASA @CORE One MMU3;Prusament ASA CORE One MMU3"
+      }
+    },
+    {
+      "catalogID": 104282,
+      "name": "Prusament ASA @CORE One HF 0.8",
+      "printers": [
+        "prusa-research/core-one-hf-0-8"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "40"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One HF 0.8 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "20"
+        ],
+        "fan_max_speed": [
+          "30"
+        ],
+        "fan_min_speed": [
+          "20"
+        ],
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "36"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_start_gcode": [
+          "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "110"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "110"
+        ],
+        "idle_temperature": [
+          "130"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet"
+        ],
+        "name": "Prusament ASA @CORE One HF 0.8",
+        "nozzle_temperature": [
+          "270"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "270"
+        ],
+        "renamed_from": "Prusament ASA CORE One;Prusament ASA @CORE One MMU3;Prusament ASA CORE One MMU3",
+        "slow_down_layer_time": [
+          "20"
+        ]
+      }
+    },
+    {
+      "catalogID": 104283,
+      "name": "Prusament ASA @MK3S",
+      "printers": [
+        "prusa-research/mk3s-0-25",
+        "prusa-research/mk3s-0-4",
+        "prusa-research/mk3s-0-6",
+        "prusa-research/mk3s-0-8"
+      ],
+      "settings": {
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Prusa MK3S 0.25 nozzle",
+          "Prusa MK3S 0.4 nozzle",
+          "Prusa MK3S 0.6 nozzle",
+          "Prusa MK3S 0.8 nozzle"
+        ],
+        "fan_max_speed": [
+          "80"
+        ],
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_flow_ratio": [
+          "0.93"
+        ],
+        "filament_max_volumetric_speed": [
+          "11"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "; Filament gcode\nM900 K{if printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.6}0.12{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.8}0.06{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/}0.2{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.6}0.02{else}0.04{endif} ; Filament gcode LA 1.5\n{if printer_notes=~/.*PRINTER_MODEL_MINI.*/};{elsif printer_notes=~/.*PRINTER_HAS_BOWDEN.*/}M900 K200{elsif nozzle_diameter[0]==0.6}M900 K12{elsif nozzle_diameter[0]==0.8};{else}M900 K20{endif} ; Filament gcode LA 1.0"
+        ],
+        "hot_plate_temp": [
+          "105"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Prusament ASA @MK3S",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "overhang_fan_speed": [
+          "80"
+        ],
+        "slow_down_layer_time": [
+          "3"
+        ],
+        "slow_down_min_speed": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104284,
+      "name": "Prusament ASA @MK4",
+      "printers": [
+        "prusa-research/mk4-0-25",
+        "prusa-research/mk4-0-4",
+        "prusa-research/mk4-0-6",
+        "prusa-research/mk4-0-8"
+      ],
+      "settings": {
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Prusa MK4 0.25 nozzle",
+          "Prusa MK4 0.4 nozzle",
+          "Prusa MK4 0.6 nozzle",
+          "Prusa MK4 0.8 nozzle"
+        ],
+        "fan_max_speed": [
+          "80"
+        ],
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_flow_ratio": [
+          "0.93"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "; Filament gcode\nM900 K{if nozzle_diameter[0]==0.4}0.03{elsif nozzle_diameter[0]==0.25}0.1{elsif nozzle_diameter[0]==0.3}0.06{elsif nozzle_diameter[0]==0.35}0.05{elsif nozzle_diameter[0]==0.5}0.03{elsif nozzle_diameter[0]==0.6}0.02{elsif nozzle_diameter[0]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*PRINTER_MODEL_MK4IS.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.02{elsif nozzle_diameter[0]==0.5}0.018{elsif nozzle_diameter[0]==0.6}0.012{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.25}0.09{elsif nozzle_diameter[0]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "105"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Prusament ASA @MK4",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "overhang_fan_speed": [
+          "80"
+        ],
+        "slow_down_layer_time": [
+          "3"
+        ],
+        "slow_down_min_speed": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104285,
+      "name": "Prusament ASA @MK4 MMU3",
+      "printers": [
+        "prusa-research/mk4-mmu3-0-4",
+        "prusa-research/mk4-mmu3-0-6",
+        "prusa-research/mk4-mmu3-hf0-4"
+      ],
+      "settings": {
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Prusa MK4 MMU3 0.4 nozzle",
+          "Prusa MK4 MMU3 0.6 nozzle",
+          "Prusa MK4 MMU3 HF0.4 nozzle"
+        ],
+        "fan_max_speed": [
+          "80"
+        ],
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_flow_ratio": [
+          "0.93"
+        ],
+        "filament_minimal_purge_on_wipe_tower": [
+          "35"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "; Filament gcode\nM900 K{if nozzle_diameter[0]==0.4}0.03{elsif nozzle_diameter[0]==0.25}0.1{elsif nozzle_diameter[0]==0.3}0.06{elsif nozzle_diameter[0]==0.35}0.05{elsif nozzle_diameter[0]==0.5}0.03{elsif nozzle_diameter[0]==0.6}0.02{elsif nozzle_diameter[0]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*PRINTER_MODEL_MK4IS.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.02{elsif nozzle_diameter[0]==0.5}0.018{elsif nozzle_diameter[0]==0.6}0.012{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.25}0.09{elsif nozzle_diameter[0]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "105"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pet"
+        ],
+        "name": "Prusament ASA @MK4 MMU3",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "overhang_fan_speed": [
+          "80"
+        ],
+        "slow_down_layer_time": [
+          "3"
+        ],
+        "slow_down_min_speed": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104286,
+      "name": "Prusament ASA @MK4S",
+      "printers": [
+        "prusa-research/mk4s-0-25",
+        "prusa-research/mk4s-0-3",
+        "prusa-research/mk4s-0-4",
+        "prusa-research/mk4s-0-5"
+      ],
+      "settings": {
+        "close_fan_the_first_x_layers": "4",
+        "compatible_printers": [
+          "Prusa MK4S 0.25 nozzle",
+          "Prusa MK4S 0.3 nozzle",
+          "Prusa MK4S 0.4 nozzle",
+          "Prusa MK4S 0.5 nozzle"
+        ],
+        "default_filament_colour": "#FFF2EC",
+        "fan_cooling_layer_time": "20",
+        "fan_max_speed": "12",
+        "fan_min_speed": "12",
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "15"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.04{elsif nozzle_diameter[filament_extruder_id]==0.25}0.1{elsif nozzle_diameter[filament_extruder_id]==0.3}0.06{elsif nozzle_diameter[filament_extruder_id]==0.35}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.03{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.012{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": "110",
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Prusament ASA @MK4S",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "overhang_fan_speed": "20",
+        "slow_down_layer_time": "10",
+        "slow_down_min_speed": "15"
+      }
+    },
+    {
+      "catalogID": 104287,
+      "name": "Prusament ASA @MK4S 0.6",
+      "printers": [
+        "prusa-research/mk4s-0-6"
+      ],
+      "settings": {
+        "close_fan_the_first_x_layers": "4",
+        "compatible_printers": [
+          "Prusa MK4S 0.6 nozzle"
+        ],
+        "default_filament_colour": "#FFF2EC",
+        "fan_cooling_layer_time": "20",
+        "fan_max_speed": "12",
+        "fan_min_speed": "12",
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "15"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.04{elsif nozzle_diameter[filament_extruder_id]==0.25}0.1{elsif nozzle_diameter[filament_extruder_id]==0.3}0.06{elsif nozzle_diameter[filament_extruder_id]==0.35}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.03{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.012{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": "110",
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Prusament ASA @MK4S 0.6",
+        "nozzle_temperature": "255",
+        "overhang_fan_speed": "20",
+        "slow_down_layer_time": "15",
+        "slow_down_min_speed": "15"
+      }
+    },
+    {
+      "catalogID": 104288,
+      "name": "Prusament ASA @MK4S 0.8",
+      "printers": [
+        "prusa-research/mk4s-0-8"
+      ],
+      "settings": {
+        "close_fan_the_first_x_layers": "4",
+        "compatible_printers": [
+          "Prusa MK4S 0.8 nozzle"
+        ],
+        "default_filament_colour": "#FFF2EC",
+        "fan_cooling_layer_time": "20",
+        "fan_max_speed": "15",
+        "fan_min_speed": "15",
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "15"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.04{elsif nozzle_diameter[filament_extruder_id]==0.25}0.1{elsif nozzle_diameter[filament_extruder_id]==0.3}0.06{elsif nozzle_diameter[filament_extruder_id]==0.35}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.03{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.012{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": "110",
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Prusament ASA @MK4S 0.8",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "overhang_fan_speed": "20",
+        "slow_down_layer_time": "18",
+        "slow_down_min_speed": "15"
+      }
+    },
+    {
+      "catalogID": 104289,
+      "name": "Prusament ASA @MK4S HF0.4",
+      "printers": [
+        "prusa-research/mk4s-hf0-4"
+      ],
+      "settings": {
+        "close_fan_the_first_x_layers": "4",
+        "compatible_printers": [
+          "Prusa MK4S HF0.4 nozzle"
+        ],
+        "default_filament_colour": "#FFF2EC",
+        "fan_cooling_layer_time": "20",
+        "fan_max_speed": "12",
+        "fan_min_speed": "12",
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "26"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M572 S{if nozzle_diameter[0]==0.4}0.02{elsif nozzle_diameter[0]==0.5}0.018{elsif nozzle_diameter[0]==0.6}0.015{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.25}0.09{elsif nozzle_diameter[0]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": "110",
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Prusament ASA @MK4S HF0.4",
+        "nozzle_temperature": "265",
+        "nozzle_temperature_initial_layer": "265",
+        "overhang_fan_speed": "20",
+        "slow_down_layer_time": "15",
+        "slow_down_min_speed": "15"
+      }
+    },
+    {
+      "catalogID": 104290,
+      "name": "Prusament ASA @MK4S HF0.5",
+      "printers": [
+        "prusa-research/mk4s-hf0-5"
+      ],
+      "settings": {
+        "close_fan_the_first_x_layers": "4",
+        "compatible_printers": [
+          "Prusa MK4S HF0.5 nozzle"
+        ],
+        "default_filament_colour": "#FFF2EC",
+        "fan_cooling_layer_time": "20",
+        "fan_max_speed": "12",
+        "fan_min_speed": "12",
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "27"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.04{elsif nozzle_diameter[filament_extruder_id]==0.25}0.1{elsif nozzle_diameter[filament_extruder_id]==0.3}0.06{elsif nozzle_diameter[filament_extruder_id]==0.35}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.03{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.012{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": "110",
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Prusament ASA @MK4S HF0.5",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "overhang_fan_speed": "20",
+        "slow_down_layer_time": "10",
+        "slow_down_min_speed": "15"
+      }
+    },
+    {
+      "catalogID": 104291,
+      "name": "Prusament ASA @MK4S HF0.6",
+      "printers": [
+        "prusa-research/mk4s-hf0-6"
+      ],
+      "settings": {
+        "close_fan_the_first_x_layers": "4",
+        "compatible_printers": [
+          "Prusa MK4S HF0.6 nozzle"
+        ],
+        "default_filament_colour": "#FFF2EC",
+        "fan_cooling_layer_time": "20",
+        "fan_max_speed": "15",
+        "fan_min_speed": "15",
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "34"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.04{elsif nozzle_diameter[filament_extruder_id]==0.25}0.1{elsif nozzle_diameter[filament_extruder_id]==0.3}0.06{elsif nozzle_diameter[filament_extruder_id]==0.35}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.03{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.012{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": "110",
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Prusament ASA @MK4S HF0.6",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "overhang_fan_speed": "20",
+        "slow_down_layer_time": "10",
+        "slow_down_min_speed": "15"
+      }
+    },
+    {
+      "catalogID": 104292,
+      "name": "Prusament ASA @MK4S HF0.8",
+      "printers": [
+        "prusa-research/mk4s-hf0-8"
+      ],
+      "settings": {
+        "close_fan_the_first_x_layers": "4",
+        "compatible_printers": [
+          "Prusa MK4S HF0.8 nozzle"
+        ],
+        "default_filament_colour": "#FFF2EC",
+        "fan_cooling_layer_time": "20",
+        "fan_max_speed": "15",
+        "fan_min_speed": "15",
+        "filament_cost": [
+          "35.28"
+        ],
+        "filament_density": [
+          "1.07"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "36"
+        ],
+        "filament_minimal_purge_on_wipe_tower": "35",
+        "filament_notes": [
+          ""
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.04{elsif nozzle_diameter[filament_extruder_id]==0.25}0.1{elsif nozzle_diameter[filament_extruder_id]==0.3}0.06{elsif nozzle_diameter[filament_extruder_id]==0.35}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.03{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.012{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S40 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": "110",
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Prusament ASA @MK4S HF0.8",
+        "nozzle_temperature": "270",
+        "nozzle_temperature_initial_layer": "270",
+        "overhang_fan_speed": "20",
+        "slow_down_layer_time": "20",
+        "slow_down_min_speed": "15"
+      }
+    },
+    {
+      "catalogID": 104293,
+      "name": "Prusament ASA @XL",
+      "printers": [
+        "prusa-research/xl-0-25",
+        "prusa-research/xl-0-3",
+        "prusa-research/xl-0-4",
+        "prusa-research/xl-0-5",
+        "prusa-research/xl-0-6",
+        "prusa-research/xl-0-8",
+        "prusa-research/xl-5t-0-25",
+        "prusa-research/xl-5t-0-3",
+        "prusa-research/xl-5t-0-4",
+        "prusa-research/xl-5t-0-5",
+        "prusa-research/xl-5t-0-6",
+        "prusa-research/xl-5t-0-8"
+      ],
+      "settings": {
+        "filament_cooling_final_speed": "50",
+        "filament_cooling_initial_speed": "10",
+        "filament_cooling_moves": "5",
+        "filament_loading_speed": "14",
+        "filament_loading_speed_start": "19",
+        "filament_multitool_ramming": [
+          "1"
+        ],
+        "filament_multitool_ramming_flow": [
+          "40"
+        ],
+        "filament_multitool_ramming_volume": [
+          "5"
+        ],
+        "filament_retract_lift_below": "1.5",
+        "filament_stamping_distance": [
+          "45"
+        ],
+        "filament_stamping_loading_speed": [
+          "29"
+        ],
+        "filament_unloading_speed": "20",
+        "filament_unloading_speed_start": "100",
+        "renamed_from": "Prusament ASA XL;Prusament ASA @XL 5T;Prusament ASA XL 5T"
+      }
+    }
+  ]
+}

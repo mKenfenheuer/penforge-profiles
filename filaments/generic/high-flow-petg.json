@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "id": "generic/high-flow-petg",
+  "manufacturer": "Generic",
+  "name": "Generic High Flow PETG",
+  "settings": {
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "3"
+    ],
+    "compatible_printers": [
+      "Construct 1 0.4 nozzle",
+      "Construct 1 XL 0.6 nozzle"
+    ],
+    "cool_plate_temp": [
+      "62"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "66"
+    ],
+    "eng_plate_temp": [
+      "75"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "80"
+    ],
+    "fan_cooling_layer_time": [
+      "20"
+    ],
+    "fan_max_speed": [
+      "100"
+    ],
+    "fan_min_speed": [
+      "30"
+    ],
+    "filament_cost": [
+      "25"
+    ],
+    "filament_density": [
+      "1.27"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "0.98"
+    ],
+    "filament_id": "OFNjku08",
+    "filament_max_volumetric_speed": [
+      "43"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\n"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "filament_vendor": [
+      "Generic"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "80"
+    ],
+    "name": "Generic High Flow PETG @C1",
+    "nozzle_temperature": [
+      "270"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "270"
+    ],
+    "nozzle_temperature_range_high": [
+      "275"
+    ],
+    "nozzle_temperature_range_low": [
+      "230"
+    ],
+    "overhang_fan_speed": [
+      "100"
+    ],
+    "overhang_fan_threshold": [
+      "95%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "renamed_from": "C1 Generic High Flow PETG",
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "6"
+    ],
+    "slow_down_min_speed": [
+      "15"
+    ],
+    "temperature_vitrification": [
+      "75"
+    ],
+    "textured_plate_temp": [
+      "62"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "66"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/CONSTRUCT3D/filament/Generic High Flow PETG @C1.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PETG",
+  "variants": [
+    {
+      "catalogID": 102223,
+      "name": "Generic High Flow PETG @C1",
+      "printers": [
+        "construct3d/construct-1-0-4",
+        "construct3d/construct-1-xl-0-6"
+      ],
+      "settings": {}
+    }
+  ]
+}

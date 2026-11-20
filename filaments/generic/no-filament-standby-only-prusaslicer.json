@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "id": "generic/no-filament-standby-only-prusaslicer",
+  "manufacturer": "Generic",
+  "name": "No Filament - standby only",
+  "settings": {
+    "compatible_printers_condition": "printer_notes=~/.*PRINTER_VENDOR_BIBO.*/ and num_extruders==2",
+    "first_layer_temperature": "170",
+    "name": "No Filament - standby only @BIBO2",
+    "temperature": "170"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "BIBO/1.1.1.ini",
+    "name": "PrusaSlicer-settings-non-prusa-fff",
+    "section": "filament:No Filament - standby only @BIBO2"
+  },
+  "type": "PLA",
+  "variants": [
+    {
+      "name": "No Filament - standby only @BIBO2",
+      "printers": [
+        "bibo/bibo2-touch-dual-extrusion",
+        "bibo/m2-bltouch-dual-extrusion"
+      ],
+      "settings": {}
+    }
+  ]
+}

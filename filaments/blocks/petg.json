@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "id": "blocks/petg",
+  "manufacturer": "Blocks",
+  "name": "Blocks PETG",
+  "settings": {
+    "activate_air_filtration": [
+      "1"
+    ],
+    "additional_cooling_fan_speed": [
+      "40"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [
+      "BLOCKS Pro S100 0.4 nozzle",
+      "BLOCKS Pro S100 0.6 nozzle",
+      "BLOCKS Pro S100 0.8 nozzle",
+      "BLOCKS Pro S100 1.0 nozzle",
+      "BLOCKS Pro S100 1.2 nozzle"
+    ],
+    "complete_print_exhaust_fan_speed": [
+      "80"
+    ],
+    "cool_plate_temp": [
+      "70"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "70"
+    ],
+    "during_print_exhaust_fan_speed": [
+      "100"
+    ],
+    "enable_overhang_bridge_fan": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "70"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "70"
+    ],
+    "fan_cooling_layer_time": [
+      "30"
+    ],
+    "fan_max_speed": [
+      "80"
+    ],
+    "fan_min_speed": [
+      "40"
+    ],
+    "filament_cost": [
+      "30"
+    ],
+    "filament_density": [
+      "1.24"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "0.94"
+    ],
+    "filament_id": "OF9t1Ga0",
+    "filament_max_volumetric_speed": [
+      "12"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "1.0"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_shrink": [
+      "99.9%"
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\n"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "filament_vendor": [
+      "Blocks"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "0.0"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "70"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "70"
+    ],
+    "name": "Blocks PETG @Blocks_Pro_S100",
+    "nozzle_temperature": [
+      "245"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "250"
+    ],
+    "nozzle_temperature_range_high": [
+      "270"
+    ],
+    "nozzle_temperature_range_low": [
+      "210"
+    ],
+    "overhang_fan_speed": [
+      "100%"
+    ],
+    "overhang_fan_threshold": [
+      "25%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "5"
+    ],
+    "slow_down_min_speed": [
+      "30"
+    ],
+    "temperature_vitrification": [
+      "70"
+    ],
+    "textured_plate_temp": [
+      "70"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "70"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Blocks/filament/Blocks PETG @Blocks_Pro_S100.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PETG",
+  "variants": [
+    {
+      "catalogID": 102210,
+      "name": "Blocks PETG @Blocks_Pro_S100",
+      "printers": [
+        "blocks/pro-s100-0-4",
+        "blocks/pro-s100-0-6",
+        "blocks/pro-s100-0-8",
+        "blocks/pro-s100-1-0",
+        "blocks/pro-s100-1-2"
+      ],
+      "settings": {
+        "renamed_from": "Blocks Generic PETG;Generic PETG @Blocks"
+      }
+    },
+    {
+      "catalogID": 102211,
+      "name": "Blocks PETG @Blocks_RD50_V2",
+      "printers": [
+        "blocks/rd50-v2-0-4",
+        "blocks/rd50-v2-0-6",
+        "blocks/rd50-v2-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "BLOCKS RD50 V2 0.4 nozzle",
+          "BLOCKS RD50 V2 0.6 nozzle",
+          "BLOCKS RD50 V2 0.8 nozzle"
+        ],
+        "name": "Blocks PETG @Blocks_RD50_V2"
+      }
+    },
+    {
+      "catalogID": 102212,
+      "name": "Blocks PETG @Blocks_RF50",
+      "printers": [
+        "blocks/rf50-0-4",
+        "blocks/rf50-0-6",
+        "blocks/rf50-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "BLOCKS RF50 0.4 nozzle",
+          "BLOCKS RF50 0.6 nozzle",
+          "BLOCKS RF50 0.8 nozzle"
+        ],
+        "name": "Blocks PETG @Blocks_RF50"
+      }
+    }
+  ]
+}

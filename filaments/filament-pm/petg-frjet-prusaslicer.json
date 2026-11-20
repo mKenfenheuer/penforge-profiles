@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "id": "filament-pm/petg-frjet-prusaslicer",
+  "manufacturer": "Filament PM",
+  "name": "Filament PM PETG FRJet",
+  "settings": {
+    "bed_temperature": "90",
+    "bridge_fan_speed": "100",
+    "compatible_printers": "Proton XE-750",
+    "cooling": "0",
+    "disable_fan_first_layers": "3",
+    "extrusion_multiplier": "1",
+    "fan_always_on": "0",
+    "fan_below_layer_time": "10",
+    "filament_colour": "#29B2B2",
+    "filament_cost": "45.5",
+    "filament_density": "1.27",
+    "filament_diameter": "1.75",
+    "filament_soluble": "0",
+    "filament_type": "PETG",
+    "filament_vendor": "Filament PM",
+    "first_layer_bed_temperature": "90",
+    "first_layer_temperature": "250",
+    "full_fan_speed_layer": "0",
+    "min_print_speed": "10",
+    "name": "Filament PM PETG FRJet @PROTON_XE750",
+    "slowdown_below_layer_time": "5",
+    "temperature": "250"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "INAT/1.1.1.ini",
+    "name": "PrusaSlicer-settings-non-prusa-fff",
+    "section": "filament:Filament PM PETG FRJet @PROTON_XE750"
+  },
+  "type": "PETG",
+  "variants": [
+    {
+      "name": "Filament PM PETG FRJet @PROTON_X",
+      "printers": [
+        "inat/proton-x-rail",
+        "inat/proton-x-rod"
+      ],
+      "settings": {
+        "compatible_printers": "\"Proton X Rail\";\"Proton X Rod\"",
+        "name": "Filament PM PETG FRJet @PROTON_X"
+      }
+    },
+    {
+      "catalogID": 111780,
+      "name": "Filament PM PETG FRJet @PROTON_XE750",
+      "printers": [
+        "inat/proton-xe-750"
+      ],
+      "settings": {
+        "end_filament_gcode": "; Filament end gcode BEGIN\nG0 X-5 Y250 F10000\nM104 S{temperature[current_extruder] - 50}\n; Filament end gcode END\n",
+        "start_filament_gcode": "; Filament start gcode BEGIN\nM104 S[temperature[current_extruder]]\nG4 S20\n; Filament start gcode END\n"
+      }
+    }
+  ]
+}

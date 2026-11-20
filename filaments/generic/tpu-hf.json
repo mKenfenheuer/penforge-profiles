@@ -1,0 +1,222 @@
+{
+  "format": 1,
+  "id": "generic/tpu-hf",
+  "manufacturer": "Generic",
+  "name": "Generic TPU HF",
+  "settings": {
+    "additional_cooling_fan_speed": [
+      "70"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "3"
+    ],
+    "compatible_printers": [
+      "Prusa MINIIS 0.4 nozzle",
+      "Prusa MINIIS 0.6 nozzle",
+      "Prusa MINIIS 0.8 nozzle"
+    ],
+    "cool_plate_temp": [
+      "30"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "30"
+    ],
+    "enable_overhang_bridge_fan": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "30"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "30"
+    ],
+    "fan_cooling_layer_time": [
+      "100"
+    ],
+    "fan_max_speed": [
+      "80"
+    ],
+    "fan_min_speed": [
+      "30"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.24"
+    ],
+    "filament_deretraction_speed": [
+      "16"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "1.15"
+    ],
+    "filament_id": "OFnT7Qpb",
+    "filament_max_volumetric_speed": [
+      "10"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "3"
+    ],
+    "filament_retraction_minimum_travel": [
+      "6"
+    ],
+    "filament_retraction_speed": [
+      "40"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\n"
+    ],
+    "filament_type": [
+      "TPU"
+    ],
+    "filament_vendor": [
+      "Generic"
+    ],
+    "filament_wipe": [
+      "1"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "3"
+    ],
+    "hot_plate_temp": [
+      "50"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "50"
+    ],
+    "idle_temperature": "0",
+    "name": "Generic TPU HF @Prusa MINIIS",
+    "nozzle_temperature": [
+      "210"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "220"
+    ],
+    "nozzle_temperature_range_high": [
+      "250"
+    ],
+    "nozzle_temperature_range_low": [
+      "200"
+    ],
+    "overhang_fan_speed": [
+      "50"
+    ],
+    "overhang_fan_threshold": [
+      "50%"
+    ],
+    "pressure_advance": [
+      "0"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "renamed_from": "Prusa Generic TPU HF @MINIIS;Prusa Generic TPU HF MINIIS",
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "4"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "support_material_interface_fan_speed": [
+      "-1"
+    ],
+    "temperature_vitrification": [
+      "60"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Prusa/filament/Generic TPU HF @Prusa MINIIS.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "TPU",
+  "variants": [
+    {
+      "catalogID": 104274,
+      "name": "Generic TPU HF @Prusa MINIIS",
+      "printers": [
+        "prusa-research/miniis-0-4",
+        "prusa-research/miniis-0-6",
+        "prusa-research/miniis-0-8"
+      ],
+      "settings": {}
+    },
+    {
+      "catalogID": 104275,
+      "name": "Generic TPU HF @Prusa MK3.5",
+      "printers": [
+        "prusa-research/mk3-5-0-25",
+        "prusa-research/mk3-5-0-4",
+        "prusa-research/mk3-5-0-6",
+        "prusa-research/mk3-5-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK3.5 0.4 nozzle",
+          "Prusa MK3.5 0.25 nozzle",
+          "Prusa MK3.5 0.6 nozzle",
+          "Prusa MK3.5 0.8 nozzle"
+        ],
+        "filament_deretraction_speed": [
+          "20"
+        ],
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_retraction_length": [
+          "2"
+        ],
+        "filament_retraction_minimum_travel": [
+          "nil"
+        ],
+        "filament_retraction_speed": [
+          "45"
+        ],
+        "filament_wipe": [
+          "nil"
+        ],
+        "name": "Generic TPU HF @Prusa MK3.5",
+        "renamed_from": "Prusa Generic TPU HF @MK3.5;Prusa Generic TPU HF MK3.5"
+      }
+    }
+  ]
+}

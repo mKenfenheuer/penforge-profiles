@@ -1,0 +1,4849 @@
+{
+  "format": 1,
+  "id": "generic/pp",
+  "manufacturer": "Generic",
+  "name": "Generic PP",
+  "settings": {
+    "activate_air_filtration": [
+      "0"
+    ],
+    "additional_cooling_fan_speed": [
+      "70"
+    ],
+    "chamber_temperatures": [
+      "0"
+    ],
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [],
+    "complete_print_exhaust_fan_speed": [
+      "70"
+    ],
+    "cool_plate_temp": [
+      "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "35"
+    ],
+    "description": "This is neither a commonly used filament, nor one of Bambu filaments, and it varies a lot from brand to brand. So, it's highly recommended to ask its vendor for suitable profile before printing and adjust some parameters according to its performances.",
+    "during_print_exhaust_fan_speed": [
+      "70"
+    ],
+    "eng_plate_temp": [
+      "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "0"
+    ],
+    "fan_cooling_layer_time": [
+      "100"
+    ],
+    "fan_max_speed": [
+      "100"
+    ],
+    "fan_min_speed": [
+      "100"
+    ],
+    "filament_cost": [
+      "34.99"
+    ],
+    "filament_density": [
+      "0.93"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode\n"
+    ],
+    "filament_extruder_variant": [
+      "Direct Drive Standard",
+      "Direct Drive High Flow",
+      "Direct Drive Extra High Flow",
+      "Bowden Standard",
+      "Bowden High Flow",
+      "Bowden Extra High Flow"
+    ],
+    "filament_flow_ratio": [
+      "1"
+    ],
+    "filament_id": "OF1UNk9P",
+    "filament_is_support": [
+      "0"
+    ],
+    "filament_long_retractions_when_cut": [
+      "nil"
+    ],
+    "filament_max_volumetric_speed": [
+      "12"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_multitool_ramming": [
+      "1"
+    ],
+    "filament_multitool_ramming_flow": [
+      "12"
+    ],
+    "filament_multitool_ramming_volume": [
+      "5"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_distances_when_cut": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_scarf_gap": [
+      "0%"
+    ],
+    "filament_scarf_height": [
+      "10%"
+    ],
+    "filament_scarf_length": [
+      "10"
+    ],
+    "filament_scarf_seam_type": [
+      "none"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_shrink": [
+      "100%"
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; Filament gcode\n"
+    ],
+    "filament_type": [
+      "PP"
+    ],
+    "filament_vendor": [
+      "Generic"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "55"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "55"
+    ],
+    "name": "Generic PP @System",
+    "nozzle_temperature": [
+      "235"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "235"
+    ],
+    "nozzle_temperature_range_high": [
+      "250"
+    ],
+    "nozzle_temperature_range_low": [
+      "220"
+    ],
+    "overhang_fan_speed": [
+      "100"
+    ],
+    "overhang_fan_threshold": [
+      "50%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "required_nozzle_HRC": [
+      "3"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "4"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "supertack_plate_temp": [
+      "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+      "0"
+    ],
+    "temperature_vitrification": [
+      "110"
+    ],
+    "textured_plate_temp": [
+      "55"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "55"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/OrcaFilamentLibrary/filament/Generic PP @System.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PP",
+  "variants": [
+    {
+      "catalogID": 101919,
+      "name": "Generic PP @BBL A1",
+      "printers": [
+        "bambu-lab/a1-0-4",
+        "bambu-lab/a1-0-6",
+        "bambu-lab/a1-0-8"
+      ],
+      "settings": {
+        "additional_fan_full_speed_layer": [
+          "0"
+        ],
+        "circle_compensation_speed": [
+          "200"
+        ],
+        "close_additional_fan_first_x_layers": [
+          "1"
+        ],
+        "compatible_printers": [
+          "Bambu Lab A1 0.4 nozzle",
+          "Bambu Lab A1 0.6 nozzle",
+          "Bambu Lab A1 0.8 nozzle"
+        ],
+        "cooling_perimeter_transition_distance": [
+          "10"
+        ],
+        "cooling_slowdown_logic": [
+          "uniform_cooling"
+        ],
+        "counter_coef_1": [
+          "0"
+        ],
+        "counter_coef_2": [
+          "0.008"
+        ],
+        "counter_coef_3": [
+          "-0.041"
+        ],
+        "counter_limit_max": [
+          "0.033"
+        ],
+        "counter_limit_min": [
+          "-0.035"
+        ],
+        "diameter_limit": [
+          "50"
+        ],
+        "filament_adaptive_volumetric_speed": [
+          "0"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_bridge_speed": [
+          "25"
+        ],
+        "filament_change_length": [
+          "10"
+        ],
+        "filament_contact_safe": "1",
+        "filament_cooling_before_tower": [
+          "0"
+        ],
+        "filament_dev_ams_drying_ams_limitations": [
+          "1",
+          "0"
+        ],
+        "filament_dev_ams_drying_heat_distortion_temperature": [
+          "60"
+        ],
+        "filament_dev_ams_drying_temperature": [
+          "60",
+          "60",
+          "50",
+          "50"
+        ],
+        "filament_dev_ams_drying_time": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_dev_chamber_drying_bed_temperature": [
+          "70"
+        ],
+        "filament_dev_chamber_drying_time": [
+          "12.0"
+        ],
+        "filament_dev_drying_cooling_temperature": [
+          "50"
+        ],
+        "filament_dev_drying_softening_temperature": [
+          "55"
+        ],
+        "filament_emission_safe": "1",
+        "filament_enable_overhang_speed": [
+          "1"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n\n"
+        ],
+        "filament_extruder_compatibility": [
+          "0"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flush_temp": [
+          "0"
+        ],
+        "filament_flush_temp_fast": [
+          "0"
+        ],
+        "filament_flush_volumetric_speed": [
+          "0"
+        ],
+        "filament_ingredients_safe": "1",
+        "filament_long_retractions_when_ec": [
+          "nil"
+        ],
+        "filament_metal_stickiness": [
+          "None"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_overhang_1_4_speed": [
+          "0"
+        ],
+        "filament_overhang_2_4_speed": [
+          "50"
+        ],
+        "filament_overhang_3_4_speed": [
+          "30"
+        ],
+        "filament_overhang_4_4_speed": [
+          "10"
+        ],
+        "filament_overhang_totally_speed": [
+          "10"
+        ],
+        "filament_pre_cooling_temperature": [
+          "0"
+        ],
+        "filament_pre_cooling_temperature_nc": [
+          "0"
+        ],
+        "filament_preheat_temperature_delta": [
+          "0"
+        ],
+        "filament_prime_volume": [
+          "45"
+        ],
+        "filament_prime_volume_nc": [
+          "60"
+        ],
+        "filament_printable": [
+          "3"
+        ],
+        "filament_ramming_travel_time": [
+          "0"
+        ],
+        "filament_ramming_travel_time_nc": [
+          "0"
+        ],
+        "filament_ramming_volumetric_speed": [
+          "-1"
+        ],
+        "filament_ramming_volumetric_speed_nc": [
+          "-1"
+        ],
+        "filament_retract_length_nc": [
+          "14"
+        ],
+        "filament_retraction_distances_when_ec": [
+          "nil"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n{if  (bed_temperature[current_extruder] >45)||(bed_temperature_initial_layer[current_extruder] >45)}M106 P3 S255\n{elsif(bed_temperature[current_extruder] >35)||(bed_temperature_initial_layer[current_extruder] >35)}M106 P3 S180\n{endif}\n\n{if activate_air_filtration[current_extruder] && support_air_filtration}\nM106 P3 S{during_print_exhaust_fan_speed_num[current_extruder]} \n{endif}"
+        ],
+        "filament_tower_interface_pre_extrusion_dist": [
+          "10"
+        ],
+        "filament_tower_interface_pre_extrusion_length": [
+          "0"
+        ],
+        "filament_tower_interface_print_temp": [
+          "-1"
+        ],
+        "filament_tower_interface_purge_volume": [
+          "20"
+        ],
+        "filament_tower_ironing_area": [
+          "4"
+        ],
+        "filament_velocity_adaptation_factor": [
+          "1"
+        ],
+        "hole_coef_1": [
+          "0"
+        ],
+        "hole_coef_2": [
+          "-0.008"
+        ],
+        "hole_coef_3": [
+          "0.23415"
+        ],
+        "hole_limit_max": [
+          "0.22"
+        ],
+        "hole_limit_min": [
+          "0.088"
+        ],
+        "impact_strength_z": [
+          "10"
+        ],
+        "long_retractions_when_ec": [
+          "0"
+        ],
+        "name": "Generic PP @BBL A1",
+        "no_slow_down_for_cooling_on_outwalls": [
+          "0"
+        ],
+        "override_process_overhang_speed": [
+          "0"
+        ],
+        "retraction_distances_when_ec": [
+          "0"
+        ],
+        "slow_down_min_speed": [
+          "20"
+        ],
+        "volumetric_speed_coefficients": [
+          "0 0 0 0 0 0"
+        ]
+      }
+    },
+    {
+      "catalogID": 101920,
+      "name": "Generic PP @BBL A1M",
+      "printers": [
+        "bambu-lab/a1-mini-0-4",
+        "bambu-lab/a1-mini-0-6",
+        "bambu-lab/a1-mini-0-8"
+      ],
+      "settings": {
+        "additional_fan_full_speed_layer": [
+          "0"
+        ],
+        "circle_compensation_speed": [
+          "200"
+        ],
+        "close_additional_fan_first_x_layers": [
+          "1"
+        ],
+        "compatible_printers": [
+          "Bambu Lab A1 mini 0.4 nozzle",
+          "Bambu Lab A1 mini 0.6 nozzle",
+          "Bambu Lab A1 mini 0.8 nozzle"
+        ],
+        "cooling_perimeter_transition_distance": [
+          "10"
+        ],
+        "cooling_slowdown_logic": [
+          "uniform_cooling"
+        ],
+        "counter_coef_1": [
+          "0"
+        ],
+        "counter_coef_2": [
+          "0.008"
+        ],
+        "counter_coef_3": [
+          "-0.041"
+        ],
+        "counter_limit_max": [
+          "0.033"
+        ],
+        "counter_limit_min": [
+          "-0.035"
+        ],
+        "diameter_limit": [
+          "50"
+        ],
+        "filament_adaptive_volumetric_speed": [
+          "0"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_bridge_speed": [
+          "25"
+        ],
+        "filament_change_length": [
+          "10"
+        ],
+        "filament_contact_safe": "1",
+        "filament_cooling_before_tower": [
+          "0"
+        ],
+        "filament_dev_ams_drying_ams_limitations": [
+          "1",
+          "0"
+        ],
+        "filament_dev_ams_drying_heat_distortion_temperature": [
+          "60"
+        ],
+        "filament_dev_ams_drying_temperature": [
+          "60",
+          "60",
+          "50",
+          "50"
+        ],
+        "filament_dev_ams_drying_time": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_dev_chamber_drying_bed_temperature": [
+          "70"
+        ],
+        "filament_dev_chamber_drying_time": [
+          "12.0"
+        ],
+        "filament_dev_drying_cooling_temperature": [
+          "50"
+        ],
+        "filament_dev_drying_softening_temperature": [
+          "55"
+        ],
+        "filament_emission_safe": "1",
+        "filament_enable_overhang_speed": [
+          "1"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n\n"
+        ],
+        "filament_extruder_compatibility": [
+          "0"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flush_temp": [
+          "0"
+        ],
+        "filament_flush_temp_fast": [
+          "0"
+        ],
+        "filament_flush_volumetric_speed": [
+          "0"
+        ],
+        "filament_ingredients_safe": "1",
+        "filament_long_retractions_when_ec": [
+          "nil"
+        ],
+        "filament_metal_stickiness": [
+          "None"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_overhang_1_4_speed": [
+          "0"
+        ],
+        "filament_overhang_2_4_speed": [
+          "50"
+        ],
+        "filament_overhang_3_4_speed": [
+          "30"
+        ],
+        "filament_overhang_4_4_speed": [
+          "10"
+        ],
+        "filament_overhang_totally_speed": [
+          "10"
+        ],
+        "filament_pre_cooling_temperature": [
+          "0"
+        ],
+        "filament_pre_cooling_temperature_nc": [
+          "0"
+        ],
+        "filament_preheat_temperature_delta": [
+          "0"
+        ],
+        "filament_prime_volume": [
+          "45"
+        ],
+        "filament_prime_volume_nc": [
+          "60"
+        ],
+        "filament_printable": [
+          "3"
+        ],
+        "filament_ramming_travel_time": [
+          "0"
+        ],
+        "filament_ramming_travel_time_nc": [
+          "0"
+        ],
+        "filament_ramming_volumetric_speed": [
+          "-1"
+        ],
+        "filament_ramming_volumetric_speed_nc": [
+          "-1"
+        ],
+        "filament_retract_length_nc": [
+          "14"
+        ],
+        "filament_retraction_distances_when_ec": [
+          "nil"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n{if  (bed_temperature[current_extruder] >45)||(bed_temperature_initial_layer[current_extruder] >45)}M106 P3 S255\n{elsif(bed_temperature[current_extruder] >35)||(bed_temperature_initial_layer[current_extruder] >35)}M106 P3 S180\n{endif}\n\n{if activate_air_filtration[current_extruder] && support_air_filtration}\nM106 P3 S{during_print_exhaust_fan_speed_num[current_extruder]} \n{endif}"
+        ],
+        "filament_tower_interface_pre_extrusion_dist": [
+          "10"
+        ],
+        "filament_tower_interface_pre_extrusion_length": [
+          "0"
+        ],
+        "filament_tower_interface_print_temp": [
+          "-1"
+        ],
+        "filament_tower_interface_purge_volume": [
+          "20"
+        ],
+        "filament_tower_ironing_area": [
+          "4"
+        ],
+        "filament_velocity_adaptation_factor": [
+          "1"
+        ],
+        "hole_coef_1": [
+          "0"
+        ],
+        "hole_coef_2": [
+          "-0.008"
+        ],
+        "hole_coef_3": [
+          "0.23415"
+        ],
+        "hole_limit_max": [
+          "0.22"
+        ],
+        "hole_limit_min": [
+          "0.088"
+        ],
+        "impact_strength_z": [
+          "10"
+        ],
+        "long_retractions_when_ec": [
+          "0"
+        ],
+        "name": "Generic PP @BBL A1M",
+        "no_slow_down_for_cooling_on_outwalls": [
+          "0"
+        ],
+        "override_process_overhang_speed": [
+          "0"
+        ],
+        "retraction_distances_when_ec": [
+          "0"
+        ],
+        "slow_down_min_speed": [
+          "20"
+        ],
+        "volumetric_speed_coefficients": [
+          "0 0 0 0 0 0"
+        ]
+      }
+    },
+    {
+      "catalogID": 101921,
+      "name": "Generic PP @BBL A2L",
+      "printers": [
+        "bambu-lab/a2l-0-4",
+        "bambu-lab/a2l-0-6",
+        "bambu-lab/a2l-0-8"
+      ],
+      "settings": {
+        "additional_fan_full_speed_layer": [
+          "0"
+        ],
+        "circle_compensation_speed": [
+          "200"
+        ],
+        "close_additional_fan_first_x_layers": [
+          "1"
+        ],
+        "compatible_printers": [
+          "Bambu Lab A2L 0.4 nozzle",
+          "Bambu Lab A2L 0.6 nozzle",
+          "Bambu Lab A2L 0.8 nozzle"
+        ],
+        "cooling_perimeter_transition_distance": [
+          "10"
+        ],
+        "cooling_slowdown_logic": [
+          "uniform_cooling"
+        ],
+        "counter_coef_1": [
+          "0"
+        ],
+        "counter_coef_2": [
+          "0.008"
+        ],
+        "counter_coef_3": [
+          "-0.041"
+        ],
+        "counter_limit_max": [
+          "0.033"
+        ],
+        "counter_limit_min": [
+          "-0.035"
+        ],
+        "diameter_limit": [
+          "50"
+        ],
+        "filament_adaptive_volumetric_speed": [
+          "0"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_bridge_speed": [
+          "25"
+        ],
+        "filament_change_length": [
+          "10"
+        ],
+        "filament_contact_safe": "1",
+        "filament_cooling_before_tower": [
+          "0"
+        ],
+        "filament_dev_ams_drying_ams_limitations": [
+          "1",
+          "0"
+        ],
+        "filament_dev_ams_drying_heat_distortion_temperature": [
+          "60"
+        ],
+        "filament_dev_ams_drying_temperature": [
+          "60",
+          "60",
+          "50",
+          "50"
+        ],
+        "filament_dev_ams_drying_time": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_dev_chamber_drying_bed_temperature": [
+          "70"
+        ],
+        "filament_dev_chamber_drying_time": [
+          "12.0"
+        ],
+        "filament_dev_drying_cooling_temperature": [
+          "50"
+        ],
+        "filament_dev_drying_softening_temperature": [
+          "55"
+        ],
+        "filament_emission_safe": "1",
+        "filament_enable_overhang_speed": [
+          "1"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n\n"
+        ],
+        "filament_extruder_compatibility": [
+          "0"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flush_temp": [
+          "0"
+        ],
+        "filament_flush_temp_fast": [
+          "0"
+        ],
+        "filament_flush_volumetric_speed": [
+          "0"
+        ],
+        "filament_ingredients_safe": "1",
+        "filament_long_retractions_when_ec": [
+          "nil"
+        ],
+        "filament_metal_stickiness": [
+          "None"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_overhang_1_4_speed": [
+          "0"
+        ],
+        "filament_overhang_2_4_speed": [
+          "50"
+        ],
+        "filament_overhang_3_4_speed": [
+          "30"
+        ],
+        "filament_overhang_4_4_speed": [
+          "10"
+        ],
+        "filament_overhang_totally_speed": [
+          "10"
+        ],
+        "filament_pre_cooling_temperature": [
+          "0"
+        ],
+        "filament_pre_cooling_temperature_nc": [
+          "0"
+        ],
+        "filament_preheat_temperature_delta": [
+          "0"
+        ],
+        "filament_prime_volume": [
+          "45"
+        ],
+        "filament_prime_volume_nc": [
+          "60"
+        ],
+        "filament_printable": [
+          "3"
+        ],
+        "filament_ramming_travel_time": [
+          "0"
+        ],
+        "filament_ramming_travel_time_nc": [
+          "0"
+        ],
+        "filament_ramming_volumetric_speed": [
+          "-1"
+        ],
+        "filament_ramming_volumetric_speed_nc": [
+          "-1"
+        ],
+        "filament_retract_length_nc": [
+          "14"
+        ],
+        "filament_retraction_distances_when_ec": [
+          "nil"
+        ],
+        "filament_start_gcode": [
+          ""
+        ],
+        "filament_tower_interface_pre_extrusion_dist": [
+          "10"
+        ],
+        "filament_tower_interface_pre_extrusion_length": [
+          "0"
+        ],
+        "filament_tower_interface_print_temp": [
+          "-1"
+        ],
+        "filament_tower_interface_purge_volume": [
+          "20"
+        ],
+        "filament_tower_ironing_area": [
+          "4"
+        ],
+        "filament_velocity_adaptation_factor": [
+          "1"
+        ],
+        "hole_coef_1": [
+          "0"
+        ],
+        "hole_coef_2": [
+          "-0.008"
+        ],
+        "hole_coef_3": [
+          "0.23415"
+        ],
+        "hole_limit_max": [
+          "0.22"
+        ],
+        "hole_limit_min": [
+          "0.088"
+        ],
+        "impact_strength_z": [
+          "10"
+        ],
+        "long_retractions_when_ec": [
+          "0"
+        ],
+        "name": "Generic PP @BBL A2L",
+        "no_slow_down_for_cooling_on_outwalls": [
+          "0"
+        ],
+        "override_process_overhang_speed": [
+          "0"
+        ],
+        "pre_start_fan_time": [
+          "2"
+        ],
+        "retraction_distances_when_ec": [
+          "0"
+        ],
+        "slow_down_min_speed": [
+          "20"
+        ],
+        "volumetric_speed_coefficients": [
+          "0 0 0 0 0 0"
+        ]
+      }
+    },
+    {
+      "catalogID": 101922,
+      "name": "Generic PP @BBL H2C",
+      "printers": [
+        "bambu-lab/h2c-0-6",
+        "bambu-lab/h2c-0-8"
+      ],
+      "settings": {
+        "additional_fan_full_speed_layer": [
+          "0"
+        ],
+        "circle_compensation_speed": [
+          "200"
+        ],
+        "close_additional_fan_first_x_layers": [
+          "1"
+        ],
+        "compatible_printers": [
+          "Bambu Lab H2C 0.6 nozzle",
+          "Bambu Lab H2C 0.8 nozzle"
+        ],
+        "cooling_perimeter_transition_distance": [
+          "10"
+        ],
+        "cooling_slowdown_logic": [
+          "uniform_cooling"
+        ],
+        "counter_coef_1": [
+          "0"
+        ],
+        "counter_coef_2": [
+          "0.008"
+        ],
+        "counter_coef_3": [
+          "-0.041"
+        ],
+        "counter_limit_max": [
+          "0.033"
+        ],
+        "counter_limit_min": [
+          "-0.035"
+        ],
+        "diameter_limit": [
+          "50"
+        ],
+        "eng_plate_temp": [
+          "55"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "55"
+        ],
+        "filament_adaptive_volumetric_speed": [
+          "0"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_bridge_speed": [
+          "25"
+        ],
+        "filament_change_length": [
+          "4"
+        ],
+        "filament_change_length_nc": [
+          "4"
+        ],
+        "filament_contact_safe": "1",
+        "filament_cooling_before_tower": [
+          "10",
+          "10",
+          "10"
+        ],
+        "filament_dev_ams_drying_ams_limitations": [
+          "1",
+          "0"
+        ],
+        "filament_dev_ams_drying_heat_distortion_temperature": [
+          "60"
+        ],
+        "filament_dev_ams_drying_temperature": [
+          "60",
+          "60",
+          "50",
+          "50"
+        ],
+        "filament_dev_ams_drying_time": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_dev_chamber_drying_bed_temperature": [
+          "70"
+        ],
+        "filament_dev_chamber_drying_time": [
+          "12.0"
+        ],
+        "filament_dev_drying_cooling_temperature": [
+          "50"
+        ],
+        "filament_dev_drying_softening_temperature": [
+          "55"
+        ],
+        "filament_emission_safe": "1",
+        "filament_enable_overhang_speed": [
+          "1"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n"
+        ],
+        "filament_extruder_compatibility": [
+          "0"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flow_ratio": [
+          "1",
+          "1",
+          "1"
+        ],
+        "filament_flush_temp": [
+          "0"
+        ],
+        "filament_flush_temp_fast": [
+          "0"
+        ],
+        "filament_flush_volumetric_speed": [
+          "0"
+        ],
+        "filament_ingredients_safe": "1",
+        "filament_long_retractions_when_ec": [
+          "nil"
+        ],
+        "filament_max_volumetric_speed": [
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_metal_stickiness": [
+          "None"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_overhang_1_4_speed": [
+          "0"
+        ],
+        "filament_overhang_2_4_speed": [
+          "50"
+        ],
+        "filament_overhang_3_4_speed": [
+          "30"
+        ],
+        "filament_overhang_4_4_speed": [
+          "10"
+        ],
+        "filament_overhang_totally_speed": [
+          "10"
+        ],
+        "filament_pre_cooling_temperature": [
+          "0"
+        ],
+        "filament_pre_cooling_temperature_nc": [
+          "195",
+          "195",
+          "195"
+        ],
+        "filament_preheat_temperature_delta": [
+          "20",
+          "20",
+          "20"
+        ],
+        "filament_prime_volume": [
+          "30"
+        ],
+        "filament_prime_volume_nc": [
+          "30"
+        ],
+        "filament_printable": [
+          "3"
+        ],
+        "filament_ramming_travel_time": [
+          "0",
+          "0",
+          "0"
+        ],
+        "filament_ramming_travel_time_nc": [
+          "1",
+          "1",
+          "1"
+        ],
+        "filament_ramming_volumetric_speed": [
+          "-1"
+        ],
+        "filament_ramming_volumetric_speed_nc": [
+          "-1"
+        ],
+        "filament_retract_length_nc": [
+          "14"
+        ],
+        "filament_retraction_distances_when_ec": [
+          "nil"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n"
+        ],
+        "filament_tower_interface_pre_extrusion_dist": [
+          "10"
+        ],
+        "filament_tower_interface_pre_extrusion_length": [
+          "0"
+        ],
+        "filament_tower_interface_print_temp": [
+          "-1"
+        ],
+        "filament_tower_interface_purge_volume": [
+          "20"
+        ],
+        "filament_tower_ironing_area": [
+          "4"
+        ],
+        "filament_velocity_adaptation_factor": [
+          "1"
+        ],
+        "first_x_layer_fan_speed": [
+          "0"
+        ],
+        "hole_coef_1": [
+          "0"
+        ],
+        "hole_coef_2": [
+          "-0.008"
+        ],
+        "hole_coef_3": [
+          "0.23415"
+        ],
+        "hole_limit_max": [
+          "0.22"
+        ],
+        "hole_limit_min": [
+          "0.088"
+        ],
+        "impact_strength_z": [
+          "10"
+        ],
+        "include": [
+          "fdm_filament_template_direct_dual_e3d"
+        ],
+        "long_retractions_when_ec": [
+          "0"
+        ],
+        "name": "Generic PP @BBL H2C",
+        "no_slow_down_for_cooling_on_outwalls": [
+          "0"
+        ],
+        "nozzle_temperature": [
+          "235",
+          "235",
+          "235"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "235",
+          "235",
+          "235"
+        ],
+        "override_process_overhang_speed": [
+          "0"
+        ],
+        "retraction_distances_when_ec": [
+          "0"
+        ],
+        "slow_down_min_speed": [
+          "20",
+          "20",
+          "20"
+        ],
+        "temperature_vitrification": [
+          "50"
+        ],
+        "volumetric_speed_coefficients": [
+          "0 0 0 0 0 0"
+        ]
+      }
+    },
+    {
+      "catalogID": 101923,
+      "name": "Generic PP @BBL H2C 0.4 nozzle",
+      "printers": [
+        "bambu-lab/h2c-0-4"
+      ],
+      "settings": {
+        "additional_fan_full_speed_layer": [
+          "0"
+        ],
+        "circle_compensation_speed": [
+          "200"
+        ],
+        "close_additional_fan_first_x_layers": [
+          "1"
+        ],
+        "compatible_printers": [
+          "Bambu Lab H2C 0.4 nozzle"
+        ],
+        "cooling_perimeter_transition_distance": [
+          "10"
+        ],
+        "cooling_slowdown_logic": [
+          "uniform_cooling"
+        ],
+        "counter_coef_1": [
+          "0"
+        ],
+        "counter_coef_2": [
+          "0.008"
+        ],
+        "counter_coef_3": [
+          "-0.041"
+        ],
+        "counter_limit_max": [
+          "0.033"
+        ],
+        "counter_limit_min": [
+          "-0.035"
+        ],
+        "diameter_limit": [
+          "50"
+        ],
+        "eng_plate_temp": [
+          "55"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "55"
+        ],
+        "filament_adaptive_volumetric_speed": [
+          "0"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_bridge_speed": [
+          "25"
+        ],
+        "filament_change_length": [
+          "4"
+        ],
+        "filament_change_length_nc": [
+          "4"
+        ],
+        "filament_contact_safe": "1",
+        "filament_cooling_before_tower": [
+          "10",
+          "10",
+          "10"
+        ],
+        "filament_dev_ams_drying_ams_limitations": [
+          "1",
+          "0"
+        ],
+        "filament_dev_ams_drying_heat_distortion_temperature": [
+          "60"
+        ],
+        "filament_dev_ams_drying_temperature": [
+          "60",
+          "60",
+          "50",
+          "50"
+        ],
+        "filament_dev_ams_drying_time": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_dev_chamber_drying_bed_temperature": [
+          "70"
+        ],
+        "filament_dev_chamber_drying_time": [
+          "12.0"
+        ],
+        "filament_dev_drying_cooling_temperature": [
+          "50"
+        ],
+        "filament_dev_drying_softening_temperature": [
+          "55"
+        ],
+        "filament_emission_safe": "1",
+        "filament_enable_overhang_speed": [
+          "1"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n"
+        ],
+        "filament_extruder_compatibility": [
+          "0"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flow_ratio": [
+          "1",
+          "1",
+          "1"
+        ],
+        "filament_flush_temp": [
+          "0"
+        ],
+        "filament_flush_temp_fast": [
+          "0"
+        ],
+        "filament_flush_volumetric_speed": [
+          "0"
+        ],
+        "filament_ingredients_safe": "1",
+        "filament_long_retractions_when_ec": [
+          "nil"
+        ],
+        "filament_max_volumetric_speed": [
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_metal_stickiness": [
+          "None"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_overhang_1_4_speed": [
+          "0"
+        ],
+        "filament_overhang_2_4_speed": [
+          "50"
+        ],
+        "filament_overhang_3_4_speed": [
+          "30"
+        ],
+        "filament_overhang_4_4_speed": [
+          "10"
+        ],
+        "filament_overhang_totally_speed": [
+          "10"
+        ],
+        "filament_pre_cooling_temperature": [
+          "0"
+        ],
+        "filament_pre_cooling_temperature_nc": [
+          "195",
+          "195",
+          "195"
+        ],
+        "filament_preheat_temperature_delta": [
+          "20",
+          "20",
+          "20"
+        ],
+        "filament_prime_volume": [
+          "30"
+        ],
+        "filament_prime_volume_nc": [
+          "30"
+        ],
+        "filament_printable": [
+          "3"
+        ],
+        "filament_ramming_travel_time": [
+          "0",
+          "0",
+          "0"
+        ],
+        "filament_ramming_travel_time_nc": [
+          "1",
+          "1",
+          "1"
+        ],
+        "filament_ramming_volumetric_speed": [
+          "-1"
+        ],
+        "filament_ramming_volumetric_speed_nc": [
+          "-1"
+        ],
+        "filament_retract_length_nc": [
+          "14"
+        ],
+        "filament_retraction_distances_when_ec": [
+          "nil"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n"
+        ],
+        "filament_tower_interface_pre_extrusion_dist": [
+          "10"
+        ],
+        "filament_tower_interface_pre_extrusion_length": [
+          "0"
+        ],
+        "filament_tower_interface_print_temp": [
+          "-1"
+        ],
+        "filament_tower_interface_purge_volume": [
+          "20"
+        ],
+        "filament_tower_ironing_area": [
+          "4"
+        ],
+        "filament_velocity_adaptation_factor": [
+          "1"
+        ],
+        "first_x_layer_fan_speed": [
+          "0"
+        ],
+        "hole_coef_1": [
+          "0"
+        ],
+        "hole_coef_2": [
+          "-0.008"
+        ],
+        "hole_coef_3": [
+          "0.23415"
+        ],
+        "hole_limit_max": [
+          "0.22"
+        ],
+        "hole_limit_min": [
+          "0.088"
+        ],
+        "impact_strength_z": [
+          "10"
+        ],
+        "include": [
+          "fdm_filament_template_direct_dual_e3d"
+        ],
+        "long_retractions_when_ec": [
+          "0"
+        ],
+        "name": "Generic PP @BBL H2C 0.4 nozzle",
+        "no_slow_down_for_cooling_on_outwalls": [
+          "0"
+        ],
+        "nozzle_temperature": [
+          "235",
+          "235",
+          "235"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "235",
+          "235",
+          "235"
+        ],
+        "override_process_overhang_speed": [
+          "0"
+        ],
+        "retraction_distances_when_ec": [
+          "0"
+        ],
+        "slow_down_min_speed": [
+          "20",
+          "20",
+          "20"
+        ],
+        "temperature_vitrification": [
+          "50"
+        ],
+        "volumetric_speed_coefficients": [
+          "0 0 0 0 0 0"
+        ]
+      }
+    },
+    {
+      "catalogID": 101924,
+      "name": "Generic PP @BBL H2D",
+      "printers": [
+        "bambu-lab/h2d-0-4",
+        "bambu-lab/h2d-0-6",
+        "bambu-lab/h2d-0-8"
+      ],
+      "settings": {
+        "additional_fan_full_speed_layer": [
+          "0"
+        ],
+        "circle_compensation_speed": [
+          "200"
+        ],
+        "close_additional_fan_first_x_layers": [
+          "1"
+        ],
+        "compatible_printers": [
+          "Bambu Lab H2D 0.4 nozzle",
+          "Bambu Lab H2D 0.6 nozzle",
+          "Bambu Lab H2D 0.8 nozzle"
+        ],
+        "cooling_perimeter_transition_distance": [
+          "10"
+        ],
+        "cooling_slowdown_logic": [
+          "uniform_cooling"
+        ],
+        "counter_coef_1": [
+          "0"
+        ],
+        "counter_coef_2": [
+          "0.008"
+        ],
+        "counter_coef_3": [
+          "-0.041"
+        ],
+        "counter_limit_max": [
+          "0.033"
+        ],
+        "counter_limit_min": [
+          "-0.035"
+        ],
+        "diameter_limit": [
+          "50"
+        ],
+        "eng_plate_temp": [
+          "55"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "55"
+        ],
+        "filament_adaptive_volumetric_speed": [
+          "0"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_bridge_speed": [
+          "25"
+        ],
+        "filament_change_length": [
+          "10"
+        ],
+        "filament_contact_safe": "1",
+        "filament_cooling_before_tower": [
+          "10",
+          "10",
+          "10"
+        ],
+        "filament_dev_ams_drying_ams_limitations": [
+          "1",
+          "0"
+        ],
+        "filament_dev_ams_drying_heat_distortion_temperature": [
+          "60"
+        ],
+        "filament_dev_ams_drying_temperature": [
+          "60",
+          "60",
+          "50",
+          "50"
+        ],
+        "filament_dev_ams_drying_time": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_dev_chamber_drying_bed_temperature": [
+          "70"
+        ],
+        "filament_dev_chamber_drying_time": [
+          "12.0"
+        ],
+        "filament_dev_drying_cooling_temperature": [
+          "50"
+        ],
+        "filament_dev_drying_softening_temperature": [
+          "55"
+        ],
+        "filament_emission_safe": "1",
+        "filament_enable_overhang_speed": [
+          "1"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n"
+        ],
+        "filament_extruder_compatibility": [
+          "0"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flow_ratio": [
+          "1",
+          "1",
+          "1"
+        ],
+        "filament_flush_temp": [
+          "0"
+        ],
+        "filament_flush_temp_fast": [
+          "0"
+        ],
+        "filament_flush_volumetric_speed": [
+          "0"
+        ],
+        "filament_ingredients_safe": "1",
+        "filament_long_retractions_when_ec": [
+          "nil"
+        ],
+        "filament_max_volumetric_speed": [
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_metal_stickiness": [
+          "None"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_overhang_1_4_speed": [
+          "0"
+        ],
+        "filament_overhang_2_4_speed": [
+          "50"
+        ],
+        "filament_overhang_3_4_speed": [
+          "30"
+        ],
+        "filament_overhang_4_4_speed": [
+          "10"
+        ],
+        "filament_overhang_totally_speed": [
+          "10"
+        ],
+        "filament_pre_cooling_temperature": [
+          "0"
+        ],
+        "filament_pre_cooling_temperature_nc": [
+          "0"
+        ],
+        "filament_preheat_temperature_delta": [
+          "0"
+        ],
+        "filament_prime_volume": [
+          "45"
+        ],
+        "filament_prime_volume_nc": [
+          "60"
+        ],
+        "filament_printable": [
+          "3"
+        ],
+        "filament_ramming_travel_time": [
+          "0",
+          "0",
+          "0"
+        ],
+        "filament_ramming_travel_time_nc": [
+          "0"
+        ],
+        "filament_ramming_volumetric_speed": [
+          "-1"
+        ],
+        "filament_ramming_volumetric_speed_nc": [
+          "-1"
+        ],
+        "filament_retract_length_nc": [
+          "14"
+        ],
+        "filament_retraction_distances_when_ec": [
+          "nil"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n"
+        ],
+        "filament_tower_interface_pre_extrusion_dist": [
+          "10"
+        ],
+        "filament_tower_interface_pre_extrusion_length": [
+          "0"
+        ],
+        "filament_tower_interface_print_temp": [
+          "-1"
+        ],
+        "filament_tower_interface_purge_volume": [
+          "20"
+        ],
+        "filament_tower_ironing_area": [
+          "4"
+        ],
+        "filament_velocity_adaptation_factor": [
+          "1"
+        ],
+        "hole_coef_1": [
+          "0"
+        ],
+        "hole_coef_2": [
+          "-0.008"
+        ],
+        "hole_coef_3": [
+          "0.23415"
+        ],
+        "hole_limit_max": [
+          "0.22"
+        ],
+        "hole_limit_min": [
+          "0.088"
+        ],
+        "impact_strength_z": [
+          "10"
+        ],
+        "include": [
+          "fdm_filament_template_direct_dual_e3d"
+        ],
+        "long_retractions_when_ec": [
+          "0"
+        ],
+        "name": "Generic PP @BBL H2D",
+        "no_slow_down_for_cooling_on_outwalls": [
+          "0"
+        ],
+        "nozzle_temperature": [
+          "235",
+          "235",
+          "235"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "235",
+          "235",
+          "235"
+        ],
+        "override_process_overhang_speed": [
+          "0"
+        ],
+        "retraction_distances_when_ec": [
+          "0"
+        ],
+        "slow_down_min_speed": [
+          "20",
+          "20",
+          "20"
+        ],
+        "volumetric_speed_coefficients": [
+          "0 0 0 0 0 0"
+        ]
+      }
+    },
+    {
+      "catalogID": 101925,
+      "name": "Generic PP @BBL H2DP",
+      "printers": [
+        "bambu-lab/h2d-pro-0-4",
+        "bambu-lab/h2d-pro-0-6",
+        "bambu-lab/h2d-pro-0-8"
+      ],
+      "settings": {
+        "additional_fan_full_speed_layer": [
+          "0"
+        ],
+        "circle_compensation_speed": [
+          "200"
+        ],
+        "close_additional_fan_first_x_layers": [
+          "1"
+        ],
+        "compatible_printers": [
+          "Bambu Lab H2D Pro 0.4 nozzle",
+          "Bambu Lab H2D Pro 0.6 nozzle",
+          "Bambu Lab H2D Pro 0.8 nozzle"
+        ],
+        "cooling_perimeter_transition_distance": [
+          "10"
+        ],
+        "cooling_slowdown_logic": [
+          "uniform_cooling"
+        ],
+        "counter_coef_1": [
+          "0"
+        ],
+        "counter_coef_2": [
+          "0.008"
+        ],
+        "counter_coef_3": [
+          "-0.041"
+        ],
+        "counter_limit_max": [
+          "0.033"
+        ],
+        "counter_limit_min": [
+          "-0.035"
+        ],
+        "diameter_limit": [
+          "50"
+        ],
+        "eng_plate_temp": [
+          "55"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "55"
+        ],
+        "filament_adaptive_volumetric_speed": [
+          "0"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_bridge_speed": [
+          "25"
+        ],
+        "filament_change_length": [
+          "10"
+        ],
+        "filament_contact_safe": "1",
+        "filament_cooling_before_tower": [
+          "10",
+          "10"
+        ],
+        "filament_dev_ams_drying_ams_limitations": [
+          "1",
+          "0"
+        ],
+        "filament_dev_ams_drying_heat_distortion_temperature": [
+          "60"
+        ],
+        "filament_dev_ams_drying_temperature": [
+          "60",
+          "60",
+          "50",
+          "50"
+        ],
+        "filament_dev_ams_drying_time": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_dev_chamber_drying_bed_temperature": [
+          "70"
+        ],
+        "filament_dev_chamber_drying_time": [
+          "12.0"
+        ],
+        "filament_dev_drying_cooling_temperature": [
+          "50"
+        ],
+        "filament_dev_drying_softening_temperature": [
+          "55"
+        ],
+        "filament_emission_safe": "1",
+        "filament_enable_overhang_speed": [
+          "1"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n"
+        ],
+        "filament_extruder_compatibility": [
+          "0"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flow_ratio": [
+          "1",
+          "1"
+        ],
+        "filament_flush_temp": [
+          "0"
+        ],
+        "filament_flush_temp_fast": [
+          "0"
+        ],
+        "filament_flush_volumetric_speed": [
+          "0"
+        ],
+        "filament_ingredients_safe": "1",
+        "filament_long_retractions_when_ec": [
+          "nil"
+        ],
+        "filament_max_volumetric_speed": [
+          "12",
+          "12"
+        ],
+        "filament_metal_stickiness": [
+          "None"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_overhang_1_4_speed": [
+          "0"
+        ],
+        "filament_overhang_2_4_speed": [
+          "50"
+        ],
+        "filament_overhang_3_4_speed": [
+          "30"
+        ],
+        "filament_overhang_4_4_speed": [
+          "10"
+        ],
+        "filament_overhang_totally_speed": [
+          "10"
+        ],
+        "filament_pre_cooling_temperature": [
+          "0"
+        ],
+        "filament_pre_cooling_temperature_nc": [
+          "0"
+        ],
+        "filament_preheat_temperature_delta": [
+          "0"
+        ],
+        "filament_prime_volume": [
+          "45"
+        ],
+        "filament_prime_volume_nc": [
+          "60"
+        ],
+        "filament_printable": [
+          "3"
+        ],
+        "filament_ramming_travel_time": [
+          "0",
+          "0"
+        ],
+        "filament_ramming_travel_time_nc": [
+          "0"
+        ],
+        "filament_ramming_volumetric_speed": [
+          "-1"
+        ],
+        "filament_ramming_volumetric_speed_nc": [
+          "-1"
+        ],
+        "filament_retract_length_nc": [
+          "14"
+        ],
+        "filament_retraction_distances_when_ec": [
+          "nil"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n"
+        ],
+        "filament_tower_interface_pre_extrusion_dist": [
+          "10"
+        ],
+        "filament_tower_interface_pre_extrusion_length": [
+          "0"
+        ],
+        "filament_tower_interface_print_temp": [
+          "-1"
+        ],
+        "filament_tower_interface_purge_volume": [
+          "20"
+        ],
+        "filament_tower_ironing_area": [
+          "4"
+        ],
+        "filament_velocity_adaptation_factor": [
+          "1"
+        ],
+        "hole_coef_1": [
+          "0"
+        ],
+        "hole_coef_2": [
+          "-0.008"
+        ],
+        "hole_coef_3": [
+          "0.23415"
+        ],
+        "hole_limit_max": [
+          "0.22"
+        ],
+        "hole_limit_min": [
+          "0.088"
+        ],
+        "impact_strength_z": [
+          "10"
+        ],
+        "include": [
+          "fdm_filament_template_direct_dual"
+        ],
+        "long_retractions_when_ec": [
+          "0"
+        ],
+        "name": "Generic PP @BBL H2DP",
+        "no_slow_down_for_cooling_on_outwalls": [
+          "0"
+        ],
+        "nozzle_temperature": [
+          "235",
+          "235"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "235",
+          "235"
+        ],
+        "override_process_overhang_speed": [
+          "0"
+        ],
+        "retraction_distances_when_ec": [
+          "0"
+        ],
+        "slow_down_min_speed": [
+          "20",
+          "20"
+        ],
+        "volumetric_speed_coefficients": [
+          "0 0 0 0 0 0"
+        ]
+      }
+    },
+    {
+      "catalogID": 101926,
+      "name": "Generic PP @BBL H2S 0.4 nozzle",
+      "printers": [
+        "bambu-lab/h2s-0-4",
+        "bambu-lab/h2s-0-6",
+        "bambu-lab/h2s-0-8"
+      ],
+      "settings": {
+        "additional_fan_full_speed_layer": [
+          "0"
+        ],
+        "circle_compensation_speed": [
+          "200"
+        ],
+        "close_additional_fan_first_x_layers": [
+          "1"
+        ],
+        "compatible_printers": [
+          "Bambu Lab H2S 0.4 nozzle",
+          "Bambu Lab H2S 0.6 nozzle",
+          "Bambu Lab H2S 0.8 nozzle"
+        ],
+        "cooling_perimeter_transition_distance": [
+          "10"
+        ],
+        "cooling_slowdown_logic": [
+          "uniform_cooling"
+        ],
+        "counter_coef_1": [
+          "0"
+        ],
+        "counter_coef_2": [
+          "0.008"
+        ],
+        "counter_coef_3": [
+          "-0.041"
+        ],
+        "counter_limit_max": [
+          "0.033"
+        ],
+        "counter_limit_min": [
+          "-0.035"
+        ],
+        "diameter_limit": [
+          "50"
+        ],
+        "eng_plate_temp": [
+          "55"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "55"
+        ],
+        "filament_adaptive_volumetric_speed": [
+          "0"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_bridge_speed": [
+          "25"
+        ],
+        "filament_change_length": [
+          "10"
+        ],
+        "filament_contact_safe": "1",
+        "filament_cooling_before_tower": [
+          "10",
+          "10",
+          "10"
+        ],
+        "filament_dev_ams_drying_ams_limitations": [
+          "1",
+          "0"
+        ],
+        "filament_dev_ams_drying_heat_distortion_temperature": [
+          "60"
+        ],
+        "filament_dev_ams_drying_temperature": [
+          "60",
+          "60",
+          "50",
+          "50"
+        ],
+        "filament_dev_ams_drying_time": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_dev_chamber_drying_bed_temperature": [
+          "70"
+        ],
+        "filament_dev_chamber_drying_time": [
+          "12.0"
+        ],
+        "filament_dev_drying_cooling_temperature": [
+          "50"
+        ],
+        "filament_dev_drying_softening_temperature": [
+          "55"
+        ],
+        "filament_emission_safe": "1",
+        "filament_enable_overhang_speed": [
+          "1"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n\n"
+        ],
+        "filament_extruder_compatibility": [
+          "0"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flow_ratio": [
+          "1",
+          "1",
+          "1"
+        ],
+        "filament_flush_temp": [
+          "0"
+        ],
+        "filament_flush_temp_fast": [
+          "0"
+        ],
+        "filament_flush_volumetric_speed": [
+          "0"
+        ],
+        "filament_ingredients_safe": "1",
+        "filament_long_retractions_when_ec": [
+          "nil"
+        ],
+        "filament_max_volumetric_speed": [
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_metal_stickiness": [
+          "None"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_overhang_1_4_speed": [
+          "0"
+        ],
+        "filament_overhang_2_4_speed": [
+          "50"
+        ],
+        "filament_overhang_3_4_speed": [
+          "30"
+        ],
+        "filament_overhang_4_4_speed": [
+          "10"
+        ],
+        "filament_overhang_totally_speed": [
+          "10"
+        ],
+        "filament_pre_cooling_temperature": [
+          "0"
+        ],
+        "filament_pre_cooling_temperature_nc": [
+          "0"
+        ],
+        "filament_preheat_temperature_delta": [
+          "0"
+        ],
+        "filament_prime_volume": [
+          "45"
+        ],
+        "filament_prime_volume_nc": [
+          "60"
+        ],
+        "filament_printable": [
+          "3"
+        ],
+        "filament_ramming_travel_time": [
+          "0",
+          "0",
+          "0"
+        ],
+        "filament_ramming_travel_time_nc": [
+          "0"
+        ],
+        "filament_ramming_volumetric_speed": [
+          "-1"
+        ],
+        "filament_ramming_volumetric_speed_nc": [
+          "-1"
+        ],
+        "filament_retract_length_nc": [
+          "14"
+        ],
+        "filament_retraction_distances_when_ec": [
+          "nil"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n"
+        ],
+        "filament_tower_interface_pre_extrusion_dist": [
+          "10"
+        ],
+        "filament_tower_interface_pre_extrusion_length": [
+          "0"
+        ],
+        "filament_tower_interface_print_temp": [
+          "-1"
+        ],
+        "filament_tower_interface_purge_volume": [
+          "20"
+        ],
+        "filament_tower_ironing_area": [
+          "4"
+        ],
+        "filament_velocity_adaptation_factor": [
+          "1"
+        ],
+        "first_x_layer_fan_speed": [
+          "40"
+        ],
+        "hole_coef_1": [
+          "0"
+        ],
+        "hole_coef_2": [
+          "-0.008"
+        ],
+        "hole_coef_3": [
+          "0.23415"
+        ],
+        "hole_limit_max": [
+          "0.22"
+        ],
+        "hole_limit_min": [
+          "0.088"
+        ],
+        "impact_strength_z": [
+          "10"
+        ],
+        "include": [
+          "fdm_filament_template_direct_dual_e3d"
+        ],
+        "long_retractions_when_ec": [
+          "0",
+          "0",
+          "0"
+        ],
+        "name": "Generic PP @BBL H2S 0.4 nozzle",
+        "no_slow_down_for_cooling_on_outwalls": [
+          "0"
+        ],
+        "nozzle_temperature": [
+          "235",
+          "235",
+          "235"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "235",
+          "235",
+          "235"
+        ],
+        "override_process_overhang_speed": [
+          "0"
+        ],
+        "retraction_distances_when_ec": [
+          "0",
+          "0",
+          "0"
+        ],
+        "slow_down_min_speed": [
+          "20",
+          "20",
+          "20"
+        ],
+        "temperature_vitrification": [
+          "50"
+        ],
+        "volumetric_speed_coefficients": [
+          "0 0 0 0 0 0"
+        ]
+      }
+    },
+    {
+      "catalogID": 101927,
+      "name": "Generic PP @BBL P2S",
+      "printers": [
+        "bambu-lab/p2s-0-4",
+        "bambu-lab/p2s-0-6",
+        "bambu-lab/p2s-0-8"
+      ],
+      "settings": {
+        "additional_fan_full_speed_layer": [
+          "0"
+        ],
+        "circle_compensation_speed": [
+          "200"
+        ],
+        "close_additional_fan_first_x_layers": [
+          "1"
+        ],
+        "compatible_printers": [
+          "Bambu Lab P2S 0.4 nozzle",
+          "Bambu Lab P2S 0.6 nozzle",
+          "Bambu Lab P2S 0.8 nozzle"
+        ],
+        "cooling_perimeter_transition_distance": [
+          "10"
+        ],
+        "cooling_slowdown_logic": [
+          "uniform_cooling"
+        ],
+        "counter_coef_1": [
+          "0"
+        ],
+        "counter_coef_2": [
+          "0.008"
+        ],
+        "counter_coef_3": [
+          "-0.041"
+        ],
+        "counter_limit_max": [
+          "0.033"
+        ],
+        "counter_limit_min": [
+          "-0.035"
+        ],
+        "diameter_limit": [
+          "50"
+        ],
+        "eng_plate_temp": [
+          "55"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "55"
+        ],
+        "filament_adaptive_volumetric_speed": [
+          "0"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_bridge_speed": [
+          "25"
+        ],
+        "filament_change_length": [
+          "10"
+        ],
+        "filament_contact_safe": "1",
+        "filament_cooling_before_tower": [
+          "10",
+          "10",
+          "10"
+        ],
+        "filament_dev_ams_drying_ams_limitations": [
+          "1",
+          "0"
+        ],
+        "filament_dev_ams_drying_heat_distortion_temperature": [
+          "60"
+        ],
+        "filament_dev_ams_drying_temperature": [
+          "60",
+          "60",
+          "50",
+          "50"
+        ],
+        "filament_dev_ams_drying_time": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_dev_chamber_drying_bed_temperature": [
+          "70"
+        ],
+        "filament_dev_chamber_drying_time": [
+          "12.0"
+        ],
+        "filament_dev_drying_cooling_temperature": [
+          "50"
+        ],
+        "filament_dev_drying_softening_temperature": [
+          "55"
+        ],
+        "filament_emission_safe": "1",
+        "filament_enable_overhang_speed": [
+          "1"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n\n"
+        ],
+        "filament_extruder_compatibility": [
+          "0"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flow_ratio": [
+          "1",
+          "1",
+          "1"
+        ],
+        "filament_flush_temp": [
+          "0"
+        ],
+        "filament_flush_temp_fast": [
+          "0"
+        ],
+        "filament_flush_volumetric_speed": [
+          "0"
+        ],
+        "filament_ingredients_safe": "1",
+        "filament_long_retractions_when_ec": [
+          "nil"
+        ],
+        "filament_max_volumetric_speed": [
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_metal_stickiness": [
+          "None"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_overhang_1_4_speed": [
+          "0"
+        ],
+        "filament_overhang_2_4_speed": [
+          "50"
+        ],
+        "filament_overhang_3_4_speed": [
+          "30"
+        ],
+        "filament_overhang_4_4_speed": [
+          "10"
+        ],
+        "filament_overhang_totally_speed": [
+          "10"
+        ],
+        "filament_pre_cooling_temperature": [
+          "0"
+        ],
+        "filament_pre_cooling_temperature_nc": [
+          "0"
+        ],
+        "filament_preheat_temperature_delta": [
+          "0"
+        ],
+        "filament_prime_volume": [
+          "45"
+        ],
+        "filament_prime_volume_nc": [
+          "60"
+        ],
+        "filament_printable": [
+          "3"
+        ],
+        "filament_ramming_travel_time": [
+          "0",
+          "0",
+          "0"
+        ],
+        "filament_ramming_travel_time_nc": [
+          "0"
+        ],
+        "filament_ramming_volumetric_speed": [
+          "-1"
+        ],
+        "filament_ramming_volumetric_speed_nc": [
+          "-1"
+        ],
+        "filament_retract_length_nc": [
+          "14"
+        ],
+        "filament_retraction_distances_when_ec": [
+          "nil"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n"
+        ],
+        "filament_tower_interface_pre_extrusion_dist": [
+          "10"
+        ],
+        "filament_tower_interface_pre_extrusion_length": [
+          "0"
+        ],
+        "filament_tower_interface_print_temp": [
+          "-1"
+        ],
+        "filament_tower_interface_purge_volume": [
+          "20"
+        ],
+        "filament_tower_ironing_area": [
+          "4"
+        ],
+        "filament_velocity_adaptation_factor": [
+          "1"
+        ],
+        "first_x_layer_fan_speed": [
+          "40"
+        ],
+        "hole_coef_1": [
+          "0"
+        ],
+        "hole_coef_2": [
+          "-0.008"
+        ],
+        "hole_coef_3": [
+          "0.23415"
+        ],
+        "hole_limit_max": [
+          "0.22"
+        ],
+        "hole_limit_min": [
+          "0.088"
+        ],
+        "impact_strength_z": [
+          "10"
+        ],
+        "include": [
+          "fdm_filament_template_direct_dual_e3d"
+        ],
+        "long_retractions_when_ec": [
+          "0",
+          "0",
+          "0"
+        ],
+        "name": "Generic PP @BBL P2S",
+        "no_slow_down_for_cooling_on_outwalls": [
+          "0"
+        ],
+        "nozzle_temperature": [
+          "235",
+          "235",
+          "235"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "235",
+          "235",
+          "235"
+        ],
+        "override_process_overhang_speed": [
+          "0"
+        ],
+        "retraction_distances_when_ec": [
+          "0",
+          "0",
+          "0"
+        ],
+        "slow_down_min_speed": [
+          "20",
+          "20",
+          "20"
+        ],
+        "volumetric_speed_coefficients": [
+          "0 0 0 0 0 0"
+        ]
+      }
+    },
+    {
+      "catalogID": 101928,
+      "name": "Generic PP @BBL X1C",
+      "printers": [
+        "bambu-lab/p1p-0-4",
+        "bambu-lab/p1p-0-6",
+        "bambu-lab/p1p-0-8",
+        "bambu-lab/p1s-0-4",
+        "bambu-lab/p1s-0-6",
+        "bambu-lab/p1s-0-8",
+        "bambu-lab/x1-0-4",
+        "bambu-lab/x1-0-6",
+        "bambu-lab/x1-0-8",
+        "bambu-lab/x1-carbon-0-4",
+        "bambu-lab/x1-carbon-0-6",
+        "bambu-lab/x1-carbon-0-8",
+        "bambu-lab/x1e-0-4",
+        "bambu-lab/x1e-0-6",
+        "bambu-lab/x1e-0-8"
+      ],
+      "settings": {
+        "additional_fan_full_speed_layer": [
+          "0"
+        ],
+        "circle_compensation_speed": [
+          "200"
+        ],
+        "close_additional_fan_first_x_layers": [
+          "1"
+        ],
+        "compatible_printers": [
+          "Bambu Lab P1P 0.4 nozzle",
+          "Bambu Lab P1P 0.6 nozzle",
+          "Bambu Lab P1P 0.8 nozzle",
+          "Bambu Lab P1S 0.4 nozzle",
+          "Bambu Lab P1S 0.6 nozzle",
+          "Bambu Lab P1S 0.8 nozzle",
+          "Bambu Lab X1 0.4 nozzle",
+          "Bambu Lab X1 0.6 nozzle",
+          "Bambu Lab X1 0.8 nozzle",
+          "Bambu Lab X1 Carbon 0.4 nozzle",
+          "Bambu Lab X1 Carbon 0.6 nozzle",
+          "Bambu Lab X1 Carbon 0.8 nozzle",
+          "Bambu Lab X1E 0.4 nozzle",
+          "Bambu Lab X1E 0.6 nozzle",
+          "Bambu Lab X1E 0.8 nozzle"
+        ],
+        "cooling_perimeter_transition_distance": [
+          "10"
+        ],
+        "cooling_slowdown_logic": [
+          "uniform_cooling"
+        ],
+        "counter_coef_1": [
+          "0"
+        ],
+        "counter_coef_2": [
+          "0.008"
+        ],
+        "counter_coef_3": [
+          "-0.041"
+        ],
+        "counter_limit_max": [
+          "0.033"
+        ],
+        "counter_limit_min": [
+          "-0.035"
+        ],
+        "diameter_limit": [
+          "50"
+        ],
+        "filament_adaptive_volumetric_speed": [
+          "0"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_bridge_speed": [
+          "25"
+        ],
+        "filament_change_length": [
+          "10"
+        ],
+        "filament_contact_safe": "1",
+        "filament_cooling_before_tower": [
+          "0"
+        ],
+        "filament_dev_ams_drying_ams_limitations": [
+          "1",
+          "0"
+        ],
+        "filament_dev_ams_drying_heat_distortion_temperature": [
+          "60"
+        ],
+        "filament_dev_ams_drying_temperature": [
+          "60",
+          "60",
+          "50",
+          "50"
+        ],
+        "filament_dev_ams_drying_time": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_dev_chamber_drying_bed_temperature": [
+          "70"
+        ],
+        "filament_dev_chamber_drying_time": [
+          "12.0"
+        ],
+        "filament_dev_drying_cooling_temperature": [
+          "50"
+        ],
+        "filament_dev_drying_softening_temperature": [
+          "55"
+        ],
+        "filament_emission_safe": "1",
+        "filament_enable_overhang_speed": [
+          "1"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n\n"
+        ],
+        "filament_extruder_compatibility": [
+          "0"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flow_ratio": [
+          "1",
+          "1"
+        ],
+        "filament_flush_temp": [
+          "0"
+        ],
+        "filament_flush_temp_fast": [
+          "0"
+        ],
+        "filament_flush_volumetric_speed": [
+          "0"
+        ],
+        "filament_ingredients_safe": "1",
+        "filament_long_retractions_when_ec": [
+          "nil"
+        ],
+        "filament_max_volumetric_speed": [
+          "12",
+          "12"
+        ],
+        "filament_metal_stickiness": [
+          "None"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_overhang_1_4_speed": [
+          "0"
+        ],
+        "filament_overhang_2_4_speed": [
+          "50"
+        ],
+        "filament_overhang_3_4_speed": [
+          "30"
+        ],
+        "filament_overhang_4_4_speed": [
+          "10"
+        ],
+        "filament_overhang_totally_speed": [
+          "10"
+        ],
+        "filament_pre_cooling_temperature": [
+          "0"
+        ],
+        "filament_pre_cooling_temperature_nc": [
+          "0"
+        ],
+        "filament_preheat_temperature_delta": [
+          "0"
+        ],
+        "filament_prime_volume": [
+          "45"
+        ],
+        "filament_prime_volume_nc": [
+          "60"
+        ],
+        "filament_printable": [
+          "3"
+        ],
+        "filament_ramming_travel_time": [
+          "0",
+          "0"
+        ],
+        "filament_ramming_travel_time_nc": [
+          "0"
+        ],
+        "filament_ramming_volumetric_speed": [
+          "-1"
+        ],
+        "filament_ramming_volumetric_speed_nc": [
+          "-1"
+        ],
+        "filament_retract_length_nc": [
+          "14"
+        ],
+        "filament_retraction_distances_when_ec": [
+          "nil"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n{if  (bed_temperature[current_extruder] >45)||(bed_temperature_initial_layer[current_extruder] >45)}M106 P3 S255\n{elsif(bed_temperature[current_extruder] >35)||(bed_temperature_initial_layer[current_extruder] >35)}M106 P3 S180\n{endif}\n\n{if activate_air_filtration[current_extruder] && support_air_filtration}\nM106 P3 S{during_print_exhaust_fan_speed_num[current_extruder]} \n{endif}"
+        ],
+        "filament_tower_interface_pre_extrusion_dist": [
+          "10"
+        ],
+        "filament_tower_interface_pre_extrusion_length": [
+          "0"
+        ],
+        "filament_tower_interface_print_temp": [
+          "-1"
+        ],
+        "filament_tower_interface_purge_volume": [
+          "20"
+        ],
+        "filament_tower_ironing_area": [
+          "4"
+        ],
+        "filament_velocity_adaptation_factor": [
+          "1"
+        ],
+        "hole_coef_1": [
+          "0"
+        ],
+        "hole_coef_2": [
+          "-0.008"
+        ],
+        "hole_coef_3": [
+          "0.23415"
+        ],
+        "hole_limit_max": [
+          "0.22"
+        ],
+        "hole_limit_min": [
+          "0.088"
+        ],
+        "impact_strength_z": [
+          "10"
+        ],
+        "include": [
+          "fdm_filament_template_direct_dual"
+        ],
+        "long_retractions_when_ec": [
+          "0",
+          "0"
+        ],
+        "name": "Generic PP @BBL X1C",
+        "no_slow_down_for_cooling_on_outwalls": [
+          "0"
+        ],
+        "nozzle_temperature": [
+          "235",
+          "235"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "235",
+          "235"
+        ],
+        "override_process_overhang_speed": [
+          "0"
+        ],
+        "retraction_distances_when_ec": [
+          "0",
+          "0"
+        ],
+        "slow_down_min_speed": [
+          "20",
+          "20"
+        ],
+        "volumetric_speed_coefficients": [
+          "0 0 0 0 0 0"
+        ]
+      }
+    },
+    {
+      "catalogID": 101929,
+      "name": "Generic PP @BBL X2D",
+      "printers": [
+        "bambu-lab/x2d-0-6",
+        "bambu-lab/x2d-0-8"
+      ],
+      "settings": {
+        "additional_fan_full_speed_layer": [
+          "0"
+        ],
+        "circle_compensation_speed": [
+          "200"
+        ],
+        "close_additional_fan_first_x_layers": [
+          "1"
+        ],
+        "compatible_printers": [
+          "Bambu Lab X2D 0.6 nozzle",
+          "Bambu Lab X2D 0.8 nozzle"
+        ],
+        "cooling_perimeter_transition_distance": [
+          "10"
+        ],
+        "cooling_slowdown_logic": [
+          "uniform_cooling"
+        ],
+        "counter_coef_1": [
+          "0"
+        ],
+        "counter_coef_2": [
+          "0.008"
+        ],
+        "counter_coef_3": [
+          "-0.041"
+        ],
+        "counter_limit_max": [
+          "0.033"
+        ],
+        "counter_limit_min": [
+          "-0.035"
+        ],
+        "diameter_limit": [
+          "50"
+        ],
+        "eng_plate_temp": [
+          "55"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "55"
+        ],
+        "filament_adaptive_volumetric_speed": [
+          "0"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_bridge_speed": [
+          "25"
+        ],
+        "filament_change_length": [
+          "10"
+        ],
+        "filament_contact_safe": "1",
+        "filament_cooling_before_tower": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "10"
+        ],
+        "filament_dev_ams_drying_ams_limitations": [
+          "1",
+          "0"
+        ],
+        "filament_dev_ams_drying_heat_distortion_temperature": [
+          "60"
+        ],
+        "filament_dev_ams_drying_temperature": [
+          "60",
+          "60",
+          "50",
+          "50"
+        ],
+        "filament_dev_ams_drying_time": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_dev_chamber_drying_bed_temperature": [
+          "70"
+        ],
+        "filament_dev_chamber_drying_time": [
+          "12.0"
+        ],
+        "filament_dev_drying_cooling_temperature": [
+          "50"
+        ],
+        "filament_dev_drying_softening_temperature": [
+          "55"
+        ],
+        "filament_emission_safe": "1",
+        "filament_enable_overhang_speed": [
+          "1"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n\n"
+        ],
+        "filament_extruder_compatibility": [
+          "0"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flow_ratio": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "filament_flush_temp": [
+          "0"
+        ],
+        "filament_flush_temp_fast": [
+          "0"
+        ],
+        "filament_flush_volumetric_speed": [
+          "0"
+        ],
+        "filament_ingredients_safe": "1",
+        "filament_long_retractions_when_ec": [
+          "nil"
+        ],
+        "filament_max_volumetric_speed": [
+          "12",
+          "12",
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_metal_stickiness": [
+          "None"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_overhang_1_4_speed": [
+          "0"
+        ],
+        "filament_overhang_2_4_speed": [
+          "50"
+        ],
+        "filament_overhang_3_4_speed": [
+          "30"
+        ],
+        "filament_overhang_4_4_speed": [
+          "10"
+        ],
+        "filament_overhang_totally_speed": [
+          "10"
+        ],
+        "filament_pre_cooling_temperature": [
+          "0"
+        ],
+        "filament_pre_cooling_temperature_nc": [
+          "0"
+        ],
+        "filament_preheat_temperature_delta": [
+          "0"
+        ],
+        "filament_prime_volume": [
+          "45"
+        ],
+        "filament_prime_volume_nc": [
+          "60"
+        ],
+        "filament_printable": [
+          "3"
+        ],
+        "filament_ramming_travel_time": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "filament_ramming_travel_time_nc": [
+          "0"
+        ],
+        "filament_ramming_volumetric_speed": [
+          "-1"
+        ],
+        "filament_ramming_volumetric_speed_nc": [
+          "-1"
+        ],
+        "filament_retract_length_nc": [
+          "14"
+        ],
+        "filament_retraction_distances_when_ec": [
+          "nil"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n"
+        ],
+        "filament_tower_interface_pre_extrusion_dist": [
+          "10"
+        ],
+        "filament_tower_interface_pre_extrusion_length": [
+          "0"
+        ],
+        "filament_tower_interface_print_temp": [
+          "235"
+        ],
+        "filament_tower_interface_purge_volume": [
+          "20"
+        ],
+        "filament_tower_ironing_area": [
+          "4"
+        ],
+        "filament_velocity_adaptation_factor": [
+          "1"
+        ],
+        "first_x_layer_fan_speed": [
+          "40"
+        ],
+        "hole_coef_1": [
+          "0"
+        ],
+        "hole_coef_2": [
+          "-0.008"
+        ],
+        "hole_coef_3": [
+          "0.23415"
+        ],
+        "hole_limit_max": [
+          "0.22"
+        ],
+        "hole_limit_min": [
+          "0.088"
+        ],
+        "impact_strength_z": [
+          "10"
+        ],
+        "include": [
+          "fdm_filament_template_direct_bowden_e3d"
+        ],
+        "long_retractions_when_ec": [
+          "0"
+        ],
+        "name": "Generic PP @BBL X2D",
+        "no_slow_down_for_cooling_on_outwalls": [
+          "0"
+        ],
+        "nozzle_temperature": [
+          "235",
+          "235",
+          "235",
+          "235",
+          "235",
+          "235"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "235",
+          "235",
+          "235",
+          "235",
+          "235",
+          "235"
+        ],
+        "override_process_overhang_speed": [
+          "0"
+        ],
+        "retraction_distances_when_ec": [
+          "3",
+          "3",
+          "3",
+          "4",
+          "4",
+          "4"
+        ],
+        "slow_down_min_speed": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ],
+        "volumetric_speed_coefficients": [
+          "0 0 0 0 0 0"
+        ]
+      }
+    },
+    {
+      "catalogID": 101930,
+      "name": "Generic PP @BBL X2D 0.4 nozzle",
+      "printers": [
+        "bambu-lab/x2d-0-4"
+      ],
+      "settings": {
+        "additional_fan_full_speed_layer": [
+          "0"
+        ],
+        "circle_compensation_speed": [
+          "200"
+        ],
+        "close_additional_fan_first_x_layers": [
+          "1"
+        ],
+        "compatible_printers": [
+          "Bambu Lab X2D 0.4 nozzle"
+        ],
+        "cooling_perimeter_transition_distance": [
+          "10"
+        ],
+        "cooling_slowdown_logic": [
+          "uniform_cooling"
+        ],
+        "counter_coef_1": [
+          "0"
+        ],
+        "counter_coef_2": [
+          "0.008"
+        ],
+        "counter_coef_3": [
+          "-0.041"
+        ],
+        "counter_limit_max": [
+          "0.033"
+        ],
+        "counter_limit_min": [
+          "-0.035"
+        ],
+        "diameter_limit": [
+          "50"
+        ],
+        "eng_plate_temp": [
+          "55"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "55"
+        ],
+        "filament_adaptive_volumetric_speed": [
+          "0"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_bridge_speed": [
+          "25"
+        ],
+        "filament_change_length": [
+          "10"
+        ],
+        "filament_contact_safe": "1",
+        "filament_cooling_before_tower": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10",
+          "10"
+        ],
+        "filament_dev_ams_drying_ams_limitations": [
+          "1",
+          "0"
+        ],
+        "filament_dev_ams_drying_heat_distortion_temperature": [
+          "60"
+        ],
+        "filament_dev_ams_drying_temperature": [
+          "60",
+          "60",
+          "50",
+          "50"
+        ],
+        "filament_dev_ams_drying_time": [
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_dev_chamber_drying_bed_temperature": [
+          "70"
+        ],
+        "filament_dev_chamber_drying_time": [
+          "12.0"
+        ],
+        "filament_dev_drying_cooling_temperature": [
+          "50"
+        ],
+        "filament_dev_drying_softening_temperature": [
+          "55"
+        ],
+        "filament_emission_safe": "1",
+        "filament_enable_overhang_speed": [
+          "1"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n\n"
+        ],
+        "filament_extruder_compatibility": [
+          "0"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flow_ratio": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "filament_flush_temp": [
+          "0"
+        ],
+        "filament_flush_temp_fast": [
+          "0"
+        ],
+        "filament_flush_volumetric_speed": [
+          "0"
+        ],
+        "filament_ingredients_safe": "1",
+        "filament_long_retractions_when_ec": [
+          "nil"
+        ],
+        "filament_max_volumetric_speed": [
+          "12",
+          "12",
+          "12",
+          "12",
+          "12",
+          "12"
+        ],
+        "filament_metal_stickiness": [
+          "None"
+        ],
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_overhang_1_4_speed": [
+          "0"
+        ],
+        "filament_overhang_2_4_speed": [
+          "50"
+        ],
+        "filament_overhang_3_4_speed": [
+          "30"
+        ],
+        "filament_overhang_4_4_speed": [
+          "10"
+        ],
+        "filament_overhang_totally_speed": [
+          "10"
+        ],
+        "filament_pre_cooling_temperature": [
+          "0"
+        ],
+        "filament_pre_cooling_temperature_nc": [
+          "0"
+        ],
+        "filament_preheat_temperature_delta": [
+          "0"
+        ],
+        "filament_prime_volume": [
+          "45"
+        ],
+        "filament_prime_volume_nc": [
+          "60"
+        ],
+        "filament_printable": [
+          "3"
+        ],
+        "filament_ramming_travel_time": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "filament_ramming_travel_time_nc": [
+          "0"
+        ],
+        "filament_ramming_volumetric_speed": [
+          "-1"
+        ],
+        "filament_ramming_volumetric_speed_nc": [
+          "-1"
+        ],
+        "filament_retract_length_nc": [
+          "14"
+        ],
+        "filament_retraction_distances_when_ec": [
+          "nil"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n"
+        ],
+        "filament_tower_interface_pre_extrusion_dist": [
+          "10"
+        ],
+        "filament_tower_interface_pre_extrusion_length": [
+          "0"
+        ],
+        "filament_tower_interface_print_temp": [
+          "235"
+        ],
+        "filament_tower_interface_purge_volume": [
+          "20"
+        ],
+        "filament_tower_ironing_area": [
+          "4"
+        ],
+        "filament_velocity_adaptation_factor": [
+          "1"
+        ],
+        "first_x_layer_fan_speed": [
+          "40"
+        ],
+        "hole_coef_1": [
+          "0"
+        ],
+        "hole_coef_2": [
+          "-0.008"
+        ],
+        "hole_coef_3": [
+          "0.23415"
+        ],
+        "hole_limit_max": [
+          "0.22"
+        ],
+        "hole_limit_min": [
+          "0.088"
+        ],
+        "impact_strength_z": [
+          "10"
+        ],
+        "include": [
+          "fdm_filament_template_direct_bowden_e3d"
+        ],
+        "long_retractions_when_ec": [
+          "0"
+        ],
+        "name": "Generic PP @BBL X2D 0.4 nozzle",
+        "no_slow_down_for_cooling_on_outwalls": [
+          "0"
+        ],
+        "nozzle_temperature": [
+          "235",
+          "235",
+          "235",
+          "235",
+          "235",
+          "235"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "235",
+          "235",
+          "235",
+          "235",
+          "235",
+          "235"
+        ],
+        "override_process_overhang_speed": [
+          "0"
+        ],
+        "retraction_distances_when_ec": [
+          "3",
+          "3",
+          "3",
+          "4",
+          "4",
+          "4"
+        ],
+        "slow_down_min_speed": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ],
+        "volumetric_speed_coefficients": [
+          "0 0 0 0 0 0"
+        ]
+      }
+    },
+    {
+      "catalogID": 102715,
+      "name": "Generic PP @Ender-3 V3 Plus-all",
+      "printers": [
+        "creality/ender-3-v3-plus-0-4"
+      ],
+      "settings": {
+        "activate_chamber_temp_control": "0",
+        "additional_cooling_fan_speed": [
+          "0"
+        ],
+        "bed_type": [
+          "Cool Plate"
+        ],
+        "chamber_temperature": "50",
+        "chamber_temperatures": null,
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Creality Ender-3 V3 Plus 0.4 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "80"
+        ],
+        "cool_plate_temp": [
+          "60"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "105"
+        ],
+        "default_filament_colour": "\"\"",
+        "description": null,
+        "during_print_exhaust_fan_speed": [
+          "60"
+        ],
+        "enable_overhang_bridge_fan": "1",
+        "enable_pressure_advance": "0",
+        "eng_plate_temp": [
+          "105"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "105"
+        ],
+        "epoxy_resin_plate_temp": "0",
+        "epoxy_resin_plate_temp_initial_layer": "0",
+        "fan_cooling_layer_time": [
+          "30"
+        ],
+        "fan_max_speed": [
+          "80"
+        ],
+        "fan_min_speed": [
+          "30"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_cooling_final_speed": "3.4",
+        "filament_cooling_initial_speed": "2.2",
+        "filament_cooling_moves": "4",
+        "filament_cost": [
+          "40"
+        ],
+        "filament_density": [
+          "1.24"
+        ],
+        "filament_deretraction_speed": [
+          "0"
+        ],
+        "filament_end_gcode": [
+          ";filament end gcode \n"
+        ],
+        "filament_extruder_variant": null,
+        "filament_flow_ratio": [
+          "0.926"
+        ],
+        "filament_loading_speed": "28",
+        "filament_loading_speed_start": "3",
+        "filament_long_retractions_when_cut": null,
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "10",
+        "filament_multitool_ramming_volume": "10",
+        "filament_notes": "\"\"",
+        "filament_ramming_parameters": "\"120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6\"",
+        "filament_retract_before_wipe": [
+          "100%"
+        ],
+        "filament_retract_lift_above": "0",
+        "filament_retract_lift_below": "0",
+        "filament_retract_lift_enforce": "All Surfaces",
+        "filament_retract_restart_extra": [
+          "0"
+        ],
+        "filament_retract_when_changing_layer": [
+          "0"
+        ],
+        "filament_retraction_distances_when_cut": null,
+        "filament_retraction_length": [
+          "0.8"
+        ],
+        "filament_retraction_minimum_travel": [
+          "2"
+        ],
+        "filament_retraction_speed": [
+          "30"
+        ],
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": "100%",
+        "filament_start_gcode": [
+          ";filament start gcode\n"
+        ],
+        "filament_toolchange_delay": "0",
+        "filament_unloading_speed": "90",
+        "filament_unloading_speed_start": "100",
+        "filament_wipe": [
+          "0"
+        ],
+        "filament_wipe_distance": [
+          "1"
+        ],
+        "filament_z_hop": [
+          "0.4"
+        ],
+        "filament_z_hop_types": [
+          "Normal Lift"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "name": "Generic PP @Ender-3 V3 Plus-all",
+        "nozzle_temperature": [
+          "240"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "240"
+        ],
+        "overhang_fan_speed": [
+          "80"
+        ],
+        "overhang_fan_threshold": [
+          "25%"
+        ],
+        "pressure_advance": "0.02",
+        "required_nozzle_HRC": [
+          "0"
+        ],
+        "slow_down_layer_time": [
+          "3"
+        ],
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null,
+        "support_material_interface_fan_speed": "-1",
+        "textured_plate_temp": [
+          "60"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "60"
+        ]
+      }
+    },
+    {
+      "catalogID": 102716,
+      "name": "Generic PP @K1 Max_CFS-C-all",
+      "printers": [
+        "creality/k1-max-cfs-c-0-4"
+      ],
+      "settings": {
+        "activate_chamber_temp_control": "1",
+        "additional_cooling_fan_speed": [
+          "0"
+        ],
+        "bed_type": [
+          "Cool Plate"
+        ],
+        "chamber_temperature": "50",
+        "chamber_temperatures": null,
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Creality K1 Max_CFS-C 0.4 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "80"
+        ],
+        "cool_plate_temp": [
+          "60"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "105"
+        ],
+        "default_filament_colour": "\"\"",
+        "description": null,
+        "during_print_exhaust_fan_speed": [
+          "60"
+        ],
+        "enable_overhang_bridge_fan": "1",
+        "enable_pressure_advance": "0",
+        "eng_plate_temp": [
+          "105"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "105"
+        ],
+        "epoxy_resin_plate_temp": "0",
+        "epoxy_resin_plate_temp_initial_layer": "0",
+        "fan_cooling_layer_time": [
+          "30"
+        ],
+        "fan_max_speed": [
+          "80"
+        ],
+        "fan_min_speed": [
+          "30"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_cooling_final_speed": "3.4",
+        "filament_cooling_initial_speed": "2.2",
+        "filament_cooling_moves": "4",
+        "filament_cost": [
+          "40"
+        ],
+        "filament_density": [
+          "0.91"
+        ],
+        "filament_deretraction_speed": [
+          "0"
+        ],
+        "filament_end_gcode": [
+          ";filament end gcode \n"
+        ],
+        "filament_extruder_variant": null,
+        "filament_flow_ratio": [
+          "0.926"
+        ],
+        "filament_loading_speed": "28",
+        "filament_loading_speed_start": "3",
+        "filament_long_retractions_when_cut": null,
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "10",
+        "filament_multitool_ramming_volume": "10",
+        "filament_notes": "\"\"",
+        "filament_ramming_parameters": "\"120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6\"",
+        "filament_retract_before_wipe": [
+          "100%"
+        ],
+        "filament_retract_lift_above": "0",
+        "filament_retract_lift_below": "0",
+        "filament_retract_lift_enforce": "All Surfaces",
+        "filament_retract_restart_extra": [
+          "0"
+        ],
+        "filament_retract_when_changing_layer": [
+          "0"
+        ],
+        "filament_retraction_distances_when_cut": null,
+        "filament_retraction_length": [
+          "0.8"
+        ],
+        "filament_retraction_minimum_travel": [
+          "2"
+        ],
+        "filament_retraction_speed": [
+          "30"
+        ],
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": "100%",
+        "filament_start_gcode": [
+          ";filament start gcode\n{if (layer_z > initial_layer_print_height) }\nM104 S[nozzle_temperature]\n{else} \nM104 S[first_layer_temperature]\n{endif}\n"
+        ],
+        "filament_toolchange_delay": "0",
+        "filament_unloading_speed": "90",
+        "filament_unloading_speed_start": "100",
+        "filament_wipe": [
+          "0"
+        ],
+        "filament_wipe_distance": [
+          "1"
+        ],
+        "filament_z_hop": [
+          "0.4"
+        ],
+        "filament_z_hop_types": [
+          "Normal Lift"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "material_flow_temp_graph": "[[3.0,210],  [10.0,220],  [12.0,230]]",
+        "name": "Generic PP @K1 Max_CFS-C-all",
+        "nozzle_temperature": [
+          "240"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "240"
+        ],
+        "overhang_fan_speed": [
+          "80"
+        ],
+        "overhang_fan_threshold": [
+          "25%"
+        ],
+        "pressure_advance": "0.02",
+        "required_nozzle_HRC": [
+          "0"
+        ],
+        "slow_down_layer_time": [
+          "3"
+        ],
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null,
+        "support_material_interface_fan_speed": "-1",
+        "textured_plate_temp": [
+          "60"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "60"
+        ]
+      }
+    },
+    {
+      "catalogID": 102717,
+      "name": "Generic PP @K1C-all",
+      "printers": [
+        "creality/k1c-0-4"
+      ],
+      "settings": {
+        "activate_chamber_temp_control": "1",
+        "additional_cooling_fan_speed": [
+          "0"
+        ],
+        "bed_type": [
+          "Cool Plate"
+        ],
+        "chamber_temperature": "50",
+        "chamber_temperatures": null,
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Creality K1C 0.4 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "80"
+        ],
+        "cool_plate_temp": [
+          "60"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "105"
+        ],
+        "default_filament_colour": "\"\"",
+        "description": null,
+        "during_print_exhaust_fan_speed": [
+          "60"
+        ],
+        "enable_overhang_bridge_fan": "1",
+        "enable_pressure_advance": "0",
+        "eng_plate_temp": [
+          "105"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "105"
+        ],
+        "epoxy_resin_plate_temp": "0",
+        "epoxy_resin_plate_temp_initial_layer": "0",
+        "fan_cooling_layer_time": [
+          "30"
+        ],
+        "fan_max_speed": [
+          "80"
+        ],
+        "fan_min_speed": [
+          "30"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_cooling_final_speed": "3.4",
+        "filament_cooling_initial_speed": "2.2",
+        "filament_cooling_moves": "4",
+        "filament_cost": [
+          "40"
+        ],
+        "filament_density": [
+          "0.91"
+        ],
+        "filament_deretraction_speed": [
+          "0"
+        ],
+        "filament_end_gcode": [
+          ";filament end gcode \n"
+        ],
+        "filament_extruder_variant": null,
+        "filament_flow_ratio": [
+          "0.926"
+        ],
+        "filament_loading_speed": "28",
+        "filament_loading_speed_start": "3",
+        "filament_long_retractions_when_cut": null,
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "10",
+        "filament_multitool_ramming_volume": "10",
+        "filament_notes": "\"\"",
+        "filament_ramming_parameters": "\"120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6\"",
+        "filament_retract_before_wipe": [
+          "100%"
+        ],
+        "filament_retract_lift_above": "nil",
+        "filament_retract_lift_below": "nil",
+        "filament_retract_lift_enforce": "All Surfaces",
+        "filament_retract_restart_extra": [
+          "0"
+        ],
+        "filament_retract_when_changing_layer": [
+          "0"
+        ],
+        "filament_retraction_distances_when_cut": null,
+        "filament_retraction_length": [
+          "0.8"
+        ],
+        "filament_retraction_minimum_travel": [
+          "2"
+        ],
+        "filament_retraction_speed": [
+          "30"
+        ],
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": "100%",
+        "filament_start_gcode": [
+          ";filament start gcode\n{if (layer_z > first_layer_height) }\nM104 S[nozzle_temperature]\n{else} \nM104 S[first_layer_temperature]\n{endif}\n\n"
+        ],
+        "filament_toolchange_delay": "0",
+        "filament_unloading_speed": "90",
+        "filament_unloading_speed_start": "100",
+        "filament_wipe": [
+          "0"
+        ],
+        "filament_wipe_distance": [
+          "1"
+        ],
+        "filament_z_hop": [
+          "0.4"
+        ],
+        "filament_z_hop_types": [
+          "Normal Lift"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "material_flow_dependent_temperature": "0",
+        "material_flow_temp_graph": "[[3.0,210],  [10.0,220],  [12.0,230]]",
+        "name": "Generic PP @K1C-all",
+        "nozzle_temperature": [
+          "240"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "240"
+        ],
+        "overhang_fan_speed": [
+          "80"
+        ],
+        "overhang_fan_threshold": [
+          "25%"
+        ],
+        "pressure_advance": "0.02",
+        "required_nozzle_HRC": [
+          "0"
+        ],
+        "slow_down_layer_time": [
+          "3"
+        ],
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null,
+        "support_material_interface_fan_speed": "-1",
+        "textured_plate_temp": [
+          "60"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "60"
+        ]
+      }
+    },
+    {
+      "catalogID": 102718,
+      "name": "Generic PP @K1C_CFS-C-all",
+      "printers": [
+        "creality/k1c-cfs-c-0-4"
+      ],
+      "settings": {
+        "activate_chamber_temp_control": "1",
+        "additional_cooling_fan_speed": [
+          "0"
+        ],
+        "bed_type": [
+          "Cool Plate"
+        ],
+        "chamber_temperature": "50",
+        "chamber_temperatures": null,
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Creality K1C_CFS-C 0.4 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "80"
+        ],
+        "cool_plate_temp": [
+          "60"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "105"
+        ],
+        "default_filament_colour": "\"\"",
+        "description": null,
+        "during_print_exhaust_fan_speed": [
+          "60"
+        ],
+        "enable_overhang_bridge_fan": "1",
+        "enable_pressure_advance": "0",
+        "eng_plate_temp": [
+          "105"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "105"
+        ],
+        "epoxy_resin_plate_temp": "0",
+        "epoxy_resin_plate_temp_initial_layer": "0",
+        "fan_cooling_layer_time": [
+          "30"
+        ],
+        "fan_max_speed": [
+          "80"
+        ],
+        "fan_min_speed": [
+          "30"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_cooling_final_speed": "3.4",
+        "filament_cooling_initial_speed": "2.2",
+        "filament_cooling_moves": "4",
+        "filament_cost": [
+          "40"
+        ],
+        "filament_density": [
+          "0.91"
+        ],
+        "filament_deretraction_speed": [
+          "0"
+        ],
+        "filament_end_gcode": [
+          ";filament end gcode \n"
+        ],
+        "filament_extruder_variant": null,
+        "filament_flow_ratio": [
+          "0.926"
+        ],
+        "filament_loading_speed": "28",
+        "filament_loading_speed_start": "3",
+        "filament_long_retractions_when_cut": null,
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "10",
+        "filament_multitool_ramming_volume": "10",
+        "filament_notes": "\"\"",
+        "filament_ramming_parameters": "\"120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6\"",
+        "filament_retract_before_wipe": [
+          "100%"
+        ],
+        "filament_retract_lift_above": "0",
+        "filament_retract_lift_below": "0",
+        "filament_retract_lift_enforce": "All Surfaces",
+        "filament_retract_restart_extra": [
+          "0"
+        ],
+        "filament_retract_when_changing_layer": [
+          "0"
+        ],
+        "filament_retraction_distances_when_cut": null,
+        "filament_retraction_length": [
+          "0.8"
+        ],
+        "filament_retraction_minimum_travel": [
+          "2"
+        ],
+        "filament_retraction_speed": [
+          "30"
+        ],
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": "100%",
+        "filament_start_gcode": [
+          ";filament start gcode\n{if (layer_z > first_layer_height) }\nM104 S[nozzle_temperature]\n{else} \nM104 S[first_layer_temperature]\n{endif}\n\n"
+        ],
+        "filament_toolchange_delay": "0",
+        "filament_unloading_speed": "90",
+        "filament_unloading_speed_start": "100",
+        "filament_wipe": [
+          "0"
+        ],
+        "filament_wipe_distance": [
+          "1"
+        ],
+        "filament_z_hop": [
+          "0.4"
+        ],
+        "filament_z_hop_types": [
+          "Normal Lift"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "material_flow_dependent_temperature": "0",
+        "material_flow_temp_graph": "[[3.0,210],  [10.0,220],  [12.0,230]]",
+        "name": "Generic PP @K1C_CFS-C-all",
+        "nozzle_temperature": [
+          "240"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "240"
+        ],
+        "overhang_fan_speed": [
+          "80"
+        ],
+        "overhang_fan_threshold": [
+          "25%"
+        ],
+        "pressure_advance": "0.02",
+        "required_nozzle_HRC": [
+          "0"
+        ],
+        "slow_down_layer_time": [
+          "3"
+        ],
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null,
+        "support_material_interface_fan_speed": "-1",
+        "textured_plate_temp": [
+          "60"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "60"
+        ]
+      }
+    },
+    {
+      "catalogID": 102719,
+      "name": "Generic PP @K1_CFS-C-all",
+      "printers": [
+        "creality/k1-cfs-c-0-4"
+      ],
+      "settings": {
+        "activate_chamber_temp_control": "1",
+        "additional_cooling_fan_speed": [
+          "0"
+        ],
+        "bed_type": [
+          "Cool Plate"
+        ],
+        "chamber_temperature": "50",
+        "chamber_temperatures": null,
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Creality K1_CFS-C 0.4 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "80"
+        ],
+        "cool_plate_temp": [
+          "60"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "105"
+        ],
+        "default_filament_colour": "\"\"",
+        "description": null,
+        "during_print_exhaust_fan_speed": [
+          "60"
+        ],
+        "enable_overhang_bridge_fan": "1",
+        "enable_pressure_advance": "0",
+        "eng_plate_temp": [
+          "105"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "105"
+        ],
+        "epoxy_resin_plate_temp": "0",
+        "epoxy_resin_plate_temp_initial_layer": "0",
+        "fan_cooling_layer_time": [
+          "30"
+        ],
+        "fan_max_speed": [
+          "80"
+        ],
+        "fan_min_speed": [
+          "30"
+        ],
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_cooling_final_speed": "3.4",
+        "filament_cooling_initial_speed": "2.2",
+        "filament_cooling_moves": "4",
+        "filament_cost": [
+          "40"
+        ],
+        "filament_density": [
+          "0.91"
+        ],
+        "filament_deretraction_speed": [
+          "0"
+        ],
+        "filament_end_gcode": [
+          ";filament end gcode \n"
+        ],
+        "filament_extruder_variant": null,
+        "filament_flow_ratio": [
+          "0.926"
+        ],
+        "filament_loading_speed": "28",
+        "filament_loading_speed_start": "3",
+        "filament_long_retractions_when_cut": null,
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "10",
+        "filament_multitool_ramming_volume": "10",
+        "filament_notes": "\"\"",
+        "filament_ramming_parameters": "\"120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6\"",
+        "filament_retract_before_wipe": [
+          "100%"
+        ],
+        "filament_retract_lift_above": "0",
+        "filament_retract_lift_below": "0",
+        "filament_retract_lift_enforce": "All Surfaces",
+        "filament_retract_restart_extra": [
+          "0"
+        ],
+        "filament_retract_when_changing_layer": [
+          "0"
+        ],
+        "filament_retraction_distances_when_cut": null,
+        "filament_retraction_length": [
+          "0.8"
+        ],
+        "filament_retraction_minimum_travel": [
+          "2"
+        ],
+        "filament_retraction_speed": [
+          "30"
+        ],
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": "100%",
+        "filament_start_gcode": [
+          ";filament start gcode\n{if (layer_z > first_layer_height) }\nM104 S[nozzle_temperature]\n{else} \nM104 S[first_layer_temperature]\n{endif}"
+        ],
+        "filament_toolchange_delay": "0",
+        "filament_unloading_speed": "90",
+        "filament_unloading_speed_start": "100",
+        "filament_wipe": [
+          "0"
+        ],
+        "filament_wipe_distance": [
+          "1"
+        ],
+        "filament_z_hop": [
+          "0.4"
+        ],
+        "filament_z_hop_types": [
+          "Normal Lift"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "material_flow_dependent_temperature": "0",
+        "material_flow_temp_graph": "[[3.0,210],  [10.0,220],  [12.0,230]]",
+        "name": "Generic PP @K1_CFS-C-all",
+        "nozzle_temperature": [
+          "240"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "240"
+        ],
+        "overhang_fan_speed": [
+          "80"
+        ],
+        "overhang_fan_threshold": [
+          "25%"
+        ],
+        "pressure_advance": "0.02",
+        "required_nozzle_HRC": [
+          "0"
+        ],
+        "slow_down_layer_time": [
+          "3"
+        ],
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null,
+        "support_material_interface_fan_speed": "-1",
+        "textured_plate_temp": [
+          "60"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "60"
+        ]
+      }
+    },
+    {
+      "catalogID": 102720,
+      "name": "Generic PP @K2 Plus-all",
+      "printers": [
+        "creality/k2-plus-0-4"
+      ],
+      "settings": {
+        "activate_chamber_temp_control": "1",
+        "additional_cooling_fan_speed": [
+          "80"
+        ],
+        "bed_type": [
+          "Cool Plate"
+        ],
+        "chamber_temperature": "35",
+        "chamber_temperatures": null,
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Creality K2 Plus 0.4 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "80"
+        ],
+        "cool_cds_fan_start_at_height": "0.5",
+        "cool_plate_temp": [
+          "40"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "40"
+        ],
+        "cool_special_cds_fan_speed": "0",
+        "default_filament_colour": "\"\"",
+        "description": null,
+        "during_print_exhaust_fan_speed": [
+          "60"
+        ],
+        "enable_overhang_bridge_fan": "1",
+        "enable_pressure_advance": "0",
+        "enable_special_area_additional_cooling_fan": "0",
+        "eng_plate_temp": [
+          "105"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "105"
+        ],
+        "epoxy_resin_plate_temp": "30",
+        "epoxy_resin_plate_temp_initial_layer": "30",
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_cooling_final_speed": "3.4",
+        "filament_cooling_initial_speed": "2.2",
+        "filament_cooling_moves": "4",
+        "filament_cost": [
+          "40"
+        ],
+        "filament_density": [
+          "0.91"
+        ],
+        "filament_end_gcode": [
+          ";filament end gcode \n"
+        ],
+        "filament_extruder_variant": null,
+        "filament_flow_ratio": [
+          "0.97"
+        ],
+        "filament_loading_speed": "28",
+        "filament_loading_speed_start": "3",
+        "filament_long_retractions_when_cut": null,
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "10",
+        "filament_multitool_ramming_volume": "10",
+        "filament_notes": "\"\"",
+        "filament_ramming_parameters": "\"120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6\"",
+        "filament_retract_before_wipe": [
+          "100%"
+        ],
+        "filament_retract_lift_above": "nil",
+        "filament_retract_lift_below": "nil",
+        "filament_retract_lift_enforce": "nil",
+        "filament_retraction_distances_when_cut": null,
+        "filament_retraction_length": [
+          "1.5"
+        ],
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": "100%",
+        "filament_shrinkage_compensation_z": "100%",
+        "filament_start_gcode": [
+          "; filament start gcode\n{if (layer_z > first_layer_height) }\nM104 S[nozzle_temperature]\n{else} \nM104 S[first_layer_temperature]\n{endif}"
+        ],
+        "filament_toolchange_delay": "0",
+        "filament_unloading_speed": "90",
+        "filament_unloading_speed_start": "100",
+        "hot_plate_temp": [
+          "40"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "40"
+        ],
+        "material_flow_dependent_temperature": "0",
+        "name": "Generic PP @K2 Plus-all",
+        "nozzle_temperature": [
+          "240"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "240"
+        ],
+        "nozzle_temperature_range_high": [
+          "260"
+        ],
+        "overhang_fan_threshold": [
+          "0%"
+        ],
+        "pressure_advance": "0.08",
+        "required_nozzle_HRC": [
+          "0"
+        ],
+        "slow_down_layer_time": [
+          "12"
+        ],
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null,
+        "support_material_interface_fan_speed": "-1",
+        "textured_plate_temp": [
+          "40"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "40"
+        ]
+      }
+    },
+    {
+      "catalogID": 102721,
+      "name": "Generic PP @K2 Pro-all",
+      "printers": [
+        "creality/k2-pro-0-4"
+      ],
+      "settings": {
+        "activate_chamber_temp_control": "1",
+        "additional_cooling_fan_speed": [
+          "80"
+        ],
+        "bed_type": [
+          "Cool Plate"
+        ],
+        "chamber_temperature": "35",
+        "chamber_temperatures": null,
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Creality K2 Pro 0.4 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "80"
+        ],
+        "cool_cds_fan_start_at_height": "0.5",
+        "cool_plate_temp": [
+          "100"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "100"
+        ],
+        "cool_special_cds_fan_speed": "0",
+        "customized_plate_temp": "45",
+        "customized_plate_temp_initial_layer": "45",
+        "default_filament_colour": "\"\"",
+        "description": null,
+        "during_print_exhaust_fan_speed": [
+          "60"
+        ],
+        "enable_overhang_bridge_fan": "1",
+        "enable_pressure_advance": "0",
+        "enable_special_area_additional_cooling_fan": "0",
+        "eng_plate_temp": [
+          "105"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "105"
+        ],
+        "epoxy_resin_plate_temp": "35",
+        "epoxy_resin_plate_temp_initial_layer": "35",
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_cooling_final_speed": "3.4",
+        "filament_cooling_initial_speed": "2.2",
+        "filament_cooling_moves": "4",
+        "filament_cost": [
+          "40"
+        ],
+        "filament_density": [
+          "0.91"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n"
+        ],
+        "filament_extruder_variant": null,
+        "filament_flow_ratio": [
+          "0.97"
+        ],
+        "filament_loading_speed": "28",
+        "filament_loading_speed_start": "3",
+        "filament_long_retractions_when_cut": null,
+        "filament_max_volumetric_speed": [
+          "10"
+        ],
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "10",
+        "filament_multitool_ramming_volume": "10",
+        "filament_notes": "\"\"",
+        "filament_ramming_parameters": "\"120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6\"",
+        "filament_retract_before_wipe": [
+          "100%"
+        ],
+        "filament_retract_lift_above": "nil",
+        "filament_retract_lift_below": "nil",
+        "filament_retract_lift_enforce": "nil",
+        "filament_retraction_distances_when_cut": null,
+        "filament_retraction_length": [
+          "1.2"
+        ],
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": "100%",
+        "filament_start_gcode": [
+          "; filament start gcode\n{if (layer_z > first_layer_height) }\nM104 S[nozzle_temperature]\n{else} \nM104 S[first_layer_temperature]\n{endif}"
+        ],
+        "filament_toolchange_delay": "0",
+        "filament_unloading_speed": "90",
+        "filament_unloading_speed_start": "100",
+        "hot_plate_temp": [
+          "45"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "45"
+        ],
+        "material_flow_dependent_temperature": "0",
+        "name": "Generic PP @K2 Pro-all",
+        "nozzle_temperature": [
+          "250"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "255"
+        ],
+        "nozzle_temperature_range_high": [
+          "260"
+        ],
+        "overhang_fan_threshold": [
+          "0%"
+        ],
+        "pressure_advance": "0.08",
+        "required_nozzle_HRC": [
+          "0"
+        ],
+        "slow_down_layer_time": [
+          "12"
+        ],
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null,
+        "support_material_interface_fan_speed": "-1",
+        "temperature_vitrification": [
+          "60"
+        ],
+        "textured_plate_temp": [
+          "45"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "45"
+        ]
+      }
+    },
+    {
+      "catalogID": 102722,
+      "name": "Generic PP @K2-all",
+      "printers": [
+        "creality/k2-0-4"
+      ],
+      "settings": {
+        "activate_chamber_temp_control": "0",
+        "additional_cooling_fan_speed": [
+          "80"
+        ],
+        "bed_type": [
+          "Cool Plate"
+        ],
+        "chamber_temperature": "50",
+        "chamber_temperatures": null,
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Creality K2 0.4 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "80"
+        ],
+        "cool_cds_fan_start_at_height": "0.5",
+        "cool_plate_temp": [
+          "100"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "100"
+        ],
+        "cool_special_cds_fan_speed": "0",
+        "customized_plate_temp": "45",
+        "customized_plate_temp_initial_layer": "45",
+        "default_filament_colour": "\"\"",
+        "description": null,
+        "during_print_exhaust_fan_speed": [
+          "60"
+        ],
+        "enable_overhang_bridge_fan": "1",
+        "enable_pressure_advance": "0",
+        "enable_special_area_additional_cooling_fan": "0",
+        "eng_plate_temp": [
+          "105"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "105"
+        ],
+        "epoxy_resin_plate_temp": "35",
+        "epoxy_resin_plate_temp_initial_layer": "35",
+        "filament_adhesiveness_category": [
+          "902"
+        ],
+        "filament_cooling_final_speed": "3.4",
+        "filament_cooling_initial_speed": "2.2",
+        "filament_cooling_moves": "4",
+        "filament_cost": [
+          "40"
+        ],
+        "filament_density": [
+          "0.91"
+        ],
+        "filament_end_gcode": [
+          "; filament end gcode \n"
+        ],
+        "filament_extruder_variant": null,
+        "filament_flow_ratio": [
+          "0.97"
+        ],
+        "filament_loading_speed": "28",
+        "filament_loading_speed_start": "3",
+        "filament_long_retractions_when_cut": null,
+        "filament_max_volumetric_speed": [
+          "10"
+        ],
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "10",
+        "filament_multitool_ramming_volume": "10",
+        "filament_notes": "\"\"",
+        "filament_ramming_parameters": "\"120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6\"",
+        "filament_retract_before_wipe": [
+          "100%"
+        ],
+        "filament_retract_lift_above": "nil",
+        "filament_retract_lift_below": "nil",
+        "filament_retract_lift_enforce": "nil",
+        "filament_retraction_distances_when_cut": null,
+        "filament_retraction_length": [
+          "1.2"
+        ],
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": "100%",
+        "filament_start_gcode": [
+          "; filament start gcode\n{if (layer_z > first_layer_height) }\nM104 S[nozzle_temperature]\n{else} \nM104 S[first_layer_temperature]\n{endif}"
+        ],
+        "filament_toolchange_delay": "0",
+        "filament_unloading_speed": "90",
+        "filament_unloading_speed_start": "100",
+        "hot_plate_temp": [
+          "45"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "45"
+        ],
+        "material_flow_dependent_temperature": "0",
+        "name": "Generic PP @K2-all",
+        "nozzle_temperature": [
+          "250"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "255"
+        ],
+        "nozzle_temperature_range_high": [
+          "260"
+        ],
+        "overhang_fan_threshold": [
+          "0%"
+        ],
+        "pressure_advance": "0.08",
+        "required_nozzle_HRC": [
+          "0"
+        ],
+        "slow_down_layer_time": [
+          "12"
+        ],
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null,
+        "support_material_interface_fan_speed": "-1",
+        "temperature_vitrification": [
+          "60"
+        ],
+        "textured_plate_temp": [
+          "45"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "45"
+        ]
+      }
+    },
+    {
+      "catalogID": 106239,
+      "name": "Generic PP @Tiertime",
+      "printers": [
+        "tiertime/up310-pro-0-4",
+        "tiertime/up400-pro-0-4",
+        "tiertime/up400-pro-0-6",
+        "tiertime/up400-pro-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Tiertime UP400 Pro 0.4 nozzle",
+          "Tiertime UP400 Pro 0.6 nozzle",
+          "Tiertime UP400 Pro 0.8 nozzle",
+          "Tiertime UP310 Pro 0.4 nozzle"
+        ],
+        "description": null,
+        "filament_end_gcode": [
+          "; filament end gcode \n;M106 P3 S0\n"
+        ],
+        "filament_extruder_variant": null,
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": null,
+        "filament_start_gcode": [
+          "; filament start gcode\n{if  (bed_temperature[current_extruder] >45)||(bed_temperature_initial_layer[current_extruder] >45)}M106 P3 S255\n{elsif(bed_temperature[current_extruder] >35)||(bed_temperature_initial_layer[current_extruder] >35)}M106 P3 S180\n{endif}\n\n{if activate_air_filtration[current_extruder] && support_air_filtration}\nM106 P3 S{during_print_exhaust_fan_speed_num[current_extruder]} \n{endif}"
+        ],
+        "name": "Generic PP @Tiertime",
+        "renamed_from": "Tiertime Generic PP",
+        "slow_down_min_speed": [
+          "20"
+        ],
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null
+      }
+    },
+    {
+      "catalogID": 106240,
+      "name": "Generic PP @Tiertime 300HS",
+      "printers": [
+        "tiertime/up300-hs-0-4",
+        "tiertime/up600-hs-0-4",
+        "tiertime/up600-hs-0-6",
+        "tiertime/up600-hs-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Tiertime UP300 HS 0.4 nozzle",
+          "Tiertime UP600 HS 0.4 nozzle",
+          "Tiertime UP600 HS 0.6 nozzle",
+          "Tiertime UP600 HS 0.8 nozzle"
+        ],
+        "description": null,
+        "filament_end_gcode": [
+          "; filament end gcode \n;M106 P3 S0\n"
+        ],
+        "filament_extruder_variant": null,
+        "filament_multitool_ramming": null,
+        "filament_multitool_ramming_flow": null,
+        "filament_multitool_ramming_volume": null,
+        "filament_scarf_gap": null,
+        "filament_scarf_height": null,
+        "filament_scarf_length": null,
+        "filament_scarf_seam_type": null,
+        "filament_shrink": null,
+        "filament_start_gcode": [
+          "; filament start gcode\n{if  (bed_temperature[current_extruder] >45)||(bed_temperature_initial_layer[current_extruder] >45)}M106 P3 S255\n{elsif(bed_temperature[current_extruder] >35)||(bed_temperature_initial_layer[current_extruder] >35)}M106 P3 S180\n{endif}\n\n{if activate_air_filtration[current_extruder] && support_air_filtration}\nM106 P3 S{during_print_exhaust_fan_speed_num[current_extruder]} \n{endif}"
+        ],
+        "name": "Generic PP @Tiertime 300HS",
+        "renamed_from": "Tiertime Generic PP@300HS;Tiertime Generic PP300HS",
+        "slow_down_min_speed": [
+          "20"
+        ],
+        "supertack_plate_temp": null,
+        "supertack_plate_temp_initial_layer": null
+      }
+    }
+  ]
+}

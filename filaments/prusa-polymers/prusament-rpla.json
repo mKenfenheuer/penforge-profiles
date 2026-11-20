@@ -1,0 +1,890 @@
+{
+  "format": 1,
+  "id": "prusa-polymers/prusament-rpla",
+  "manufacturer": "Prusa Polymers",
+  "name": "Prusament rPLA",
+  "settings": {
+    "additional_cooling_fan_speed": [
+      "70"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "1"
+    ],
+    "compatible_printers": [
+      "Prusa XL 0.25 nozzle",
+      "Prusa XL 0.3 nozzle",
+      "Prusa XL 0.4 nozzle",
+      "Prusa XL 0.5 nozzle",
+      "Prusa XL 0.6 nozzle",
+      "Prusa XL 0.8 nozzle",
+      "Prusa XL 5T 0.25 nozzle",
+      "Prusa XL 5T 0.3 nozzle",
+      "Prusa XL 5T 0.4 nozzle",
+      "Prusa XL 5T 0.5 nozzle",
+      "Prusa XL 5T 0.6 nozzle",
+      "Prusa XL 5T 0.8 nozzle"
+    ],
+    "cool_plate_temp": [
+      "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "35"
+    ],
+    "eng_plate_temp": [
+      "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "0"
+    ],
+    "fan_cooling_layer_time": [
+      "100"
+    ],
+    "fan_max_speed": [
+      "100"
+    ],
+    "fan_min_speed": [
+      "100"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.24"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "1"
+    ],
+    "filament_id": "OFWRITFw",
+    "filament_max_volumetric_speed": [
+      "10"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\nM900 K{if nozzle_diameter[0]==0.4}0.05{elsif nozzle_diameter[0]==0.25}0.14{elsif nozzle_diameter[0]==0.3}0.07{elsif nozzle_diameter[0]==0.35}0.06{elsif nozzle_diameter[0]==0.6}0.03{elsif nozzle_diameter[0]==0.5}0.035{elsif nozzle_diameter[0]==0.8}0.015{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*PRINTER_MODEL_XLIS.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.036{elsif nozzle_diameter[0]==0.5}0.025{elsif nozzle_diameter[0]==0.6}0.02{elsif nozzle_diameter[0]==0.8}0.014{elsif nozzle_diameter[0]==0.25}0.12{elsif nozzle_diameter[0]==0.3}0.08{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+    ],
+    "filament_type": [
+      "PLA"
+    ],
+    "filament_vendor": [
+      "Prusa Polymers"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": "3",
+    "hot_plate_temp": "60",
+    "hot_plate_temp_initial_layer": "60",
+    "idle_temperature": "0",
+    "name": "Prusament rPLA @XL",
+    "nozzle_temperature": "205",
+    "nozzle_temperature_initial_layer": [
+      "205"
+    ],
+    "nozzle_temperature_range_high": [
+      "230"
+    ],
+    "nozzle_temperature_range_low": [
+      "190"
+    ],
+    "overhang_fan_speed": [
+      "100"
+    ],
+    "overhang_fan_threshold": [
+      "50%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "10"
+    ],
+    "slow_down_min_speed": "15",
+    "temperature_vitrification": [
+      "60"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Prusa/filament/Prusament rPLA @XL.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PLA",
+  "variants": [
+    {
+      "catalogID": 104389,
+      "name": "Prusament rPLA @CORE One",
+      "printers": [
+        "prusa-research/core-one-0-25",
+        "prusa-research/core-one-0-3",
+        "prusa-research/core-one-0-4",
+        "prusa-research/core-one-0-5",
+        "prusa-research/core-one-hf-0-4",
+        "prusa-research/core-one-hf-0-5",
+        "prusa-research/core-one-mmu3-0-25",
+        "prusa-research/core-one-mmu3-0-3",
+        "prusa-research/core-one-mmu3-0-4"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "20"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One 0.25 nozzle",
+          "Prusa CORE One 0.3 nozzle",
+          "Prusa CORE One 0.4 nozzle",
+          "Prusa CORE One 0.5 nozzle",
+          "Prusa CORE One HF 0.4 nozzle",
+          "Prusa CORE One HF 0.5 nozzle",
+          "Prusa CORE One MMU3 0.4 nozzle",
+          "Prusa CORE One MMU3 0.25 nozzle",
+          "Prusa CORE One MMU3 0.3 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "40"
+        ],
+        "fan_min_speed": [
+          "85"
+        ],
+        "filament_cost": [
+          "37.49"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.25}0.14{elsif nozzle_diameter[filament_extruder_id]==0.3}0.07{elsif nozzle_diameter[filament_extruder_id]==0.35}0.06{elsif nozzle_diameter[filament_extruder_id]==0.6}0.03{elsif nozzle_diameter[filament_extruder_id]==0.5}0.035{elsif nozzle_diameter[filament_extruder_id]==0.8}0.015{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.036{elsif nozzle_diameter[filament_extruder_id]==0.5}0.025{elsif nozzle_diameter[filament_extruder_id]==0.6}0.022{elsif nozzle_diameter[filament_extruder_id]==0.8}0.014{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.08{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_z_hop": [
+          "0.6"
+        ],
+        "filament_z_hop_types": [
+          "Slope Lift"
+        ],
+        "full_fan_speed_layer": [
+          "3"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "idle_temperature": [
+          "170"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pla"
+        ],
+        "name": "Prusament rPLA @CORE One",
+        "nozzle_temperature": [
+          "205"
+        ],
+        "renamed_from": "Prusament rPLA CORE One;Prusament rPLA @CORE One MMU3;Prusament rPLA CORE One MMU3",
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "slow_down_min_speed": [
+          "20"
+        ]
+      }
+    },
+    {
+      "catalogID": 104390,
+      "name": "Prusament rPLA @CORE One 0.6",
+      "printers": [
+        "prusa-research/core-one-0-6",
+        "prusa-research/core-one-hf-0-6",
+        "prusa-research/core-one-mmu3-0-6"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "20"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One 0.6 nozzle",
+          "Prusa CORE One HF 0.6 nozzle",
+          "Prusa CORE One MMU3 0.6 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "40"
+        ],
+        "fan_min_speed": [
+          "85"
+        ],
+        "filament_cooling_final_speed": [
+          "1.5"
+        ],
+        "filament_cost": [
+          "37.49"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "14"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.25}0.14{elsif nozzle_diameter[filament_extruder_id]==0.3}0.07{elsif nozzle_diameter[filament_extruder_id]==0.35}0.06{elsif nozzle_diameter[filament_extruder_id]==0.6}0.03{elsif nozzle_diameter[filament_extruder_id]==0.5}0.035{elsif nozzle_diameter[filament_extruder_id]==0.8}0.015{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.036{elsif nozzle_diameter[filament_extruder_id]==0.5}0.025{elsif nozzle_diameter[filament_extruder_id]==0.6}0.022{elsif nozzle_diameter[filament_extruder_id]==0.8}0.014{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.08{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_z_hop": [
+          "0.6"
+        ],
+        "filament_z_hop_types": [
+          "Slope Lift"
+        ],
+        "full_fan_speed_layer": [
+          "3"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "idle_temperature": [
+          "170"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pla"
+        ],
+        "name": "Prusament rPLA @CORE One 0.6",
+        "nozzle_temperature": [
+          "205"
+        ],
+        "renamed_from": "Prusament rPLA CORE One;Prusament rPLA @CORE One MMU3;Prusament rPLA CORE One MMU3",
+        "slow_down_layer_time": [
+          "15"
+        ],
+        "slow_down_min_speed": [
+          "20"
+        ]
+      }
+    },
+    {
+      "catalogID": 104391,
+      "name": "Prusament rPLA @CORE One 0.8",
+      "printers": [
+        "prusa-research/core-one-0-8",
+        "prusa-research/core-one-hf-0-8"
+      ],
+      "settings": {
+        "chamber_temperature": [
+          "20"
+        ],
+        "compatible_printers": [
+          "Prusa CORE One 0.8 nozzle",
+          "Prusa CORE One HF 0.8 nozzle"
+        ],
+        "fan_cooling_layer_time": [
+          "40"
+        ],
+        "fan_min_speed": [
+          "85"
+        ],
+        "filament_cost": [
+          "37.49"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_max_volumetric_speed": [
+          "14"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.25}0.14{elsif nozzle_diameter[filament_extruder_id]==0.3}0.07{elsif nozzle_diameter[filament_extruder_id]==0.35}0.06{elsif nozzle_diameter[filament_extruder_id]==0.6}0.03{elsif nozzle_diameter[filament_extruder_id]==0.5}0.035{elsif nozzle_diameter[filament_extruder_id]==0.8}0.015{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.036{elsif nozzle_diameter[filament_extruder_id]==0.5}0.025{elsif nozzle_diameter[filament_extruder_id]==0.6}0.022{elsif nozzle_diameter[filament_extruder_id]==0.8}0.014{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.08{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "filament_z_hop": [
+          "0.6"
+        ],
+        "filament_z_hop_types": [
+          "Slope Lift"
+        ],
+        "full_fan_speed_layer": [
+          "3"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "idle_temperature": [
+          "170"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pla"
+        ],
+        "name": "Prusament rPLA @CORE One 0.8",
+        "nozzle_temperature": [
+          "205"
+        ],
+        "renamed_from": "Prusament rPLA CORE One;Prusament rPLA @CORE One MMU3;Prusament rPLA CORE One MMU3",
+        "slow_down_layer_time": [
+          "17"
+        ],
+        "slow_down_min_speed": [
+          "20"
+        ]
+      }
+    },
+    {
+      "catalogID": 104392,
+      "name": "Prusament rPLA @MK3S",
+      "printers": [
+        "prusa-research/mk3s-0-25",
+        "prusa-research/mk3s-0-4",
+        "prusa-research/mk3s-0-6",
+        "prusa-research/mk3s-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK3S 0.25 nozzle",
+          "Prusa MK3S 0.4 nozzle",
+          "Prusa MK3S 0.6 nozzle",
+          "Prusa MK3S 0.8 nozzle"
+        ],
+        "filament_cost": [
+          "37.49"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\nM900 K{if printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.6}0.12{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.8}0.06{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/}0.2{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.6}0.04{else}0.05{endif} ; Filament gcode LA 1.5\n{if printer_notes=~/.*PRINTER_MODEL_MINI.*/};{elsif printer_notes=~/.*PRINTER_HAS_BOWDEN.*/}M900 K200{elsif nozzle_diameter[0]==0.6}M900 K18{elsif nozzle_diameter[0]==0.8};{else}M900 K30{endif} ; Filament gcode LA 1.0"
+        ],
+        "full_fan_speed_layer": [
+          "0"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "name": "Prusament rPLA @MK3S",
+        "nozzle_temperature": [
+          "205"
+        ],
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "slow_down_min_speed": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104393,
+      "name": "Prusament rPLA @MK4",
+      "printers": [
+        "prusa-research/mk4-0-25",
+        "prusa-research/mk4-0-4",
+        "prusa-research/mk4-0-6",
+        "prusa-research/mk4-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4 0.25 nozzle",
+          "Prusa MK4 0.4 nozzle",
+          "Prusa MK4 0.6 nozzle",
+          "Prusa MK4 0.8 nozzle"
+        ],
+        "filament_cost": [
+          "37.49"
+        ],
+        "filament_ramming_parameters": [
+          "250 100 40 40 40 40 40 | 0.05 40 0.45 40 0.95 40 1.45 40 1.95 40 2.45 40 2.95 40 3.45 40 3.95 40 4.45 40 4.95 40"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\nM900 K{if nozzle_diameter[0]==0.4}0.026{elsif nozzle_diameter[0]==0.25}0.14{elsif nozzle_diameter[0]==0.3}0.07{elsif nozzle_diameter[0]==0.35}0.06{elsif nozzle_diameter[0]==0.6}0.03{elsif nozzle_diameter[0]==0.5}0.035{elsif nozzle_diameter[0]==0.8}0.015{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*PRINTER_MODEL_MK4IS.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.026{elsif nozzle_diameter[0]==0.5}0.025{elsif nozzle_diameter[0]==0.6}0.02{elsif nozzle_diameter[0]==0.8}0.014{elsif nozzle_diameter[0]==0.25}0.12{elsif nozzle_diameter[0]==0.3}0.08{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "full_fan_speed_layer": [
+          "0"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "name": "Prusament rPLA @MK4",
+        "nozzle_temperature": [
+          "205"
+        ],
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "slow_down_min_speed": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104394,
+      "name": "Prusament rPLA @MK4 MMU3",
+      "printers": [
+        "prusa-research/mk4-mmu3-0-4",
+        "prusa-research/mk4-mmu3-0-6",
+        "prusa-research/mk4-mmu3-hf0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4 MMU3 0.4 nozzle",
+          "Prusa MK4 MMU3 0.6 nozzle",
+          "Prusa MK4 MMU3 HF0.4 nozzle"
+        ],
+        "filament_cost": [
+          "37.49"
+        ],
+        "filament_ramming_parameters": [
+          "250 100 40 40 40 40 40 | 0.05 40 0.45 40 0.95 40 1.45 40 1.95 40 2.45 40 2.95 40 3.45 40 3.95 40 4.45 40 4.95 40"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\nM900 K{if nozzle_diameter[0]==0.4}0.026{elsif nozzle_diameter[0]==0.25}0.14{elsif nozzle_diameter[0]==0.3}0.07{elsif nozzle_diameter[0]==0.35}0.06{elsif nozzle_diameter[0]==0.6}0.03{elsif nozzle_diameter[0]==0.5}0.035{elsif nozzle_diameter[0]==0.8}0.015{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*PRINTER_MODEL_MK4IS.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.026{elsif nozzle_diameter[0]==0.5}0.025{elsif nozzle_diameter[0]==0.6}0.02{elsif nozzle_diameter[0]==0.8}0.014{elsif nozzle_diameter[0]==0.25}0.12{elsif nozzle_diameter[0]==0.3}0.08{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "full_fan_speed_layer": [
+          "0"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "include": [
+          "fdm_filament_template_nextruder_pla"
+        ],
+        "name": "Prusament rPLA @MK4 MMU3",
+        "nozzle_temperature": [
+          "205"
+        ],
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "slow_down_min_speed": [
+          "10"
+        ]
+      }
+    },
+    {
+      "catalogID": 104395,
+      "name": "Prusament rPLA @MK4S",
+      "printers": [
+        "prusa-research/mk4s-0-25",
+        "prusa-research/mk4s-0-3",
+        "prusa-research/mk4s-0-4",
+        "prusa-research/mk4s-0-5"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S 0.25 nozzle",
+          "Prusa MK4S 0.3 nozzle",
+          "Prusa MK4S 0.4 nozzle",
+          "Prusa MK4S 0.5 nozzle"
+        ],
+        "fan_cooling_layer_time": "17",
+        "fan_min_speed": "70",
+        "filament_cost": [
+          "37.49"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 40 40 40 40 40 | 0.05 40 0.45 40 0.95 40 1.45 40 1.95 40 2.45 40 2.95 40 3.45 40 3.95 40 4.45 40 4.95 40"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.25}0.14{elsif nozzle_diameter[filament_extruder_id]==0.3}0.07{elsif nozzle_diameter[filament_extruder_id]==0.35}0.06{elsif nozzle_diameter[filament_extruder_id]==0.6}0.03{elsif nozzle_diameter[filament_extruder_id]==0.5}0.035{elsif nozzle_diameter[filament_extruder_id]==0.8}0.015{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.036{elsif nozzle_diameter[filament_extruder_id]==0.5}0.025{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.014{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.08{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "name": "Prusament rPLA @MK4S",
+        "nozzle_temperature": [
+          "205"
+        ],
+        "slow_down_layer_time": "6",
+        "slow_down_min_speed": "20"
+      }
+    },
+    {
+      "catalogID": 104396,
+      "name": "Prusament rPLA @MK4S 0.6",
+      "printers": [
+        "prusa-research/mk4s-0-6"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S 0.6 nozzle"
+        ],
+        "fan_cooling_layer_time": "22",
+        "fan_min_speed": "70",
+        "filament_cost": [
+          "37.49"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 40 40 40 40 40 | 0.05 40 0.45 40 0.95 40 1.45 40 1.95 40 2.45 40 2.95 40 3.45 40 3.95 40 4.45 40 4.95 40"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.25}0.14{elsif nozzle_diameter[filament_extruder_id]==0.3}0.07{elsif nozzle_diameter[filament_extruder_id]==0.35}0.06{elsif nozzle_diameter[filament_extruder_id]==0.6}0.03{elsif nozzle_diameter[filament_extruder_id]==0.5}0.035{elsif nozzle_diameter[filament_extruder_id]==0.8}0.015{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.036{elsif nozzle_diameter[filament_extruder_id]==0.5}0.025{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.014{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.08{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "name": "Prusament rPLA @MK4S 0.6",
+        "nozzle_temperature": [
+          "205"
+        ],
+        "slow_down_layer_time": "10",
+        "slow_down_min_speed": "20"
+      }
+    },
+    {
+      "catalogID": 104397,
+      "name": "Prusament rPLA @MK4S 0.8",
+      "printers": [
+        "prusa-research/mk4s-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S 0.8 nozzle"
+        ],
+        "fan_cooling_layer_time": "25",
+        "fan_min_speed": "80",
+        "filament_cost": [
+          "37.49"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 40 40 40 40 40 | 0.05 40 0.45 40 0.95 40 1.45 40 1.95 40 2.45 40 2.95 40 3.45 40 3.95 40 4.45 40 4.95 40"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.25}0.14{elsif nozzle_diameter[filament_extruder_id]==0.3}0.07{elsif nozzle_diameter[filament_extruder_id]==0.35}0.06{elsif nozzle_diameter[filament_extruder_id]==0.6}0.03{elsif nozzle_diameter[filament_extruder_id]==0.5}0.035{elsif nozzle_diameter[filament_extruder_id]==0.8}0.015{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.036{elsif nozzle_diameter[filament_extruder_id]==0.5}0.025{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.014{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.08{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "name": "Prusament rPLA @MK4S 0.8",
+        "nozzle_temperature": [
+          "205"
+        ],
+        "slow_down_layer_time": "15",
+        "slow_down_min_speed": "20"
+      }
+    },
+    {
+      "catalogID": 104398,
+      "name": "Prusament rPLA @MK4S HF0.4",
+      "printers": [
+        "prusa-research/mk4s-hf0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S HF0.4 nozzle"
+        ],
+        "fan_cooling_layer_time": "17",
+        "fan_min_speed": "70",
+        "filament_cost": [
+          "37.49"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 40 40| 0.05 40 0.45 40 0.95 40 1.45 40 1.95 40 2.45 40 2.95 40 3.45 40 3.95 40 4.45 40 4.95 40"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M572 S{if nozzle_diameter[0]==0.4}0.036{elsif nozzle_diameter[0]==0.5}0.026{elsif nozzle_diameter[0]==0.6}0.02{elsif nozzle_diameter[0]==0.8}0.015{elsif nozzle_diameter[0]==0.25}0.12{elsif nozzle_diameter[0]==0.3}0.08{else}0{endif} ; Filament gcode\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "name": "Prusament rPLA @MK4S HF0.4",
+        "nozzle_temperature": [
+          "205"
+        ],
+        "slow_down_layer_time": "6",
+        "slow_down_min_speed": "20"
+      }
+    },
+    {
+      "catalogID": 104399,
+      "name": "Prusament rPLA @MK4S HF0.5",
+      "printers": [
+        "prusa-research/mk4s-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S HF0.5 nozzle"
+        ],
+        "fan_cooling_layer_time": "20",
+        "fan_min_speed": "70",
+        "filament_cost": [
+          "37.49"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 40 40 40 40 40 | 0.05 40 0.45 40 0.95 40 1.45 40 1.95 40 2.45 40 2.95 40 3.45 40 3.95 40 4.45 40 4.95 40"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.25}0.14{elsif nozzle_diameter[filament_extruder_id]==0.3}0.07{elsif nozzle_diameter[filament_extruder_id]==0.35}0.06{elsif nozzle_diameter[filament_extruder_id]==0.6}0.03{elsif nozzle_diameter[filament_extruder_id]==0.5}0.035{elsif nozzle_diameter[filament_extruder_id]==0.8}0.015{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.036{elsif nozzle_diameter[filament_extruder_id]==0.5}0.025{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.014{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.08{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "name": "Prusament rPLA @MK4S HF0.5",
+        "nozzle_temperature": [
+          "205"
+        ],
+        "slow_down_layer_time": "8",
+        "slow_down_min_speed": "20"
+      }
+    },
+    {
+      "catalogID": 104400,
+      "name": "Prusament rPLA @MK4S HF0.6",
+      "printers": [
+        "prusa-research/mk4s-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S HF0.6 nozzle"
+        ],
+        "fan_cooling_layer_time": "22",
+        "fan_min_speed": "70",
+        "filament_cost": [
+          "37.49"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 40 40 40 40 40 | 0.05 40 0.45 40 0.95 40 1.45 40 1.95 40 2.45 40 2.95 40 3.45 40 3.95 40 4.45 40 4.95 40"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.25}0.14{elsif nozzle_diameter[filament_extruder_id]==0.3}0.07{elsif nozzle_diameter[filament_extruder_id]==0.35}0.06{elsif nozzle_diameter[filament_extruder_id]==0.6}0.03{elsif nozzle_diameter[filament_extruder_id]==0.5}0.035{elsif nozzle_diameter[filament_extruder_id]==0.8}0.015{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.036{elsif nozzle_diameter[filament_extruder_id]==0.5}0.025{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.014{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.08{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "name": "Prusament rPLA @MK4S HF0.6",
+        "nozzle_temperature": [
+          "205"
+        ],
+        "slow_down_layer_time": "10"
+      }
+    },
+    {
+      "catalogID": 104401,
+      "name": "Prusament rPLA @MK4S HF0.8",
+      "printers": [
+        "prusa-research/mk4s-hf0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK4S HF0.8 nozzle"
+        ],
+        "fan_cooling_layer_time": "25",
+        "fan_min_speed": "80",
+        "filament_cost": [
+          "37.49"
+        ],
+        "filament_end_gcode": [
+          "; Filament-specific end gcode"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "250 100 40 40 40 40 40 | 0.05 40 0.45 40 0.95 40 1.45 40 1.95 40 2.45 40 2.95 40 3.45 40 3.95 40 4.45 40 4.95 40"
+        ],
+        "filament_spool_weight": [
+          "278"
+        ],
+        "filament_start_gcode": [
+          "M900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.05{elsif nozzle_diameter[filament_extruder_id]==0.25}0.14{elsif nozzle_diameter[filament_extruder_id]==0.3}0.07{elsif nozzle_diameter[filament_extruder_id]==0.35}0.06{elsif nozzle_diameter[filament_extruder_id]==0.6}0.03{elsif nozzle_diameter[filament_extruder_id]==0.5}0.035{elsif nozzle_diameter[filament_extruder_id]==0.8}0.015{else}0{endif} ; Filament gcode\n\n{if printer_notes=~/.*(MK4IS|XLIS|MK4S|MK3.9S).*/}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.036{elsif nozzle_diameter[filament_extruder_id]==0.5}0.025{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.014{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.08{else}0{endif} ; Filament gcode\n{endif}\n\nM142 S36 ; set heatbreak target temp"
+        ],
+        "hot_plate_temp": [
+          "60"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "60"
+        ],
+        "name": "Prusament rPLA @MK4S HF0.8",
+        "nozzle_temperature": [
+          "205"
+        ],
+        "slow_down_layer_time": "15"
+      }
+    },
+    {
+      "catalogID": 104402,
+      "name": "Prusament rPLA @XL",
+      "printers": [
+        "prusa-research/xl-0-25",
+        "prusa-research/xl-0-3",
+        "prusa-research/xl-0-4",
+        "prusa-research/xl-0-5",
+        "prusa-research/xl-0-6",
+        "prusa-research/xl-0-8",
+        "prusa-research/xl-5t-0-25",
+        "prusa-research/xl-5t-0-3",
+        "prusa-research/xl-5t-0-4",
+        "prusa-research/xl-5t-0-5",
+        "prusa-research/xl-5t-0-6",
+        "prusa-research/xl-5t-0-8"
+      ],
+      "settings": {
+        "filament_cooling_final_speed": "3.5",
+        "filament_cooling_initial_speed": "10",
+        "filament_cooling_moves": "2",
+        "filament_loading_speed": "10",
+        "filament_loading_speed_start": "50",
+        "filament_multitool_ramming": [
+          "1"
+        ],
+        "filament_multitool_ramming_flow": [
+          "40"
+        ],
+        "filament_multitool_ramming_volume": [
+          "5"
+        ],
+        "filament_retract_lift_below": "0.6",
+        "filament_stamping_distance": [
+          "45"
+        ],
+        "filament_stamping_loading_speed": [
+          "29"
+        ],
+        "filament_unloading_speed": "100",
+        "filament_unloading_speed_start": "100",
+        "renamed_from": "Prusament rPLA XL;Prusament rPLA @XL 5T;Prusament rPLA XL 5T"
+      }
+    }
+  ]
+}

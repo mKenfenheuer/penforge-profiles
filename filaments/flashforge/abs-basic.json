@@ -1,0 +1,1997 @@
+{
+  "format": 1,
+  "id": "flashforge/abs-basic",
+  "manufacturer": "Flashforge",
+  "name": "Flashforge ABS Basic",
+  "settings": {
+    "close_fan_the_first_x_layers": [
+      "2"
+    ],
+    "compatible_printers": [
+      "Flashforge Guider4 Pro 0.4 HF nozzle"
+    ],
+    "cool_plate_temp": [
+      "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "0"
+    ],
+    "enable_pressure_advance": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "100"
+    ],
+    "fan_cooling_layer_time": [
+      "30"
+    ],
+    "fan_max_speed": [
+      "20"
+    ],
+    "fan_min_speed": [
+      "10"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.04"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode\n"
+    ],
+    "filament_flow_ratio": [
+      "0.98"
+    ],
+    "filament_id": "OFibWuBd",
+    "filament_max_volumetric_speed": [
+      "25"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      "Flashforge ABS Basic @FF G4P HF"
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\n;right_extruder_material: ABS\n"
+    ],
+    "filament_type": [
+      "ABS"
+    ],
+    "filament_vendor": [
+      "Flashforge"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "100"
+    ],
+    "name": "Flashforge ABS Basic @FF G4P HF",
+    "nozzle_temperature": [
+      "265"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "265"
+    ],
+    "nozzle_temperature_range_high": [
+      "270"
+    ],
+    "nozzle_temperature_range_low": [
+      "230"
+    ],
+    "overhang_fan_speed": [
+      "80"
+    ],
+    "overhang_fan_threshold": [
+      "25%"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "renamed_from": "Flashforge Generic ABS @G3U;Flashforge Generic ABS G3U",
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "4"
+    ],
+    "slow_down_min_speed": [
+      "20"
+    ],
+    "temperature_vitrification": [
+      "100"
+    ],
+    "textured_plate_temp": [
+      "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "100"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Flashforge/filament/Flashforge ABS Basic @FF G4P HF.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "ABS",
+  "variants": [
+    {
+      "catalogID": 103446,
+      "name": "Flashforge ABS Basic",
+      "printers": [
+        "flashforge/adventurer-5m-0-4",
+        "flashforge/adventurer-5m-0-6",
+        "flashforge/adventurer-5m-0-8",
+        "flashforge/adventurer-5m-pro-0-4",
+        "flashforge/adventurer-5m-pro-0-6",
+        "flashforge/adventurer-5m-pro-0-8"
+      ],
+      "settings": {
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "compatible_printers": [
+          "Flashforge Adventurer 5M 0.4 Nozzle",
+          "Flashforge Adventurer 5M 0.6 Nozzle",
+          "Flashforge Adventurer 5M 0.8 Nozzle",
+          "Flashforge Adventurer 5M Pro 0.4 Nozzle",
+          "Flashforge Adventurer 5M Pro 0.6 Nozzle",
+          "Flashforge Adventurer 5M Pro 0.8 Nozzle"
+        ],
+        "cool_plate_temp": [
+          "80"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "80"
+        ],
+        "eng_plate_temp": [
+          "80"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "80"
+        ],
+        "filament_max_volumetric_speed": [
+          "15"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic"
+        ],
+        "hot_plate_temp": [
+          "105"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Flashforge ABS Basic",
+        "pressure_advance": [
+          "0.04"
+        ],
+        "renamed_from": "Flashforge Generic ABS",
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "support_material_interface_fan_speed": [
+          "80"
+        ],
+        "textured_plate_temp": [
+          "80"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "80"
+        ]
+      }
+    },
+    {
+      "catalogID": 103447,
+      "name": "Flashforge ABS Basic @FF AD5M 0.25 nozzle",
+      "printers": [
+        "flashforge/adventurer-5m-0-25",
+        "flashforge/adventurer-5m-pro-0-25"
+      ],
+      "settings": {
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "compatible_printers": [
+          "Flashforge Adventurer 5M 0.25 Nozzle",
+          "Flashforge Adventurer 5M Pro 0.25 Nozzle"
+        ],
+        "cool_plate_temp": [
+          "80"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "80"
+        ],
+        "eng_plate_temp": [
+          "80"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "80"
+        ],
+        "fan_max_speed": [
+          "50"
+        ],
+        "filament_cost": [
+          "40"
+        ],
+        "filament_flow_ratio": [
+          "1"
+        ],
+        "filament_max_volumetric_speed": [
+          "2"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF AD5M 0.25 nozzle"
+        ],
+        "hot_plate_temp": [
+          "105"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Flashforge ABS Basic @FF AD5M 0.25 nozzle",
+        "pressure_advance": [
+          "0.1"
+        ],
+        "renamed_from": "Flashforge Generic ABS",
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "support_material_interface_fan_speed": [
+          "80"
+        ],
+        "textured_plate_temp": [
+          "80"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "80"
+        ]
+      }
+    },
+    {
+      "catalogID": 103448,
+      "name": "Flashforge ABS Basic @FF AD5X",
+      "printers": [
+        "flashforge/ad5x-0-4"
+      ],
+      "settings": {
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "compatible_printers": [
+          "Flashforge AD5X 0.4 nozzle"
+        ],
+        "filament_flow_ratio": [
+          "0.96"
+        ],
+        "filament_max_volumetric_speed": [
+          "20"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF AD5X"
+        ],
+        "name": "Flashforge ABS Basic @FF AD5X",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "pressure_advance": [
+          "0.04"
+        ],
+        "renamed_from": "Flashforge Generic ABS",
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "support_material_interface_fan_speed": [
+          "80"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ]
+      }
+    },
+    {
+      "catalogID": 103449,
+      "name": "Flashforge ABS Basic @FF AD5X 0.25 nozzle",
+      "printers": [
+        "flashforge/ad5x-0-25"
+      ],
+      "settings": {
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "compatible_printers": [
+          "Flashforge AD5X 0.25 nozzle"
+        ],
+        "filament_flow_ratio": [
+          "0.96"
+        ],
+        "filament_max_volumetric_speed": [
+          "8"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF AD5X 0.25 nozzle"
+        ],
+        "name": "Flashforge ABS Basic @FF AD5X 0.25 nozzle",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "pressure_advance": [
+          "0.04"
+        ],
+        "renamed_from": "Flashforge Generic ABS",
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "support_material_interface_fan_speed": [
+          "80"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ]
+      }
+    },
+    {
+      "catalogID": 103450,
+      "name": "Flashforge ABS Basic @FF AD5X 0.6 nozzle",
+      "printers": [
+        "flashforge/ad5x-0-6"
+      ],
+      "settings": {
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "compatible_printers": [
+          "Flashforge AD5X 0.6 nozzle"
+        ],
+        "eng_plate_temp": [
+          "105"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "105"
+        ],
+        "filament_flow_ratio": [
+          "0.96"
+        ],
+        "filament_max_volumetric_speed": [
+          "18"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF AD5X 0.6 nozzle"
+        ],
+        "hot_plate_temp": [
+          "105"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Flashforge ABS Basic @FF AD5X 0.6 nozzle",
+        "pressure_advance": [
+          "0.04"
+        ],
+        "renamed_from": "Flashforge Generic ABS",
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "support_material_interface_fan_speed": [
+          "80"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "105"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "105"
+        ]
+      }
+    },
+    {
+      "catalogID": 103451,
+      "name": "Flashforge ABS Basic @FF AD5X 0.8 nozzle",
+      "printers": [
+        "flashforge/ad5x-0-8"
+      ],
+      "settings": {
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "compatible_printers": [
+          "Flashforge AD5X 0.8 nozzle"
+        ],
+        "eng_plate_temp": [
+          "105"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "105"
+        ],
+        "filament_flow_ratio": [
+          "0.96"
+        ],
+        "filament_max_volumetric_speed": [
+          "18"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF AD5X 0.8 nozzle"
+        ],
+        "hot_plate_temp": [
+          "105"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Flashforge ABS Basic @FF AD5X 0.8 nozzle",
+        "pressure_advance": [
+          "0.04"
+        ],
+        "renamed_from": "Flashforge Generic ABS",
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "support_material_interface_fan_speed": [
+          "80"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "105"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "105"
+        ]
+      }
+    },
+    {
+      "catalogID": 103452,
+      "name": "Flashforge ABS Basic @FF Adventurer A5",
+      "printers": [
+        "flashforge/adventurer-a5-0-4",
+        "flashforge/adventurer-a5-0-6",
+        "flashforge/adventurer-a5-0-8"
+      ],
+      "settings": {
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "compatible_printers": [
+          "Flashforge Adventurer A5 0.4 nozzle",
+          "Flashforge Adventurer A5 0.6 nozzle",
+          "Flashforge Adventurer A5 0.8 nozzle"
+        ],
+        "eng_plate_temp": [
+          "105"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "105"
+        ],
+        "filament_max_volumetric_speed": [
+          "15"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF Adventurer A5"
+        ],
+        "hot_plate_temp": [
+          "105"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Flashforge ABS Basic @FF Adventurer A5",
+        "pressure_advance": [
+          "0.04"
+        ],
+        "renamed_from": "Flashforge Generic ABS",
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "supertack_plate_temp": [
+          "0"
+        ],
+        "supertack_plate_temp_initial_layer": [
+          "0"
+        ],
+        "support_material_interface_fan_speed": [
+          "80"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "105"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "105"
+        ]
+      }
+    },
+    {
+      "catalogID": 103453,
+      "name": "Flashforge ABS Basic @FF Adventurer A5 0.25 nozzle",
+      "printers": [
+        "flashforge/adventurer-a5-0-25"
+      ],
+      "settings": {
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "compatible_printers": [
+          "Flashforge Adventurer A5 0.25 nozzle"
+        ],
+        "eng_plate_temp": [
+          "105"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "105"
+        ],
+        "fan_max_speed": [
+          "50"
+        ],
+        "filament_cost": [
+          "40"
+        ],
+        "filament_flow_ratio": [
+          "1"
+        ],
+        "filament_max_volumetric_speed": [
+          "2"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF Adventurer A5 0.25 nozzle"
+        ],
+        "hot_plate_temp": [
+          "105"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "105"
+        ],
+        "name": "Flashforge ABS Basic @FF Adventurer A5 0.25 nozzle",
+        "pressure_advance": [
+          "0.1"
+        ],
+        "renamed_from": "Flashforge Generic ABS",
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "supertack_plate_temp": [
+          "0"
+        ],
+        "supertack_plate_temp_initial_layer": [
+          "0"
+        ],
+        "support_material_interface_fan_speed": [
+          "80"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "105"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "105"
+        ]
+      }
+    },
+    {
+      "catalogID": 103454,
+      "name": "Flashforge ABS Basic @FF C5",
+      "printers": [
+        "flashforge/creator-5-0-4",
+        "flashforge/creator-5-0-6",
+        "flashforge/creator-5-0-8"
+      ],
+      "settings": {
+        "activate_air_filtration": [
+          "0"
+        ],
+        "chamber_temperatures": [
+          "0"
+        ],
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Flashforge Creator 5 0.4 nozzle",
+          "Flashforge Creator 5 0.6 nozzle",
+          "Flashforge Creator 5 0.8 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "eng_plate_temp": [
+          "110"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "110"
+        ],
+        "fan_max_speed": [
+          "40"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flow_ratio": [
+          "0.95"
+        ],
+        "filament_is_support": [
+          "0"
+        ],
+        "filament_long_retractions_when_cut": [
+          "nil"
+        ],
+        "filament_max_volumetric_speed": [
+          "12",
+          "20",
+          "25",
+          "12",
+          "18",
+          "18"
+        ],
+        "filament_multitool_ramming": [
+          "1"
+        ],
+        "filament_multitool_ramming_flow": [
+          "15"
+        ],
+        "filament_multitool_ramming_volume": [
+          "10"
+        ],
+        "filament_retraction_distances_when_cut": [
+          "nil"
+        ],
+        "filament_scarf_gap": [
+          "0%"
+        ],
+        "filament_scarf_height": [
+          "10%"
+        ],
+        "filament_scarf_length": [
+          "10"
+        ],
+        "filament_scarf_seam_type": [
+          "none"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF C5"
+        ],
+        "filament_shrink": [
+          "100%"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode"
+        ],
+        "hot_plate_temp": [
+          "110"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "110"
+        ],
+        "name": "Flashforge ABS Basic @FF C5",
+        "nozzle_temperature": [
+          "270"
+        ],
+        "nozzle_temperature_range_high": [
+          "280"
+        ],
+        "nozzle_temperature_range_low": [
+          "240"
+        ],
+        "renamed_from": "My Generic ABS",
+        "required_nozzle_HRC": [
+          "3"
+        ],
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "slow_down_min_speed": [
+          "15"
+        ],
+        "supertack_plate_temp": [
+          "0"
+        ],
+        "supertack_plate_temp_initial_layer": [
+          "0"
+        ],
+        "temperature_vitrification": [
+          "110"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "110"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "110"
+        ]
+      }
+    },
+    {
+      "catalogID": 103455,
+      "name": "Flashforge ABS Basic @FF C5P",
+      "printers": [
+        "flashforge/creator-5-pro-0-4",
+        "flashforge/creator-5-pro-0-6",
+        "flashforge/creator-5-pro-0-8"
+      ],
+      "settings": {
+        "activate_air_filtration": [
+          "0"
+        ],
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "chamber_temperatures": [
+          "0"
+        ],
+        "close_fan_the_first_x_layers": [
+          "3"
+        ],
+        "compatible_printers": [
+          "Flashforge Creator 5 Pro 0.4 nozzle",
+          "Flashforge Creator 5 Pro 0.6 nozzle",
+          "Flashforge Creator 5 Pro 0.8 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "eng_plate_temp": [
+          "110"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "110"
+        ],
+        "fan_max_speed": [
+          "40"
+        ],
+        "filament_extruder_variant": [
+          "Direct Drive Standard"
+        ],
+        "filament_flow_ratio": [
+          "0.95"
+        ],
+        "filament_is_support": [
+          "0"
+        ],
+        "filament_long_retractions_when_cut": [
+          "nil"
+        ],
+        "filament_max_volumetric_speed": [
+          "12",
+          "20",
+          "25",
+          "12",
+          "18",
+          "18"
+        ],
+        "filament_multitool_ramming": [
+          "1"
+        ],
+        "filament_multitool_ramming_flow": [
+          "15"
+        ],
+        "filament_multitool_ramming_volume": [
+          "10"
+        ],
+        "filament_retraction_distances_when_cut": [
+          "nil"
+        ],
+        "filament_scarf_gap": [
+          "0%"
+        ],
+        "filament_scarf_height": [
+          "10%"
+        ],
+        "filament_scarf_length": [
+          "10"
+        ],
+        "filament_scarf_seam_type": [
+          "none"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF C5P"
+        ],
+        "filament_shrink": [
+          "100%"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode"
+        ],
+        "hot_plate_temp": [
+          "110"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "110"
+        ],
+        "name": "Flashforge ABS Basic @FF C5P",
+        "nozzle_temperature": [
+          "270"
+        ],
+        "nozzle_temperature_range_high": [
+          "280"
+        ],
+        "nozzle_temperature_range_low": [
+          "240"
+        ],
+        "renamed_from": "My Generic ABS",
+        "required_nozzle_HRC": [
+          "3"
+        ],
+        "slow_down_layer_time": [
+          "8"
+        ],
+        "slow_down_min_speed": [
+          "15"
+        ],
+        "supertack_plate_temp": [
+          "0"
+        ],
+        "supertack_plate_temp_initial_layer": [
+          "0"
+        ],
+        "temperature_vitrification": [
+          "110"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "110"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "110"
+        ]
+      }
+    },
+    {
+      "name": "Flashforge ABS Basic @FF G4",
+      "printers": [
+        "flashforge/guider4-0-4"
+      ],
+      "settings": {
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 0.4 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "50"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "filament_max_volumetric_speed": [
+          "15"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF G4"
+        ],
+        "name": "Flashforge ABS Basic @FF G4",
+        "pressure_advance": [
+          "0.04"
+        ],
+        "renamed_from": "Flashforge Generic ABS",
+        "support_material_interface_fan_speed": [
+          "80"
+        ]
+      }
+    },
+    {
+      "catalogID": 103456,
+      "name": "Flashforge ABS Basic @FF G4 0.25 nozzle",
+      "printers": [
+        "flashforge/guider4-0-25"
+      ],
+      "settings": {
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 0.25 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "50"
+        ],
+        "cool_plate_temp": [
+          "80"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "80"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "eng_plate_temp": [
+          "80"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "80"
+        ],
+        "filament_max_volumetric_speed": [
+          "12"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF G4 0.25 nozzle"
+        ],
+        "name": "Flashforge ABS Basic @FF G4 0.25 nozzle",
+        "pressure_advance": [
+          "0.04"
+        ],
+        "renamed_from": "Flashforge Generic ABS",
+        "support_material_interface_fan_speed": [
+          "80"
+        ],
+        "textured_plate_temp": [
+          "80"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "80"
+        ]
+      }
+    },
+    {
+      "catalogID": 103457,
+      "name": "Flashforge ABS Basic @FF G4 0.6 HF nozzle",
+      "printers": [
+        "flashforge/guider4-0-6-hf"
+      ],
+      "settings": {
+        "activate_air_filtration": [
+          "1"
+        ],
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 0.6 HF nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "eng_plate_temp": [
+          "110"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "110"
+        ],
+        "fan_cooling_layer_time": [
+          "35"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "fan_min_speed": [
+          "25"
+        ],
+        "filament_flow_ratio": [
+          "0.95"
+        ],
+        "filament_max_volumetric_speed": [
+          "18"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF G4 0.6 HF nozzle"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n; right_extruder_material:ABS"
+        ],
+        "filament_unloading_speed": [
+          "35"
+        ],
+        "filament_unloading_speed_start": [
+          "40"
+        ],
+        "hot_plate_temp": [
+          "110"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "110"
+        ],
+        "name": "Flashforge ABS Basic @FF G4 0.6 HF nozzle",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "260"
+        ],
+        "nozzle_temperature_range_high": [
+          "280"
+        ],
+        "nozzle_temperature_range_low": [
+          "220"
+        ],
+        "overhang_fan_speed": [
+          "90"
+        ],
+        "pressure_advance": [
+          "0.025"
+        ],
+        "renamed_from": "Flashforge Generic ABS @G3U 0.6 Nozzle;Flashforge Generic ABS G3U 0.6 Nozzle",
+        "slow_down_layer_time": [
+          "10"
+        ],
+        "support_material_interface_fan_speed": [
+          "90"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "110"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "110"
+        ]
+      }
+    },
+    {
+      "name": "Flashforge ABS Basic @FF G4 0.6 nozzle",
+      "printers": [
+        "flashforge/guider4-0-6"
+      ],
+      "settings": {
+        "activate_air_filtration": [
+          "1"
+        ],
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 0.6 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "eng_plate_temp": [
+          "115"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "115"
+        ],
+        "fan_cooling_layer_time": [
+          "35"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "fan_min_speed": [
+          "25"
+        ],
+        "filament_cost": [
+          "30"
+        ],
+        "filament_flow_ratio": [
+          "0.95"
+        ],
+        "filament_max_volumetric_speed": [
+          "18"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF G4 0.6 nozzle"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n;right_extruder_material:ABS"
+        ],
+        "filament_unloading_speed": [
+          "35"
+        ],
+        "filament_unloading_speed_start": [
+          "40"
+        ],
+        "hot_plate_temp": [
+          "115"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "115"
+        ],
+        "name": "Flashforge ABS Basic @FF G4 0.6 nozzle",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "260"
+        ],
+        "nozzle_temperature_range_high": [
+          "280"
+        ],
+        "nozzle_temperature_range_low": [
+          "220"
+        ],
+        "overhang_fan_speed": [
+          "90"
+        ],
+        "pressure_advance": [
+          "0.025"
+        ],
+        "renamed_from": "Flashforge Generic ABS @G3U 0.6 Nozzle;Flashforge Generic ABS G3U 0.6 Nozzle",
+        "slow_down_layer_time": [
+          "10"
+        ],
+        "support_material_interface_fan_speed": [
+          "90"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "115"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "115"
+        ]
+      }
+    },
+    {
+      "catalogID": 103458,
+      "name": "Flashforge ABS Basic @FF G4 0.8 HF nozzle",
+      "printers": [
+        "flashforge/guider4-0-8-hf"
+      ],
+      "settings": {
+        "activate_air_filtration": [
+          "1"
+        ],
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 0.8 HF nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "eng_plate_temp": [
+          "115"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "115"
+        ],
+        "fan_cooling_layer_time": [
+          "35"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "fan_min_speed": [
+          "25"
+        ],
+        "filament_cost": [
+          "30"
+        ],
+        "filament_flow_ratio": [
+          "0.95"
+        ],
+        "filament_max_volumetric_speed": [
+          "18"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF G4 0.8 HF nozzle"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n;right_extruder_material:ABS"
+        ],
+        "filament_unloading_speed": [
+          "35"
+        ],
+        "filament_unloading_speed_start": [
+          "40"
+        ],
+        "hot_plate_temp": [
+          "115"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "115"
+        ],
+        "name": "Flashforge ABS Basic @FF G4 0.8 HF nozzle",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "260"
+        ],
+        "nozzle_temperature_range_high": [
+          "280"
+        ],
+        "nozzle_temperature_range_low": [
+          "220"
+        ],
+        "overhang_fan_speed": [
+          "90"
+        ],
+        "pressure_advance": [
+          "0.025"
+        ],
+        "renamed_from": "Flashforge Generic ABS @G3U 0.6 Nozzle;Flashforge Generic ABS G3U 0.6 Nozzle",
+        "slow_down_layer_time": [
+          "10"
+        ],
+        "support_material_interface_fan_speed": [
+          "90"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "115"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "115"
+        ]
+      }
+    },
+    {
+      "catalogID": 103459,
+      "name": "Flashforge ABS Basic @FF G4 HF",
+      "printers": [
+        "flashforge/guider4-0-4-hf"
+      ],
+      "settings": {
+        "activate_air_filtration": [
+          "0"
+        ],
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "additional_cooling_fan_speed": [
+          "0"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 0.4 HF nozzle"
+        ],
+        "compatible_printers_condition": "",
+        "compatible_prints": [],
+        "compatible_prints_condition": "",
+        "complete_print_exhaust_fan_speed": [
+          "50"
+        ],
+        "cool_plate_temp": [
+          "80"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "80"
+        ],
+        "default_filament_colour": [
+          ""
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "enable_overhang_bridge_fan": [
+          "1"
+        ],
+        "eng_plate_temp": [
+          "80"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "80"
+        ],
+        "filament_cooling_final_speed": [
+          "3.4"
+        ],
+        "filament_cooling_initial_speed": [
+          "2.2"
+        ],
+        "filament_cooling_moves": [
+          "4"
+        ],
+        "filament_is_support": [
+          "0"
+        ],
+        "filament_loading_speed": [
+          "28"
+        ],
+        "filament_loading_speed_start": [
+          "3"
+        ],
+        "filament_multitool_ramming": [
+          "0"
+        ],
+        "filament_multitool_ramming_flow": [
+          "10"
+        ],
+        "filament_multitool_ramming_volume": [
+          "10"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+        ],
+        "filament_retract_lift_above": [
+          "nil"
+        ],
+        "filament_retract_lift_below": [
+          "nil"
+        ],
+        "filament_retract_lift_enforce": [
+          "nil"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF G4 HF"
+        ],
+        "filament_shrink": [
+          "100%"
+        ],
+        "filament_toolchange_delay": [
+          "0"
+        ],
+        "filament_unloading_speed": [
+          "90"
+        ],
+        "filament_unloading_speed_start": [
+          "100"
+        ],
+        "name": "Flashforge ABS Basic @FF G4 HF",
+        "pressure_advance": [
+          "0.04"
+        ],
+        "required_nozzle_HRC": [
+          "0"
+        ],
+        "support_material_interface_fan_speed": [
+          "80"
+        ],
+        "textured_plate_temp": [
+          "80"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "80"
+        ]
+      }
+    },
+    {
+      "name": "Flashforge ABS Basic @FF G4P",
+      "printers": [
+        "flashforge/guider4-pro-0-4"
+      ],
+      "settings": {
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 Pro 0.4 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "50"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "filament_max_volumetric_speed": [
+          "15"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF G4P"
+        ],
+        "name": "Flashforge ABS Basic @FF G4P",
+        "pressure_advance": [
+          "0.04"
+        ],
+        "renamed_from": "Flashforge Generic ABS",
+        "support_material_interface_fan_speed": [
+          "80"
+        ]
+      }
+    },
+    {
+      "catalogID": 103460,
+      "name": "Flashforge ABS Basic @FF G4P 0.25 nozzle",
+      "printers": [
+        "flashforge/guider4-pro-0-25"
+      ],
+      "settings": {
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 Pro 0.25 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "50"
+        ],
+        "cool_plate_temp": [
+          "100"
+        ],
+        "cool_plate_temp_initial_layer": [
+          "100"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "filament_max_volumetric_speed": [
+          "12"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF G4P 0.25 nozzle"
+        ],
+        "name": "Flashforge ABS Basic @FF G4P 0.25 nozzle",
+        "pressure_advance": [
+          "0.04"
+        ],
+        "renamed_from": "Flashforge Generic ABS",
+        "support_material_interface_fan_speed": [
+          "80"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ]
+      }
+    },
+    {
+      "catalogID": 103461,
+      "name": "Flashforge ABS Basic @FF G4P 0.6 HF nozzle",
+      "printers": [
+        "flashforge/guider4-pro-0-6-hf"
+      ],
+      "settings": {
+        "activate_air_filtration": [
+          "1"
+        ],
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 Pro 0.6 HF nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "eng_plate_temp": [
+          "110"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "110"
+        ],
+        "fan_cooling_layer_time": [
+          "35"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "fan_min_speed": [
+          "25"
+        ],
+        "filament_flow_ratio": [
+          "0.95"
+        ],
+        "filament_max_volumetric_speed": [
+          "18"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF G4P 0.6 HF nozzle"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n; right_extruder_material:ABS"
+        ],
+        "filament_unloading_speed": [
+          "35"
+        ],
+        "filament_unloading_speed_start": [
+          "40"
+        ],
+        "hot_plate_temp": [
+          "110"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "110"
+        ],
+        "name": "Flashforge ABS Basic @FF G4P 0.6 HF nozzle",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "260"
+        ],
+        "nozzle_temperature_range_high": [
+          "280"
+        ],
+        "nozzle_temperature_range_low": [
+          "220"
+        ],
+        "overhang_fan_speed": [
+          "90"
+        ],
+        "pressure_advance": [
+          "0.025"
+        ],
+        "renamed_from": "Flashforge Generic ABS @G3U 0.6 Nozzle;Flashforge Generic ABS G3U 0.6 Nozzle",
+        "slow_down_layer_time": [
+          "10"
+        ],
+        "support_material_interface_fan_speed": [
+          "90"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "110"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "110"
+        ]
+      }
+    },
+    {
+      "name": "Flashforge ABS Basic @FF G4P 0.6 nozzle",
+      "printers": [
+        "flashforge/guider4-pro-0-6"
+      ],
+      "settings": {
+        "activate_air_filtration": [
+          "1"
+        ],
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 Pro 0.6 nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "eng_plate_temp": [
+          "115"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "115"
+        ],
+        "fan_cooling_layer_time": [
+          "35"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "fan_min_speed": [
+          "25"
+        ],
+        "filament_cost": [
+          "30"
+        ],
+        "filament_flow_ratio": [
+          "0.95"
+        ],
+        "filament_max_volumetric_speed": [
+          "18"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF G4P 0.6 nozzle"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n;right_extruder_material:ABS"
+        ],
+        "filament_unloading_speed": [
+          "35"
+        ],
+        "filament_unloading_speed_start": [
+          "40"
+        ],
+        "hot_plate_temp": [
+          "115"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "115"
+        ],
+        "name": "Flashforge ABS Basic @FF G4P 0.6 nozzle",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "260"
+        ],
+        "nozzle_temperature_range_high": [
+          "280"
+        ],
+        "nozzle_temperature_range_low": [
+          "220"
+        ],
+        "overhang_fan_speed": [
+          "90"
+        ],
+        "pressure_advance": [
+          "0.025"
+        ],
+        "renamed_from": "Flashforge Generic ABS @G3U 0.6 Nozzle;Flashforge Generic ABS G3U 0.6 Nozzle",
+        "slow_down_layer_time": [
+          "10"
+        ],
+        "support_material_interface_fan_speed": [
+          "90"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "115"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "115"
+        ]
+      }
+    },
+    {
+      "catalogID": 103462,
+      "name": "Flashforge ABS Basic @FF G4P 0.8 HF nozzle",
+      "printers": [
+        "flashforge/guider4-pro-0-8-hf"
+      ],
+      "settings": {
+        "activate_air_filtration": [
+          "1"
+        ],
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "compatible_printers": [
+          "Flashforge Guider4 Pro 0.8 HF nozzle"
+        ],
+        "complete_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "eng_plate_temp": [
+          "115"
+        ],
+        "eng_plate_temp_initial_layer": [
+          "115"
+        ],
+        "fan_cooling_layer_time": [
+          "35"
+        ],
+        "fan_max_speed": [
+          "60"
+        ],
+        "fan_min_speed": [
+          "25"
+        ],
+        "filament_cost": [
+          "30"
+        ],
+        "filament_flow_ratio": [
+          "0.95"
+        ],
+        "filament_max_volumetric_speed": [
+          "18"
+        ],
+        "filament_settings_id": [
+          "Flashforge ABS Basic @FF G4P 0.8 HF nozzle"
+        ],
+        "filament_start_gcode": [
+          "; filament start gcode\n;right_extruder_material:ABS"
+        ],
+        "filament_unloading_speed": [
+          "35"
+        ],
+        "filament_unloading_speed_start": [
+          "40"
+        ],
+        "hot_plate_temp": [
+          "115"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "115"
+        ],
+        "name": "Flashforge ABS Basic @FF G4P 0.8 HF nozzle",
+        "nozzle_temperature": [
+          "260"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "260"
+        ],
+        "nozzle_temperature_range_high": [
+          "280"
+        ],
+        "nozzle_temperature_range_low": [
+          "220"
+        ],
+        "overhang_fan_speed": [
+          "90"
+        ],
+        "pressure_advance": [
+          "0.025"
+        ],
+        "renamed_from": "Flashforge Generic ABS @G3U 0.6 Nozzle;Flashforge Generic ABS G3U 0.6 Nozzle",
+        "slow_down_layer_time": [
+          "10"
+        ],
+        "support_material_interface_fan_speed": [
+          "90"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ],
+        "textured_plate_temp": [
+          "115"
+        ],
+        "textured_plate_temp_initial_layer": [
+          "115"
+        ]
+      }
+    },
+    {
+      "catalogID": 103463,
+      "name": "Flashforge ABS Basic @FF G4P HF",
+      "printers": [
+        "flashforge/guider4-pro-0-4-hf"
+      ],
+      "settings": {
+        "activate_air_filtration": [
+          "0"
+        ],
+        "activate_chamber_temp_control": [
+          "1"
+        ],
+        "additional_cooling_fan_speed": [
+          "0"
+        ],
+        "bed_type": [
+          "Textured PEI Plate"
+        ],
+        "chamber_temperature": [
+          "60"
+        ],
+        "compatible_printers_condition": "",
+        "compatible_prints": [],
+        "compatible_prints_condition": "",
+        "complete_print_exhaust_fan_speed": [
+          "50"
+        ],
+        "default_filament_colour": [
+          ""
+        ],
+        "during_print_exhaust_fan_speed": [
+          "40"
+        ],
+        "enable_overhang_bridge_fan": [
+          "1"
+        ],
+        "filament_cooling_final_speed": [
+          "3.4"
+        ],
+        "filament_cooling_initial_speed": [
+          "2.2"
+        ],
+        "filament_cooling_moves": [
+          "4"
+        ],
+        "filament_is_support": [
+          "0"
+        ],
+        "filament_loading_speed": [
+          "28"
+        ],
+        "filament_loading_speed_start": [
+          "3"
+        ],
+        "filament_multitool_ramming": [
+          "0"
+        ],
+        "filament_multitool_ramming_flow": [
+          "10"
+        ],
+        "filament_multitool_ramming_volume": [
+          "10"
+        ],
+        "filament_notes": [
+          ""
+        ],
+        "filament_ramming_parameters": [
+          "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+        ],
+        "filament_retract_lift_above": [
+          "nil"
+        ],
+        "filament_retract_lift_below": [
+          "nil"
+        ],
+        "filament_retract_lift_enforce": [
+          "nil"
+        ],
+        "filament_shrink": [
+          "100%"
+        ],
+        "filament_toolchange_delay": [
+          "0"
+        ],
+        "filament_unloading_speed": [
+          "90"
+        ],
+        "filament_unloading_speed_start": [
+          "100"
+        ],
+        "pressure_advance": [
+          "0.04"
+        ],
+        "required_nozzle_HRC": [
+          "0"
+        ],
+        "support_material_interface_fan_speed": [
+          "80"
+        ],
+        "textured_cool_plate_temp": [
+          "0"
+        ],
+        "textured_cool_plate_temp_initial_layer": [
+          "0"
+        ]
+      }
+    }
+  ]
+}

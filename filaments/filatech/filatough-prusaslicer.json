@@ -1,0 +1,1004 @@
+{
+  "format": 1,
+  "id": "filatech/filatough-prusaslicer",
+  "manufacturer": "Filatech",
+  "name": "Filatech FilaTough",
+  "settings": {
+    "bed_temperature": "90",
+    "bridge_fan_speed": "25",
+    "compatible_printers": "",
+    "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and printer_notes!~/.*HF_NOZZLE.*/",
+    "cooling": "0",
+    "disable_fan_first_layers": "4",
+    "end_filament_gcode": "; Filament-specific end gcode",
+    "extrusion_multiplier": "0.95",
+    "fan_always_on": "0",
+    "fan_below_layer_time": "30",
+    "filament_colour": "#FFF2EC",
+    "filament_cooling_final_speed": "2.5",
+    "filament_cooling_initial_speed": "5",
+    "filament_cooling_moves": "3",
+    "filament_cost": "",
+    "filament_density": "1.29",
+    "filament_diameter": "1.75",
+    "filament_load_time": "10.5",
+    "filament_loading_speed": "10",
+    "filament_loading_speed_start": "50",
+    "filament_max_volumetric_speed": "15",
+    "filament_minimal_purge_on_wipe_tower": "35",
+    "filament_notes": "",
+    "filament_ramming_parameters": "250 100 42.4194 42.4194 42.4194 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+    "filament_settings_id": "",
+    "filament_soluble": "0",
+    "filament_toolchange_delay": "0",
+    "filament_type": "ABS",
+    "filament_unload_time": "8.5",
+    "filament_unloading_speed": "60",
+    "filament_unloading_speed_start": "60",
+    "filament_vendor": "Filatech",
+    "first_layer_bed_temperature": "80",
+    "first_layer_temperature": "245",
+    "max_fan_speed": "15",
+    "min_fan_speed": "15",
+    "min_print_speed": "15",
+    "name": "Filatech FilaTough @XL",
+    "slowdown_below_layer_time": "20",
+    "start_filament_gcode": "{if printer_notes!~/.*(MK4IS|XLIS|MK4S|MK3.9S|COREONE).*/}\nM900 K{if nozzle_diameter[filament_extruder_id]==0.4}0.04{elsif nozzle_diameter[filament_extruder_id]==0.25}0.1{elsif nozzle_diameter[filament_extruder_id]==0.3}0.06{elsif nozzle_diameter[filament_extruder_id]==0.35}0.05{elsif nozzle_diameter[filament_extruder_id]==0.5}0.03{elsif nozzle_diameter[filament_extruder_id]==0.6}0.02{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{else}0{endif} ; Legacy LA\n{else}\nM572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.012{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Pressure advance\n{endif}\n\nM142 S40 ; set heatbreak target temp",
+    "temperature": "240"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "PrusaResearch/2.5.16.ini",
+    "name": "PrusaSlicer-settings-prusa-fff",
+    "section": "filament:Filatech FilaTough @XL"
+  },
+  "type": "ABS",
+  "variants": [
+    {
+      "catalogID": 109298,
+      "name": "Filatech FilaTough",
+      "printers": [
+        "prusa-research/i3-mk2-5",
+        "prusa-research/i3-mk2-5-0-25",
+        "prusa-research/i3-mk2-5-0-6",
+        "prusa-research/i3-mk2-5-0-8",
+        "prusa-research/i3-mk2-5-mmu2-single",
+        "prusa-research/i3-mk2-5-mmu2-single-0-25",
+        "prusa-research/i3-mk2-5-mmu2-single-0-6",
+        "prusa-research/i3-mk2-5-mmu2-single-0-8",
+        "prusa-research/i3-mk2-5s",
+        "prusa-research/i3-mk2-5s-0-25",
+        "prusa-research/i3-mk2-5s-0-6",
+        "prusa-research/i3-mk2-5s-0-8",
+        "prusa-research/i3-mk2-5s-mmu2s-single",
+        "prusa-research/i3-mk2-5s-mmu2s-single-0-25",
+        "prusa-research/i3-mk2-5s-mmu2s-single-0-6",
+        "prusa-research/i3-mk2-5s-mmu2s-single-0-8",
+        "prusa-research/i3-mk2s",
+        "prusa-research/i3-mk2s-0-25",
+        "prusa-research/i3-mk2s-0-6",
+        "prusa-research/i3-mk2s-mmu1",
+        "prusa-research/i3-mk2s-mmu1-0-6",
+        "prusa-research/i3-mk2s-mmu1-single",
+        "prusa-research/i3-mk2s-mmu1-single-0-6",
+        "prusa-research/i3-mk3",
+        "prusa-research/i3-mk3-0-25",
+        "prusa-research/i3-mk3-0-6",
+        "prusa-research/i3-mk3-0-8",
+        "prusa-research/i3-mk3-mmu2-single",
+        "prusa-research/i3-mk3-mmu2-single-0-25",
+        "prusa-research/i3-mk3-mmu2-single-0-6",
+        "prusa-research/i3-mk3-mmu2-single-0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_notes!~/.*MINI.*/ and printer_notes!~/.*PG.*/ and ! (printer_notes=~/.*PRINTER_VENDOR_PRUSA3D.*/ and printer_notes=~/.*PRINTER_MODEL_MK(2.5|3).*/ and single_extruder_multi_material)",
+        "filament_cooling_final_speed": "3.4",
+        "filament_cooling_initial_speed": "2.2",
+        "filament_cooling_moves": "4",
+        "filament_load_time": "0",
+        "filament_loading_speed": "28",
+        "filament_loading_speed_start": "3",
+        "filament_max_volumetric_speed": "11",
+        "filament_minimal_purge_on_wipe_tower": "15",
+        "filament_ramming_parameters": "120 100 5.70968 6.03226 7 8.25806 9 9.19355 9.3871 9.77419 10.129 10.3226 10.4516 10.5161| 0.05 5.69677 0.45 6.15484 0.95 8.76774 1.45 9.20323 1.95 9.95806 2.45 10.3871 2.95 10.5677 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6",
+        "filament_unload_time": "0",
+        "filament_unloading_speed": "90",
+        "filament_unloading_speed_start": "100",
+        "name": "Filatech FilaTough",
+        "start_filament_gcode": "{if printer_notes!~/.*(MK3.5|MINIIS).*/}\nM900 K{if printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.6}0.12{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.8}0.06{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/}0.2{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.6}0.02{else}0.04{endif} ; Filament gcode LA 1.5\n{if printer_notes=~/.*PRINTER_MODEL_MINI.*/};{elsif printer_notes=~/.*PRINTER_HAS_BOWDEN.*/}M900 K200{elsif nozzle_diameter[0]==0.6}M900 K12{elsif nozzle_diameter[0]==0.8};{else}M900 K20{endif} ; Filament gcode LA 1.0\n{endif}\n\n{if printer_notes=~/.*MINIIS.*/}\nM572 S{if nozzle_diameter[0]==0.6}0.1{elsif nozzle_diameter[0]==0.8}0.07{elsif nozzle_diameter[0]==0.4}0.19{elsif nozzle_diameter[0]==0.25}0.55{else}0{endif}\n{endif}\n\n{if printer_notes=~/.*MK3.5.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.02{elsif nozzle_diameter[0]==0.5}0.018{elsif nozzle_diameter[0]==0.6}0.012{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.25}0.09{elsif nozzle_diameter[0]==0.3}0.065{else}0{endif} ; Filament gcode\n{endif}"
+      }
+    },
+    {
+      "catalogID": 109299,
+      "name": "Filatech FilaTough @COREONE",
+      "printers": [
+        "prusa-research/signature-oak-0-25",
+        "prusa-research/signature-oak-0-3",
+        "prusa-research/signature-oak-0-4",
+        "prusa-research/signature-oak-0-5"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "40",
+        "chamber_temperature": "55",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and ! nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.9",
+        "filament_shrinkage_compensation_xy": "0.22%",
+        "filament_shrinkage_compensation_z": "0.22%",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "130",
+        "max_fan_speed": "20",
+        "name": "Filatech FilaTough @COREONE"
+      }
+    },
+    {
+      "catalogID": 109300,
+      "name": "Filatech FilaTough @COREONE 0.6",
+      "printers": [
+        "prusa-research/signature-oak-0-6"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "40",
+        "chamber_temperature": "55",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.6 and ! nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.9",
+        "filament_shrinkage_compensation_xy": "0.22%",
+        "filament_shrinkage_compensation_z": "0.22%",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "130",
+        "max_fan_speed": "20",
+        "name": "Filatech FilaTough @COREONE 0.6",
+        "temperature": "235"
+      }
+    },
+    {
+      "catalogID": 109301,
+      "name": "Filatech FilaTough @COREONE 0.8",
+      "printers": [
+        "prusa-research/signature-oak-0-8"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "40",
+        "chamber_temperature": "55",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.8 and ! nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "fan_below_layer_time": "40",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.9",
+        "filament_max_volumetric_speed": "18",
+        "filament_shrinkage_compensation_xy": "0.22%",
+        "filament_shrinkage_compensation_z": "0.22%",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "130",
+        "max_fan_speed": "20",
+        "name": "Filatech FilaTough @COREONE 0.8",
+        "slowdown_below_layer_time": "25"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @COREONE HF0.4",
+      "printers": [
+        "prusa-research/signature-oak-hf0-4"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "40",
+        "chamber_temperature": "55",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]!=0.8 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.5 and nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.9",
+        "filament_max_volumetric_speed": "25",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_shrinkage_compensation_xy": "0.22%",
+        "filament_shrinkage_compensation_z": "0.22%",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "130",
+        "max_fan_speed": "20",
+        "name": "Filatech FilaTough @COREONE HF0.4",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @COREONE HF0.5",
+      "printers": [
+        "prusa-research/signature-oak-hf0-5"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "40",
+        "chamber_temperature": "55",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.5 and nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.9",
+        "filament_max_volumetric_speed": "27",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_shrinkage_compensation_xy": "0.22%",
+        "filament_shrinkage_compensation_z": "0.22%",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "130",
+        "max_fan_speed": "20",
+        "name": "Filatech FilaTough @COREONE HF0.5",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @COREONE HF0.6",
+      "printers": [
+        "prusa-research/signature-oak-hf0-6"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "40",
+        "chamber_temperature": "55",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.6 and nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.9",
+        "filament_max_volumetric_speed": "34",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_shrinkage_compensation_xy": "0.22%",
+        "filament_shrinkage_compensation_z": "0.22%",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "130",
+        "max_fan_speed": "20",
+        "name": "Filatech FilaTough @COREONE HF0.6",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp",
+        "temperature": "235"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @COREONE HF0.8",
+      "printers": [
+        "prusa-research/signature-oak-hf0-8"
+      ],
+      "settings": {
+        "chamber_minimal_temperature": "40",
+        "chamber_temperature": "55",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.8 and nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "fan_below_layer_time": "40",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.9",
+        "filament_max_volumetric_speed": "36",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_shrinkage_compensation_xy": "0.22%",
+        "filament_shrinkage_compensation_z": "0.22%",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_unload_time": "8.9",
+        "idle_temperature": "130",
+        "max_fan_speed": "20",
+        "name": "Filatech FilaTough @COREONE HF0.8",
+        "slowdown_below_layer_time": "25",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @HF0.4",
+      "printers": [
+        "prusa-research/mk3-9-hf0-4"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]!=0.8 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.5 and nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "25",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @HF0.4",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @HF0.5",
+      "printers": [
+        "prusa-research/mk3-9-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.5 and nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "27",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @HF0.5",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @HF0.6",
+      "printers": [
+        "prusa-research/mk3-9-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.6 and nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "34",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @HF0.6",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp",
+        "temperature": "235"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @HF0.8",
+      "printers": [
+        "prusa-research/mk3-9-hf0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.8 and nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "36",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @HF0.8",
+        "slowdown_below_layer_time": "25",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+      }
+    },
+    {
+      "catalogID": 109302,
+      "name": "Filatech FilaTough @MK4S",
+      "printers": [
+        "prusa-research/mk3-9s-0-25",
+        "prusa-research/mk3-9s-0-3",
+        "prusa-research/mk3-9s-0-4",
+        "prusa-research/mk3-9s-0-5"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and ! nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "max_fan_speed": "10",
+        "min_fan_speed": "10",
+        "name": "Filatech FilaTough @MK4S"
+      }
+    },
+    {
+      "catalogID": 109303,
+      "name": "Filatech FilaTough @MK4S 0.6",
+      "printers": [
+        "prusa-research/mk3-9s-0-6"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.6 and ! nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "max_fan_speed": "10",
+        "min_fan_speed": "10",
+        "name": "Filatech FilaTough @MK4S 0.6",
+        "temperature": "235"
+      }
+    },
+    {
+      "catalogID": 109304,
+      "name": "Filatech FilaTough @MK4S 0.8",
+      "printers": [
+        "prusa-research/mk3-9s-0-8"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.8 and ! nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "18",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "max_fan_speed": "10",
+        "min_fan_speed": "10",
+        "name": "Filatech FilaTough @MK4S 0.8",
+        "slowdown_below_layer_time": "25"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @MK4S HF0.4",
+      "printers": [
+        "prusa-research/mk3-9s-hf0-4"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]!=0.8 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.5 and nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "25",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "min_fan_speed": "10",
+        "name": "Filatech FilaTough @MK4S HF0.4",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @MK4S HF0.5",
+      "printers": [
+        "prusa-research/mk3-9s-hf0-5"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.5 and nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "27",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "min_fan_speed": "10",
+        "name": "Filatech FilaTough @MK4S HF0.5",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @MK4S HF0.6",
+      "printers": [
+        "prusa-research/mk3-9s-hf0-6"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.6 and nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "34",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "min_fan_speed": "10",
+        "name": "Filatech FilaTough @MK4S HF0.6",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp",
+        "temperature": "235"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @MK4S HF0.8",
+      "printers": [
+        "prusa-research/mk3-9s-hf0-8"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.8 and nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "36",
+        "filament_ramming_parameters": "250 100 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @MK4S HF0.8",
+        "slowdown_below_layer_time": "25",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+      }
+    },
+    {
+      "catalogID": 109305,
+      "name": "Filatech FilaTough @PG",
+      "printers": [
+        "prusa-research/mk3-9-0-25",
+        "prusa-research/mk3-9-0-3",
+        "prusa-research/mk3-9-0-4",
+        "prusa-research/mk3-9-0-5"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and ! nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @PG"
+      }
+    },
+    {
+      "catalogID": 109306,
+      "name": "Filatech FilaTough @PG 0.6",
+      "printers": [
+        "prusa-research/mk3-9-0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.6 and ! nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @PG 0.6",
+        "temperature": "235"
+      }
+    },
+    {
+      "catalogID": 109307,
+      "name": "Filatech FilaTough @PG 0.8",
+      "printers": [
+        "prusa-research/mk3-9-0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.8 and ! nozzle_high_flow[0] and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "18",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @PG 0.8",
+        "slowdown_below_layer_time": "25"
+      }
+    },
+    {
+      "catalogID": 109308,
+      "name": "Filatech FilaTough @XL",
+      "printers": [
+        "prusa-research/xl-2t-0-25",
+        "prusa-research/xl-2t-0-3",
+        "prusa-research/xl-2t-0-4",
+        "prusa-research/xl-2t-0-5",
+        "prusa-research/xl-2t-input-shaper-0-25",
+        "prusa-research/xl-2t-input-shaper-0-3",
+        "prusa-research/xl-2t-input-shaper-0-4",
+        "prusa-research/xl-2t-input-shaper-0-5"
+      ],
+      "settings": {
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100"
+      }
+    },
+    {
+      "catalogID": 109309,
+      "name": "Filatech FilaTough @XL 0.6",
+      "printers": [
+        "prusa-research/xl-2t-0-6",
+        "prusa-research/xl-2t-input-shaper-0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.6 and printer_notes!~/.*HF_NOZZLE.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @XL 0.6",
+        "temperature": "235"
+      }
+    },
+    {
+      "catalogID": 109310,
+      "name": "Filatech FilaTough @XL 0.8",
+      "printers": [
+        "prusa-research/xl-2t-0-8",
+        "prusa-research/xl-2t-input-shaper-0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.8 and printer_notes!~/.*HF_NOZZLE.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "18",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @XL 0.8",
+        "slowdown_below_layer_time": "25"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @XL HF0.4",
+      "printers": [
+        "prusa-research/xl-2t-input-shaper-hf0-4"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and nozzle_diameter[0]!=0.5 and printer_notes=~/.*HF_NOZZLE.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "26",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @XL HF0.4",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @XL HF0.5",
+      "printers": [
+        "prusa-research/xl-2t-input-shaper-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.5 and printer_notes=~/.*HF_NOZZLE.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "27",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @XL HF0.5",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp",
+        "temperature": "235"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @XL HF0.6",
+      "printers": [
+        "prusa-research/xl-2t-input-shaper-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.6 and printer_notes=~/.*HF_NOZZLE.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "34",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @XL HF0.6",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp",
+        "temperature": "235"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @XL HF0.8",
+      "printers": [
+        "prusa-research/xl-2t-input-shaper-hf0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.8 and printer_notes=~/.*HF_NOZZLE.*/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "36",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @XL HF0.8",
+        "slowdown_below_layer_time": "25",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+      }
+    },
+    {
+      "catalogID": 109311,
+      "name": "Filatech FilaTough @XL+",
+      "printers": [
+        "prusa-research/xlplus-2t-0-25",
+        "prusa-research/xlplus-2t-0-3",
+        "prusa-research/xlplus-2t-0-4",
+        "prusa-research/xlplus-2t-0-5"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and ! nozzle_high_flow[0]",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "140",
+        "filament_infill_max_speed": "0",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100",
+        "max_fan_speed": "12",
+        "min_fan_speed": "12",
+        "name": "Filatech FilaTough @XL+"
+      }
+    },
+    {
+      "catalogID": 109312,
+      "name": "Filatech FilaTough @XL+ 0.6",
+      "printers": [
+        "prusa-research/xlplus-2t-0-6"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.6 and ! nozzle_high_flow[0]",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100",
+        "max_fan_speed": "12",
+        "min_fan_speed": "12",
+        "name": "Filatech FilaTough @XL+ 0.6",
+        "temperature": "235"
+      }
+    },
+    {
+      "catalogID": 109313,
+      "name": "Filatech FilaTough @XL+ 0.8",
+      "printers": [
+        "prusa-research/xlplus-2t-0-8"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.8 and ! nozzle_high_flow[0]",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "18",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100",
+        "max_fan_speed": "12",
+        "min_fan_speed": "12",
+        "name": "Filatech FilaTough @XL+ 0.8",
+        "slowdown_below_layer_time": "25"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @XL+ HF0.4",
+      "printers": [
+        "prusa-research/xlplus-2t-hf0-4"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and nozzle_diameter[0]!=0.5 and nozzle_high_flow[0]",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "26",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100",
+        "min_fan_speed": "10",
+        "name": "Filatech FilaTough @XL+ HF0.4",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @XL+ HF0.5",
+      "printers": [
+        "prusa-research/xlplus-2t-hf0-5"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.5 and nozzle_high_flow[0]",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "200",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "27",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100",
+        "min_fan_speed": "10",
+        "name": "Filatech FilaTough @XL+ HF0.5",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp",
+        "temperature": "235"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @XL+ HF0.6",
+      "printers": [
+        "prusa-research/xlplus-2t-hf0-6"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.6 and nozzle_high_flow[0]",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "34",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100",
+        "min_fan_speed": "10",
+        "name": "Filatech FilaTough @XL+ HF0.6",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp",
+        "temperature": "235"
+      }
+    },
+    {
+      "name": "Filatech FilaTough @XL+ HF0.8",
+      "printers": [
+        "prusa-research/xlplus-2t-hf0-8"
+      ],
+      "settings": {
+        "bridge_fan_speed": "20",
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.8 and nozzle_high_flow[0]",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_crossing_speed": "0",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "36",
+        "filament_multitool_ramming": "1",
+        "filament_multitool_ramming_flow": "40",
+        "filament_multitool_ramming_volume": "5",
+        "filament_retract_length_toolchange": "20",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "1.5",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "100",
+        "name": "Filatech FilaTough @XL+ HF0.8",
+        "slowdown_below_layer_time": "25",
+        "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.02{elsif nozzle_diameter[filament_extruder_id]==0.5}0.018{elsif nozzle_diameter[filament_extruder_id]==0.6}0.015{elsif nozzle_diameter[filament_extruder_id]==0.8}0.01{elsif nozzle_diameter[filament_extruder_id]==0.25}0.09{elsif nozzle_diameter[filament_extruder_id]==0.3}0.065{else}0{endif} ; Filament gcode\nM142 S40 ; set heatbreak target temp"
+      }
+    }
+  ]
+}

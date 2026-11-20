@@ -1,0 +1,527 @@
+{
+  "format": 1,
+  "id": "prusa-polymers/prusament-pp-carbon-fiber-prusaslicer",
+  "manufacturer": "Prusa Polymers",
+  "name": "Prusament PP Carbon Fiber",
+  "settings": {
+    "bed_temperature": "80",
+    "bridge_fan_speed": "100",
+    "compatible_printers": "",
+    "compatible_printers_condition": "nozzle_diameter[0]>=0.4 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/",
+    "cooling": "0",
+    "disable_fan_first_layers": "3",
+    "end_filament_gcode": "; Filament-specific end gcode",
+    "extrusion_multiplier": "1.09",
+    "fan_always_on": "0",
+    "fan_below_layer_time": "10",
+    "filament_abrasive": "1",
+    "filament_colour": "#BBBBBB",
+    "filament_cooling_final_speed": "2.5",
+    "filament_cooling_initial_speed": "5",
+    "filament_cooling_moves": "3",
+    "filament_cost": "121.2",
+    "filament_density": "0.91",
+    "filament_diameter": "1.75",
+    "filament_infill_max_crossing_speed": "0",
+    "filament_load_time": "10.5",
+    "filament_loading_speed": "10",
+    "filament_loading_speed_start": "50",
+    "filament_max_volumetric_speed": "4",
+    "filament_minimal_purge_on_wipe_tower": "35",
+    "filament_notes": "",
+    "filament_ramming_parameters": "250 100 42.4194 42.4194 42.4194 42.4194 42.4194| 0.05 42.4387 0.45 42.4387 0.95 42.4387 1.45 42.4387 1.95 42.4387 2.45 42.4387 2.95 42.4387 3.45 42.4387 3.95 42.4387 4.45 42.4387 4.95 42.4387",
+    "filament_retract_length": "nil",
+    "filament_retract_lift": "nil",
+    "filament_settings_id": "",
+    "filament_soluble": "0",
+    "filament_spool_weight": "278",
+    "filament_toolchange_delay": "0",
+    "filament_type": "PP",
+    "filament_unload_time": "8.5",
+    "filament_unloading_speed": "60",
+    "filament_unloading_speed_start": "60",
+    "filament_vendor": "Prusa Polymers",
+    "first_layer_bed_temperature": "85",
+    "first_layer_temperature": "270",
+    "full_fan_speed_layer": "5",
+    "max_fan_speed": "0",
+    "min_fan_speed": "0",
+    "min_print_speed": "15",
+    "name": "Prusament PP Carbon Fiber @XL",
+    "slowdown_below_layer_time": "15",
+    "start_filament_gcode": "M572 S{if nozzle_diameter[filament_extruder_id]==0.4}0.036{elsif nozzle_diameter[filament_extruder_id]==0.5}0.026{elsif nozzle_diameter[filament_extruder_id]==0.6}0.022{elsif nozzle_diameter[filament_extruder_id]==0.8}0.015{elsif nozzle_diameter[filament_extruder_id]==0.25}0.12{elsif nozzle_diameter[filament_extruder_id]==0.3}0.08{else}0{endif} ; Filament gcode\n\nM142 S36 ; set heatbreak target temp",
+    "temperature": "270"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "PrusaResearch/2.5.16.ini",
+    "name": "PrusaSlicer-settings-prusa-fff",
+    "section": "filament:Prusament PP Carbon Fiber @XL"
+  },
+  "type": "PP",
+  "variants": [
+    {
+      "catalogID": 110548,
+      "name": "Prusament PP Carbon Fiber",
+      "printers": [
+        "prusa-research/i3-mk2-5",
+        "prusa-research/i3-mk2-5-0-6",
+        "prusa-research/i3-mk2-5-0-8",
+        "prusa-research/i3-mk2-5-mmu2-single",
+        "prusa-research/i3-mk2-5-mmu2-single-0-6",
+        "prusa-research/i3-mk2-5-mmu2-single-0-8",
+        "prusa-research/i3-mk2-5s",
+        "prusa-research/i3-mk2-5s-0-6",
+        "prusa-research/i3-mk2-5s-0-8",
+        "prusa-research/i3-mk2-5s-mmu2s-single",
+        "prusa-research/i3-mk2-5s-mmu2s-single-0-6",
+        "prusa-research/i3-mk2-5s-mmu2s-single-0-8",
+        "prusa-research/i3-mk2s",
+        "prusa-research/i3-mk2s-0-6",
+        "prusa-research/i3-mk2s-mmu1",
+        "prusa-research/i3-mk2s-mmu1-0-6",
+        "prusa-research/i3-mk2s-mmu1-single",
+        "prusa-research/i3-mk2s-mmu1-single-0-6",
+        "prusa-research/i3-mk3",
+        "prusa-research/i3-mk3-0-6",
+        "prusa-research/i3-mk3-0-8",
+        "prusa-research/i3-mk3-mmu2-single",
+        "prusa-research/i3-mk3-mmu2-single-0-6",
+        "prusa-research/i3-mk3-mmu2-single-0-8"
+      ],
+      "settings": {
+        "bed_temperature": "85",
+        "compatible_printers_condition": "nozzle_diameter[0]>=0.4 and printer_notes!~/.*MINI.*/ and printer_notes!~/.*PG.*/ and ! (printer_notes=~/.*PRINTER_VENDOR_PRUSA3D.*/ and printer_notes=~/.*PRINTER_MODEL_MK(2.5|3).*/ and single_extruder_multi_material)",
+        "filament_cooling_final_speed": "3.4",
+        "filament_cooling_initial_speed": "2.2",
+        "filament_cooling_moves": "4",
+        "filament_load_time": "0",
+        "filament_loading_speed": "28",
+        "filament_loading_speed_start": "3",
+        "filament_minimal_purge_on_wipe_tower": "15",
+        "filament_ramming_parameters": "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6",
+        "filament_unload_time": "0",
+        "filament_unloading_speed": "90",
+        "filament_unloading_speed_start": "100",
+        "first_layer_bed_temperature": "95",
+        "name": "Prusament PP Carbon Fiber",
+        "start_filament_gcode": "{if printer_notes!~/.*(MK3.5|MINIIS).*/}\nM900 K{if printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.6}0.12{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/ and nozzle_diameter[0]==0.8}0.06{elsif printer_notes=~/.*PRINTER_MODEL_MINI.*/}0.2{elsif nozzle_diameter[0]==0.8}0.01{elsif nozzle_diameter[0]==0.6}0.04{else}0.05{endif} ; Filament gcode LA 1.5\n{endif}\n\n{if printer_notes=~/.*MINIIS.*/}\nM572 S{if nozzle_diameter[0]==0.6}0.17{elsif nozzle_diameter[0]==0.8}0.12{elsif nozzle_diameter[0]==0.4}0.27{elsif nozzle_diameter[0]==0.25}0.85{else}0{endif}\n{endif}\n\n{if printer_notes=~/.*MK3.5.*/}\nM572 S{if nozzle_diameter[0]==0.4}0.035{elsif nozzle_diameter[0]==0.5}0.025{elsif nozzle_diameter[0]==0.6}0.02{elsif nozzle_diameter[0]==0.8}0.014{elsif nozzle_diameter[0]==0.25}0.12{elsif nozzle_diameter[0]==0.3}0.08{else}0{endif} ; Filament gcode\n{endif}"
+      }
+    },
+    {
+      "catalogID": 110549,
+      "name": "Prusament PP Carbon Fiber @COREONE",
+      "printers": [
+        "prusa-research/signature-oak-0-4",
+        "prusa-research/signature-oak-0-5",
+        "prusa-research/signature-oak-hf0-4",
+        "prusa-research/signature-oak-hf0-5"
+      ],
+      "settings": {
+        "bed_temperature": "85",
+        "bridge_fan_speed": "0",
+        "chamber_minimal_temperature": "40",
+        "chamber_temperature": "55",
+        "compatible_printers_condition": "nozzle_diameter[0]>=0.4 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "cooling": "1",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "fan_below_layer_time": "0",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.9",
+        "filament_shrinkage_compensation_xy": "0%",
+        "filament_shrinkage_compensation_z": "0%",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "filament_unload_time": "8.9",
+        "first_layer_bed_temperature": "95",
+        "idle_temperature": "130",
+        "min_print_speed": "5",
+        "name": "Prusament PP Carbon Fiber @COREONE",
+        "slowdown_below_layer_time": "6"
+      }
+    },
+    {
+      "catalogID": 110550,
+      "name": "Prusament PP Carbon Fiber @COREONE 0.6",
+      "printers": [
+        "prusa-research/signature-oak-0-6",
+        "prusa-research/signature-oak-hf0-6"
+      ],
+      "settings": {
+        "bed_temperature": "85",
+        "bridge_fan_speed": "0",
+        "chamber_minimal_temperature": "40",
+        "chamber_temperature": "55",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "cooling": "1",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "fan_below_layer_time": "0",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.9",
+        "filament_max_volumetric_speed": "6",
+        "filament_shrinkage_compensation_xy": "0%",
+        "filament_shrinkage_compensation_z": "0%",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "filament_unload_time": "8.9",
+        "first_layer_bed_temperature": "95",
+        "idle_temperature": "130",
+        "min_print_speed": "5",
+        "name": "Prusament PP Carbon Fiber @COREONE 0.6",
+        "slowdown_below_layer_time": "8"
+      }
+    },
+    {
+      "catalogID": 110551,
+      "name": "Prusament PP Carbon Fiber @COREONE 0.8",
+      "printers": [
+        "prusa-research/signature-oak-0-8",
+        "prusa-research/signature-oak-hf0-8"
+      ],
+      "settings": {
+        "bed_temperature": "85",
+        "bridge_fan_speed": "0",
+        "chamber_minimal_temperature": "40",
+        "chamber_temperature": "55",
+        "compatible_printers_condition": "printer_model=~/(COREONE|COREONEOAK|COREONEL)/ and nozzle_diameter[0]==0.8 and ! single_extruder_multi_material",
+        "compatible_prints_condition": "notes!~/.*HT_HOTEND_HT.*/",
+        "cooling": "1",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "fan_below_layer_time": "0",
+        "filament_infill_max_speed": "0",
+        "filament_load_time": "10.9",
+        "filament_max_volumetric_speed": "8",
+        "filament_shrinkage_compensation_xy": "0%",
+        "filament_shrinkage_compensation_z": "0%",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "filament_unload_time": "8.9",
+        "first_layer_bed_temperature": "95",
+        "idle_temperature": "130",
+        "min_print_speed": "5",
+        "name": "Prusament PP Carbon Fiber @COREONE 0.8",
+        "slowdown_below_layer_time": "10"
+      }
+    },
+    {
+      "catalogID": 110552,
+      "name": "Prusament PP Carbon Fiber @MK4",
+      "printers": [
+        "prusa-research/mk3-9-0-4",
+        "prusa-research/mk3-9-0-5",
+        "prusa-research/mk3-9-hf0-4",
+        "prusa-research/mk3-9-hf0-5"
+      ],
+      "settings": {
+        "bed_temperature": "85",
+        "compatible_printers_condition": "nozzle_diameter[0]>=0.4 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_speed": "0",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "first_layer_bed_temperature": "95",
+        "idle_temperature": "150",
+        "name": "Prusament PP Carbon Fiber @MK4"
+      }
+    },
+    {
+      "catalogID": 110553,
+      "name": "Prusament PP Carbon Fiber @MK4 0.6",
+      "printers": [
+        "prusa-research/mk3-9-0-6",
+        "prusa-research/mk3-9-hf0-6"
+      ],
+      "settings": {
+        "bed_temperature": "85",
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "6",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "first_layer_bed_temperature": "95",
+        "idle_temperature": "150",
+        "name": "Prusament PP Carbon Fiber @MK4 0.6"
+      }
+    },
+    {
+      "catalogID": 110554,
+      "name": "Prusament PP Carbon Fiber @MK4 0.8",
+      "printers": [
+        "prusa-research/mk3-9-0-8",
+        "prusa-research/mk3-9-hf0-8"
+      ],
+      "settings": {
+        "bed_temperature": "85",
+        "compatible_printers_condition": "printer_model=~/(MK4|MK4IS|MK4ISMMU3|MK3.9|MK3.9MMU3)/ and nozzle_diameter[0]==0.8 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "8",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "first_layer_bed_temperature": "95",
+        "idle_temperature": "150",
+        "name": "Prusament PP Carbon Fiber @MK4 0.8"
+      }
+    },
+    {
+      "catalogID": 110555,
+      "name": "Prusament PP Carbon Fiber @MK4S",
+      "printers": [
+        "prusa-research/mk3-9s-0-4",
+        "prusa-research/mk3-9s-0-5",
+        "prusa-research/mk3-9s-hf0-4",
+        "prusa-research/mk3-9s-hf0-5"
+      ],
+      "settings": {
+        "bed_temperature": "85",
+        "compatible_printers_condition": "nozzle_diameter[0]>=0.4 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_speed": "0",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "first_layer_bed_temperature": "95",
+        "idle_temperature": "150",
+        "name": "Prusament PP Carbon Fiber @MK4S"
+      }
+    },
+    {
+      "catalogID": 110556,
+      "name": "Prusament PP Carbon Fiber @MK4S 0.6",
+      "printers": [
+        "prusa-research/mk3-9s-0-6",
+        "prusa-research/mk3-9s-hf0-6"
+      ],
+      "settings": {
+        "bed_temperature": "85",
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.6 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "6",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "first_layer_bed_temperature": "95",
+        "idle_temperature": "150",
+        "name": "Prusament PP Carbon Fiber @MK4S 0.6"
+      }
+    },
+    {
+      "catalogID": 110557,
+      "name": "Prusament PP Carbon Fiber @MK4S 0.8",
+      "printers": [
+        "prusa-research/mk3-9s-0-8",
+        "prusa-research/mk3-9s-hf0-8"
+      ],
+      "settings": {
+        "bed_temperature": "85",
+        "compatible_printers_condition": "printer_model=~/(MK4S|MK4SMMU3|MK3.9S|MK3.9SMMU3)/ and nozzle_diameter[0]==0.8 and ! single_extruder_multi_material",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "8",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "first_layer_bed_temperature": "95",
+        "idle_temperature": "150",
+        "name": "Prusament PP Carbon Fiber @MK4S 0.8"
+      }
+    },
+    {
+      "catalogID": 110558,
+      "name": "Prusament PP Carbon Fiber @XL",
+      "printers": [
+        "prusa-research/xl-2t-0-4",
+        "prusa-research/xl-2t-0-5",
+        "prusa-research/xl-2t-input-shaper-0-4",
+        "prusa-research/xl-2t-input-shaper-0-5",
+        "prusa-research/xl-2t-input-shaper-hf0-4",
+        "prusa-research/xl-2t-input-shaper-hf0-5"
+      ],
+      "settings": {
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_speed": "0",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "4",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_length_toolchange": "nil",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "70"
+      }
+    },
+    {
+      "catalogID": 110559,
+      "name": "Prusament PP Carbon Fiber @XL 0.6",
+      "printers": [
+        "prusa-research/xl-2t-0-6",
+        "prusa-research/xl-2t-input-shaper-0-6",
+        "prusa-research/xl-2t-input-shaper-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.6",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "6",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "6",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_length_toolchange": "nil",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "70",
+        "name": "Prusament PP Carbon Fiber @XL 0.6"
+      }
+    },
+    {
+      "catalogID": 110560,
+      "name": "Prusament PP Carbon Fiber @XL 0.8",
+      "printers": [
+        "prusa-research/xl-2t-0-8",
+        "prusa-research/xl-2t-input-shaper-0-8",
+        "prusa-research/xl-2t-input-shaper-hf0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XL|XL2|XL5|XLIS|XL2IS|XL5IS)/ and nozzle_diameter[0]==0.8",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "8",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "8",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_length_toolchange": "nil",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "70",
+        "name": "Prusament PP Carbon Fiber @XL 0.8"
+      }
+    },
+    {
+      "catalogID": 110561,
+      "name": "Prusament PP Carbon Fiber @XL+",
+      "printers": [
+        "prusa-research/xlplus-2t-0-4",
+        "prusa-research/xlplus-2t-0-5",
+        "prusa-research/xlplus-2t-hf0-4",
+        "prusa-research/xlplus-2t-hf0-5"
+      ],
+      "settings": {
+        "compatible_printers_condition": "nozzle_diameter[0]>=0.4 and nozzle_diameter[0]!=0.6 and nozzle_diameter[0]!=0.8 and printer_model=~/(XLP1T|XLP2T|XLP5T)/",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_speed": "0",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "4",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_length_toolchange": "nil",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "70",
+        "name": "Prusament PP Carbon Fiber @XL+"
+      }
+    },
+    {
+      "catalogID": 110562,
+      "name": "Prusament PP Carbon Fiber @XL+ 0.6",
+      "printers": [
+        "prusa-research/xlplus-2t-0-6",
+        "prusa-research/xlplus-2t-hf0-6"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.6",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "6",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "6",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_length_toolchange": "nil",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "70",
+        "name": "Prusament PP Carbon Fiber @XL+ 0.6"
+      }
+    },
+    {
+      "catalogID": 110563,
+      "name": "Prusament PP Carbon Fiber @XL+ 0.8",
+      "printers": [
+        "prusa-research/xlplus-2t-0-8",
+        "prusa-research/xlplus-2t-hf0-8"
+      ],
+      "settings": {
+        "compatible_printers_condition": "printer_model=~/(XLP1T|XLP2T|XLP5T)/ and nozzle_diameter[0]==0.8",
+        "cooling_perimeter_transition_distance": "10",
+        "cooling_slowdown_logic": "consistent_surface",
+        "filament_infill_max_speed": "0",
+        "filament_max_volumetric_speed": "8",
+        "filament_multitool_ramming": "0",
+        "filament_multitool_ramming_flow": "8",
+        "filament_multitool_ramming_volume": "40",
+        "filament_retract_length_toolchange": "nil",
+        "filament_stamping_distance": "45",
+        "filament_stamping_loading_speed": "26.5",
+        "filament_travel_max_lift": "0.6",
+        "filament_travel_ramping_lift": "1",
+        "filament_travel_slope": "1",
+        "idle_temperature": "70",
+        "name": "Prusament PP Carbon Fiber @XL+ 0.8"
+      }
+    }
+  ]
+}

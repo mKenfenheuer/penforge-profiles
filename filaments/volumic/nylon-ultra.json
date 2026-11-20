@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "id": "volumic/nylon-ultra",
+  "manufacturer": "Volumic",
+  "name": "Volumic NYLON Ultra",
+  "settings": {
+    "bed_type": [
+      "Hot Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "3"
+    ],
+    "compatible_printers": [
+      "EXO42 (0.4 nozzle)",
+      "EXO65 (0.6 nozzle)",
+      "SH65 (0.4 nozzle)",
+      "VS30MK3 (0.4 nozzle)",
+      "VS30SC2 (0.4 nozzle)",
+      "VS30SC (0.4 nozzle)",
+      "VS30ULTRA (0.4 nozzle)",
+      "VS30MK2 (0.4 nozzle)",
+      "VS20MK2 (0.4 nozzle)",
+      "EXO42 Stage 2 (0.4 nozzle)",
+      "EXO65 Stage 2 (0.6 nozzle)",
+      "SH65 Stage 2 (0.4 nozzle)",
+      "VS30SC2 Stage 2 (0.4 nozzle)",
+      "VS30MK3 Stage 2 (0.4 nozzle)"
+    ],
+    "cool_plate_temp": [
+      "65"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "65"
+    ],
+    "eng_plate_temp": [
+      "65"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "65"
+    ],
+    "fan_cooling_layer_time": [
+      "4"
+    ],
+    "fan_max_speed": [
+      "0"
+    ],
+    "fan_min_speed": [
+      "0"
+    ],
+    "filament_cost": [
+      "37.50"
+    ],
+    "filament_density": [
+      "1.04"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_flow_ratio": [
+      "1.00"
+    ],
+    "filament_id": "OFWa0NiB",
+    "filament_max_volumetric_speed": [
+      "22"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_type": [
+      "PA"
+    ],
+    "filament_vendor": [
+      "Volumic"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "65"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "65"
+    ],
+    "name": "Volumic NYLON Ultra",
+    "nozzle_temperature": [
+      "238"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "238"
+    ],
+    "overhang_fan_speed": [
+      "50"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "0"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "2"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "textured_plate_temp": [
+      "65"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "65"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Volumic/filament/Volumic NYLON Ultra.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PA",
+  "variants": [
+    {
+      "catalogID": 106318,
+      "name": "Volumic NYLON Ultra",
+      "printers": [
+        "volumic/exo42-0-4",
+        "volumic/exo42-stage-2-0-4",
+        "volumic/exo65-0-6",
+        "volumic/exo65-stage-2-0-6",
+        "volumic/sh65-0-4",
+        "volumic/sh65-stage-2-0-4",
+        "volumic/vs20mk2-0-4",
+        "volumic/vs30mk2-0-4",
+        "volumic/vs30mk3-0-4",
+        "volumic/vs30mk3-stage-2-0-4",
+        "volumic/vs30sc-0-4",
+        "volumic/vs30sc2-0-4",
+        "volumic/vs30sc2-stage-2-0-4",
+        "volumic/vs30ultra-0-4"
+      ],
+      "settings": {}
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "id": "e2d/petg-prusaslicer",
+  "manufacturer": "E2D",
+  "name": "E2D PETG",
+  "settings": {
+    "bed_temperature": "70",
+    "bridge_fan_speed": "50",
+    "compatible_printers": "",
+    "compatible_printers_condition": "printer_notes=~/.*PRINTER_VENDOR_E2D.*/",
+    "cooling": "1",
+    "fan_always_on": "1",
+    "fan_below_layer_time": "20",
+    "filament_cost": "560",
+    "filament_density": "1.24",
+    "filament_diameter": "1.75",
+    "filament_notes": "https://e2d.tw/product-category/3dp/pauo",
+    "filament_settings_id": "",
+    "filament_type": "PETG",
+    "filament_vendor": "E2D",
+    "first_layer_bed_temperature": "70",
+    "first_layer_temperature": "240",
+    "max_fan_speed": "50",
+    "min_fan_speed": "30",
+    "min_print_speed": "80",
+    "name": "E2D PETG @E2D",
+    "slowdown_below_layer_time": "20",
+    "temperature": "235"
+  },
+  "settingsFormat": "prusa",
+  "source": {
+    "file": "E2D/1.1.0.ini",
+    "name": "PrusaSlicer-settings-non-prusa-fff",
+    "section": "filament:E2D PETG @E2D"
+  },
+  "type": "PETG",
+  "variants": [
+    {
+      "catalogID": 111737,
+      "name": "E2D PETG @E2D",
+      "printers": [
+        "e2d/i310-0-3",
+        "e2d/i310-0-4",
+        "e2d/i311-0-3",
+        "e2d/i311-0-4"
+      ],
+      "settings": {}
+    }
+  ]
+}

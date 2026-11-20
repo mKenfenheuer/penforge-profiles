@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "id": "infimech/petg",
+  "manufacturer": "InfiMech",
+  "name": "InfiMech PETG",
+  "settings": {
+    "additional_cooling_fan_speed": [
+      "0"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "3"
+    ],
+    "compatible_printers": [
+      "InfiMech EX 0.4 nozzle"
+    ],
+    "cool_plate_temp": [
+      "60"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "60"
+    ],
+    "enable_pressure_advance": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "0"
+    ],
+    "fan_cooling_layer_time": [
+      "30"
+    ],
+    "fan_max_speed": [
+      "90"
+    ],
+    "fan_min_speed": [
+      "40"
+    ],
+    "filament_cost": [
+      "30"
+    ],
+    "filament_density": [
+      "1.27"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "0.95"
+    ],
+    "filament_id": "OFrLiqiM",
+    "filament_max_volumetric_speed": [
+      "12"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; filament start gcode\n"
+    ],
+    "filament_type": [
+      "PETG"
+    ],
+    "filament_vendor": [
+      "InfiMech"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "70"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "70"
+    ],
+    "name": "InfiMech PETG @EX",
+    "nozzle_temperature": [
+      "255"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "255"
+    ],
+    "nozzle_temperature_range_high": [
+      "280"
+    ],
+    "nozzle_temperature_range_low": [
+      "200"
+    ],
+    "overhang_fan_speed": [
+      "100"
+    ],
+    "overhang_fan_threshold": [
+      "10%"
+    ],
+    "pressure_advance": [
+      "0.034"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "12"
+    ],
+    "slow_down_min_speed": [
+      "20"
+    ],
+    "temperature_vitrification": [
+      "80"
+    ],
+    "textured_plate_temp": [
+      "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "80"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/InfiMech/filament/EX/InfiMech PETG @EX.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PETG",
+  "variants": [
+    {
+      "catalogID": 103967,
+      "name": "InfiMech PETG @EX",
+      "printers": [
+        "infimech/ex-0-4"
+      ],
+      "settings": {}
+    },
+    {
+      "catalogID": 103968,
+      "name": "InfiMech PETG @EX+APS",
+      "printers": [
+        "infimech/explusaps-0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "InfiMech EX+APS 0.4 nozzle"
+        ],
+        "name": "InfiMech PETG @EX+APS"
+      }
+    },
+    {
+      "catalogID": 103969,
+      "name": "InfiMech PETG @HSN",
+      "printers": [
+        "infimech/tx-hsn-0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "InfiMech TX HSN 0.4 nozzle"
+        ],
+        "filament_flow_ratio": [
+          "0.94"
+        ],
+        "hot_plate_temp": [
+          "75"
+        ],
+        "hot_plate_temp_initial_layer": [
+          "75"
+        ],
+        "name": "InfiMech PETG @HSN",
+        "nozzle_temperature": [
+          "230"
+        ],
+        "nozzle_temperature_initial_layer": [
+          "230"
+        ],
+        "pressure_advance": [
+          "0.084"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "format": 1,
+  "id": "cubicon/pc",
+  "manufacturer": "Cubicon",
+  "name": "Cubicon PC",
+  "settings": {
+    "activate_air_filtration": [
+      "1"
+    ],
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "5"
+    ],
+    "compatible_printers": [
+      "Cubicon xCeler-I 0.4 nozzle"
+    ],
+    "complete_print_exhaust_fan_speed": [
+      "255"
+    ],
+    "cool_plate_temp": [
+      "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "0"
+    ],
+    "default_filament_colour": "",
+    "during_print_exhaust_fan_speed": [
+      "0"
+    ],
+    "enable_pressure_advance": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "110"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "110"
+    ],
+    "fan_cooling_layer_time": [
+      "30"
+    ],
+    "fan_max_speed": [
+      "25"
+    ],
+    "fan_min_speed": [
+      "0"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.04"
+    ],
+    "filament_deretraction_speed": [
+      "25"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "0.94"
+    ],
+    "filament_id": "OFEj7sca",
+    "filament_max_volumetric_speed": [
+      "4"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "70%"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "0.8"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "40"
+    ],
+    "filament_settings_id": [
+      "Cubicon PC @Cubicon xCeler-I 0.4 nozzle"
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; Filament gcode\n"
+    ],
+    "filament_type": [
+      "PC"
+    ],
+    "filament_vendor": [
+      "Cubicon"
+    ],
+    "filament_wipe": [
+      "1"
+    ],
+    "filament_wipe_distance": [
+      "2"
+    ],
+    "filament_z_hop": [
+      "0"
+    ],
+    "filament_z_hop_types": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "110"
+    ],
+    "name": "Cubicon PC @Cubicon xCeler-I 0.4 nozzle",
+    "nozzle_temperature": [
+      "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "245"
+    ],
+    "nozzle_temperature_range_high": [
+      "280"
+    ],
+    "nozzle_temperature_range_low": [
+      "240"
+    ],
+    "overhang_fan_speed": [
+      "25"
+    ],
+    "overhang_fan_threshold": [
+      "50%"
+    ],
+    "pressure_advance": [
+      "0.01"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "8"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "supertack_plate_temp": [
+      "0"
+    ],
+    "supertack_plate_temp_initial_layer": [
+      "0"
+    ],
+    "temperature_vitrification": [
+      "120"
+    ],
+    "textured_plate_temp": [
+      "110"
+    ],
+    "textured_plate_temp_initial_layer": [
+      "110"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Cubicon/filament/Cubicon PC @Cubicon xCeler-I 0.4 nozzle.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PC",
+  "variants": [
+    {
+      "catalogID": 103034,
+      "name": "Cubicon PC @Cubicon xCeler-I 0.4 nozzle",
+      "printers": [
+        "cubicon/xceler-i-0-4"
+      ],
+      "settings": {
+        "renamed_from": "Cubicon PC @base"
+      }
+    },
+    {
+      "catalogID": 103035,
+      "name": "Cubicon PC @Cubicon xCeler-Mini 0.4 nozzle",
+      "printers": [
+        "cubicon/xceler-mini-0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Cubicon xCeler-Mini 0.4 nozzle"
+        ],
+        "filament_settings_id": [
+          ""
+        ],
+        "name": "Cubicon PC @Cubicon xCeler-Mini 0.4 nozzle"
+      }
+    },
+    {
+      "catalogID": 103036,
+      "name": "Cubicon PC @Cubicon xCeler-Plus 0.4 nozzle",
+      "printers": [
+        "cubicon/xceler-plus-0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Cubicon xCeler-Plus 0.4 nozzle"
+        ],
+        "filament_settings_id": [
+          "Cubicon PC @Cubicon xCeler-Plus 0.4 nozzle"
+        ],
+        "name": "Cubicon PC @Cubicon xCeler-Plus 0.4 nozzle"
+      }
+    }
+  ]
+}

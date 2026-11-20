@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "id": "generic/pc-hf",
+  "manufacturer": "Generic",
+  "name": "Generic PC HF",
+  "settings": {
+    "bed_type": [
+      "Cool Plate"
+    ],
+    "close_fan_the_first_x_layers": [
+      "3"
+    ],
+    "compatible_printers": [
+      "Prusa MINIIS 0.4 nozzle"
+    ],
+    "cool_plate_temp": [
+      "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+      "0"
+    ],
+    "enable_pressure_advance": [
+      "1"
+    ],
+    "eng_plate_temp": [
+      "110"
+    ],
+    "eng_plate_temp_initial_layer": [
+      "110"
+    ],
+    "fan_cooling_layer_time": [
+      "30"
+    ],
+    "fan_max_speed": [
+      "60"
+    ],
+    "fan_min_speed": [
+      "10"
+    ],
+    "filament_cost": [
+      "20"
+    ],
+    "filament_density": [
+      "1.04"
+    ],
+    "filament_deretraction_speed": [
+      "nil"
+    ],
+    "filament_diameter": [
+      "1.75"
+    ],
+    "filament_end_gcode": [
+      "; filament end gcode \n"
+    ],
+    "filament_flow_ratio": [
+      "1"
+    ],
+    "filament_id": "OFwwAQnA",
+    "filament_max_volumetric_speed": [
+      "24"
+    ],
+    "filament_minimal_purge_on_wipe_tower": [
+      "15"
+    ],
+    "filament_retract_before_wipe": [
+      "nil"
+    ],
+    "filament_retract_restart_extra": [
+      "nil"
+    ],
+    "filament_retract_when_changing_layer": [
+      "nil"
+    ],
+    "filament_retraction_length": [
+      "nil"
+    ],
+    "filament_retraction_minimum_travel": [
+      "nil"
+    ],
+    "filament_retraction_speed": [
+      "nil"
+    ],
+    "filament_settings_id": [
+      ""
+    ],
+    "filament_soluble": [
+      "0"
+    ],
+    "filament_start_gcode": [
+      "; Filament gcode\n"
+    ],
+    "filament_type": [
+      "PC"
+    ],
+    "filament_vendor": [
+      "Generic"
+    ],
+    "filament_wipe": [
+      "nil"
+    ],
+    "filament_wipe_distance": [
+      "nil"
+    ],
+    "filament_z_hop": [
+      "nil"
+    ],
+    "from": "system",
+    "full_fan_speed_layer": [
+      "0"
+    ],
+    "hot_plate_temp": [
+      "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+      "110"
+    ],
+    "idle_temperature": "0",
+    "name": "Generic PC HF @Prusa MINIIS",
+    "nozzle_temperature": [
+      "280"
+    ],
+    "nozzle_temperature_initial_layer": [
+      "270"
+    ],
+    "nozzle_temperature_range_high": [
+      "280"
+    ],
+    "nozzle_temperature_range_low": [
+      "260"
+    ],
+    "overhang_fan_speed": [
+      "60"
+    ],
+    "overhang_fan_threshold": [
+      "25%"
+    ],
+    "pressure_advance": [
+      "0.19"
+    ],
+    "reduce_fan_stop_start_freq": [
+      "1"
+    ],
+    "renamed_from": "Prusa Generic PC HF @MINIIS;Prusa Generic PC HF MINIIS",
+    "slow_down_for_layer_cooling": [
+      "1"
+    ],
+    "slow_down_layer_time": [
+      "2"
+    ],
+    "slow_down_min_speed": [
+      "10"
+    ],
+    "temperature_vitrification": [
+      "140"
+    ],
+    "type": "filament"
+  },
+  "settingsFormat": "orca",
+  "source": {
+    "file": "resources/profiles/Prusa/filament/Generic PC HF @Prusa MINIIS.json",
+    "name": "OrcaSlicer"
+  },
+  "type": "PC",
+  "variants": [
+    {
+      "catalogID": 104161,
+      "name": "Generic PC HF @Prusa MINIIS",
+      "printers": [
+        "prusa-research/miniis-0-4"
+      ],
+      "settings": {}
+    },
+    {
+      "catalogID": 104162,
+      "name": "Generic PC HF @Prusa MINIIS 0.6",
+      "printers": [
+        "prusa-research/miniis-0-6"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MINIIS 0.6 nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "35"
+        ],
+        "name": "Generic PC HF @Prusa MINIIS 0.6",
+        "pressure_advance": [
+          "0.1"
+        ],
+        "renamed_from": "Prusa Generic PC HF @MINIIS 0.6;Prusa Generic PC HF MINIIS 0.6"
+      }
+    },
+    {
+      "catalogID": 104163,
+      "name": "Generic PC HF @Prusa MINIIS 0.8",
+      "printers": [
+        "prusa-research/miniis-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MINIIS 0.8 nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "29"
+        ],
+        "name": "Generic PC HF @Prusa MINIIS 0.8",
+        "pressure_advance": [
+          "0.07"
+        ],
+        "renamed_from": "Prusa Generic PC HF @MINIIS 0.8;Prusa Generic PC HF MINIIS 0.8"
+      }
+    },
+    {
+      "catalogID": 104164,
+      "name": "Generic PC HF @Prusa MK3.5",
+      "printers": [
+        "prusa-research/mk3-5-0-4"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK3.5 0.4 nozzle"
+        ],
+        "name": "Generic PC HF @Prusa MK3.5",
+        "pressure_advance": [
+          "0.05"
+        ],
+        "renamed_from": "Prusa Generic PC HF @MK3.5;Prusa Generic PC HF MK3.5"
+      }
+    },
+    {
+      "catalogID": 104165,
+      "name": "Generic PC HF @Prusa MK3.5 0.6",
+      "printers": [
+        "prusa-research/mk3-5-0-6"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK3.5 0.6 nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "30"
+        ],
+        "name": "Generic PC HF @Prusa MK3.5 0.6",
+        "pressure_advance": [
+          "0.022"
+        ],
+        "renamed_from": "Prusa Generic PC HF @MK3.5 0.6;Prusa Generic PC HF MK3.5 0.6"
+      }
+    },
+    {
+      "catalogID": 104166,
+      "name": "Generic PC HF @Prusa MK3.5 0.8",
+      "printers": [
+        "prusa-research/mk3-5-0-8"
+      ],
+      "settings": {
+        "compatible_printers": [
+          "Prusa MK3.5 0.8 nozzle"
+        ],
+        "filament_max_volumetric_speed": [
+          "36"
+        ],
+        "name": "Generic PC HF @Prusa MK3.5 0.8",
+        "pressure_advance": [
+          "0.016"
+        ],
+        "renamed_from": "Prusa Generic PC HF @MK3.5 0.8;Prusa Generic PC HF MK3.5 0.8"
+      }
+    }
+  ]
+}
